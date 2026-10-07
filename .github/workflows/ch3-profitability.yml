@@ -21,3 +21,4 @@ jobs:
         with:
           node-version: '22'
       - run: node --check ch3_profitability/gee_profitability_extension.js
+      - run: node ch3_profitability/tests/profit_ui_contracts.cjs

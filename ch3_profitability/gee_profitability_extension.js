@@ -1,6 +1,9 @@
 // Positive-profit evidence is derived independently of the loss indicator.
 CH3_DATA.run_id=CH3_EXTRA.run_id;
 CH3_DATA.input_manifest_sha256=CH3_EXTRA.manifest_sha256;
+['transitions','common'].forEach(function(k){if(CH3_EXTRA[k+'_columns']){
+  CH3_EXTRA[k]=CH3_EXTRA[k].map(function(r){var d={};CH3_EXTRA[k+'_columns'].forEach(function(c,i){d[c]=r[i];});return d;});
+}});
 var ch3Profits=CH3_EXTRA.rows.map(function(r){var d={};CH3_EXTRA.columns.forEach(function(k,i){d[k]=r[i];});return d;});
 var ch3BaseRefresh=ch3Refresh;
 ch3Refresh=function(){
@@ -50,6 +53,13 @@ function ch3LoadProfitPatchEvidence(id,a,generation,request){
     if(error||!v||!a.row)return;
     var key=a.scenario.slice(0,2).toLowerCase()+'_'+{UNL:'u',ERS_Heartland:'e',FINBIN_state:'s',FINBIN_county:'c'}[a.source]+'_'+Math.round(a.pf*100)+'_'+Math.round(a.cf*100);
     ch3Patch.add(ch3Table('Chapter 3 profit classes',[['Profitable area (ha)',ch3Num(v[key+'_profit'])],['Breakeven area (ha)',ch3Num(v[key+'_zero'])],['Loss area (ha)',ch3Num(v[key+'_loss'])]]));
+    var prefix=a.scenario.slice(0,2).toLowerCase()+'_'+{UNL:'u',ERS_Heartland:'e',FINBIN_state:'s',FINBIN_county:'c'}[a.source];
+    var matrix=[];ch3FactorNames.forEach(function(p){ch3FactorNames.forEach(function(c){
+      var k=prefix+'_'+Math.round(ch3Factors[p]*100)+'_'+Math.round(ch3Factors[c]*100);
+      var positive=v[k+'_profit'],zero=v[k+'_zero'],negative=v[k+'_loss'];
+      var total=positive===undefined||positive===null?null:positive+zero+negative;
+      matrix.push(['Price '+p+' / cost '+c,total>0?ch3Num(100*positive/total)+'% profitable · '+ch3Num(positive)+' ha':'Unavailable']);
+    });});ch3Patch.add(ch3Table('Patch profitability sensitivity · nine combinations',matrix));
   });
 };
 var ch3BaseMethods=ch3Methods;

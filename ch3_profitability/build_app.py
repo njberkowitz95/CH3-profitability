@@ -10,17 +10,9 @@ from .pipeline import RUN_ID,SOURCE_RELEASE
 ASSET_PREFIX='projects/ee-njberkowitz95/assets/ch3_profit_20261007'
 
 
-def build(out: Path, require_assets: bool = True) -> Path:
-    """Compile only verified results; unverified previews cannot be deployed."""
-    out=Path(out);repo=Path(__file__).resolve().parents[1]
-    if not json.loads((out/'validation.json').read_text(encoding='utf-8'))['verified']:
-        raise ValueError('Numerical verification required')
-    if require_assets and not json.loads((out/'asset_verification.json').read_text(encoding='utf-8'))['verified']:
-        raise ValueError('Earth Engine verification required')
-    prior=out.parents[1]/'CH4_marginality'/SOURCE_RELEASE
-    original=(prior/'gee_app_Yield_PEM_profit.js').read_bytes()
-    rollback=out/'rollback';rollback.mkdir(exist_ok=True)
-    (rollback/'Yield_PEM_before_CH3.js').write_bytes(original)
+def controller_source(repo: Path | None = None) -> str:
+    """Compile the isolated controller for both contract tests and publication."""
+    repo=Path(repo) if repo else Path(__file__).resolve().parents[1]
     source=(repo/'ch4_marginality/gee_profit_controls.js').read_text(encoding='utf-8')
     source=source.replace('CH4','CH3').replace('ch4','ch3').replace('CHAPTER 4','CHAPTER 3')
     source=source.replace('CH3 Economics','CH3 Profitability').replace('CH3 ECONOMICS','CH3 PROFITABILITY')
@@ -41,16 +33,37 @@ def build(out: Path, require_assets: bool = True) -> Path:
     source=source.replace("{label:'Negative total return',value:'loss'}", "{label:'Profitable / breakeven / loss',value:'profit_class'},{label:'Profitable-season frequency (baseline)',value:'frequency'},{label:'Observed eligible seasons (baseline)',value:'observations'},{label:'Negative total return',value:'loss'}")
     source=source.replace("else if(a.layer==='loss'){result=loss;", "else if(a.layer==='profit_class'){result=ret.gt(0).subtract(ret.lt(0));vis={min:-1,max:1,palette:['b35806','999999','2166ac']};}\n      else if(a.layer==='loss'){result=loss;")
     source=source.replace("var labels=a.layer==='overlap'?", "var labels=a.layer==='profit_class'?['Loss (<0)','Breakeven (=0)','Profitable (>0)']:a.layer==='overlap'?")
+    source=source.replace("{label:'Profitable / breakeven / loss',value:'profit_class'}", "{label:'Profitability × yield quartile',value:'profit_quartile'},{label:'Profitable / breakeven / loss',value:'profit_class'}")
+    source=source.replace("else if(a.layer==='profit_class')", "else if(a.layer==='profit_quartile'){result=ret.gt(0).subtract(ret.lt(0)).add(1).multiply(2).add(q);vis={min:0,max:5,palette:['b35806','e69f00','777777','bbbbbb','2166ac','67a9cf']};}\n      else if(a.layer==='profit_class')")
+    source=source.replace("var labels=a.layer==='profit_class'?", "var labels=a.layer==='profit_quartile'?['Loss / nonquartile','Loss / quartile','Breakeven / nonquartile','Breakeven / quartile','Profit / nonquartile','Profit / quartile']:a.layer==='profit_class'?")
     source=source.replace("'Economic marginality means total/source-account return < 0.","'Profitability uses unrounded total/source-account returns >0, exactly 0, and <0. Economic marginality means total/source-account return < 0.")
     source=source.replace('https://github.com/njberkowitz95/Yields-and-Fields-CH1/tree/codex/ch3-marginality/ch3_marginality','https://github.com/njberkowitz95/CH3-profitability')
     source=source.replace('PHD/CSP3_GPP_outputs/CH3_marginality/','PHD/CSP3_GPP_outputs/CH3_profitability/')
     source=source.replace('ch3SelectedId=id;', 'ch3LoadProfitPatchEvidence(id,a,generation,request);ch3SelectedId=id;')
+    return source
+
+
+def build(out: Path, require_assets: bool = True) -> Path:
+    """Compile only verified results; unverified previews cannot be deployed."""
+    out=Path(out);repo=Path(__file__).resolve().parents[1]
+    if not json.loads((out/'validation.json').read_text(encoding='utf-8'))['verified']:
+        raise ValueError('Numerical verification required')
+    if require_assets and not json.loads((out/'asset_verification.json').read_text(encoding='utf-8'))['verified']:
+        raise ValueError('Earth Engine verification required')
+    prior=out.parents[1]/'CH4_marginality'/SOURCE_RELEASE
+    original=(prior/'gee_app_Yield_PEM_profit.js').read_bytes()
+    rollback=out/'rollback';rollback.mkdir(exist_ok=True)
+    (rollback/'Yield_PEM_before_CH3.js').write_bytes(original)
+    source=controller_source(repo)
     frame=pd.read_csv(out/'tables/aoi_sensitivity.csv',float_precision='round_trip')
     columns=['year','scenario','source','price_factor','cost_factor','profitable_ha','breakeven_ha','loss_ha','valid_ha','profitable_percent','profit_sd_usd_ac']
     extra=dict(columns=columns,rows=frame[columns].where(pd.notna(frame[columns]),None).values.tolist(),
                run_id=RUN_ID,manifest_sha256=sha(out/'input_manifest.json'),asset_prefix=ASSET_PREFIX,
-               transitions=records(pd.read_csv(out/'tables/profit_transitions.csv')),
-               common=records(pd.read_csv(out/'tables/common_valid_profit.csv')))
+               transitions=[],common=[])
+    for name,file in [('transitions','profit_transitions'),('common','common_valid_profit')]:
+        table=pd.read_csv(out/'tables'/f'{file}.csv')
+        extra[name+'_columns']=list(table.columns)
+        extra[name]=[[row[k] for k in table.columns] for row in records(table)]
     setup="""
 // CH3 owns a deep copy. CH4 state, data and controls remain unchanged.
 var CH3_DATA=JSON.parse(JSON.stringify(CH4_DATA));
