@@ -1,0 +1,15 @@
+# Verified historical CH4 release
+
+[Live Yield_PEM app](https://ee-njberkowitz95.projects.earthengine.app/view/yieldpem) · [Complete Drive release](https://drive.google.com/drive/folders/1uTn-Vu9zOLp6AOF2hDll1k8fW9DrE50X) · [Colab execution](https://colab.research.google.com/drive/10pKscDzqeBuTmwKGzbSK74UqWHOKD1Y5)
+
+This compact record accompanies the complete Drive delivery. The executed analysis covers 22 annual yield surfaces and 522 economic price–cost combinations; patch, county, distribution and AOI totals reconcile. Native Earth Engine checks verify all 11 annual patch assets, the raster index and lossless chart evidence, with 58 source/model profit-pixel checks. All 174 saved constant-dollar COGs retain their source grids and missingness and reproduce the recorded inflation conversion. The full output manifest lists 1,606 checksummed files.
+
+The published code is revision `df09b142d5e033f7e3a7b2658a99b6c9e3f1a965`; the submitted app script SHA-256 is `1cb018a48e5c8b8ab5fab9fb39abc58b6c33f1d805df6a57bc570d91a232ceac`. This delivery-record commit adds publication evidence without changing that deployed code. The scientific and existing-model CI suites pass on Python 3.11 and 3.12. Code Review diagnostics are preserved in `github_ci_df09b14.json`.
+
+Closest-budget mode explicitly labels the verified 2001/2009/2011/2013/2015/2017 original-year corn-after-soybean budgets as approximate. Exact mode retains 2019 and experimental 2021. UNL 2009 lacks complete economic costs; its original anchors separate ERS and usable FINBIN scenarios, while full UNL return stays unavailable. UNL 2001 cash margin is unavailable. Unrecovered 2003/2005/2007 remain economically blocked across all sources; yield quartiles remain available. Experimental 2021 is excluded from primary temporal summaries. FINBIN accounts are operator proxies, with annual scope and suppression retained.
+
+2019/2021 use the latest verified unchanged numerical inputs. Their existing analysis records are preserved, while the expanded workspace generates their maps, distributions and sensitivity summaries alongside the historical years. No 2018 analysis was added, consistent with the user's clarification.
+
+`CH4_Rotation_Priority_executed.ipynb` and `CH4_Rotation_Verification_executed.ipynb` are the completed independent Colab executions. The complete Drive release also retains the original workspace execution log: exports and all asset submissions completed, then the first verification launcher encountered an import-discovery error. The separate verification notebook subsequently completed successfully; `execution_resolution.json` preserves that history. The final report footer and unavailable-cash wording were corrected without changing numerical inputs.
+
+The full Drive release includes the editable budget workbook, original source publications, CSVs, GeoPackages, native COGs, publication figures, academic reports, rollback source and verification screenshots. Rates are dollars per acre, areas hectares, and the native grid is 30 m EPSG:5070. These modeled returns do not establish equivalence between tillage systems or independent profitability validation.

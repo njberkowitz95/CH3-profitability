@@ -1,0 +1,62 @@
+[
+  {
+    "year": 2019,
+    "scenario": "M1_fixed",
+    "source": "UNL",
+    "pixel_counts": {
+      "both_ha": 980451,
+      "disagree_ha": 629373,
+      "loss_ha": 1609824,
+      "quartile_ha": 980451
+    },
+    "exact_classification_match": true
+  },
+  {
+    "year": 2019,
+    "scenario": "M2_HI_sensitivity",
+    "source": "UNL",
+    "pixel_counts": {
+      "both_ha": 980451,
+      "disagree_ha": 1630938,
+      "loss_ha": 2611389,
+      "quartile_ha": 980451
+    },
+    "exact_classification_match": true
+  },
+  {
+    "year": 2021,
+    "scenario": "M1_fixed",
+    "source": "UNL",
+    "pixel_counts": {
+      "both_ha": 24,
+      "disagree_ha": 488229,
+      "loss_ha": 24,
+      "quartile_ha": 488253
+    },
+    "exact_classification_match": true
+  },
+  {
+    "year": 2021,
+    "scenario": "M2_HI_sensitivity",
+    "source": "UNL",
+    "pixel_counts": {
+      "both_ha": 24,
+      "disagree_ha": 488229,
+      "loss_ha": 24,
+      "quartile_ha": 488253
+    },
+    "exact_classification_match": true
+  },
+  {
+    "year": 2019,
+    "scenario": "M1_fixed",
+    "source": "FINBIN_county",
+    "pixel_counts": {
+      "both_ha": 477812,
+      "disagree_ha": 687634,
+      "loss_ha": 1165446,
+      "quartile_ha": 477812
+    },
+    "exact_classification_match": true
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "verified": true,
+  "verified_utc": "2026-09-30T06:40:15.516679+00:00",
+  "url": "https://ee-njberkowitz95.projects.earthengine.app/view/yieldpem",
+  "run_id": "20260929_rotation_priority_budget_v1",
+  "input_manifest_sha256": "4c6aaf6e5683e69cd20c535cda20c6f3b55301340e333a99ea338aa1e59531eb",
+  "submitted_source_sha256": "1cb018a48e5c8b8ab5fab9fb39abc58b6c33f1d805df6a57bc570d91a232ceac",
+  "code_revision": "df09b142d5e033f7e3a7b2658a99b6c9e3f1a965",
+  "defaults": {
+    "policy": "closest_rotation",
+    "year": 2019,
+    "scenario": "M1_fixed",
+    "source": "UNL",
+    "price_factor": 1,
+    "cost_factor": 1,
+    "dollars": "constant 2021"
+  },
+  "candidate_checks": [
+    "default settings",
+    "2001 approximate return and undefined cash",
+    "2009 UNL incomplete; ERS enabled separately",
+    "2003 unrecovered blocked",
+    "2017 FINBIN county suppressed",
+    "exact policy blocks approximate across sources",
+    "2019 M1/M2 and nominal/constant dollars",
+    "cash/revenue/loss/quartile/overlap layers",
+    "coordinated price-cost matrix",
+    "source-specific geography and sample counts",
+    "2019 annual patch 1060 and reset/stale safeguards",
+    "yield/CSP3/seasonal/NCCPI regressions"
+  ],
+  "live_checks": [
+    "2017 approximate map tiles rendered",
+    "2017 historical county/distribution/NCCPI charts populated",
+    "experimental 2021 baseline return 523.85 dollars per acre and 2.16 loss hectares",
+    "2019 baseline return -0.72 dollars per acre",
+    "native 2019/1060 patch values match source CSV",
+    "strict policy blocks 2001 and lists only 2019/2021 anchors",
+    "published run ID and input checksum match"
+  ],
+  "screenshots": [
+    "verification/live_2017_profit_map.png",
+    "verification/live_2017_charts.png",
+    "verification/live_2021_charts.png"
+  ]
+}

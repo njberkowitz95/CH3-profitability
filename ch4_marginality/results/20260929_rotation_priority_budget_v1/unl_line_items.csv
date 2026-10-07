@@ -1,0 +1,204 @@
+year,category,item,usd_ac
+2001,field_operations,Labor,6.58
+2001,field_operations,Fuel and lube,3.51
+2001,field_operations,Power repairs,2.62
+2001,field_operations,Implement repairs,2.76
+2001,field_operations,Power ownership,10.84
+2001,field_operations,Implement ownership,4.79
+2001,materials_services,28-0-0 fertilizer,15.6
+2001,materials_services,Bicep II Magnum,21.02
+2001,materials_services,Corn seed,22.22
+2001,materials_services,Kernel Guard Supreme,0.77
+2001,materials_services,10-34-0 starter,7.8
+2001,materials_services,Exceed,5.86
+2001,materials_services,Aerial spray,0.9
+2001,materials_services,Lorsban 4E,0.63
+2001,materials_services,Dipel 10G,0.2
+2001,materials_services,Haul grain,7.6
+2001,materials_services,"Dry grain, 4 points",11.4
+2001,other,interest,6.2
+2001,other,overhead,5.0
+2001,other,management_scouting_crop_insurance,19.03
+2001,other,machinery_tax_housing_insurance_interest,11.64
+2001,other,land_tax_interest_combined,65.0
+2009,field_operations,Labor,7.65
+2009,field_operations,Fuel and lube,12.51
+2009,field_operations,Power repairs,4.78
+2009,field_operations,Implement repairs,3.18
+2009,field_operations,Power ownership,15.0
+2009,field_operations,Implement ownership,5.27
+2009,materials_services,28-0-0 nitrogen,65.6
+2009,materials_services,Corn Bt ECB seed,41.4
+2009,materials_services,Corn refuge seed,8.05
+2009,materials_services,10-34-0 starter,41.04
+2009,materials_services,Expert,31.5
+2009,materials_services,21-0-0-26S,0.9
+2009,materials_services,Spirit,3.5
+2009,materials_services,Crop oil,0.57
+2009,materials_services,Custom spray,1.87
+2009,materials_services,Lorsban 15G,0.08
+2009,materials_services,"Capture 2EC, first",0.11
+2009,materials_services,"Capture 2EC, second",1.16
+2009,materials_services,Mustang,0.81
+2009,materials_services,Haul grain,16.5
+2009,materials_services,Dry grain,16.5
+2011,field_operations,Labor,6.78
+2011,field_operations,Fuel and lube,10.74
+2011,field_operations,Power repairs,4.21
+2011,field_operations,Implement repairs,7.62
+2011,field_operations,Power ownership,17.8
+2011,field_operations,Implement ownership,6.93
+2011,materials_services,32-0-0 nitrogen,39.72
+2011,materials_services,Corn Bt ECB seed,38.64
+2011,materials_services,Corn refuge seed,8.51
+2011,materials_services,10-34-0 starter,27.0
+2011,materials_services,Expert,25.5
+2011,materials_services,21-0-0-26S,0.9
+2011,materials_services,Spirit,3.25
+2011,materials_services,Crop oil,0.57
+2011,materials_services,Custom spray,2.04
+2011,materials_services,Lorsban 15G,0.06
+2011,materials_services,"Brigade, first",0.06
+2011,materials_services,"Brigade, second",0.61
+2011,materials_services,Mustang,0.72
+2011,materials_services,Haul grain,11.5
+2011,materials_services,Dry grain,11.5
+2011,materials_services,Scouting,6.0
+2011,materials_services,Crop insurance,11.0
+2011,other,interest,8.68
+2011,other,overhead,5.0
+2011,other,land,74.0
+2011,other,taxes,18.5
+2013,field_operations,Labor,9.39
+2013,field_operations,Fuel and lube,10.09
+2013,field_operations,Power repairs,7.22
+2013,field_operations,Implement repairs,6.96
+2013,field_operations,Power ownership,15.7
+2013,field_operations,Implement ownership,11.16
+2013,materials_services,32-0-0 nitrogen,51.69
+2013,materials_services,Corn Bt ECB seed,42.32
+2013,materials_services,Corn refuge seed,9.2
+2013,materials_services,10-34-0 starter,20.1
+2013,materials_services,Expert,27.75
+2013,materials_services,21-0-0-24S,0.51
+2013,materials_services,Laudis,8.36
+2013,materials_services,Crop oil,0.52
+2013,materials_services,UAN additive,0.37
+2013,materials_services,Custom spray,1.92
+2013,materials_services,Lorsban 15G,0.1
+2013,materials_services,Brigade,0.44
+2013,materials_services,Mustang,0.73
+2013,materials_services,Haul grain,13.8
+2013,materials_services,Dry grain,13.8
+2013,materials_services,Scouting,10.0
+2013,materials_services,Crop insurance,37.0
+2013,other,interest,6.81
+2013,other,overhead,20.0
+2013,other,land,99.4
+2013,other,taxes,24.85
+2015,field_operations,Labor,9.83
+2015,field_operations,Fuel and lube,8.76
+2015,field_operations,Power repairs,8.93
+2015,field_operations,Implement repairs,8.07
+2015,field_operations,Power ownership,13.1
+2015,field_operations,Implement ownership,15.28
+2015,materials_services,32-0-0 nitrogen,44.0
+2015,materials_services,Corn Bt ECB seed,38.46
+2015,materials_services,Corn refuge seed,8.41
+2015,materials_services,10-34-0 starter,19.8
+2015,materials_services,Bicep II,26.25
+2015,materials_services,21-0-0-24S,0.56
+2015,materials_services,Laudis,9.14
+2015,materials_services,Atrazine 90DF,0.81
+2015,materials_services,Crop oil,0.66
+2015,materials_services,UAN additive,0.29
+2015,materials_services,Custom spray,2.1
+2015,materials_services,Brigade,0.58
+2015,materials_services,Mustang,0.59
+2015,materials_services,Haul grain,13.75
+2015,materials_services,"Dry grain, 2 points",5.63
+2015,materials_services,Scouting,7.0
+2015,materials_services,Crop insurance,23.0
+2015,other,interest,6.51
+2015,other,overhead,20.0
+2015,other,land,149.2
+2015,other,taxes,37.3
+2017,field_operations,Labor,11.47
+2017,field_operations,Fuel and lube,6.56
+2017,field_operations,Power repairs,10.34
+2017,field_operations,Implement repairs,9.29
+2017,field_operations,Power ownership,16.04
+2017,field_operations,Implement ownership,16.82
+2017,materials_services,Glyphosate,1.56
+2017,materials_services,"2,4-D ester",1.13
+2017,materials_services,"21-0-0-24S, first",0.3
+2017,materials_services,32-0-0 nitrogen,52.5
+2017,materials_services,Corn Bt ECB seed,60.15
+2017,materials_services,Corn refuge seed,13.08
+2017,materials_services,10-34-0 starter,14.4
+2017,materials_services,Acuron,48.13
+2017,materials_services,"Crop oil, first",1.8
+2017,materials_services,"21-0-0-24S, second",0.88
+2017,materials_services,Laudis,9.73
+2017,materials_services,Atrazine,0.83
+2017,materials_services,"Crop oil, second",0.56
+2017,materials_services,UAN additive,0.28
+2017,materials_services,Custom spray,2.1
+2017,materials_services,Brigade,0.58
+2017,materials_services,Mustang,0.59
+2017,materials_services,Haul grain,18.7
+2017,materials_services,Dry grain,4.08
+2017,materials_services,Scouting,7.0
+2017,materials_services,Crop insurance,0.0
+2017,other,interest,7.59
+2017,other,overhead,20.0
+2017,other,land,254.4
+2017,other,taxes,63.6
+2019,field_operations,Labor,12.63
+2019,field_operations,Fuel and lube,9.5
+2019,field_operations,Power repairs,10.89
+2019,field_operations,Implement repairs,8.4
+2019,field_operations,Power ownership,17.01
+2019,field_operations,Implement ownership,15.08
+2019,materials_services,Nitrogen,35.65
+2019,materials_services,Corn seed,58.46
+2019,materials_services,Starter fertilizer,14.7
+2019,materials_services,Primary herbicide,54.0
+2019,materials_services,Armezon Pro,9.3
+2019,materials_services,NIS,0.54
+2019,materials_services,UAN,0.19
+2019,materials_services,Custom spray,2.1
+2019,materials_services,Brigade,0.36
+2019,materials_services,Mustang Maxx,0.56
+2019,materials_services,Haul grain,17.6
+2019,materials_services,Dry grain,2.56
+2019,materials_services,Scouting,7.0
+2019,materials_services,Crop insurance,15.0
+2019,other,interest,7.13
+2019,other,overhead,20.0
+2019,other,land,170.25
+2019,other,taxes,76.61
+2021,field_operations,Labor,15.02
+2021,field_operations,Fuel and lube,5.36
+2021,field_operations,Power repairs,13.07
+2021,field_operations,Implement repairs,11.11
+2021,field_operations,Power ownership,22.7
+2021,field_operations,Implement ownership,20.19
+2021,materials_services,Nitrogen,31.05
+2021,materials_services,Corn seed,64.9
+2021,materials_services,Starter fertilizer,12.0
+2021,materials_services,Primary herbicide,37.5
+2021,materials_services,Armezon Pro,9.3
+2021,materials_services,NIS,0.47
+2021,materials_services,UAN,0.16
+2021,materials_services,Custom spray,2.1
+2021,materials_services,Brigade,0.6
+2021,materials_services,Mustang Maxx,0.59
+2021,materials_services,Haul grain,18.7
+2021,materials_services,Dry grain,2.72
+2021,materials_services,Scouting,7.0
+2021,materials_services,Crop insurance,6.0
+2021,other,interest,6.54
+2021,other,overhead,25.0
+2021,other,land,183.6
+2021,other,taxes,76.5

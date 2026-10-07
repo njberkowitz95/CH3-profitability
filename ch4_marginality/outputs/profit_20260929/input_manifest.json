@@ -1,0 +1,1615 @@
+{
+  "run_id": "20260929_profit_app_v1",
+  "base_run": "20260928_corefilter_exact_year_v2",
+  "verified_utc": "2026-09-29T20:34:06.781534+00:00",
+  "crs": "EPSG:5070",
+  "transform": [
+    30.0,
+    0.0,
+    -111285.0,
+    0.0,
+    -30.0,
+    2047275.0
+  ],
+  "shape": [
+    5343,
+    5469
+  ],
+  "pixel_area_ha": 0.09,
+  "files": [
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH2V6_yield_outputs/csp3_dryland_corn_yield_2001_M1_fixed.tif",
+      "sha256": "b27e4a5d2b3069089691109a9ba35c7f7e42d27d7f26bfff529a798ad6de9dd6",
+      "role": "path",
+      "logical_path": "CSP3_GPP_outputs/CH2V6_yield_outputs/csp3_dryland_corn_yield_2001_M1_fixed.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/non_irrigated_corn/clean/non_irrigated_corn_mlrane_2001_clean.tif",
+      "sha256": "55e8e3011ecaafb7f58618b7e57f9836446c6fe99c2023a19dbcce361ee27002",
+      "role": "mask",
+      "logical_path": "non_irrigated_corn/clean/non_irrigated_corn_mlrane_2001_clean.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/fields/5469d89b3ee271530885/csp3_field_index_2001.tif",
+      "sha256": "30550e5b8e2985ed3078c9ea4d6ffa23e3dc6fb102d1fdafc84509b29c6ee680",
+      "role": "patch_index",
+      "logical_path": "CSP3_GPP_outputs/fields/5469d89b3ee271530885/csp3_field_index_2001.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/fields/5469d89b3ee271530885/csp3_indexed_fields.gpkg",
+      "sha256": "068d1b4639235b0ca43b34805262b5b0e2b1a1d003765d612fe8aa341c6a0c94",
+      "role": "patch_geometry",
+      "logical_path": "CSP3_GPP_outputs/fields/5469d89b3ee271530885/csp3_indexed_fields.gpkg"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH2V6_yield_outputs/csp3_dryland_corn_yield_2001_M2_HI_sensitivity.tif",
+      "sha256": "8ccf194510b578e625a1acfc6a40828180a5a5da5af62497aa23b4345ab2983f",
+      "role": "path",
+      "logical_path": "CSP3_GPP_outputs/CH2V6_yield_outputs/csp3_dryland_corn_yield_2001_M2_HI_sensitivity.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH2V6_yield_outputs/csp3_dryland_corn_yield_2003_M1_fixed.tif",
+      "sha256": "0d09e930f200527a75db210ebe69f1828f781701c43b2369372f015e958c14b6",
+      "role": "path",
+      "logical_path": "CSP3_GPP_outputs/CH2V6_yield_outputs/csp3_dryland_corn_yield_2003_M1_fixed.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/non_irrigated_corn/clean/non_irrigated_corn_mlrane_2003_clean.tif",
+      "sha256": "69348493c5418faaa100fbc488da239e93b0fd40377d0ff8c051ce19f4925ba9",
+      "role": "mask",
+      "logical_path": "non_irrigated_corn/clean/non_irrigated_corn_mlrane_2003_clean.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/fields/5469d89b3ee271530885/csp3_field_index_2003.tif",
+      "sha256": "ca9d131cb72ef915098bc51b28a7f5665d5dfebeaef4bea516dfdb890c04913a",
+      "role": "patch_index",
+      "logical_path": "CSP3_GPP_outputs/fields/5469d89b3ee271530885/csp3_field_index_2003.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH2V6_yield_outputs/csp3_dryland_corn_yield_2003_M2_HI_sensitivity.tif",
+      "sha256": "b816ea5ba331376ca537a1ab5d9f929f6953cbc2546c085681a144b8c63d09e4",
+      "role": "path",
+      "logical_path": "CSP3_GPP_outputs/CH2V6_yield_outputs/csp3_dryland_corn_yield_2003_M2_HI_sensitivity.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH2V6_yield_outputs/csp3_dryland_corn_yield_2005_M1_fixed.tif",
+      "sha256": "6d6541e32bafbfd682e9f8d515df115d1eece152dd8fd3745d649a9310e135d7",
+      "role": "path",
+      "logical_path": "CSP3_GPP_outputs/CH2V6_yield_outputs/csp3_dryland_corn_yield_2005_M1_fixed.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/non_irrigated_corn/clean/non_irrigated_corn_mlrane_2005_clean.tif",
+      "sha256": "096a8cbda4f8e2ce97454825ea72f8823e5044a3cdda7e3cea13950f29448a9b",
+      "role": "mask",
+      "logical_path": "non_irrigated_corn/clean/non_irrigated_corn_mlrane_2005_clean.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/fields/5469d89b3ee271530885/csp3_field_index_2005.tif",
+      "sha256": "ee0de39ead698fb5a888cf54f8303856450352bcfd8376f4c5e8a8fca3d75396",
+      "role": "patch_index",
+      "logical_path": "CSP3_GPP_outputs/fields/5469d89b3ee271530885/csp3_field_index_2005.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH2V6_yield_outputs/csp3_dryland_corn_yield_2005_M2_HI_sensitivity.tif",
+      "sha256": "6b3198539ced1fd32edade73a8a7c6c7d76849815a1b2fe7f6e516dd87b5052e",
+      "role": "path",
+      "logical_path": "CSP3_GPP_outputs/CH2V6_yield_outputs/csp3_dryland_corn_yield_2005_M2_HI_sensitivity.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH2V6_yield_outputs/csp3_dryland_corn_yield_2007_M1_fixed.tif",
+      "sha256": "0cc0556acf50e78db7ed1d2528a65896b1ee15936d1b7866675585bda8dea92c",
+      "role": "path",
+      "logical_path": "CSP3_GPP_outputs/CH2V6_yield_outputs/csp3_dryland_corn_yield_2007_M1_fixed.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/non_irrigated_corn/clean/non_irrigated_corn_mlrane_2007_clean.tif",
+      "sha256": "b15e497fb7a600cd044f847f32c5aa2e12afd40755ed72fe44d8f7c224c5e9c8",
+      "role": "mask",
+      "logical_path": "non_irrigated_corn/clean/non_irrigated_corn_mlrane_2007_clean.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/fields/5469d89b3ee271530885/csp3_field_index_2007.tif",
+      "sha256": "b1bd018c35c47018b19cbc8b4cc8e6b2553bdec55080db12a15f4952584fda72",
+      "role": "patch_index",
+      "logical_path": "CSP3_GPP_outputs/fields/5469d89b3ee271530885/csp3_field_index_2007.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH2V6_yield_outputs/csp3_dryland_corn_yield_2007_M2_HI_sensitivity.tif",
+      "sha256": "0021ba79a23d45bf9adfe666c812ca5ea2e5a1b434f9ebd3bb03e012fd38e55b",
+      "role": "path",
+      "logical_path": "CSP3_GPP_outputs/CH2V6_yield_outputs/csp3_dryland_corn_yield_2007_M2_HI_sensitivity.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH2V6_yield_outputs/csp3_dryland_corn_yield_2009_M1_fixed.tif",
+      "sha256": "b88c9bb6a5b25e49f5cb6d6830b68b94e890741384fcf6631e22fc34f9074407",
+      "role": "path",
+      "logical_path": "CSP3_GPP_outputs/CH2V6_yield_outputs/csp3_dryland_corn_yield_2009_M1_fixed.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/non_irrigated_corn/clean/non_irrigated_corn_mlrane_2009_clean.tif",
+      "sha256": "ae61c6ab6540fe21fe334b5c9995247db83baca97497b4844a0db529ea7b3ecc",
+      "role": "mask",
+      "logical_path": "non_irrigated_corn/clean/non_irrigated_corn_mlrane_2009_clean.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/fields/5469d89b3ee271530885/csp3_field_index_2009.tif",
+      "sha256": "88dcf4e1701f4a0d04184e9b02ba1a96690ec52bab171cab0d8b89fd64828fd7",
+      "role": "patch_index",
+      "logical_path": "CSP3_GPP_outputs/fields/5469d89b3ee271530885/csp3_field_index_2009.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH2V6_yield_outputs/csp3_dryland_corn_yield_2009_M2_HI_sensitivity.tif",
+      "sha256": "e92aabd56e34ccfd709605785f3e0614230f10b6825cc30a52cee1cabfac1fc8",
+      "role": "path",
+      "logical_path": "CSP3_GPP_outputs/CH2V6_yield_outputs/csp3_dryland_corn_yield_2009_M2_HI_sensitivity.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH2V6_yield_outputs/csp3_dryland_corn_yield_2011_M1_fixed.tif",
+      "sha256": "7f3368fe62ec2d2d644d5150d31cd12663132a7ca0e97f55783b004b9f20512a",
+      "role": "path",
+      "logical_path": "CSP3_GPP_outputs/CH2V6_yield_outputs/csp3_dryland_corn_yield_2011_M1_fixed.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/non_irrigated_corn/clean/non_irrigated_corn_mlrane_2011_clean.tif",
+      "sha256": "08b4f93ae64b02d9c1d3d0dea6c0829fb358dec3c80ecf6ba08d1c15730b9d13",
+      "role": "mask",
+      "logical_path": "non_irrigated_corn/clean/non_irrigated_corn_mlrane_2011_clean.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/fields/5469d89b3ee271530885/csp3_field_index_2011.tif",
+      "sha256": "ff063f2f41f58b1ac587450ec85635590bb7ef98837b1da34f71adab313e46b6",
+      "role": "patch_index",
+      "logical_path": "CSP3_GPP_outputs/fields/5469d89b3ee271530885/csp3_field_index_2011.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH2V6_yield_outputs/csp3_dryland_corn_yield_2011_M2_HI_sensitivity.tif",
+      "sha256": "90b7e0490e692e37acabb0469223a702a8911e9c662becc6a713aabdbfd3017b",
+      "role": "path",
+      "logical_path": "CSP3_GPP_outputs/CH2V6_yield_outputs/csp3_dryland_corn_yield_2011_M2_HI_sensitivity.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH2V6_yield_outputs/csp3_dryland_corn_yield_2013_M1_fixed.tif",
+      "sha256": "51ff93de99e213dec93b2f5e4dcbb097f950fa53621dde2a91b10cb2fee20430",
+      "role": "path",
+      "logical_path": "CSP3_GPP_outputs/CH2V6_yield_outputs/csp3_dryland_corn_yield_2013_M1_fixed.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/non_irrigated_corn/clean/non_irrigated_corn_mlrane_2013_clean.tif",
+      "sha256": "d001d6dbc939b36abbc5135e2bd4bb721272843fbbb0081ef5aa7d19241d6e2a",
+      "role": "mask",
+      "logical_path": "non_irrigated_corn/clean/non_irrigated_corn_mlrane_2013_clean.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/fields/5469d89b3ee271530885/csp3_field_index_2013.tif",
+      "sha256": "3918cf2b5895a6f9e119d4ded32c8c6d2582d25bc67b863b06e755531fd86639",
+      "role": "patch_index",
+      "logical_path": "CSP3_GPP_outputs/fields/5469d89b3ee271530885/csp3_field_index_2013.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH2V6_yield_outputs/csp3_dryland_corn_yield_2013_M2_HI_sensitivity.tif",
+      "sha256": "02d0ef620ee6e20f7f6b5506428a7bd4aea6f6706babcf05df8e391c1e1b2227",
+      "role": "path",
+      "logical_path": "CSP3_GPP_outputs/CH2V6_yield_outputs/csp3_dryland_corn_yield_2013_M2_HI_sensitivity.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH2V6_yield_outputs/csp3_dryland_corn_yield_2015_M1_fixed.tif",
+      "sha256": "de1a69df820da68bdd1c4b2caffdba4989f7864794c7a8d4a6bdd8caf7c63d16",
+      "role": "path",
+      "logical_path": "CSP3_GPP_outputs/CH2V6_yield_outputs/csp3_dryland_corn_yield_2015_M1_fixed.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/non_irrigated_corn/clean/non_irrigated_corn_mlrane_2015_clean.tif",
+      "sha256": "e6fdd4ca116691823cd4d5aa54845b7185fd49b282aabaf95ca51b35056c7a0b",
+      "role": "mask",
+      "logical_path": "non_irrigated_corn/clean/non_irrigated_corn_mlrane_2015_clean.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/fields/5469d89b3ee271530885/csp3_field_index_2015.tif",
+      "sha256": "b6579ed59744e2178bc07f76beb721d0608417e3decbedf12dc605c20ecbc8ec",
+      "role": "patch_index",
+      "logical_path": "CSP3_GPP_outputs/fields/5469d89b3ee271530885/csp3_field_index_2015.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH2V6_yield_outputs/csp3_dryland_corn_yield_2015_M2_HI_sensitivity.tif",
+      "sha256": "6f5a779fda37c60dd4ffb0984a5a268f43a8819d11c13bc91579240f63e98a1b",
+      "role": "path",
+      "logical_path": "CSP3_GPP_outputs/CH2V6_yield_outputs/csp3_dryland_corn_yield_2015_M2_HI_sensitivity.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH2V6_yield_outputs/csp3_dryland_corn_yield_2017_M1_fixed.tif",
+      "sha256": "bfaa9c289a62081784997f5d7a7319dad509498cf6e2e959f30943e14a924982",
+      "role": "path",
+      "logical_path": "CSP3_GPP_outputs/CH2V6_yield_outputs/csp3_dryland_corn_yield_2017_M1_fixed.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/non_irrigated_corn/clean/non_irrigated_corn_mlrane_2017_clean.tif",
+      "sha256": "84a3fa1f5078b3f9a769deb1721432f0c0d16a098c119a26b3623642f8fc438f",
+      "role": "mask",
+      "logical_path": "non_irrigated_corn/clean/non_irrigated_corn_mlrane_2017_clean.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/fields/5469d89b3ee271530885/csp3_field_index_2017.tif",
+      "sha256": "bfb63974fa3a1b48180fb6eb16089b77274fac266655482f7c8954f024d578ec",
+      "role": "patch_index",
+      "logical_path": "CSP3_GPP_outputs/fields/5469d89b3ee271530885/csp3_field_index_2017.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH2V6_yield_outputs/csp3_dryland_corn_yield_2017_M2_HI_sensitivity.tif",
+      "sha256": "901875eb06ae3909770da6582c7e8cf156456145eee9ad6e63e11e7798afe369",
+      "role": "path",
+      "logical_path": "CSP3_GPP_outputs/CH2V6_yield_outputs/csp3_dryland_corn_yield_2017_M2_HI_sensitivity.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/extension_2019_2021/20260928_corefilter_remask_v1/2019/rasters/csp3_dryland_corn_yield_2019_M1_fixed.tif",
+      "sha256": "af1a6223d6a74b1d792e9640e95e50e4ba106c98a56c764047efd33d284a877b",
+      "role": "path",
+      "logical_path": "CSP3_GPP_outputs/extension_2019_2021/20260928_corefilter_remask_v1/2019/rasters/csp3_dryland_corn_yield_2019_M1_fixed.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/extension_2019_2021/20260928_corefilter_remask_v1/2019/masks/non_irrigated_corn_mlrane_2019_clean.tif",
+      "sha256": "90e5d1aa801ddc58851b9aa7a57a5747db19a3384795af9c7e95b5412f64a8ad",
+      "role": "mask",
+      "logical_path": "CSP3_GPP_outputs/extension_2019_2021/20260928_corefilter_remask_v1/2019/masks/non_irrigated_corn_mlrane_2019_clean.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/extension_2019_2021/20260928_corefilter_remask_v1/2019/fields/205a1b7979d066e6ae9f/csp3_field_index_2019.tif",
+      "sha256": "4d5ba76909d552682c5624497bf21fdd9288a3eec65cd4e4d510fb6509da9432",
+      "role": "patch_index",
+      "logical_path": "CSP3_GPP_outputs/extension_2019_2021/20260928_corefilter_remask_v1/2019/fields/205a1b7979d066e6ae9f/csp3_field_index_2019.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/extension_2019_2021/20260928_corefilter_remask_v1/2019/fields/205a1b7979d066e6ae9f/csp3_indexed_fields.gpkg",
+      "sha256": "efc3222489cece7d42e99d9d2e08c6529020cd2ed341cf0b0e04bde854a6c9ff",
+      "role": "patch_geometry",
+      "logical_path": "CSP3_GPP_outputs/extension_2019_2021/20260928_corefilter_remask_v1/2019/fields/205a1b7979d066e6ae9f/csp3_indexed_fields.gpkg"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/extension_2019_2021/20260928_corefilter_remask_v1/2019/rasters/csp3_dryland_corn_yield_2019_M2_HI_sensitivity.tif",
+      "sha256": "a1c4ca465fa7294e201a60b858cf9dc97f8447a88dfd22f87447a3fc44e87dad",
+      "role": "path",
+      "logical_path": "CSP3_GPP_outputs/extension_2019_2021/20260928_corefilter_remask_v1/2019/rasters/csp3_dryland_corn_yield_2019_M2_HI_sensitivity.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/extension_2019_2021/20260928_corefilter_remask_v1/2021/rasters/csp3_dryland_corn_yield_2021_M1_fixed.tif",
+      "sha256": "a2a4741e965e38ab561192db9570128e16830758b0cf51883d371c7853c58271",
+      "role": "path",
+      "logical_path": "CSP3_GPP_outputs/extension_2019_2021/20260928_corefilter_remask_v1/2021/rasters/csp3_dryland_corn_yield_2021_M1_fixed.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/extension_2019_2021/20260928_corefilter_remask_v1/2021/masks/non_irrigated_corn_mlrane_2021_clean.tif",
+      "sha256": "298d4776b81e84e90df9b9753d6d155849cd4d1a328f23e94a5ccbaa8e8e445c",
+      "role": "mask",
+      "logical_path": "CSP3_GPP_outputs/extension_2019_2021/20260928_corefilter_remask_v1/2021/masks/non_irrigated_corn_mlrane_2021_clean.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/extension_2019_2021/20260928_corefilter_remask_v1/2021/fields/5cbcc7262489718ad26c/csp3_field_index_2021.tif",
+      "sha256": "f9fff0f2fc2f93e1051c5979d61cd524022d5883c6d2ccde2de76d2f9b554381",
+      "role": "patch_index",
+      "logical_path": "CSP3_GPP_outputs/extension_2019_2021/20260928_corefilter_remask_v1/2021/fields/5cbcc7262489718ad26c/csp3_field_index_2021.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/extension_2019_2021/20260928_corefilter_remask_v1/2021/fields/5cbcc7262489718ad26c/csp3_indexed_fields.gpkg",
+      "sha256": "3dd78de946e952e427fea151c12013507b3c183dbc5a0b1899056a4bdbfc93a3",
+      "role": "patch_geometry",
+      "logical_path": "CSP3_GPP_outputs/extension_2019_2021/20260928_corefilter_remask_v1/2021/fields/5cbcc7262489718ad26c/csp3_indexed_fields.gpkg"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/extension_2019_2021/20260928_corefilter_remask_v1/2021/rasters/csp3_dryland_corn_yield_2021_M2_HI_sensitivity.tif",
+      "sha256": "b2cfd5650bec05ff383a49dd8750ae6e592888c9f894329aace66a66aa71e643",
+      "role": "path",
+      "logical_path": "CSP3_GPP_outputs/extension_2019_2021/20260928_corefilter_remask_v1/2021/rasters/csp3_dryland_corn_yield_2021_M2_HI_sensitivity.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/NCCPI_comparison/20260927_nccpi_slope_corefilter/rasters/nccpi_corn_v3.tif",
+      "sha256": "6e0eb4df26e6ec8d8c217e23fbd10f4c3c24af809e4c32be29ea33b53efb9717",
+      "role": "NCCPI",
+      "logical_path": "CSP3_GPP_outputs/NCCPI_comparison/20260927_nccpi_slope_corefilter/rasters/nccpi_corn_v3.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/MLRANE.zip",
+      "sha256": "bb7c38f10ba2ee35d6ee2eb23627e362a5880ab40b4337c64b86fc21994013db",
+      "role": "AOI",
+      "logical_path": "MLRANE.zip"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/FINBIN_benchmark/source_audit/tl_2021_us_county.zip",
+      "sha256": "26890ff92275ff1392cd205c7021ba510b7f63f2ff985ca327b9f5fd5e9ecc90",
+      "role": "county",
+      "logical_path": "CSP3_GPP_outputs/FINBIN_benchmark/source_audit/tl_2021_us_county.zip"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/app_assets/ch4_finbin_county_scope_corefilter_20260928.tif",
+      "sha256": "143aa9a4182108e5150c93a1380df93f9ad9872778cc42dec3db845bc9bb3407",
+      "role": "FINBIN_scope",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/app_assets/ch4_finbin_county_scope_corefilter_20260928.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/acquisition_manifest.json",
+      "sha256": "35434a38791d4ca3e3dbe8a53d9f62e4b8efa0c2ac380f4d80c4602312e84721",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/acquisition_manifest.json"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/boundaries.json",
+      "sha256": "eccb0fb0655a94101f6a2597d033c0310238f31ab1c201fb021d7bb686aa5d66",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/boundaries.json"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/consensus_search.json",
+      "sha256": "7d4db355d8b6d342584e4f5aa5d7f8448089e18dcf0ef50749372ea5eb46a441",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/consensus_search.json"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/csp3_raster_manifest.csv",
+      "sha256": "9ce4cf9dc9470da6448226e420044f8b7b648af89d2b22e7a5052d8a62cc85cf",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/csp3_raster_manifest.csv"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/ers_corn.csv",
+      "sha256": "107a04eb8efd4d538766429c206cb1851dc9bea2d97cc090552dc5048c21aee3",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/ers_corn.csv"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/ers_corn.xlsx",
+      "sha256": "aa2da87bad77dede806fe30bfe472439fa1b4e8311237567c5458a3b1f75d991",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/ers_corn.xlsx"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/ers_regions.pdf",
+      "sha256": "9bc57ada57d2aa1c834095607ec9d10e3aa8e050be9f0cd1187698dd8bd8ad08",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/ers_regions.pdf"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/ers_tb1970.pdf",
+      "sha256": "7533e97f0c9825d0e1071f57d36cb0bf535fb12ed3f204f3873f319e459296d8",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/ers_tb1970.pdf"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/finbin_county_1008338.csv",
+      "sha256": "60c1f44e47274e041bbe19fe0af0d82477a3151e9c9902bc048f65da44b58029",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/finbin_county_1008338.csv"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/finbin_state_1008210.csv",
+      "sha256": "9c71006c8df4010b187ef6035378dc10ee591142b94ce3995afaa256119a322d",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/finbin_state_1008210.csv"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/nass_crop_values_2021.pdf",
+      "sha256": "fa662c9c9ca51ba28136bc791a5e6a8e138e1f8a14e5d78579ce9696208ad4d1",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/nass_crop_values_2021.pdf"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/nass_crop_values_2022.pdf",
+      "sha256": "2b52a4c6637e96392ade137fac165cd0dd2c3c36cce1556efcdfb90e71bc8f62",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/nass_crop_values_2022.pdf"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/nass_price_table.txt",
+      "sha256": "bb801028c3b0303a283720850051d0c57b309f06fb37c7ca095fce18774e005f",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/nass_price_table.txt"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/nccpi_source_manifest.json",
+      "sha256": "6035f64a3deb55e262e132106d749d0ae09d6272df3db58ea877c14be03f98e0",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/nccpi_source_manifest.json"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/original_draft_preservation.json",
+      "sha256": "c1933bfa9e718fa0d40cd1a0c2268d4ddf709f0ae3eb73554d6eaa3525e7af9f",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/original_draft_preservation.json"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/scispace_search.json",
+      "sha256": "172cddf49af31e7218a5e8dd6d87d39bbae771f3f44b79b111a7ea0883524bad",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/scispace_search.json"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/soil_output_manifest.csv",
+      "sha256": "b668c0232163e7d8f3788fc0eec0d6cde9b6e3f80c2f536b9b0eb328e8c1939c",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/soil_output_manifest.csv"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2009.pdf",
+      "sha256": "1c8b75dbfd4a0d4279a8cc5c063c8bad553b4b0ea3753ceeebe1df76d8532e80",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2009.pdf"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2011.pdf",
+      "sha256": "b8a2152dcc047ac3b2274d4353517f6ffb1f543bc5c93068b79cb9548e255ac9",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2011.pdf"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2013.pdf",
+      "sha256": "ffed1c52df62b67f7248ac74401b9ea85fd39ad4ec2730c1277998734f856994",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2013.pdf"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2015.pdf",
+      "sha256": "f1b374b5075e3e9ed08b42576466fef8fbd5afccebf45fd4e5a0b9c4f0c67445",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2015.pdf"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2017.pdf",
+      "sha256": "8543fc37829cd7e5dd1d2f903578dad96ffc6831c17d2f61e0715e790d86d395",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2017.pdf"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2017_page_27.txt",
+      "sha256": "88e38bd7245808743239f8630d4a76c2048d91f4b2216c3d85d52369d7ca0a17",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2017_page_27.txt"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2017_page_28.txt",
+      "sha256": "df25877eb1bbf29f131f508de2152e7d4a254f8740d1cce11d36350b4dff3f55",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2017_page_28.txt"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2017_page_3.txt",
+      "sha256": "9cf99f7f09b49755ccc5f91cbf76fdf22403149c9503d71f98609bd5db2e7f91",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2017_page_3.txt"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2017_page_30.txt",
+      "sha256": "20d51de95b14e3c280139877078cfdb6f64952057333c00583050a69b952a1c4",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2017_page_30.txt"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2017_page_31.txt",
+      "sha256": "68e62c7368c8f317d3d4d379eaff269e501f04ff203d2afa04dc721a53c7a857",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2017_page_31.txt"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2017_page_32.txt",
+      "sha256": "9bebe2787f869d07f74d201028c3dcd842aba00c679873eb1b73b993ff256a89",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2017_page_32.txt"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2017_page_34.txt",
+      "sha256": "eeac31c51b23bc2daa5a48c4eaabe9abc19507db142b78df9fbdc38f6a2b3525",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2017_page_34.txt"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2017_page_68_layout.txt",
+      "sha256": "4444042deb58c3ee8016c135ec1377754cd9d8e986bcdf6e758f82313c2a72f7",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2017_page_68_layout.txt"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2017_page_69_layout.txt",
+      "sha256": "fcfc919c187b6604b5959244b7755d271b3ee6b986907db231e8d52171fc93e1",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2017_page_69_layout.txt"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2017_page_71_layout.txt",
+      "sha256": "8ffd3332246f98d3507c7581caf5b7a36e0a81e67a026008c7f4297afe261a93",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2017_page_71_layout.txt"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2017_page_72_layout.txt",
+      "sha256": "74cb47ab5610328b420db0f4e80984b3b42ed6efb9335247f104b8d82ca778f8",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2017_page_72_layout.txt"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2019.pdf",
+      "sha256": "6a0693e0c7f8c0f6bcee620595b45fa1214e342147fbd0de40df2e60eab5dd09",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2019.pdf"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2019_page_2.txt",
+      "sha256": "d56db93208cf5d023018bfa6b863d62720902092b6bb1c46a9a68d88bd1012f9",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2019_page_2.txt"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2019_page_3.txt",
+      "sha256": "cece5da05be00e8b62e177b0a6e7f3d3e59c7136172c9c6d86e599bff89d3a1f",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2019_page_3.txt"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2019_page_34.txt",
+      "sha256": "5c665cae6ac422d60032e18849fa02cee59472d630be22def8f95a8d0efe9b65",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2019_page_34.txt"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2019_page_36.txt",
+      "sha256": "cbdd30df298bb1482cca073e2b4fee2a02f5bab6a5abad0dfe9a1a98fe3eeb6d",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2019_page_36.txt"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2019_page_6.txt",
+      "sha256": "376a6a1f674b1d0a9aac6135f32b187d500ca7540596a6b698f0ce71760a7cbd",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2019_page_6.txt"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2019_page_73.txt",
+      "sha256": "d2c300ba67416025f264fe986b0f42b4f54e2585352ff3851f150e92df5c2ba0",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2019_page_73.txt"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2019_page_74.txt",
+      "sha256": "6a8f89d36a0f9de1cc3b36888b4432369458cc0b65ff1c950c85d67613896a19",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2019_page_74.txt"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2019_page_76.txt",
+      "sha256": "49610b006fd5ae8102884cc36b9ad5877a2457e22560683cb94b67a4bc26f84d",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2019_page_76.txt"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2019_page_77.txt",
+      "sha256": "bde5ca4ff0b850f987b7cf1faef97ab0057b08a26a624aeb68fd9440236f99c8",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2019_page_77.txt"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2019_page_78.txt",
+      "sha256": "cbde1c16fbca59cfe5bc23c169a26802c2706b97b979caf42b56c280f9a40c69",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2019_page_78.txt"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2019_page_80.txt",
+      "sha256": "6570585a5ef775b506072dd56da042074fa89ccbebcfd399b6cd73b58e623709",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2019_page_80.txt"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2021.pdf",
+      "sha256": "6f8182a9f7cb98b806308a3c378d4e7c9a2ed78b974aad95f93bf9ea87b0e6b4",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2021.pdf"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2021_page_2.txt",
+      "sha256": "8fe70282a38d104304ee5f63cbc14271696da90c74543a533ff60a42b8bec18b",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2021_page_2.txt"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2021_page_28.txt",
+      "sha256": "9eeb67abdd2862209fc88284f3c8e3465025b432def0961547b7eb2b597cb2db",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2021_page_28.txt"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2021_page_3.txt",
+      "sha256": "cbb8bfb011ddf5d627bfbc32850f917f7b6d8237937a5e9338742fab33e8364d",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2021_page_3.txt"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2021_page_30.txt",
+      "sha256": "007195d5a439d9ad660528b7bcdca96affc7a74b162124f7a34db7aa7572e8b9",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2021_page_30.txt"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2021_page_6.txt",
+      "sha256": "3e7f90fc5111a7ca774003aec4ba27553af6e0b1878ea93c1ab98b65a8a1eb75",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2021_page_6.txt"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2021_page_69.txt",
+      "sha256": "6c3787aad01f4ca9ce01837fb8bda4986d72e2f2b79bb4c56eac37af3e828815",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2021_page_69.txt"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2021_page_70.txt",
+      "sha256": "0caae0e7cc5e9fac27fae349e0c0cd254107d9e2e36989dd6ceb650f5b16fdff",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2021_page_70.txt"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2021_page_72.txt",
+      "sha256": "51660f25533456343a2e395fb36275733146f72249553a7b4f4393a63c6318e0",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2021_page_72.txt"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2021_page_73.txt",
+      "sha256": "7abf6fdc97bcbe4e65e011884224ab1db217dc59e92ba07526163f0dc88d46c2",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2021_page_73.txt"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2021_page_74.txt",
+      "sha256": "a841129f00e795530b7e56144ef6b26d47c8b6cd152a63d62b515582d6016f0c",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2021_page_74.txt"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2021_page_76.txt",
+      "sha256": "aa0e6bab18b60ba11ff62f515d23122d986705ff9fe7a7faaf9443f3a6a6f45f",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2021_page_76.txt"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2021_page_77.txt",
+      "sha256": "78ab9278f27e591b492b0bd31be412815a22ff9aa3105bd84991ab1bc733f561",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2021_page_77.txt"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2021_page_78.txt",
+      "sha256": "bef0771bfba5c766dd4e100b0ab1e6a7a79ffadccacb1db3af6baed67a463eaf",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/unl_2021_page_78.txt"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/verify_unl_2019.png",
+      "sha256": "d0058dfadd4c8cfa8fabb2b6a3f808602e8144287391a0868a58ce7515ffef6f",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/verify_unl_2019.png"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/verify_unl_2021.png",
+      "sha256": "cf8a78e2dea63cec8fbe6b1e4af5f784acd5db0a66d9521191740c327f4ef6b6",
+      "role": "economic_source",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/sources/verify_unl_2021.png"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/tables/annual_yield.csv",
+      "sha256": "dcff6657824f092952155fac2156d56afbdcbebacd0a2b677df71d3104b87439",
+      "role": "verified_base_table",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/tables/annual_yield.csv"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/tables/common_valid_yield.csv",
+      "sha256": "aed1e29f7e335538a25ccd4a051ce2f1040fd5ac1c32fcb61e2e28be1b2efa25",
+      "role": "verified_base_table",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/tables/common_valid_yield.csv"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/tables/county_statistics.csv",
+      "sha256": "d4017caa02ca30b5f8bddfbe0c84b6cc5bdbc9a05c2032eaacb0681258bf98bc",
+      "role": "verified_base_table",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/tables/county_statistics.csv"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/tables/deflator.csv",
+      "sha256": "52f17e4a2d37858f8bc056581c05edf08ae82f8965a2db5843e5c872a44d5c6a",
+      "role": "verified_base_table",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/tables/deflator.csv"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/tables/economic_scenarios.csv",
+      "sha256": "1df1da7884a1dd283d8d52798094360336b12a6b59d4a7eea7006677b3539e53",
+      "role": "verified_base_table",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/tables/economic_scenarios.csv"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/tables/ers_annual_source_values.csv",
+      "sha256": "cb548e33b879547d7304f83443168d87d695818501e6b474c5d74c5161ecdf1d",
+      "role": "verified_base_table",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/tables/ers_annual_source_values.csv"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/tables/finbin_annual_source_values.csv",
+      "sha256": "e5bf07619efe0d67b74448b4f9cd59a1146dfabd792f4dc4d98e6cb46ff05a7a",
+      "role": "verified_base_table",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/tables/finbin_annual_source_values.csv"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/tables/input_inventory.csv",
+      "sha256": "a83a758728e20acd95d58690c000d1f9eebd7c79581c5a644919564dd9606dc0",
+      "role": "verified_base_table",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/tables/input_inventory.csv"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/tables/nass_prices.csv",
+      "sha256": "a9fc9ec5671af833a51f6f78b2cb8904d30c4a069af352cfec85284653a9673d",
+      "role": "verified_base_table",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/tables/nass_prices.csv"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/tables/nccpi_associations.csv",
+      "sha256": "f91a97051a8592c1affd62d517fe6864a078a5a389788a2d9013788a9a083fb0",
+      "role": "verified_base_table",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/tables/nccpi_associations.csv"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/tables/patch_statistics.csv",
+      "sha256": "2529e5b2f626fcd047ee4564b6aac87df9eecfd4474999651c99d4b0612bf9a4",
+      "role": "verified_base_table",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/tables/patch_statistics.csv"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/tables/persistence_M1_fixed.csv",
+      "sha256": "2b967a5694e44c8214e1f7b01b0db562fbf1e332e30af8efdc9bd9a23e320644",
+      "role": "verified_base_table",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/tables/persistence_M1_fixed.csv"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/tables/persistence_M2_HI_sensitivity.csv",
+      "sha256": "efdd5cc5452ce7ac1761614f59b2b361618ee4923caa7b85b73cc54220cf2618",
+      "role": "verified_base_table",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/tables/persistence_M2_HI_sensitivity.csv"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/tables/quartile_transitions.csv",
+      "sha256": "60e0d23159dbb4b186c1be8dacf873013f6a2839dbffa8f5e32a9c5480872bd3",
+      "role": "verified_base_table",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/tables/quartile_transitions.csv"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/tables/sensitivity.csv",
+      "sha256": "8534676542aec9cec54dae0567e4d849f83ddd5efa6d6f8ddc3b2aa8fa390f7d",
+      "role": "verified_base_table",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/tables/sensitivity.csv"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/tables/unl_line_items.csv",
+      "sha256": "8f69cf3e8938983c69d3bf5869ffaa935751721a0fe56ae2aed53faa64b58c12",
+      "role": "verified_base_table",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/tables/unl_line_items.csv"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/tables/year_eligibility.csv",
+      "sha256": "ffd51f13728b5d9c82bef504550d18d052435824f5f0c7897c0d95cf57e72c5a",
+      "role": "verified_base_table",
+      "logical_path": "CSP3_GPP_outputs/CH4_marginality/20260928_corefilter_exact_year_v2/tables/year_eligibility.csv"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/extension_2019_2021/20260928_corefilter_remask_v1/run_manifest.json",
+      "sha256": "5d429ec6b1b6c3ec0ee2c376ccdfdd131710a8c091632dd6cb594c242ae8e44c",
+      "role": "supersession_manifest",
+      "logical_path": "CSP3_GPP_outputs/extension_2019_2021/20260928_corefilter_remask_v1/run_manifest.json"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/extension_2019_2021/20260925_2019_published_v1/SUPERSEDED.md",
+      "sha256": "4c44b1544587916343f0473663353837ea9fb9e1c9961ecef10bfc21869ff94a",
+      "role": "supersession_record",
+      "logical_path": "CSP3_GPP_outputs/extension_2019_2021/20260925_2019_published_v1/SUPERSEDED.md"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs/extension_2019_2021/20260925_2021_lgrip_proxy_v1/products/SUPERSEDED.md",
+      "sha256": "16486f9f8de014fb499e7c52f602745814044d552e2a74a87a35e34987125dac",
+      "role": "supersession_record",
+      "logical_path": "CSP3_GPP_outputs/extension_2019_2021/20260925_2021_lgrip_proxy_v1/products/SUPERSEDED.md"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/non_irrigated_corn/clean/non_irrigated_corn_mlrane_2019_clean.tif",
+      "sha256": "a930966178b5cdea5699f9700fc68be5a55524c98effbb081418324dae98daa8",
+      "role": "canonical_mask",
+      "logical_path": "non_irrigated_corn/clean/non_irrigated_corn_mlrane_2019_clean.tif"
+    },
+    {
+      "path": "/content/drive/MyDrive/PHD/non_irrigated_corn/clean/non_irrigated_corn_mlrane_2021_clean.tif",
+      "sha256": "685fd1fc8a1a00a1a0958cd8c08722b8d32100946bb8237ad942820854672a90",
+      "role": "canonical_mask",
+      "logical_path": "non_irrigated_corn/clean/non_irrigated_corn_mlrane_2021_clean.tif"
+    }
+  ],
+  "canonical_mask_comparisons": [
+    {
+      "year": 2019,
+      "path": "/content/drive/MyDrive/PHD/non_irrigated_corn/clean/non_irrigated_corn_mlrane_2019_clean.tif",
+      "sha256": "a930966178b5cdea5699f9700fc68be5a55524c98effbb081418324dae98daa8",
+      "staged_sha256": "90e5d1aa801ddc58851b9aa7a57a5747db19a3384795af9c7e95b5412f64a8ad",
+      "different_crop_pixels": 0
+    },
+    {
+      "year": 2021,
+      "path": "/content/drive/MyDrive/PHD/non_irrigated_corn/clean/non_irrigated_corn_mlrane_2021_clean.tif",
+      "sha256": "685fd1fc8a1a00a1a0958cd8c08722b8d32100946bb8237ad942820854672a90",
+      "staged_sha256": "298d4776b81e84e90df9b9753d6d155849cd4d1a328f23e94a5ccbaa8e8e445c",
+      "different_crop_pixels": 0
+    }
+  ],
+  "candidate_run_directories": [
+    "20260924_source_review",
+    "20260925_2019_published_v1",
+    "20260925_2021_experimental_v1",
+    "20260925_2021_lgrip_proxy_v1",
+    "20260928_corefilter_remask_v1"
+  ],
+  "platforms": {
+    "github": {
+      "repository": "njberkowitz95/Yields-and-Fields-CH1",
+      "numerical_source_revision": "c43283227f216f8253ca9d7227c829423b8839b4",
+      "other_source_branches": {
+        "fix/small-field-cleanup": "f14219ed443a39e0a57ab1233ed3fcd63ce13a43",
+        "small-field-cleanup": "f14219ed443a39e0a57ab1233ed3fcd63ce13a43"
+      },
+      "source_inventory_difference_from_main": false
+    },
+    "colab": {
+      "notebook_url": "https://colab.research.google.com/drive/10pKscDzqeBuTmwKGzbSK74UqWHOKD1Y5",
+      "runtime_input_root": "/content/drive/MyDrive/PHD/CSP3_GPP_outputs",
+      "profit_evidence_completed": true
+    },
+    "earth_engine_inputs": [
+      {
+        "type": "IMAGE",
+        "name": "projects/ee-njberkowitz95/assets/ch4_verified_yields_corefilter_20260928",
+        "id": "projects/ee-njberkowitz95/assets/ch4_verified_yields_corefilter_20260928",
+        "properties": {
+          "ch4_run": "20260928_corefilter_exact_year_v2",
+          "source_sha256": "8f8808fb5c1db0584cd004fa4816ffb0b2a0a94da2e6a56c48d0ea870c5cdbb4"
+        },
+        "updateTime": "2026-09-29T17:33:31.316714Z",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -97.34190833440073,
+                41.42419596384497
+              ],
+              [
+                -97.32839482099638,
+                40.70876205527725
+              ],
+              [
+                -97.3151686027258,
+                39.99332660444592
+              ],
+              [
+                -97.31502312508407,
+                39.99320375699214
+              ],
+              [
+                -97.31489890093518,
+                39.99306795836521
+              ],
+              [
+                -97.31484082539104,
+                39.99306017752653
+              ],
+              [
+                -97.07255400728937,
+                39.995377892170765
+              ],
+              [
+                -96.83025253345232,
+                39.997191092757305
+              ],
+              [
+                -96.58795549144475,
+                39.998575590304874
+              ],
+              [
+                -96.34565041447408,
+                39.999455535068385
+              ],
+              [
+                -96.103341078932,
+                39.99990684405877
+              ],
+              [
+                -95.86103033095982,
+                39.99985355872699
+              ],
+              [
+                -95.6187213119661,
+                39.99937161818255
+              ],
+              [
+                -95.37641750381187,
+                39.99838510009648
+              ],
+              [
+                -95.37625418894336,
+                39.99849394171903
+              ],
+              [
+                -95.37607434347464,
+                39.99858637073507
+              ],
+              [
+                -95.37606292346193,
+                39.99863062625551
+              ],
+              [
+                -95.36337597009971,
+                41.42957521790671
+              ],
+              [
+                -95.36352112421321,
+                41.42970039042502
+              ],
+              [
+                -95.36364432185722,
+                41.429838163584876
+              ],
+              [
+                -95.36370340571534,
+                41.429846913705745
+              ],
+              [
+                -95.6109506303466,
+                41.430861596185835
+              ],
+              [
+                -95.85820356793066,
+                41.43134692967609
+              ],
+              [
+                -96.10544310734889,
+                41.431408323174665
+              ],
+              [
+                -96.35268109854766,
+                41.43094041487192
+              ],
+              [
+                -96.59991474128961,
+                41.43004859043675
+              ],
+              [
+                -96.84713957611308,
+                41.42862750812787
+              ],
+              [
+                -97.09435398306816,
+                41.42678257034082
+              ],
+              [
+                -97.34155232660983,
+                41.42440848013328
+              ],
+              [
+                -97.3417161558896,
+                41.42429701063309
+              ],
+              [
+                -97.34190833440073,
+                41.42419596384497
+              ]
+            ]
+          ]
+        },
+        "bands": [
+          {
+            "id": "b1",
+            "dataType": {
+              "precision": "FLOAT"
+            },
+            "grid": {
+              "crsCode": "EPSG:5070",
+              "dimensions": {
+                "width": 5469,
+                "height": 5343
+              },
+              "affineTransform": {
+                "scaleX": 30,
+                "translateX": -111285,
+                "scaleY": -30,
+                "translateY": 2047275
+              }
+            },
+            "pyramidingPolicy": "MEAN"
+          },
+          {
+            "id": "b2",
+            "dataType": {
+              "precision": "FLOAT"
+            },
+            "grid": {
+              "crsCode": "EPSG:5070",
+              "dimensions": {
+                "width": 5469,
+                "height": 5343
+              },
+              "affineTransform": {
+                "scaleX": 30,
+                "translateX": -111285,
+                "scaleY": -30,
+                "translateY": 2047275
+              }
+            },
+            "pyramidingPolicy": "MEAN"
+          },
+          {
+            "id": "b3",
+            "dataType": {
+              "precision": "FLOAT"
+            },
+            "grid": {
+              "crsCode": "EPSG:5070",
+              "dimensions": {
+                "width": 5469,
+                "height": 5343
+              },
+              "affineTransform": {
+                "scaleX": 30,
+                "translateX": -111285,
+                "scaleY": -30,
+                "translateY": 2047275
+              }
+            },
+            "pyramidingPolicy": "MEAN"
+          },
+          {
+            "id": "b4",
+            "dataType": {
+              "precision": "FLOAT"
+            },
+            "grid": {
+              "crsCode": "EPSG:5070",
+              "dimensions": {
+                "width": 5469,
+                "height": 5343
+              },
+              "affineTransform": {
+                "scaleX": 30,
+                "translateX": -111285,
+                "scaleY": -30,
+                "translateY": 2047275
+              }
+            },
+            "pyramidingPolicy": "MEAN"
+          },
+          {
+            "id": "b5",
+            "dataType": {
+              "precision": "FLOAT"
+            },
+            "grid": {
+              "crsCode": "EPSG:5070",
+              "dimensions": {
+                "width": 5469,
+                "height": 5343
+              },
+              "affineTransform": {
+                "scaleX": 30,
+                "translateX": -111285,
+                "scaleY": -30,
+                "translateY": 2047275
+              }
+            },
+            "pyramidingPolicy": "MEAN"
+          },
+          {
+            "id": "b6",
+            "dataType": {
+              "precision": "FLOAT"
+            },
+            "grid": {
+              "crsCode": "EPSG:5070",
+              "dimensions": {
+                "width": 5469,
+                "height": 5343
+              },
+              "affineTransform": {
+                "scaleX": 30,
+                "translateX": -111285,
+                "scaleY": -30,
+                "translateY": 2047275
+              }
+            },
+            "pyramidingPolicy": "MEAN"
+          },
+          {
+            "id": "b7",
+            "dataType": {
+              "precision": "FLOAT"
+            },
+            "grid": {
+              "crsCode": "EPSG:5070",
+              "dimensions": {
+                "width": 5469,
+                "height": 5343
+              },
+              "affineTransform": {
+                "scaleX": 30,
+                "translateX": -111285,
+                "scaleY": -30,
+                "translateY": 2047275
+              }
+            },
+            "pyramidingPolicy": "MEAN"
+          },
+          {
+            "id": "b8",
+            "dataType": {
+              "precision": "FLOAT"
+            },
+            "grid": {
+              "crsCode": "EPSG:5070",
+              "dimensions": {
+                "width": 5469,
+                "height": 5343
+              },
+              "affineTransform": {
+                "scaleX": 30,
+                "translateX": -111285,
+                "scaleY": -30,
+                "translateY": 2047275
+              }
+            },
+            "pyramidingPolicy": "MEAN"
+          },
+          {
+            "id": "b9",
+            "dataType": {
+              "precision": "FLOAT"
+            },
+            "grid": {
+              "crsCode": "EPSG:5070",
+              "dimensions": {
+                "width": 5469,
+                "height": 5343
+              },
+              "affineTransform": {
+                "scaleX": 30,
+                "translateX": -111285,
+                "scaleY": -30,
+                "translateY": 2047275
+              }
+            },
+            "pyramidingPolicy": "MEAN"
+          },
+          {
+            "id": "b10",
+            "dataType": {
+              "precision": "FLOAT"
+            },
+            "grid": {
+              "crsCode": "EPSG:5070",
+              "dimensions": {
+                "width": 5469,
+                "height": 5343
+              },
+              "affineTransform": {
+                "scaleX": 30,
+                "translateX": -111285,
+                "scaleY": -30,
+                "translateY": 2047275
+              }
+            },
+            "pyramidingPolicy": "MEAN"
+          },
+          {
+            "id": "b11",
+            "dataType": {
+              "precision": "FLOAT"
+            },
+            "grid": {
+              "crsCode": "EPSG:5070",
+              "dimensions": {
+                "width": 5469,
+                "height": 5343
+              },
+              "affineTransform": {
+                "scaleX": 30,
+                "translateX": -111285,
+                "scaleY": -30,
+                "translateY": 2047275
+              }
+            },
+            "pyramidingPolicy": "MEAN"
+          },
+          {
+            "id": "b12",
+            "dataType": {
+              "precision": "FLOAT"
+            },
+            "grid": {
+              "crsCode": "EPSG:5070",
+              "dimensions": {
+                "width": 5469,
+                "height": 5343
+              },
+              "affineTransform": {
+                "scaleX": 30,
+                "translateX": -111285,
+                "scaleY": -30,
+                "translateY": 2047275
+              }
+            },
+            "pyramidingPolicy": "MEAN"
+          },
+          {
+            "id": "b13",
+            "dataType": {
+              "precision": "FLOAT"
+            },
+            "grid": {
+              "crsCode": "EPSG:5070",
+              "dimensions": {
+                "width": 5469,
+                "height": 5343
+              },
+              "affineTransform": {
+                "scaleX": 30,
+                "translateX": -111285,
+                "scaleY": -30,
+                "translateY": 2047275
+              }
+            },
+            "pyramidingPolicy": "MEAN"
+          },
+          {
+            "id": "b14",
+            "dataType": {
+              "precision": "FLOAT"
+            },
+            "grid": {
+              "crsCode": "EPSG:5070",
+              "dimensions": {
+                "width": 5469,
+                "height": 5343
+              },
+              "affineTransform": {
+                "scaleX": 30,
+                "translateX": -111285,
+                "scaleY": -30,
+                "translateY": 2047275
+              }
+            },
+            "pyramidingPolicy": "MEAN"
+          },
+          {
+            "id": "b15",
+            "dataType": {
+              "precision": "FLOAT"
+            },
+            "grid": {
+              "crsCode": "EPSG:5070",
+              "dimensions": {
+                "width": 5469,
+                "height": 5343
+              },
+              "affineTransform": {
+                "scaleX": 30,
+                "translateX": -111285,
+                "scaleY": -30,
+                "translateY": 2047275
+              }
+            },
+            "pyramidingPolicy": "MEAN"
+          },
+          {
+            "id": "b16",
+            "dataType": {
+              "precision": "FLOAT"
+            },
+            "grid": {
+              "crsCode": "EPSG:5070",
+              "dimensions": {
+                "width": 5469,
+                "height": 5343
+              },
+              "affineTransform": {
+                "scaleX": 30,
+                "translateX": -111285,
+                "scaleY": -30,
+                "translateY": 2047275
+              }
+            },
+            "pyramidingPolicy": "MEAN"
+          },
+          {
+            "id": "b17",
+            "dataType": {
+              "precision": "FLOAT"
+            },
+            "grid": {
+              "crsCode": "EPSG:5070",
+              "dimensions": {
+                "width": 5469,
+                "height": 5343
+              },
+              "affineTransform": {
+                "scaleX": 30,
+                "translateX": -111285,
+                "scaleY": -30,
+                "translateY": 2047275
+              }
+            },
+            "pyramidingPolicy": "MEAN"
+          },
+          {
+            "id": "b18",
+            "dataType": {
+              "precision": "FLOAT"
+            },
+            "grid": {
+              "crsCode": "EPSG:5070",
+              "dimensions": {
+                "width": 5469,
+                "height": 5343
+              },
+              "affineTransform": {
+                "scaleX": 30,
+                "translateX": -111285,
+                "scaleY": -30,
+                "translateY": 2047275
+              }
+            },
+            "pyramidingPolicy": "MEAN"
+          },
+          {
+            "id": "b19",
+            "dataType": {
+              "precision": "FLOAT"
+            },
+            "grid": {
+              "crsCode": "EPSG:5070",
+              "dimensions": {
+                "width": 5469,
+                "height": 5343
+              },
+              "affineTransform": {
+                "scaleX": 30,
+                "translateX": -111285,
+                "scaleY": -30,
+                "translateY": 2047275
+              }
+            },
+            "pyramidingPolicy": "MEAN"
+          },
+          {
+            "id": "b20",
+            "dataType": {
+              "precision": "FLOAT"
+            },
+            "grid": {
+              "crsCode": "EPSG:5070",
+              "dimensions": {
+                "width": 5469,
+                "height": 5343
+              },
+              "affineTransform": {
+                "scaleX": 30,
+                "translateX": -111285,
+                "scaleY": -30,
+                "translateY": 2047275
+              }
+            },
+            "pyramidingPolicy": "MEAN"
+          },
+          {
+            "id": "b21",
+            "dataType": {
+              "precision": "FLOAT"
+            },
+            "grid": {
+              "crsCode": "EPSG:5070",
+              "dimensions": {
+                "width": 5469,
+                "height": 5343
+              },
+              "affineTransform": {
+                "scaleX": 30,
+                "translateX": -111285,
+                "scaleY": -30,
+                "translateY": 2047275
+              }
+            },
+            "pyramidingPolicy": "MEAN"
+          },
+          {
+            "id": "b22",
+            "dataType": {
+              "precision": "FLOAT"
+            },
+            "grid": {
+              "crsCode": "EPSG:5070",
+              "dimensions": {
+                "width": 5469,
+                "height": 5343
+              },
+              "affineTransform": {
+                "scaleX": 30,
+                "translateX": -111285,
+                "scaleY": -30,
+                "translateY": 2047275
+              }
+            },
+            "pyramidingPolicy": "MEAN"
+          }
+        ],
+        "sizeBytes": "461354177"
+      },
+      {
+        "type": "IMAGE",
+        "name": "projects/ee-njberkowitz95/assets/ch4_finbin_county_scope_corefilter_20260928",
+        "id": "projects/ee-njberkowitz95/assets/ch4_finbin_county_scope_corefilter_20260928",
+        "properties": {
+          "ch4_run": "20260928_corefilter_exact_year_v2",
+          "source_sha256": "143aa9a4182108e5150c93a1380df93f9ad9872778cc42dec3db845bc9bb3407"
+        },
+        "updateTime": "2026-09-29T17:33:33.109109Z",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -97.34190833440073,
+                41.42419596384497
+              ],
+              [
+                -97.32839482099638,
+                40.70876205527725
+              ],
+              [
+                -97.3151686027258,
+                39.99332660444592
+              ],
+              [
+                -97.31502312508407,
+                39.99320375699214
+              ],
+              [
+                -97.31489890093518,
+                39.99306795836521
+              ],
+              [
+                -97.31484082539104,
+                39.99306017752653
+              ],
+              [
+                -97.07255400728937,
+                39.995377892170765
+              ],
+              [
+                -96.83025253345232,
+                39.997191092757305
+              ],
+              [
+                -96.58795549144475,
+                39.998575590304874
+              ],
+              [
+                -96.34565041447408,
+                39.999455535068385
+              ],
+              [
+                -96.103341078932,
+                39.99990684405877
+              ],
+              [
+                -95.86103033095982,
+                39.99985355872699
+              ],
+              [
+                -95.6187213119661,
+                39.99937161818255
+              ],
+              [
+                -95.37641750381187,
+                39.99838510009648
+              ],
+              [
+                -95.37625418894336,
+                39.99849394171903
+              ],
+              [
+                -95.37607434347464,
+                39.99858637073507
+              ],
+              [
+                -95.37606292346193,
+                39.99863062625551
+              ],
+              [
+                -95.36337597009971,
+                41.42957521790671
+              ],
+              [
+                -95.36352112421321,
+                41.42970039042502
+              ],
+              [
+                -95.36364432185722,
+                41.429838163584876
+              ],
+              [
+                -95.36370340571534,
+                41.429846913705745
+              ],
+              [
+                -95.6109506303466,
+                41.430861596185835
+              ],
+              [
+                -95.85820356793066,
+                41.43134692967609
+              ],
+              [
+                -96.10544310734889,
+                41.431408323174665
+              ],
+              [
+                -96.35268109854766,
+                41.43094041487192
+              ],
+              [
+                -96.59991474128961,
+                41.43004859043675
+              ],
+              [
+                -96.84713957611308,
+                41.42862750812787
+              ],
+              [
+                -97.09435398306816,
+                41.42678257034082
+              ],
+              [
+                -97.34155232660983,
+                41.42440848013328
+              ],
+              [
+                -97.3417161558896,
+                41.42429701063309
+              ],
+              [
+                -97.34190833440073,
+                41.42419596384497
+              ]
+            ]
+          ]
+        },
+        "bands": [
+          {
+            "id": "b1",
+            "dataType": {
+              "precision": "FLOAT"
+            },
+            "grid": {
+              "crsCode": "EPSG:5070",
+              "dimensions": {
+                "width": 5469,
+                "height": 5343
+              },
+              "affineTransform": {
+                "scaleX": 30,
+                "translateX": -111285,
+                "scaleY": -30,
+                "translateY": 2047275
+              }
+            },
+            "pyramidingPolicy": "MEAN"
+          }
+        ],
+        "sizeBytes": "13700"
+      }
+    ],
+    "platform_verification_utc": "2026-09-29T21:17:49.912028+00:00"
+  }
+}

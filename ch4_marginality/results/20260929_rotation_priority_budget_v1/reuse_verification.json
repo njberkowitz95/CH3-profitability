@@ -1,0 +1,29 @@
+{
+  "verified": true,
+  "prior_run": "20260928_corefilter_exact_year_v2",
+  "retained_tables": [
+    {
+      "table": "sensitivity",
+      "rows": 126,
+      "numeric_records_unchanged": true
+    },
+    {
+      "table": "nccpi_associations",
+      "rows": 216,
+      "numeric_records_unchanged": true
+    },
+    {
+      "table": "patch_statistics",
+      "rows": 359710,
+      "numeric_records_unchanged": true
+    },
+    {
+      "table": "county_statistics",
+      "rows": 450,
+      "numeric_records_unchanged": true
+    }
+  ],
+  "native_inputs_unchanged": true,
+  "seed": 20260928,
+  "bootstrap_replicates": 1999
+}

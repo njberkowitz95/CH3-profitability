@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "production_year_substitution_allowed": false,
+  "rotation_priority": "dryland corn after soybean",
+  "years": [
+    {
+      "year": 2001,
+      "budget_number": 15,
+      "pdf_page": 29,
+      "printed_page": 15,
+      "match_designation": "Approximate",
+      "selection_rationale": "User-authorized priority: dryland corn after soybean; retain original production year; no invented tillage adjustment",
+      "mismatch_fields": "tillage: no-till instead of conventional; geography: not specifically Eastern Nebraska",
+      "unl_full_return_available": true,
+      "review_date": "2026-09-29"
+    },
+    {
+      "year": 2009,
+      "budget_number": 13,
+      "pdf_page": 19,
+      "printed_page": 17,
+      "match_designation": "Approximate",
+      "selection_rationale": "User-authorized priority: dryland corn after soybean; retain original production year; no invented tillage adjustment",
+      "mismatch_fields": "tillage: no-till instead of conventional; geography: not specifically Eastern Nebraska",
+      "unl_full_return_available": false,
+      "review_date": "2026-09-29"
+    },
+    {
+      "year": 2011,
+      "budget_number": 11,
+      "pdf_page": 19,
+      "printed_page": 19,
+      "match_designation": "Approximate",
+      "selection_rationale": "User-authorized priority: dryland corn after soybean; retain original production year; no invented tillage adjustment",
+      "mismatch_fields": "tillage: no-till instead of conventional; geography: not specifically Eastern Nebraska",
+      "unl_full_return_available": true,
+      "review_date": "2026-09-29"
+    },
+    {
+      "year": 2013,
+      "budget_number": 11,
+      "pdf_page": 20,
+      "printed_page": 19,
+      "match_designation": "Approximate",
+      "selection_rationale": "User-authorized priority: dryland corn after soybean; retain original production year; no invented tillage adjustment",
+      "mismatch_fields": "tillage: no-till instead of conventional; geography: not specifically Eastern Nebraska",
+      "unl_full_return_available": true,
+      "review_date": "2026-09-29"
+    },
+    {
+      "year": 2015,
+      "budget_number": 18,
+      "pdf_page": 27,
+      "printed_page": 26,
+      "match_designation": "Approximate",
+      "selection_rationale": "User-authorized priority: dryland corn after soybean; retain original production year; no invented tillage adjustment",
+      "mismatch_fields": "tillage: no-till instead of conventional; geography: not specifically Eastern Nebraska",
+      "unl_full_return_available": true,
+      "review_date": "2026-09-29"
+    },
+    {
+      "year": 2017,
+      "budget_number": 22,
+      "pdf_page": 74,
+      "printed_page": 33,
+      "match_designation": "Approximate",
+      "selection_rationale": "User-authorized priority: dryland corn after soybean; retain original production year; no invented tillage adjustment",
+      "mismatch_fields": "tillage: no-till instead of conventional",
+      "unl_full_return_available": true,
+      "review_date": "2026-09-29"
+    },
+    {
+      "year": 2019,
+      "budget_number": 18,
+      "pdf_page": 36,
+      "printed_page": 30,
+      "match_designation": "Exact",
+      "selection_rationale": "Exact selected production system",
+      "mismatch_fields": "",
+      "unl_full_return_available": true,
+      "review_date": "2026-09-29"
+    },
+    {
+      "year": 2021,
+      "budget_number": 18,
+      "pdf_page": 30,
+      "printed_page": 30,
+      "match_designation": "Exact",
+      "selection_rationale": "Exact selected production system",
+      "mismatch_fields": "",
+      "unl_full_return_available": true,
+      "review_date": "2026-09-29"
+    }
+  ]
+}

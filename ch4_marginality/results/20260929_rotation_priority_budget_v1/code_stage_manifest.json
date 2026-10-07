@@ -1,0 +1,560 @@
+{
+  "run_id": "20260929_rotation_priority_budget_v1",
+  "code_parent_revision": "a093ee1050e1f89ea48190c538d10d2080471b6c",
+  "published_code_revision": "df09b142d5e033f7e3a7b2658a99b6c9e3f1a965",
+  "created_utc": "2026-09-30T06:30:23.634091+00:00",
+  "files": [
+    {
+      "path": "code/ch4_marginality/__init__.py",
+      "sha256": "ce9c3b193f2f6c8c04cc471407a1341114b8ac788e01af588ded5f67ce9daab1"
+    },
+    {
+      "path": "code/ch4_marginality/acquire_sources.py",
+      "sha256": "191e3c07e10e17a957cece4e52d5ba9680258aa6a5a2cbcc22c24477c6aa77cc"
+    },
+    {
+      "path": "code/ch4_marginality/budget_policy.py",
+      "sha256": "db1cdb6835e36a5d8e145c159f3c7e84f976d710e29db010ec4533de8c9b779a"
+    },
+    {
+      "path": "code/ch4_marginality/budget_registry.py",
+      "sha256": "a1057a47a7c6ed1b701ea670260ad3f6c3fcd414f7400adf92190f312e71d410"
+    },
+    {
+      "path": "code/ch4_marginality/build_app.py",
+      "sha256": "1efa4016a777c79ea65f63b9313282ec6bbe0ba878ea4b7e0b53b12c028cd9dc"
+    },
+    {
+      "path": "code/ch4_marginality/build_assets_current.py",
+      "sha256": "2a0b7fff5c5a8d4eed60f74e15ec54fe547be4eea19c8d779b375c75da653186"
+    },
+    {
+      "path": "code/ch4_marginality/build_profit_app.py",
+      "sha256": "11db9b56c92da0a8c9c845ff003c9c7b133312f5523a509164e5bf1eb49d74c4"
+    },
+    {
+      "path": "code/ch4_marginality/core.py",
+      "sha256": "bc0952354f96819ed89961a767fc400a03f451867b1f65354cbefd10426fcc65"
+    },
+    {
+      "path": "code/ch4_marginality/execute_notebook.py",
+      "sha256": "8a263b011a52d76ceed13767b2999aece6a616ee48f6017ac4731c630079c1d9"
+    },
+    {
+      "path": "code/ch4_marginality/final_checks.py",
+      "sha256": "972cb42a7a9dc71ec609d83da1a2f987dc92b49add82e0459126e1ea391d88b0"
+    },
+    {
+      "path": "code/ch4_marginality/finalize_notebook.py",
+      "sha256": "eefaad238b898fbb501b18ce3f012e2ced0194f9cd96a6d6b7edba37927c1b81"
+    },
+    {
+      "path": "code/ch4_marginality/finalize_profit.py",
+      "sha256": "7901bbd2d27c1bce5ba7fd1c2092ed3e2d78ff2345585cd148884146377d5ac0"
+    },
+    {
+      "path": "code/ch4_marginality/gee_app_candidate.js",
+      "sha256": "23ee4ed76f47fdcbf64e3d599971313fd39a7d8b6b03a18de0e94048aa4d3dfa"
+    },
+    {
+      "path": "code/ch4_marginality/gee_controls.js",
+      "sha256": "e865738f6a10221d799fca309ebfa053fbba3ca301cec53274ff7ead522c636d"
+    },
+    {
+      "path": "code/ch4_marginality/gee_profit_controls.js",
+      "sha256": "d54843e2e007cc52b9e3edf3d459ed91f9d8a81a7b8465b8384fa60bdcbeb6ff"
+    },
+    {
+      "path": "code/ch4_marginality/HISTORICAL_BUDGET_AUDIT.md",
+      "sha256": "7b7287e9026cb9034de946acc87d14060e89c003480edf9d4480c9ef867cb539"
+    },
+    {
+      "path": "code/ch4_marginality/historical_budget_release.py",
+      "sha256": "c14a005a366dd3be8712eb5506d37296a3fa0452ec92c652aa0df090f815ed9c"
+    },
+    {
+      "path": "code/ch4_marginality/INPUT_FRESHNESS.md",
+      "sha256": "3014860fcbea84a411c87c39da911cc483937b4e0822c7134cdd2ef051378972"
+    },
+    {
+      "path": "code/ch4_marginality/METHODS.md",
+      "sha256": "4c4faf042dc0407354ab68c2849c8d62134a4a77640cf42ffc2e6a28e4794297"
+    },
+    {
+      "path": "code/ch4_marginality/METHODS_exact_policy_20260928.md",
+      "sha256": "f6fb73e8abfd25941664777a9ac1b70e73d97891af5e50a8c7b6c47bc13bcd0c"
+    },
+    {
+      "path": "code/ch4_marginality/outputs/CH4_methods_results.md",
+      "sha256": "18beacf2d161feae23874c873fbe0089ca959d3affde7dea1e9b1fa8876a74f4"
+    },
+    {
+      "path": "code/ch4_marginality/outputs/profit_20260929/CH4_profit_workspace_methods_results.md",
+      "sha256": "ec5ac1d017f691c9d9ad8c72e098011ef6d58459a30eff8ca60dba1a32d43084"
+    },
+    {
+      "path": "code/ch4_marginality/package_outputs.py",
+      "sha256": "3f3d86b4fefc32e13b734a0d29b685f2243092b757c20c559c0c2e45ac440f97"
+    },
+    {
+      "path": "code/ch4_marginality/pipeline.py",
+      "sha256": "3ab7c51ff52eecc5e62bba1434b42b289f179f953d813623cef1aa4e812d008e"
+    },
+    {
+      "path": "code/ch4_marginality/preflight/finalize_historical_delivery.py",
+      "sha256": "281b500f52a8d77dbb3617aabbf38c76503af43464072be558b396ec8e0331b9"
+    },
+    {
+      "path": "code/ch4_marginality/prepare_app_asset.py",
+      "sha256": "f1f91322dd3236a4ccfcabb57fef588b7fc08b2a5099f2043e2a86cb509ece63"
+    },
+    {
+      "path": "code/ch4_marginality/prepare_budgets.py",
+      "sha256": "788f11ae75a1beb04727f6ded80d49330b823bca9afbe26fdaea67ef0bf8cdc3"
+    },
+    {
+      "path": "code/ch4_marginality/profit_assets.py",
+      "sha256": "4f00d642ff1d60abd46e6213ef46018a3fc646066882adf94832383cd3c5a1f3"
+    },
+    {
+      "path": "code/ch4_marginality/profit_figures.py",
+      "sha256": "a027012707c6135d981276aa00e84e0099ff23456a7f27b6ee33a80dca9bf4ff"
+    },
+    {
+      "path": "code/ch4_marginality/profit_report.py",
+      "sha256": "575f8fa6432d1c2a3e2d0531531fbdf1b1dc152e37e5a91e779b5b1b9e1ed24b"
+    },
+    {
+      "path": "code/ch4_marginality/PROFIT_WORKSPACE.md",
+      "sha256": "9f6d95946295f260dcf873d507bf6927d5fca41a22c395d51818aea5bd916413"
+    },
+    {
+      "path": "code/ch4_marginality/profit_workspace.py",
+      "sha256": "ad7da97d9073f5142e58ce0e30a558b391621547b606d236a4c2b15cace74940"
+    },
+    {
+      "path": "code/ch4_marginality/README.md",
+      "sha256": "baf3e9d86e94df26f76b355ef805d1ba35b9a664335c69e96077ed16510509e1"
+    },
+    {
+      "path": "code/ch4_marginality/release_context.py",
+      "sha256": "951c29275416b8a249c533d614c330a8f48861247579e26613e3a916c5e87f77"
+    },
+    {
+      "path": "code/ch4_marginality/release_manifest.py",
+      "sha256": "5bf7aa23491537b48762e895715cb64dbdf3ca09f86eb7db1a5cbb0b0b07ead5"
+    },
+    {
+      "path": "code/ch4_marginality/reporting.py",
+      "sha256": "9d91331f34f6c7c3561553b2b02fe26a1cac797290bba28f81318b1b7d1ac65b"
+    },
+    {
+      "path": "code/ch4_marginality/requirements.txt",
+      "sha256": "efc73d089c5fc1cbe42c1c8e99b9d9dd6c5de204c34f282e028ebad8bfaa4b33"
+    },
+    {
+      "path": "code/ch4_marginality/resume_report.py",
+      "sha256": "7df89c260da465e16af1c4c6dedfe1cecf357d0c00e6c41b598651fe7513584f"
+    },
+    {
+      "path": "code/ch4_marginality/rollback/gee_app_Yield_PEM_pre_CH4.js",
+      "sha256": "07b88a85130d3eb920ba78e949e6372db763e0926e0fc2378124bb6e9025caa1"
+    },
+    {
+      "path": "code/ch4_marginality/rollback/gee_app_Yield_PEM_pre_profit_20260929.js",
+      "sha256": "e0282164520e637533512b83890072af7aa256f275f7edd8c93eaf6687708bee"
+    },
+    {
+      "path": "code/ch4_marginality/rotation_analysis.py",
+      "sha256": "de730eb6b5bf932ceb6798db4553840468479fe20f155d2cbeda37d842fa68c0"
+    },
+    {
+      "path": "code/ch4_marginality/rotation_evidence_assets.py",
+      "sha256": "b4e4888abc1649e11751c414403bd983fe910738f3e50259c777ad1bfa55fe81"
+    },
+    {
+      "path": "code/ch4_marginality/rotation_exports.py",
+      "sha256": "a08cc6e15de85719fe46616a7992f3e633fb1e8e60b8867f3faa68473b94afd0"
+    },
+    {
+      "path": "code/ch4_marginality/ROTATION_PRIORITY.md",
+      "sha256": "6553bf82a191daea625e9bc3be839ebd7482c8cc531cd8e355f102a4d67ca697"
+    },
+    {
+      "path": "code/ch4_marginality/rotation_temporal.py",
+      "sha256": "730897ea392ce034f306cd0c044e7d61c770e9296619ad3c3987d724e77f3d57"
+    },
+    {
+      "path": "code/ch4_marginality/rotation_verify_release.py",
+      "sha256": "59987b72d636b2731f2a6e83838cfcafb7138ed86c5d043b34ac0aa798248ab2"
+    },
+    {
+      "path": "code/ch4_marginality/run_current.py",
+      "sha256": "38a921b2ac358fa426d323fa9ba12deea8a1fbe71d2e5085c8b1de34a634d295"
+    },
+    {
+      "path": "code/ch4_marginality/sources/acquisition_manifest.json",
+      "sha256": "6c0a6d8fc314f1bea7a290bc81086498021bbd88d7fef3e5c4b267079515b593"
+    },
+    {
+      "path": "code/ch4_marginality/sources/bls_historical_cpi_extraction.json",
+      "sha256": "614508c122bfaf7a1940827c32363d6887897b036cfc9cf48704d2a4e892070f"
+    },
+    {
+      "path": "code/ch4_marginality/sources/consensus_search.json",
+      "sha256": "7d4db355d8b6d342584e4f5aa5d7f8448089e18dcf0ef50749372ea5eb46a441"
+    },
+    {
+      "path": "code/ch4_marginality/sources/ers_corn.csv",
+      "sha256": "107a04eb8efd4d538766429c206cb1851dc9bea2d97cc090552dc5048c21aee3"
+    },
+    {
+      "path": "code/ch4_marginality/sources/ers_corn.xlsx",
+      "sha256": "aa2da87bad77dede806fe30bfe472439fa1b4e8311237567c5458a3b1f75d991"
+    },
+    {
+      "path": "code/ch4_marginality/sources/ers_regions.pdf",
+      "sha256": "9bc57ada57d2aa1c834095607ec9d10e3aa8e050be9f0cd1187698dd8bd8ad08"
+    },
+    {
+      "path": "code/ch4_marginality/sources/ers_tb1970.pdf",
+      "sha256": "7533e97f0c9825d0e1071f57d36cb0bf535fb12ed3f204f3873f319e459296d8"
+    },
+    {
+      "path": "code/ch4_marginality/sources/finbin_county_1008338.csv",
+      "sha256": "60c1f44e47274e041bbe19fe0af0d82477a3151e9c9902bc048f65da44b58029"
+    },
+    {
+      "path": "code/ch4_marginality/sources/finbin_state_1008210.csv",
+      "sha256": "9c71006c8df4010b187ef6035378dc10ee591142b94ce3995afaa256119a322d"
+    },
+    {
+      "path": "code/ch4_marginality/sources/historical_search_responses.json",
+      "sha256": "da2c76a93c7a364c260afeafd91b9982b7ec043db2a986a750e12ccd0b0de621"
+    },
+    {
+      "path": "code/ch4_marginality/sources/nass_crop_values_2021.pdf",
+      "sha256": "fa662c9c9ca51ba28136bc791a5e6a8e138e1f8a14e5d78579ce9696208ad4d1"
+    },
+    {
+      "path": "code/ch4_marginality/sources/nass_crop_values_2022.pdf",
+      "sha256": "2b52a4c6637e96392ade137fac165cd0dd2c3c36cce1556efcdfb90e71bc8f62"
+    },
+    {
+      "path": "code/ch4_marginality/sources/nass_crop_values_publication_2003.pdf",
+      "sha256": "d2bae4cd89887b78d59ff921476a54a8d39e267fc9463ae0699d547d9ec21af9"
+    },
+    {
+      "path": "code/ch4_marginality/sources/nass_crop_values_publication_2011.pdf",
+      "sha256": "ef910c13b45598f74c858dd9fe941fb38ada30bb3ae488a7581d0784f0a65c6f"
+    },
+    {
+      "path": "code/ch4_marginality/sources/nass_crop_values_publication_2013.pdf",
+      "sha256": "83d6793ab3e3efc29193e8c9f5933900ae6968b6d43f975f97ac01b6db6d93b0"
+    },
+    {
+      "path": "code/ch4_marginality/sources/nass_crop_values_publication_2015.pdf",
+      "sha256": "7670edd3d7001b623002ca829b68c52d91f691b7b092e8fe229f345025a0a0bf"
+    },
+    {
+      "path": "code/ch4_marginality/sources/nass_crop_values_publication_2017.pdf",
+      "sha256": "9e7dd138b1355a2e61d29a1c1bbf979cac1208fe0dabd84353e86e30bea4f7ad"
+    },
+    {
+      "path": "code/ch4_marginality/sources/nass_crop_values_publication_2019.pdf",
+      "sha256": "24e3ee3152b2a65045dff43e6eefc811cb6bcac9712fda5886e022391df043aa"
+    },
+    {
+      "path": "code/ch4_marginality/sources/nass_price_table.txt",
+      "sha256": "bb801028c3b0303a283720850051d0c57b309f06fb37c7ca095fce18774e005f"
+    },
+    {
+      "path": "code/ch4_marginality/sources/original_draft_preservation.json",
+      "sha256": "c1933bfa9e718fa0d40cd1a0c2268d4ddf709f0ae3eb73554d6eaa3525e7af9f"
+    },
+    {
+      "path": "code/ch4_marginality/sources/rotation_annual_prices.json",
+      "sha256": "0073d88d3c0502a3b4c43a7f3f89f9651ca9c65674e4f503120eb6267de4801e"
+    },
+    {
+      "path": "code/ch4_marginality/sources/rotation_budget_transcriptions.json",
+      "sha256": "90e6a1dc93eb19f42ce37d15a4876d0905f6d87dfaadcb74a1b6cfd307185d77"
+    },
+    {
+      "path": "code/ch4_marginality/sources/scispace_search.json",
+      "sha256": "172cddf49af31e7218a5e8dd6d87d39bbae771f3f44b79b111a7ea0883524bad"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2001.pdf",
+      "sha256": "498daecae9221687f51958187452e1ff908f5894ec222b2b12445b5921949b4b"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2009.pdf",
+      "sha256": "1c8b75dbfd4a0d4279a8cc5c063c8bad553b4b0ea3753ceeebe1df76d8532e80"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2011.pdf",
+      "sha256": "b8a2152dcc047ac3b2274d4353517f6ffb1f543bc5c93068b79cb9548e255ac9"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2013.pdf",
+      "sha256": "ffed1c52df62b67f7248ac74401b9ea85fd39ad4ec2730c1277998734f856994"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2015.pdf",
+      "sha256": "f1b374b5075e3e9ed08b42576466fef8fbd5afccebf45fd4e5a0b9c4f0c67445"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2017.pdf",
+      "sha256": "8543fc37829cd7e5dd1d2f903578dad96ffc6831c17d2f61e0715e790d86d395"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2017_page_27.txt",
+      "sha256": "88e38bd7245808743239f8630d4a76c2048d91f4b2216c3d85d52369d7ca0a17"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2017_page_28.txt",
+      "sha256": "df25877eb1bbf29f131f508de2152e7d4a254f8740d1cce11d36350b4dff3f55"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2017_page_3.txt",
+      "sha256": "9cf99f7f09b49755ccc5f91cbf76fdf22403149c9503d71f98609bd5db2e7f91"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2017_page_30.txt",
+      "sha256": "20d51de95b14e3c280139877078cfdb6f64952057333c00583050a69b952a1c4"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2017_page_31.txt",
+      "sha256": "68e62c7368c8f317d3d4d379eaff269e501f04ff203d2afa04dc721a53c7a857"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2017_page_32.txt",
+      "sha256": "9bebe2787f869d07f74d201028c3dcd842aba00c679873eb1b73b993ff256a89"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2017_page_34.txt",
+      "sha256": "eeac31c51b23bc2daa5a48c4eaabe9abc19507db142b78df9fbdc38f6a2b3525"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2017_page_68_layout.txt",
+      "sha256": "4444042deb58c3ee8016c135ec1377754cd9d8e986bcdf6e758f82313c2a72f7"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2017_page_69_layout.txt",
+      "sha256": "fcfc919c187b6604b5959244b7755d271b3ee6b986907db231e8d52171fc93e1"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2017_page_71_layout.txt",
+      "sha256": "8ffd3332246f98d3507c7581caf5b7a36e0a81e67a026008c7f4297afe261a93"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2017_page_72_layout.txt",
+      "sha256": "74cb47ab5610328b420db0f4e80984b3b42ed6efb9335247f104b8d82ca778f8"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2019.pdf",
+      "sha256": "6a0693e0c7f8c0f6bcee620595b45fa1214e342147fbd0de40df2e60eab5dd09"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2019_page_2.txt",
+      "sha256": "d56db93208cf5d023018bfa6b863d62720902092b6bb1c46a9a68d88bd1012f9"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2019_page_3.txt",
+      "sha256": "cece5da05be00e8b62e177b0a6e7f3d3e59c7136172c9c6d86e599bff89d3a1f"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2019_page_34.txt",
+      "sha256": "5c665cae6ac422d60032e18849fa02cee59472d630be22def8f95a8d0efe9b65"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2019_page_36.txt",
+      "sha256": "cbdd30df298bb1482cca073e2b4fee2a02f5bab6a5abad0dfe9a1a98fe3eeb6d"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2019_page_6.txt",
+      "sha256": "376a6a1f674b1d0a9aac6135f32b187d500ca7540596a6b698f0ce71760a7cbd"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2019_page_73.txt",
+      "sha256": "d2c300ba67416025f264fe986b0f42b4f54e2585352ff3851f150e92df5c2ba0"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2019_page_74.txt",
+      "sha256": "6a8f89d36a0f9de1cc3b36888b4432369458cc0b65ff1c950c85d67613896a19"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2019_page_76.txt",
+      "sha256": "49610b006fd5ae8102884cc36b9ad5877a2457e22560683cb94b67a4bc26f84d"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2019_page_77.txt",
+      "sha256": "bde5ca4ff0b850f987b7cf1faef97ab0057b08a26a624aeb68fd9440236f99c8"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2019_page_78.txt",
+      "sha256": "cbde1c16fbca59cfe5bc23c169a26802c2706b97b979caf42b56c280f9a40c69"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2019_page_80.txt",
+      "sha256": "6570585a5ef775b506072dd56da042074fa89ccbebcfd399b6cd73b58e623709"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2021.pdf",
+      "sha256": "6f8182a9f7cb98b806308a3c378d4e7c9a2ed78b974aad95f93bf9ea87b0e6b4"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2021_page_2.txt",
+      "sha256": "8fe70282a38d104304ee5f63cbc14271696da90c74543a533ff60a42b8bec18b"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2021_page_28.txt",
+      "sha256": "9eeb67abdd2862209fc88284f3c8e3465025b432def0961547b7eb2b597cb2db"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2021_page_3.txt",
+      "sha256": "cbb8bfb011ddf5d627bfbc32850f917f7b6d8237937a5e9338742fab33e8364d"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2021_page_30.txt",
+      "sha256": "007195d5a439d9ad660528b7bcdca96affc7a74b162124f7a34db7aa7572e8b9"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2021_page_6.txt",
+      "sha256": "3e7f90fc5111a7ca774003aec4ba27553af6e0b1878ea93c1ab98b65a8a1eb75"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2021_page_69.txt",
+      "sha256": "6c3787aad01f4ca9ce01837fb8bda4986d72e2f2b79bb4c56eac37af3e828815"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2021_page_70.txt",
+      "sha256": "0caae0e7cc5e9fac27fae349e0c0cd254107d9e2e36989dd6ceb650f5b16fdff"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2021_page_72.txt",
+      "sha256": "51660f25533456343a2e395fb36275733146f72249553a7b4f4393a63c6318e0"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2021_page_73.txt",
+      "sha256": "7abf6fdc97bcbe4e65e011884224ab1db217dc59e92ba07526163f0dc88d46c2"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2021_page_74.txt",
+      "sha256": "a841129f00e795530b7e56144ef6b26d47c8b6cd152a63d62b515582d6016f0c"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2021_page_76.txt",
+      "sha256": "aa0e6bab18b60ba11ff62f515d23122d986705ff9fe7a7faaf9443f3a6a6f45f"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2021_page_77.txt",
+      "sha256": "78ab9278f27e591b492b0bd31be412815a22ff9aa3105bd84991ab1bc733f561"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_2021_page_78.txt",
+      "sha256": "bef0771bfba5c766dd4e100b0ab1e6a7a79ffadccacb1db3af6baed67a463eaf"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_budget_registry.json",
+      "sha256": "ec9b83b95504642de44452cd61bf51edb85d0a56fc7bf881cda5a0f67b88c052"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_rotation_selections.json",
+      "sha256": "707d30da80544f4ccea6c9ff20eecb0f006cb5cb56d23652ff457dd90ca78815"
+    },
+    {
+      "path": "code/ch4_marginality/sources/unl_verified_transcriptions.json",
+      "sha256": "558b505ec1f89c2f86c94e77385989e5cdfe62f97398d0d4183c13a5658c62b7"
+    },
+    {
+      "path": "code/ch4_marginality/sources/verified_annual_prices.json",
+      "sha256": "2378f6fbb8b5d5974cf3f731ced2390a767730e5ab467f575244c11c3c31b114"
+    },
+    {
+      "path": "code/ch4_marginality/sources/verify_unl_2019.png",
+      "sha256": "d0058dfadd4c8cfa8fabb2b6a3f808602e8144287391a0868a58ce7515ffef6f"
+    },
+    {
+      "path": "code/ch4_marginality/sources/verify_unl_2021.png",
+      "sha256": "cf8a78e2dea63cec8fbe6b1e4af5f784acd5db0a66d9521191740c327f4ef6b6"
+    },
+    {
+      "path": "code/ch4_marginality/stage_app.py",
+      "sha256": "a9f3d8f6b70af102dee8ac0a38965154c8dd246c67144bc4416b2c1013ab2373"
+    },
+    {
+      "path": "code/ch4_marginality/tables/deflator.csv",
+      "sha256": "30a90f869ac31f385b49921fbd7722911d00dca194bc98429204c20c9aa4821a"
+    },
+    {
+      "path": "code/ch4_marginality/tables/economic_scenarios.csv",
+      "sha256": "1cca8cd842055e649722c7e3ef30808087ec78ba016592b344b52d6c9213b9ba"
+    },
+    {
+      "path": "code/ch4_marginality/tables/ers_annual_source_values.csv",
+      "sha256": "f4a13b99c099256bb3e1b94b5b258c0357deaf05f45124a7fe077bcf68d06093"
+    },
+    {
+      "path": "code/ch4_marginality/tables/finbin_annual_source_values.csv",
+      "sha256": "9587db3572b40fd3a35e5cb4b72f93203410926d0ce5c1aaec1853012050c5e4"
+    },
+    {
+      "path": "code/ch4_marginality/tables/nass_prices.csv",
+      "sha256": "807f9f3fb7faeef37bd72e68a8640e43deb216cbca6604ce924d817245043b02"
+    },
+    {
+      "path": "code/ch4_marginality/tables/unl_line_items.csv",
+      "sha256": "90baa589ab29883b5f9b0e92ea1e9c5eeceda413498c2b6cbeaaac73da3aed28"
+    },
+    {
+      "path": "code/ch4_marginality/tables/year_eligibility.csv",
+      "sha256": "40cb6f98250ef6666a08b07ee08c2b19c26e18319e55e352b0832581d887afe7"
+    },
+    {
+      "path": "code/ch4_marginality/tests/profit_ui_contracts.cjs",
+      "sha256": "c1af9d1e1d4f4afad27c13c6f6a4cae8030320071715a50c8b06c7d59ae8e759"
+    },
+    {
+      "path": "code/ch4_marginality/tests/profit_ui_fixture.json",
+      "sha256": "d5add5b3df49c8f94d6606df6108aabcdc88f0e98007f8cf1246dbafb0731207"
+    },
+    {
+      "path": "code/ch4_marginality/tests/test_budget_registry.py",
+      "sha256": "24148838008691e069a5959b71c73a987bff2329bbb8198f29fe171d90a519ee"
+    },
+    {
+      "path": "code/ch4_marginality/tests/test_core.py",
+      "sha256": "b23688b4afc75e345714effc0f00c5f828e6296c1e71026559f5f245411e36d3"
+    },
+    {
+      "path": "code/ch4_marginality/tests/test_profit_workspace.py",
+      "sha256": "34c0323675b9224cb86f60e30ec6e0379a5a84cc65267c32af796c5cd27156b8"
+    },
+    {
+      "path": "code/ch4_marginality/tests/test_rotation_policy.py",
+      "sha256": "f7c2c089113c27a0df0c0e659c058774cf92ccc0f92fb8779913e419585db1d9"
+    },
+    {
+      "path": "code/ch4_marginality/verify_app_classes.py",
+      "sha256": "0b80fa78e9051cb92bfa1cd559e6cd0066b76274f05b4956cd9a95e35b81139c"
+    },
+    {
+      "path": "code/ch4_marginality/verify_ee_assets.py",
+      "sha256": "5ff2b5a7fad14e2411bd142dab69e6ef9b8e22e53136513b0908cb10aab6a211"
+    },
+    {
+      "path": "code/ch4_marginality/verify_profit_pixels.py",
+      "sha256": "08fbcd423d1450f8b8400b0373e09a97f8e44f15395a3c87479481b4eb036e8f"
+    },
+    {
+      "path": "code/ch4_marginality/verify_workbook.mjs",
+      "sha256": "4c38505c47483d37ac2e45554c23f76d87aeb2fb0e039dec610176d08806edb1"
+    },
+    {
+      "path": "code/csp3_maize_gpp/gee_app_Yield_PEM.js",
+      "sha256": "1cb018a48e5c8b8ab5fab9fb39abc58b6c33f1d805df6a57bc570d91a232ceac"
+    }
+  ]
+}

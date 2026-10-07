@@ -1,0 +1,9 @@
+{
+  "run_id": "20260929_profit_app_v1",
+  "drive_folder": "https://drive.google.com/drive/folders/1fMyxJVeqOCmEXTuZ98VttYpmo7m5_pES",
+  "output_manifest_sha256": "ade213f2c16ffd31020fe72a9d27322039199b5b3abbc08b3699c2773b1bf227",
+  "input_manifest_sha256": "7164c8d526808f815d15c165f69958797b5853190fc3f1348ad933ac2c08e93a",
+  "colab": "https://colab.research.google.com/drive/10pKscDzqeBuTmwKGzbSK74UqWHOKD1Y5",
+  "numerical_rerun": false,
+  "reason": "Economic eligibility and all numerical inputs unchanged"
+}

@@ -1,0 +1,14 @@
+{
+  "chapter": 3,
+  "release": "20261007_profitability_v1",
+  "source_repository": "njberkowitz95/CH4-marginality",
+  "source_commit": "422455e1e57d47dada284136e650ac3170682012",
+  "local_input_audit": {"verified": true, "unchanged_files": 158},
+  "local_scientific_tests": {"passed": 6},
+  "native_2019_unl_m1_pilot": {"verified_equal_to_ch4": true},
+  "colab": {"url": "https://colab.research.google.com/drive/165-0mg2VLl79SK9Qjl6SXgbaGhvS28cr", "status": "running"},
+  "complete_analysis_verified": false,
+  "earth_engine_assets_verified": false,
+  "live_app_published": false,
+  "complete": false
+}

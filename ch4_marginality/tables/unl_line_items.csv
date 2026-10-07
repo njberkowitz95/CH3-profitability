@@ -1,0 +1,49 @@
+year,category,item,usd_ac
+2019,field_operations,Labor,12.63
+2019,field_operations,Fuel and lube,9.5
+2019,field_operations,Power repairs,10.89
+2019,field_operations,Implement repairs,8.4
+2019,field_operations,Power ownership,17.01
+2019,field_operations,Implement ownership,15.08
+2019,materials_services,Nitrogen,35.65
+2019,materials_services,Corn seed,58.46
+2019,materials_services,Starter fertilizer,14.7
+2019,materials_services,Primary herbicide,54.0
+2019,materials_services,Armezon Pro,9.3
+2019,materials_services,NIS,0.54
+2019,materials_services,UAN,0.19
+2019,materials_services,Custom spray,2.1
+2019,materials_services,Brigade,0.36
+2019,materials_services,Mustang Maxx,0.56
+2019,materials_services,Haul grain,17.6
+2019,materials_services,Dry grain,2.56
+2019,materials_services,Scouting,7.0
+2019,materials_services,Crop insurance,15.0
+2019,other,interest,7.13
+2019,other,overhead,20.0
+2019,other,land,170.25
+2019,other,taxes,76.61
+2021,field_operations,Labor,15.02
+2021,field_operations,Fuel and lube,5.36
+2021,field_operations,Power repairs,13.07
+2021,field_operations,Implement repairs,11.11
+2021,field_operations,Power ownership,22.7
+2021,field_operations,Implement ownership,20.19
+2021,materials_services,Nitrogen,31.05
+2021,materials_services,Corn seed,64.9
+2021,materials_services,Starter fertilizer,12.0
+2021,materials_services,Primary herbicide,37.5
+2021,materials_services,Armezon Pro,9.3
+2021,materials_services,NIS,0.47
+2021,materials_services,UAN,0.16
+2021,materials_services,Custom spray,2.1
+2021,materials_services,Brigade,0.6
+2021,materials_services,Mustang Maxx,0.59
+2021,materials_services,Haul grain,18.7
+2021,materials_services,Dry grain,2.72
+2021,materials_services,Scouting,7.0
+2021,materials_services,Crop insurance,6.0
+2021,other,interest,6.54
+2021,other,overhead,25.0
+2021,other,land,183.6
+2021,other,taxes,76.5

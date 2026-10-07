@@ -1,0 +1,113 @@
+[
+  {
+    "query": "site:extensionpubs.unl.edu \"crop budgets\" \"2003\"",
+    "response": {
+      "agent_hints": [
+        "All 1 web results are excerpts only (#1 \"https://extensionpubs.unl.edu/publication/ec169/2009/pdf/view/ec169-2009.pdf\"). If you need more than an excerpt, use firecrawl_scrape with {\"url\":\"<one of these URLs>\",\"formats\":[\"markdown\"]}. Retrieve only needed pages; do not re-scrape results that already contain the required content."
+      ],
+      "success": true,
+      "data": {
+        "web": [
+          {
+            "url": "https://extensionpubs.unl.edu/publication/ec169/2009/pdf/view/ec169-2009.pdf",
+            "title": "[PDF] Soil-Erosion Economic Decision Support Tool (SEE-DST) for Land ...",
+            "description": "Initiative under Agreement No 2003-51130-02072. Additional funding support ... Nebraska Crop Budgets (2004), a. University of Nebraska–Lincoln Extension ...",
+            "position": 1
+          }
+        ]
+      },
+      "id": "01a0f008-1798-72ef-a867-38cf723452a3",
+      "creditsUsed": 2
+    }
+  },
+  {
+    "query": "site:govdocs.nebraska.gov \"crop budgets\" \"2005\"",
+    "response": {
+      "agent_hints": [
+        "All 5 web results are excerpts only (#1 \"https://govdocs.nebraska.gov/epubs/u2030/b001.0184-2008.pdf\", #2 \"http://govdocs.nebraska.gov/epubs/L4200/D001-2005.pdf\", #3 \"http://govdocs.nebraska.gov/epubs/L4200/D001-2007.pdf\" and 2 more). If you need more than an excerpt, use firecrawl_scrape with {\"url\":\"<one of these URLs>\",\"formats\":[\"markdown\"]}. Retrieve only needed pages; do not re-scrape results that already contain the required content."
+      ],
+      "success": true,
+      "data": {
+        "web": [
+          {
+            "url": "https://govdocs.nebraska.gov/epubs/u2030/b001.0184-2008.pdf",
+            "title": "[PDF] Switchgrass Cost of Production : Data from On-Farm Trial, 2001-2005",
+            "description": "2005. Nebraska farm Real Estate Market. Developments, 2003-2004. University ... \"Nebraska crop budgets, 2004\",. Nebraska Cooperative Extension EC04-872-S ...",
+            "position": 1
+          },
+          {
+            "url": "http://govdocs.nebraska.gov/epubs/L4200/D001-2005.pdf",
+            "title": "[PDF] Nebraska State Government Publications, 2005",
+            "description": "ALTERNATIVE CROP BUDGETS AND DECISION MAKING. (Extension Circular Series No. EC05-838). UNL/Cooperative Extension Service. 2005. 19 p. U2250H001.0838-2005.",
+            "position": 2
+          },
+          {
+            "url": "http://govdocs.nebraska.gov/epubs/L4200/D001-2007.pdf",
+            "title": "[PDF] Nebraska State Government Publications, 2007",
+            "description": "NEBRASKA CROP BUDGETS 2006. (Extension Circular Series No. EC872). UNL ... 2005 (2005-2006). Department of Education. 2005. 111p. OCLC # 68787041 ...",
+            "position": 3
+          },
+          {
+            "url": "https://govdocs.nebraska.gov/docs/UNL.asp",
+            "title": "University of Nebraska-Lincoln",
+            "description": "Nebraska Crop Budgets · Nebraska Farm Custom Rates : 2018 · Nebraska ... 2005 Nebraska Rural Poll Results · Rural Nebraska Tomorrow : The Gap ...",
+            "position": 4
+          },
+          {
+            "url": "http://govdocs.nebraska.gov/epubs/L4200/D001-2011.pdf",
+            "title": "[PDF] Nebraska State Government Publications, 2011",
+            "description": "CROP BUDGETS NEBRASKA – 2011. (Extension Circular Series EC872). UNL ... 2005. 128p. OCLC #25862888. F7000A001-2005. http://www.nlc.state.ne.us/epubs ...",
+            "position": 5
+          }
+        ]
+      },
+      "id": "01a0f008-1797-77b1-a0dc-d4dd330eda8f",
+      "creditsUsed": 2
+    }
+  },
+  {
+    "query": "site:govdocs.nebraska.gov \"crop budgets\" \"2007\"",
+    "response": {
+      "agent_hints": [
+        "All 5 web results are excerpts only (#1 \"http://govdocs.nebraska.gov/epubs/L4200/D001-2007.pdf\", #2 \"https://govdocs.nebraska.gov/epubs/u2030/b022-2012.pdf\", #3 \"https://govdocs.nebraska.gov/docs/UNL.asp\" and 2 more). If you need more than an excerpt, use firecrawl_scrape with {\"url\":\"<one of these URLs>\",\"formats\":[\"markdown\"]}. Retrieve only needed pages; do not re-scrape results that already contain the required content."
+      ],
+      "success": true,
+      "data": {
+        "web": [
+          {
+            "url": "http://govdocs.nebraska.gov/epubs/L4200/D001-2007.pdf",
+            "title": "[PDF] Nebraska State Government Publications, 2007",
+            "description": "NEBRASKA CROP BUDGETS 2006. (Extension Circular Series No. EC872). UNL ... 65TH ANNUAL REPORT FISCAL YEAR 2007: JULY 1, 2006 THROUGH JUNE 30, 2007.",
+            "position": 1
+          },
+          {
+            "url": "https://govdocs.nebraska.gov/epubs/u2030/b022-2012.pdf",
+            "title": "[PDF] Women in Agriculture Survey : 2012 Report",
+            "description": "The 2007 United States Census of. Agriculture data shows that there were ... crop budgets and enhancing their record keeping practices (4 percent). This.",
+            "position": 2
+          },
+          {
+            "url": "https://govdocs.nebraska.gov/docs/UNL.asp",
+            "title": "University of Nebraska-Lincoln",
+            "description": "2007 Economic and Fiscal Impact of Omaha's Henry Doorly Zoo on Omaha ... Nebraska Crop Budgets · Nebraska Farm Custom Rates : 2018 ...",
+            "position": 3
+          },
+          {
+            "url": "http://govdocs.nebraska.gov/epubs/L4200/D001-2011.pdf",
+            "title": "[PDF] Nebraska State Government Publications, 2011",
+            "description": "CROP BUDGETS NEBRASKA – 2011. (Extension Circular Series EC872). UNL ... 2007. 49p. OCLC #01793477. R8000A001-2007. http://www.nlc.state.ne.us/epubs ...",
+            "position": 4
+          },
+          {
+            "url": "http://govdocs.nebraska.gov/epubs/L4200/D001-2005.pdf",
+            "title": "[PDF] Nebraska State Government Publications, 2005",
+            "description": "ALTERNATIVE CROP BUDGETS AND DECISION MAKING. (Extension Circular Series No ... 2007. Coordinating Commission for Postsecondary Education. 2005. 229 p ...",
+            "position": 5
+          }
+        ]
+      },
+      "id": "01a0f008-1777-76fd-9919-85f7bca738fb",
+      "creditsUsed": 2
+    }
+  }
+]

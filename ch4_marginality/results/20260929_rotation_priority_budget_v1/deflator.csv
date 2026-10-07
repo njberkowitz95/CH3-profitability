@@ -1,0 +1,9 @@
+year,cpi_u,to_2021_dollars,source_url,definition
+2001,177.1,1.5300395256916999,https://www.bls.gov/cpi/tables/supplemental-files/historical-cpi-u-202106.pdf,Annual CPI-U US city average all items NSA
+2009,214.537,1.2630455352689747,https://www.bls.gov/cpi/tables/supplemental-files/historical-cpi-u-202106.pdf,Annual CPI-U US city average all items NSA
+2011,224.939,1.2046377017769263,https://www.bls.gov/cpi/tables/supplemental-files/historical-cpi-u-202106.pdf,Annual CPI-U US city average all items NSA
+2013,232.957,1.16317603677932,https://www.bls.gov/cpi/tables/supplemental-files/historical-cpi-u-202106.pdf,Annual CPI-U US city average all items NSA
+2015,237.017,1.143251327963817,https://www.bls.gov/cpi/tables/supplemental-files/historical-cpi-u-202106.pdf,Annual CPI-U US city average all items NSA
+2017,245.12,1.1054585509138382,https://www.bls.gov/cpi/tables/supplemental-files/historical-cpi-u-202106.pdf,Annual CPI-U US city average all items NSA
+2019,255.657,1.059896658413421,https://www.bls.gov/regions/mid-atlantic/data/consumerpriceindexannualandsemiannual_table.htm,Annual CPI-U US city average all items NSA
+2021,270.97,1.0,https://www.bls.gov/regions/mid-atlantic/data/consumerpriceindexannualandsemiannual_table.htm,Annual CPI-U US city average all items NSA

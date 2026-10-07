@@ -1,0 +1,414 @@
+{
+  "verified": true,
+  "checks": [
+    {
+      "year": 2001,
+      "scenario": "M1_fixed",
+      "source": "UNL",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2001,
+      "scenario": "M1_fixed",
+      "source": "ERS_Heartland",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2001,
+      "scenario": "M1_fixed",
+      "source": "FINBIN_county",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2001,
+      "scenario": "M1_fixed",
+      "source": "FINBIN_state",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2001,
+      "scenario": "M2_HI_sensitivity",
+      "source": "UNL",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2001,
+      "scenario": "M2_HI_sensitivity",
+      "source": "ERS_Heartland",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2001,
+      "scenario": "M2_HI_sensitivity",
+      "source": "FINBIN_county",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2001,
+      "scenario": "M2_HI_sensitivity",
+      "source": "FINBIN_state",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2009,
+      "scenario": "M1_fixed",
+      "source": "ERS_Heartland",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2009,
+      "scenario": "M1_fixed",
+      "source": "FINBIN_county",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2009,
+      "scenario": "M1_fixed",
+      "source": "FINBIN_state",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2009,
+      "scenario": "M2_HI_sensitivity",
+      "source": "ERS_Heartland",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2009,
+      "scenario": "M2_HI_sensitivity",
+      "source": "FINBIN_county",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2009,
+      "scenario": "M2_HI_sensitivity",
+      "source": "FINBIN_state",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2011,
+      "scenario": "M1_fixed",
+      "source": "UNL",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2011,
+      "scenario": "M1_fixed",
+      "source": "ERS_Heartland",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2011,
+      "scenario": "M1_fixed",
+      "source": "FINBIN_county",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2011,
+      "scenario": "M1_fixed",
+      "source": "FINBIN_state",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2011,
+      "scenario": "M2_HI_sensitivity",
+      "source": "UNL",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2011,
+      "scenario": "M2_HI_sensitivity",
+      "source": "ERS_Heartland",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2011,
+      "scenario": "M2_HI_sensitivity",
+      "source": "FINBIN_county",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2011,
+      "scenario": "M2_HI_sensitivity",
+      "source": "FINBIN_state",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2013,
+      "scenario": "M1_fixed",
+      "source": "UNL",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2013,
+      "scenario": "M1_fixed",
+      "source": "ERS_Heartland",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2013,
+      "scenario": "M1_fixed",
+      "source": "FINBIN_county",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2013,
+      "scenario": "M1_fixed",
+      "source": "FINBIN_state",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2013,
+      "scenario": "M2_HI_sensitivity",
+      "source": "UNL",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2013,
+      "scenario": "M2_HI_sensitivity",
+      "source": "ERS_Heartland",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2013,
+      "scenario": "M2_HI_sensitivity",
+      "source": "FINBIN_county",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2013,
+      "scenario": "M2_HI_sensitivity",
+      "source": "FINBIN_state",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2015,
+      "scenario": "M1_fixed",
+      "source": "UNL",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2015,
+      "scenario": "M1_fixed",
+      "source": "ERS_Heartland",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2015,
+      "scenario": "M1_fixed",
+      "source": "FINBIN_county",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2015,
+      "scenario": "M1_fixed",
+      "source": "FINBIN_state",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2015,
+      "scenario": "M2_HI_sensitivity",
+      "source": "UNL",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2015,
+      "scenario": "M2_HI_sensitivity",
+      "source": "ERS_Heartland",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2015,
+      "scenario": "M2_HI_sensitivity",
+      "source": "FINBIN_county",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2015,
+      "scenario": "M2_HI_sensitivity",
+      "source": "FINBIN_state",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2017,
+      "scenario": "M1_fixed",
+      "source": "UNL",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2017,
+      "scenario": "M1_fixed",
+      "source": "ERS_Heartland",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2017,
+      "scenario": "M1_fixed",
+      "source": "FINBIN_state",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2017,
+      "scenario": "M2_HI_sensitivity",
+      "source": "UNL",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2017,
+      "scenario": "M2_HI_sensitivity",
+      "source": "ERS_Heartland",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2017,
+      "scenario": "M2_HI_sensitivity",
+      "source": "FINBIN_state",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2019,
+      "scenario": "M1_fixed",
+      "source": "UNL",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2019,
+      "scenario": "M1_fixed",
+      "source": "ERS_Heartland",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2019,
+      "scenario": "M1_fixed",
+      "source": "FINBIN_county",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2019,
+      "scenario": "M1_fixed",
+      "source": "FINBIN_state",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2019,
+      "scenario": "M2_HI_sensitivity",
+      "source": "UNL",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2019,
+      "scenario": "M2_HI_sensitivity",
+      "source": "ERS_Heartland",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2019,
+      "scenario": "M2_HI_sensitivity",
+      "source": "FINBIN_county",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2019,
+      "scenario": "M2_HI_sensitivity",
+      "source": "FINBIN_state",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2021,
+      "scenario": "M1_fixed",
+      "source": "UNL",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2021,
+      "scenario": "M1_fixed",
+      "source": "ERS_Heartland",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2021,
+      "scenario": "M1_fixed",
+      "source": "FINBIN_state",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2021,
+      "scenario": "M2_HI_sensitivity",
+      "source": "UNL",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2021,
+      "scenario": "M2_HI_sensitivity",
+      "source": "ERS_Heartland",
+      "samples": 15,
+      "verified": true
+    },
+    {
+      "year": 2021,
+      "scenario": "M2_HI_sensitivity",
+      "source": "FINBIN_state",
+      "samples": 15,
+      "verified": true
+    }
+  ],
+  "grid_preserved": true,
+  "input_asset_checksums_verified": true,
+  "missing_and_scope_edges_included": true
+}

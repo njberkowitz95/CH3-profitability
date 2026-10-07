@@ -1,0 +1,15 @@
+{
+  "verified": true,
+  "year": 2019,
+  "patch_id": 1060,
+  "scenario": "M1_fixed",
+  "source": "UNL",
+  "dollar_basis": "2021",
+  "price_factor": 1,
+  "cost_factor": 1,
+  "mean_return_full_precision": -14.706406005107453,
+  "displayed_mean_return": -14.71,
+  "crop_ha": 64.08,
+  "valid_ha": 63.81,
+  "loss_ha": 49.86
+}

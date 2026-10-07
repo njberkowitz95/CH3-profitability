@@ -1,0 +1,14 @@
+{
+  "year": 2021,
+  "patch_id": 1216,
+  "source_record": {
+    "label_id": 1216.0,
+    "m1_crop_ha": 102.69,
+    "m1_valid_ha": 99.54,
+    "m1_yield_Mg_ha_mean": 11.670204859314516,
+    "m1_u_quartile_ha": 10.44
+  },
+  "calculated_return_usd_ac": 535.9450392537714,
+  "live_display_return_usd_ac": 535.95,
+  "verified": true
+}

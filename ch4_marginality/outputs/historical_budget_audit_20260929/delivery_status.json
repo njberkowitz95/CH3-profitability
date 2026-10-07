@@ -1,0 +1,54 @@
+{
+  "run_id": "20260929_historical_budget_audit_v1",
+  "verified": true,
+  "completed_at_utc": "2026-09-30T02:28:21.143446+00:00",
+  "implementation_revision": "c4759b581c0290f1a19efd0522e790e35e100aa4",
+  "pull_request": "https://github.com/njberkowitz95/Yields-and-Fields-CH1/pull/5",
+  "drive_folder": "https://drive.google.com/drive/folders/1JmwjLfWM2FwWVa07YqEvKZmExKuebz9d",
+  "app": "https://ee-njberkowitz95.projects.earthengine.app/view/yieldpem",
+  "source_only": true,
+  "numerical_rerun": false,
+  "reason": "No newly matching original budgets; numerical input checksums and prepared economic accounts unchanged.",
+  "eligible_years": [
+    2019,
+    2021
+  ],
+  "experimental_years": [
+    2021
+  ],
+  "blocked_years": [
+    2001,
+    2003,
+    2005,
+    2007,
+    2009,
+    2011,
+    2013,
+    2015,
+    2017
+  ],
+  "reviewed_historical_dryland_budgets": 32,
+  "tests": {
+    "python_tests_passed": 20,
+    "node_syntax": true,
+    "ui_fixture_contracts": true,
+    "ui_compiled_contracts": true,
+    "github_ci": "All checks passed for implementation revision on Python 3.11 and 3.12"
+  },
+  "live_checks": {
+    "source_audit_id": "20260929_historical_budget_audit_v1",
+    "registry_sha256": "ec9b83b95504642de44452cd61bf51edb85d0a56fc7bf881cda5a0f67b88c052",
+    "year_2001": "Original recovered; selected system absent; all economics blocked; yield-only coverage visible",
+    "year_2019_baseline_mean_return_2021_usd_ac": -0.72,
+    "year_2021_baseline_mean_return_2021_usd_ac": 523.85,
+    "year_2021_status": "EXPERIMENTAL; excluded from primary temporal summaries",
+    "annual_source_decisions_visible": true,
+    "source_links_visible": true
+  },
+  "drive_checks": {
+    "folder_and_source_files_visible_in_browser": true,
+    "recovered_2001_pdf_visible": true
+  },
+  "candidate_app_sha256": "f3a03a2d887c299902782d022df72cea61a2ba67b26913f59dda4501a8049b41",
+  "rollback_sha256": "063ebf48833b063676126ef378ec329fec3bf767b931ce13f7fdb6bbb4f490af"
+}

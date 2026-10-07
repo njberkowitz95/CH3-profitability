@@ -1,0 +1,46 @@
+{
+  "verified": true,
+  "verified_utc": "2026-09-29T23:19:26.966Z",
+  "app_sha256": "063ebf48833b063676126ef378ec329fec3bf767b931ce13f7fdb6bbb4f490af",
+  "default": {
+    "year": 2019,
+    "scenario": "M1_fixed",
+    "source": "UNL",
+    "layer": "return",
+    "price_factor": 1,
+    "cost_factor": 1,
+    "dollar_basis": "2021"
+  },
+  "checks": [
+    "All six map layers exercised",
+    "Nominal/2021 conversion preserves loss area",
+    "M1/M2 controls and 2021 identity",
+    "Four separate economic sources and ERS cash unavailability",
+    "Historical economics blocked and 2021 FINBIN county suppression",
+    "Independent price/cost and clickable sensitivity matrix",
+    "Native charts, exact table, county totals, source geography and baseline NCCPI intervals",
+    "Live 2019 patch 1060 and live 2021 patch 1216 match precise source records",
+    "Missing crop pixel gives explicit no-patch result",
+    "Annual patch reset",
+    "Yield, CSP3, seasonal and NCCPI view restoration",
+    "1280x800 and 1600x900 layout checks; horizontal overflow corrected",
+    "Final published sidebar has scrollLeft 0 and scrollWidth equals clientWidth"
+  ],
+  "native_patch_cases": [
+    {
+      "year": 2019,
+      "patch_id": 1060,
+      "crop_ha": 64.08,
+      "valid_ha": 63.81,
+      "return_2021usd_ac": -14.71
+    },
+    {
+      "year": 2021,
+      "patch_id": 1216,
+      "crop_ha": 102.69,
+      "valid_ha": 99.54,
+      "return_2021usd_ac": 535.95
+    }
+  ],
+  "temporary_test_code_published": false
+}

@@ -1,0 +1,876 @@
+{
+  "verified": true,
+  "files": 174,
+  "checks": [
+    {
+      "file": "cash_margin_2001_M1_fixed_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 0,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2001_M1_fixed_FINBIN_county_2021dollars.tif",
+      "sampled_values": 395,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2001_M1_fixed_FINBIN_state_2021dollars.tif",
+      "sampled_values": 826,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2001_M1_fixed_UNL_2021dollars.tif",
+      "sampled_values": 0,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2001_M2_HI_sensitivity_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 0,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2001_M2_HI_sensitivity_FINBIN_county_2021dollars.tif",
+      "sampled_values": 395,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2001_M2_HI_sensitivity_FINBIN_state_2021dollars.tif",
+      "sampled_values": 826,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2001_M2_HI_sensitivity_UNL_2021dollars.tif",
+      "sampled_values": 0,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2009_M1_fixed_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 0,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2009_M1_fixed_FINBIN_county_2021dollars.tif",
+      "sampled_values": 397,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2009_M1_fixed_FINBIN_state_2021dollars.tif",
+      "sampled_values": 833,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2009_M2_HI_sensitivity_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 0,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2009_M2_HI_sensitivity_FINBIN_county_2021dollars.tif",
+      "sampled_values": 397,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2009_M2_HI_sensitivity_FINBIN_state_2021dollars.tif",
+      "sampled_values": 833,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2011_M1_fixed_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 0,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2011_M1_fixed_FINBIN_county_2021dollars.tif",
+      "sampled_values": 393,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2011_M1_fixed_FINBIN_state_2021dollars.tif",
+      "sampled_values": 825,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2011_M1_fixed_UNL_2021dollars.tif",
+      "sampled_values": 825,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2011_M2_HI_sensitivity_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 0,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2011_M2_HI_sensitivity_FINBIN_county_2021dollars.tif",
+      "sampled_values": 393,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2011_M2_HI_sensitivity_FINBIN_state_2021dollars.tif",
+      "sampled_values": 825,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2011_M2_HI_sensitivity_UNL_2021dollars.tif",
+      "sampled_values": 825,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2013_M1_fixed_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 0,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2013_M1_fixed_FINBIN_county_2021dollars.tif",
+      "sampled_values": 397,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2013_M1_fixed_FINBIN_state_2021dollars.tif",
+      "sampled_values": 839,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2013_M1_fixed_UNL_2021dollars.tif",
+      "sampled_values": 839,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2013_M2_HI_sensitivity_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 0,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2013_M2_HI_sensitivity_FINBIN_county_2021dollars.tif",
+      "sampled_values": 397,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2013_M2_HI_sensitivity_FINBIN_state_2021dollars.tif",
+      "sampled_values": 839,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2013_M2_HI_sensitivity_UNL_2021dollars.tif",
+      "sampled_values": 839,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2015_M1_fixed_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 0,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2015_M1_fixed_FINBIN_county_2021dollars.tif",
+      "sampled_values": 392,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2015_M1_fixed_FINBIN_state_2021dollars.tif",
+      "sampled_values": 842,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2015_M1_fixed_UNL_2021dollars.tif",
+      "sampled_values": 842,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2015_M2_HI_sensitivity_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 0,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2015_M2_HI_sensitivity_FINBIN_county_2021dollars.tif",
+      "sampled_values": 392,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2015_M2_HI_sensitivity_FINBIN_state_2021dollars.tif",
+      "sampled_values": 842,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2015_M2_HI_sensitivity_UNL_2021dollars.tif",
+      "sampled_values": 842,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2017_M1_fixed_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 0,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2017_M1_fixed_FINBIN_state_2021dollars.tif",
+      "sampled_values": 832,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2017_M1_fixed_UNL_2021dollars.tif",
+      "sampled_values": 832,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2017_M2_HI_sensitivity_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 0,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2017_M2_HI_sensitivity_FINBIN_state_2021dollars.tif",
+      "sampled_values": 832,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2017_M2_HI_sensitivity_UNL_2021dollars.tif",
+      "sampled_values": 832,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2019_M1_fixed_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 0,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2019_M1_fixed_FINBIN_county_2021dollars.tif",
+      "sampled_values": 395,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2019_M1_fixed_FINBIN_state_2021dollars.tif",
+      "sampled_values": 829,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2019_M1_fixed_UNL_2021dollars.tif",
+      "sampled_values": 829,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2019_M2_HI_sensitivity_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 0,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2019_M2_HI_sensitivity_FINBIN_county_2021dollars.tif",
+      "sampled_values": 395,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2019_M2_HI_sensitivity_FINBIN_state_2021dollars.tif",
+      "sampled_values": 829,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2019_M2_HI_sensitivity_UNL_2021dollars.tif",
+      "sampled_values": 829,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2021_M1_fixed_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 0,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2021_M1_fixed_FINBIN_state_2021dollars.tif",
+      "sampled_values": 780,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2021_M1_fixed_UNL_2021dollars.tif",
+      "sampled_values": 780,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2021_M2_HI_sensitivity_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 0,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2021_M2_HI_sensitivity_FINBIN_state_2021dollars.tif",
+      "sampled_values": 780,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "cash_margin_2021_M2_HI_sensitivity_UNL_2021dollars.tif",
+      "sampled_values": 780,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2001_M1_fixed_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 826,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2001_M1_fixed_FINBIN_county_2021dollars.tif",
+      "sampled_values": 395,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2001_M1_fixed_FINBIN_state_2021dollars.tif",
+      "sampled_values": 826,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2001_M1_fixed_UNL_2021dollars.tif",
+      "sampled_values": 826,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2001_M2_HI_sensitivity_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 826,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2001_M2_HI_sensitivity_FINBIN_county_2021dollars.tif",
+      "sampled_values": 395,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2001_M2_HI_sensitivity_FINBIN_state_2021dollars.tif",
+      "sampled_values": 826,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2001_M2_HI_sensitivity_UNL_2021dollars.tif",
+      "sampled_values": 826,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2009_M1_fixed_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 833,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2009_M1_fixed_FINBIN_county_2021dollars.tif",
+      "sampled_values": 397,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2009_M1_fixed_FINBIN_state_2021dollars.tif",
+      "sampled_values": 833,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2009_M2_HI_sensitivity_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 833,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2009_M2_HI_sensitivity_FINBIN_county_2021dollars.tif",
+      "sampled_values": 397,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2009_M2_HI_sensitivity_FINBIN_state_2021dollars.tif",
+      "sampled_values": 833,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2011_M1_fixed_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 825,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2011_M1_fixed_FINBIN_county_2021dollars.tif",
+      "sampled_values": 393,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2011_M1_fixed_FINBIN_state_2021dollars.tif",
+      "sampled_values": 825,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2011_M1_fixed_UNL_2021dollars.tif",
+      "sampled_values": 825,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2011_M2_HI_sensitivity_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 825,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2011_M2_HI_sensitivity_FINBIN_county_2021dollars.tif",
+      "sampled_values": 393,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2011_M2_HI_sensitivity_FINBIN_state_2021dollars.tif",
+      "sampled_values": 825,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2011_M2_HI_sensitivity_UNL_2021dollars.tif",
+      "sampled_values": 825,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2013_M1_fixed_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 839,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2013_M1_fixed_FINBIN_county_2021dollars.tif",
+      "sampled_values": 397,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2013_M1_fixed_FINBIN_state_2021dollars.tif",
+      "sampled_values": 839,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2013_M1_fixed_UNL_2021dollars.tif",
+      "sampled_values": 839,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2013_M2_HI_sensitivity_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 839,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2013_M2_HI_sensitivity_FINBIN_county_2021dollars.tif",
+      "sampled_values": 397,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2013_M2_HI_sensitivity_FINBIN_state_2021dollars.tif",
+      "sampled_values": 839,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2013_M2_HI_sensitivity_UNL_2021dollars.tif",
+      "sampled_values": 839,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2015_M1_fixed_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 842,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2015_M1_fixed_FINBIN_county_2021dollars.tif",
+      "sampled_values": 392,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2015_M1_fixed_FINBIN_state_2021dollars.tif",
+      "sampled_values": 842,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2015_M1_fixed_UNL_2021dollars.tif",
+      "sampled_values": 842,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2015_M2_HI_sensitivity_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 842,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2015_M2_HI_sensitivity_FINBIN_county_2021dollars.tif",
+      "sampled_values": 392,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2015_M2_HI_sensitivity_FINBIN_state_2021dollars.tif",
+      "sampled_values": 842,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2015_M2_HI_sensitivity_UNL_2021dollars.tif",
+      "sampled_values": 842,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2017_M1_fixed_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 832,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2017_M1_fixed_FINBIN_state_2021dollars.tif",
+      "sampled_values": 832,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2017_M1_fixed_UNL_2021dollars.tif",
+      "sampled_values": 832,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2017_M2_HI_sensitivity_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 832,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2017_M2_HI_sensitivity_FINBIN_state_2021dollars.tif",
+      "sampled_values": 832,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2017_M2_HI_sensitivity_UNL_2021dollars.tif",
+      "sampled_values": 832,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2019_M1_fixed_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 829,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2019_M1_fixed_FINBIN_county_2021dollars.tif",
+      "sampled_values": 395,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2019_M1_fixed_FINBIN_state_2021dollars.tif",
+      "sampled_values": 829,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2019_M1_fixed_UNL_2021dollars.tif",
+      "sampled_values": 829,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2019_M2_HI_sensitivity_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 829,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2019_M2_HI_sensitivity_FINBIN_county_2021dollars.tif",
+      "sampled_values": 395,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2019_M2_HI_sensitivity_FINBIN_state_2021dollars.tif",
+      "sampled_values": 829,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2019_M2_HI_sensitivity_UNL_2021dollars.tif",
+      "sampled_values": 829,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2021_M1_fixed_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 780,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2021_M1_fixed_FINBIN_state_2021dollars.tif",
+      "sampled_values": 780,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2021_M1_fixed_UNL_2021dollars.tif",
+      "sampled_values": 780,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2021_M2_HI_sensitivity_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 780,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2021_M2_HI_sensitivity_FINBIN_state_2021dollars.tif",
+      "sampled_values": 780,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "revenue_2021_M2_HI_sensitivity_UNL_2021dollars.tif",
+      "sampled_values": 780,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2001_M1_fixed_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 826,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2001_M1_fixed_FINBIN_county_2021dollars.tif",
+      "sampled_values": 395,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2001_M1_fixed_FINBIN_state_2021dollars.tif",
+      "sampled_values": 826,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2001_M1_fixed_UNL_2021dollars.tif",
+      "sampled_values": 826,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2001_M2_HI_sensitivity_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 826,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2001_M2_HI_sensitivity_FINBIN_county_2021dollars.tif",
+      "sampled_values": 395,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2001_M2_HI_sensitivity_FINBIN_state_2021dollars.tif",
+      "sampled_values": 826,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2001_M2_HI_sensitivity_UNL_2021dollars.tif",
+      "sampled_values": 826,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2009_M1_fixed_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 833,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2009_M1_fixed_FINBIN_county_2021dollars.tif",
+      "sampled_values": 397,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2009_M1_fixed_FINBIN_state_2021dollars.tif",
+      "sampled_values": 833,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2009_M2_HI_sensitivity_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 833,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2009_M2_HI_sensitivity_FINBIN_county_2021dollars.tif",
+      "sampled_values": 397,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2009_M2_HI_sensitivity_FINBIN_state_2021dollars.tif",
+      "sampled_values": 833,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2011_M1_fixed_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 825,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2011_M1_fixed_FINBIN_county_2021dollars.tif",
+      "sampled_values": 393,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2011_M1_fixed_FINBIN_state_2021dollars.tif",
+      "sampled_values": 825,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2011_M1_fixed_UNL_2021dollars.tif",
+      "sampled_values": 825,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2011_M2_HI_sensitivity_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 825,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2011_M2_HI_sensitivity_FINBIN_county_2021dollars.tif",
+      "sampled_values": 393,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2011_M2_HI_sensitivity_FINBIN_state_2021dollars.tif",
+      "sampled_values": 825,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2011_M2_HI_sensitivity_UNL_2021dollars.tif",
+      "sampled_values": 825,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2013_M1_fixed_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 839,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2013_M1_fixed_FINBIN_county_2021dollars.tif",
+      "sampled_values": 397,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2013_M1_fixed_FINBIN_state_2021dollars.tif",
+      "sampled_values": 839,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2013_M1_fixed_UNL_2021dollars.tif",
+      "sampled_values": 839,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2013_M2_HI_sensitivity_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 839,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2013_M2_HI_sensitivity_FINBIN_county_2021dollars.tif",
+      "sampled_values": 397,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2013_M2_HI_sensitivity_FINBIN_state_2021dollars.tif",
+      "sampled_values": 839,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2013_M2_HI_sensitivity_UNL_2021dollars.tif",
+      "sampled_values": 839,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2015_M1_fixed_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 842,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2015_M1_fixed_FINBIN_county_2021dollars.tif",
+      "sampled_values": 392,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2015_M1_fixed_FINBIN_state_2021dollars.tif",
+      "sampled_values": 842,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2015_M1_fixed_UNL_2021dollars.tif",
+      "sampled_values": 842,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2015_M2_HI_sensitivity_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 842,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2015_M2_HI_sensitivity_FINBIN_county_2021dollars.tif",
+      "sampled_values": 392,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2015_M2_HI_sensitivity_FINBIN_state_2021dollars.tif",
+      "sampled_values": 842,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2015_M2_HI_sensitivity_UNL_2021dollars.tif",
+      "sampled_values": 842,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2017_M1_fixed_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 832,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2017_M1_fixed_FINBIN_state_2021dollars.tif",
+      "sampled_values": 832,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2017_M1_fixed_UNL_2021dollars.tif",
+      "sampled_values": 832,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2017_M2_HI_sensitivity_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 832,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2017_M2_HI_sensitivity_FINBIN_state_2021dollars.tif",
+      "sampled_values": 832,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2017_M2_HI_sensitivity_UNL_2021dollars.tif",
+      "sampled_values": 832,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2019_M1_fixed_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 829,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2019_M1_fixed_FINBIN_county_2021dollars.tif",
+      "sampled_values": 395,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2019_M1_fixed_FINBIN_state_2021dollars.tif",
+      "sampled_values": 829,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2019_M1_fixed_UNL_2021dollars.tif",
+      "sampled_values": 829,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2019_M2_HI_sensitivity_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 829,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2019_M2_HI_sensitivity_FINBIN_county_2021dollars.tif",
+      "sampled_values": 395,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2019_M2_HI_sensitivity_FINBIN_state_2021dollars.tif",
+      "sampled_values": 829,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2019_M2_HI_sensitivity_UNL_2021dollars.tif",
+      "sampled_values": 829,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2021_M1_fixed_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 780,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2021_M1_fixed_FINBIN_state_2021dollars.tif",
+      "sampled_values": 780,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2021_M1_fixed_UNL_2021dollars.tif",
+      "sampled_values": 780,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2021_M2_HI_sensitivity_ERS_Heartland_2021dollars.tif",
+      "sampled_values": 780,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2021_M2_HI_sensitivity_FINBIN_state_2021dollars.tif",
+      "sampled_values": 780,
+      "grid_missingness_currency_verified": true
+    },
+    {
+      "file": "total_return_2021_M2_HI_sensitivity_UNL_2021dollars.tif",
+      "sampled_values": 780,
+      "grid_missingness_currency_verified": true
+    }
+  ]
+}

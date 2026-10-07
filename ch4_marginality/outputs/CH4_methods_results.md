@@ -1,0 +1,118 @@
+# CH4 marginality results
+
+Analysis of modeled dryland corn in Nebraska MLRA 106. This is a modeled enterprise-budget assessment, not independent profitability validation.
+
+Primary economic calculations are eligible only for 2019. Experimental 2021 is separate. Blocked years: 2001, 2003, 2005, 2007, 2009, 2011, 2013, 2015, 2017.
+
+## Principal results
+Under the 2019 UNL baseline, M1_fixed classifies 144,884.16 ha (41.05% of valid crop area) as economic loss, compared with 88,240.59 ha in the lowest yield quartile. The definitions overlap on 88,240.59 ha and disagree on 56,643.57 ha; mean modeled return is −$0.68/acre in nominal dollars. Under the 2019 UNL baseline, M2_HI_sensitivity classifies 235,025.01 ha (66.59% of valid crop area) as economic loss, compared with 88,240.59 ha in the lowest yield quartile. The definitions overlap on 88,240.59 ha and disagree on 146,784.42 ha; mean modeled return is −$21.20/acre in nominal dollars.
+
+M1_fixed has 25,863.03 ha valid in every primary observation; its common-domain annual mean yields range from 4.90 to 10.27 Mg/ha. M2_HI_sensitivity has 25,863.03 ha valid in every primary observation; its common-domain annual mean yields range from 4.84 to 10.66 Mg/ha.
+
+Primary annual NCCPI–quartile indicator correlations range from -0.182 to -0.072. The accompanying table and chart report 10 km block intervals, with 5 km and 20 km sensitivity in the source table. These describe association with modeled yield ranks, not observed producer profitability.
+
+## Experimental 2021
+The experimental UNL M1 baseline produces 2.16 ha of modeled economic loss and 43,942.77 ha of quartile marginality over 175,770.99 valid hectares. M2 is identical because measured 2021 HI is unavailable. Differences from 2019 combine changed prices, budgets, footprints and experimental productivity inputs; they are not interpreted as a temporal economic trend.
+
+## Annual yield and quartile marginality
+|   year | scenario          | experimental   |   mean |   valid_ha |   missing_ha |   cutoff_Mg_ha |   quartile_ha |   quartile_percent |
+|-------:|:------------------|:---------------|-------:|-----------:|-------------:|---------------:|--------------:|-------------------:|
+|   2001 | M1_fixed          | False          |  7.743 | 317267.640 |     8936.100 |          7.611 |     79316.910 |             25.000 |
+|   2001 | M2_HI_sensitivity | False          |  7.743 | 317267.640 |     8936.100 |          7.611 |     79316.910 |             25.000 |
+|   2003 | M1_fixed          | False          |  7.301 | 282064.230 |     7789.500 |          7.037 |     70516.260 |             25.000 |
+|   2003 | M2_HI_sensitivity | False          |  7.301 | 282064.230 |     7789.500 |          7.037 |     70516.260 |             25.000 |
+|   2005 | M1_fixed          | False          |  7.671 | 307240.740 |     8859.960 |          7.546 |     76810.230 |             25.000 |
+|   2005 | M2_HI_sensitivity | False          |  6.645 | 307240.740 |     8859.960 |          6.537 |     76810.230 |             25.000 |
+|   2007 | M1_fixed          | False          |  8.395 | 312313.680 |     8921.790 |          8.251 |     78078.600 |             25.000 |
+|   2007 | M2_HI_sensitivity | False          |  7.827 | 312313.680 |     8921.790 |          7.692 |     78078.600 |             25.000 |
+|   2009 | M1_fixed          | False          |  9.164 | 257156.190 |     7923.690 |          8.979 |     64289.160 |             25.000 |
+|   2009 | M2_HI_sensitivity | False          |  9.164 | 257156.190 |     7923.690 |          8.979 |     64289.160 |             25.000 |
+|   2011 | M1_fixed          | False          |  4.650 | 336546.990 |    10245.780 |          4.451 |     84136.770 |             25.000 |
+|   2011 | M2_HI_sensitivity | False          |  4.586 | 336546.990 |    10245.780 |          4.390 |     84136.770 |             25.000 |
+|   2013 | M1_fixed          | False          |  5.119 | 301600.890 |     8776.170 |          5.016 |     75400.290 |             25.000 |
+|   2013 | M2_HI_sensitivity | False          |  5.703 | 301600.890 |     8776.170 |          5.588 |     75400.290 |             25.000 |
+|   2015 | M1_fixed          | False          |  8.884 | 306756.720 |     8998.020 |          8.926 |     76689.180 |             25.000 |
+|   2015 | M2_HI_sensitivity | False          |  9.990 | 306756.720 |     8998.020 |         10.037 |     76689.180 |             25.000 |
+|   2017 | M1_fixed          | False          |  8.232 | 314033.940 |     9144.270 |          8.154 |     78508.530 |             25.000 |
+|   2017 | M2_HI_sensitivity | False          |  8.763 | 314033.940 |     9144.270 |          8.680 |     78508.530 |             25.000 |
+|   2019 | M1_fixed          | False          | 10.072 | 352962.180 |      398.160 |          9.830 |     88240.590 |             25.000 |
+|   2019 | M2_HI_sensitivity | False          |  9.706 | 352962.180 |      398.160 |          9.473 |     88240.590 |             25.000 |
+|   2021 | M1_fixed          | True           | 11.543 | 175770.990 |    12036.420 |         11.095 |     43942.770 |             25.000 |
+|   2021 | M2_HI_sensitivity | True           | 11.543 | 175770.990 |    12036.420 |         11.095 |     43942.770 |             25.000 |
+
+## Economic and accounting-proxy results
+|   year | scenario          | source        | full_economic_account   |   valid_ha |   loss_ha |   both_ha |   disagree_ha |   mean_return_usd_ac |   mean_return_2021usd_ac |
+|-------:|:------------------|:--------------|:------------------------|-----------:|----------:|----------:|--------------:|---------------------:|-------------------------:|
+|   2019 | M1_fixed          | UNL           | True                    |  352962.18 | 144884.16 |  88240.59 |      56643.57 |                -0.68 |                    -0.72 |
+|   2019 | M1_fixed          | ERS_Heartland | True                    |  352962.18 | 351499.41 |  88240.59 |     263258.82 |              -159.95 |                  -169.53 |
+|   2019 | M1_fixed          | FINBIN_county | False                   |  146321.73 | 104890.14 |  43003.08 |      61887.06 |               -30.72 |                   -32.56 |
+|   2019 | M1_fixed          | FINBIN_state  | False                   |  352962.18 | 350994.51 |  88240.59 |     262753.92 |              -138.01 |                  -146.28 |
+|   2019 | M2_HI_sensitivity | UNL           | True                    |  352962.18 | 235025.01 |  88240.59 |     146784.42 |               -21.20 |                   -22.46 |
+|   2019 | M2_HI_sensitivity | ERS_Heartland | True                    |  352962.18 | 352382.58 |  88240.59 |     264141.99 |              -180.47 |                  -191.27 |
+|   2019 | M2_HI_sensitivity | FINBIN_county | False                   |  146321.73 | 125321.04 |  43003.08 |      82317.96 |               -49.63 |                   -52.60 |
+|   2019 | M2_HI_sensitivity | FINBIN_state  | False                   |  352962.18 | 352180.98 |  88240.59 |     263940.39 |              -156.71 |                  -166.09 |
+|   2021 | M1_fixed          | UNL           | True                    |  175770.99 |      2.16 |      2.16 |      43940.61 |               523.85 |                   523.85 |
+|   2021 | M1_fixed          | ERS_Heartland | True                    |  175770.99 |     30.60 |     30.60 |      43912.17 |               312.44 |                   312.44 |
+|   2021 | M1_fixed          | FINBIN_state  | False                   |  175770.99 |     34.29 |     34.29 |      43908.48 |               279.35 |                   279.35 |
+|   2021 | M2_HI_sensitivity | UNL           | True                    |  175770.99 |      2.16 |      2.16 |      43940.61 |               523.85 |                   523.85 |
+|   2021 | M2_HI_sensitivity | ERS_Heartland | True                    |  175770.99 |     30.60 |     30.60 |      43912.17 |               312.44 |                   312.44 |
+|   2021 | M2_HI_sensitivity | FINBIN_state  | False                   |  175770.99 |     34.29 |     34.29 |      43908.48 |               279.35 |                   279.35 |
+
+Only one primary year passes the UNL gate, so primary economic persistence and economic transitions cannot be estimated. Quartile persistence and transitions use 2001–2019 valid corn observations. Experimental 2021 is excluded.
+
+## Methods and limitations
+### Study design and departures from CH4V4
+
+The original CH4V4UpdatedDraft11425.docx remains unchanged. The approved design resolves its conflicting periods (abstract 2018–2023, results 2002–2022) to odd production years 2001–2021. Its conflicting first/fourth-quartile language is resolved to the lowest annual regional quartile. Draft numerical claims and the proposed 75% producer-zone detection target are not accepted as observed results. Crop-enterprise return is not net cash farm income. No producer-level economic observations are available for independent profitability validation.
+
+Historical 2001–2017 M1 and M2 yields use the existing core-filtered crop footprint; original formulas, harvest indices and moisture parameters are unchanged. Products are pinned by SHA-256. The 2019 CDL/LANID mask represents a source change from historical CSDL-based masks. The 2021 surface uses nominal-2020 LGRIP irrigation context and experimental reconstructed productivity, with unestablished independent accuracy and a documented positive-overlap-bias caveat. Its two HI scenarios both use 0.50 and are identical; they are not independent estimates. All 2021 results are separate from primary temporal statistics.
+
+The current analysis run is `20260928_corefilter_exact_year_v2`. A Drive input audit against the previous CH4 run found identical checksums for all 18 historical yield rasters, nine historical masks, and nine historical patch indexes. The 2019 and 2021 yield rasters, masks, and patch indexes were superseded by `extension_2019_2021/20260928_corefilter_remask_v1`, generated from the revised September 28 core-filter masks. Their source manifest verifies unchanged yield equations and values within the new crop support. The 2019 valid support changed from 3,984,791 to 3,921,802 pixels per scenario; experimental 2021 changed from 1,999,840 to 1,953,011. The v1 CH4 results therefore cannot represent the current footprint. The new run records exact hashes for every year and scenario in `tables/input_inventory.csv` and retains the previous run as a historical snapshot. The NCCPI raster and study boundary checksums remained unchanged. GitHub main commit `c432832` supplied the refreshed base Yield_PEM app and associated field and extension updates before the CH4 view was rebuilt.
+
+### Exact-year budget eligibility
+
+Every mapped economic scenario is gated by a recovered, original UNL publication for that production year and the selected Eastern Nebraska dryland conventional-tillage corn/soybean system. Budget numbers are not a cross-year matching key. Originals for 2009, 2011, 2013, 2015 and 2017 were recovered but their dryland conventional corn systems are continuous corn; their corn-after-soybean systems use no-till. They do not satisfy the approved system definition. Searches of the CAP archive, UNL historical repository, state-government bibliography and Cornhusker Economics did not recover eligible 2001, 2003, 2005 or 2007 budgets. Lack of recovery is not evidence that an edition never existed. No cost reconstruction or adjacent-year substitution is allowed.
+
+2019 and 2021 Budget 18 match by description. PDF page 36 (printed page 30) in the 2019 archive and PDF/printed page 30 in 2021 provide the input values. Published total economic costs are $565.52 and $572.18 per acre. Field-operation and materials subtotals reconcile within accumulated cent rounding; interest, overhead, land opportunity and taxes reconcile to the published total. Cash costs exclude machinery ownership and land opportunity costs. The 2019 derived cash amount is $363.18/acre, or $2.27/bu at the assumed 160 bu/acre, whereas its printed cash amount is $2.14/bu. That discrepancy is retained and flagged; the unreconciled rounded per-bushel value is not multiplied into a cost estimate. The 2021 cash amount is $345.69/acre, agreeing with the printed $2.03/bu within rounding. Assumed budget yields document the production system; modeled pixel yields determine revenue. Per-acre budgets are held fixed within a year; hauling/drying are not silently re-scaled with pixel yield.
+
+Sources: [UNL crop budget archive](https://cap.unl.edu/cropbudgets/archive/), [2013 original archive record](https://digitalcommons.unl.edu/extensionhist/4320/), [2001 archive record](https://digitalcommons.unl.edu/extensionhist/2024/). Exact original URLs and hashes are in `sources/acquisition_manifest.json`. Searches also reviewed [2006 state bibliography](https://govdocs.nebraska.gov/epubs/L4200/D001-2006.pdf), [2007 bibliography](https://govdocs.nebraska.gov/epubs/l4200/d001-2007.pdf), and [2003 extension comparison citing EC01-872](https://ageconsearch.umn.edu/record/306289).
+
+### Distinct economic accounts
+
+UNL supplies a projected production-system budget. The separately labeled ERS Heartland scenario uses all-practice sector costs per planted acre, retaining operating expenses, allocated overhead, land opportunity cost, survey base year, source price and published returns. It is a broad regional scenario, not an MLRA-specific dryland estimate. ERS excludes crop marketing/storage costs and values source revenue at harvest. Shared NASS revenue here is a deliberate harmonized-price comparison and therefore does not reproduce ERS published returns. ERS operating expenses are not labeled cash expenses; a complete comparable ERS cash margin remains unavailable. Land, labor and machinery costs already present in each source are not added again. Heartland and Prairie Gateway annual source series are both retained for context; Heartland is the Eastern Corn Belt comparison, not a claimed exact AOI boundary match.
+
+[ERS Commodity Costs and Returns](https://www.ers.usda.gov/data-products/commodity-costs-and-returns), [documentation](https://www.ers.usda.gov/data-products/commodity-costs-and-returns/documentation), Gillespie et al. (2025), [TB-1970](https://www.ers.usda.gov/publications/111077), and Heimlich (2000), [Farm Resource Regions, AIB-760](https://www.ers.usda.gov/publications/42299) are formal sources. The archived ERS dataset contains annual accounts and source-native returns for every target year where reported; UNL eligibility still gates application to modeled yields.
+
+FINBIN report 1008338 contains Gage, Johnson, Lancaster and Pawnee participating farms (5–9 farms in available odd-year columns). Missing 2003, 2017 and 2021 columns are suppressed under its five-farm rule. Report 1008210 is statewide, with 48–64 farms per annual column. They remain separate. Prior query records selected Corn, Normal and mixed owned/cash-rent/share-rent tenure; the downloads do not independently certify rainfed practice or farm locations within the AOI. County comparisons are restricted to the four county–AOI intersections; the statewide account is a separate extrapolation. The reported operator yield share scales modeled crop revenue to the operator account. Costs include direct, overhead and reported labor/management charges. Their owned-land and equity opportunity costs are not established, so negative returns are explicitly FINBIN accounting proxies, not complete economic marginality. Cash-proxy costs remove depreciation from direct-plus-overhead; labor/management opportunity charges are excluded. Government payments, crop insurance indemnities, hedging and other receipts remain in source tables but are not added to grain-only shared revenue. The crop-enterprise sample is not a balanced longitudinal panel.
+
+Sources: [FINBIN county report](https://finbin.umn.edu/Output/1008338.CSV), [state report](https://finbin.umn.edu/Output/1008210.CSV), [FINBIN guidance](https://finbin.umn.edu/Home/GetStarted). Native crop prices and source-account returns are retained separately from the NASS-based comparisons.
+
+### Revenue, units and marginality
+
+Corn mass is converted using 56 lb/bushel, 0.45359237 kg/lb and 4046.8564224 m²/acre: 1 bu/acre = 0.0627700576 Mg/ha (15.5% modeled grain moisture). FINBIN's moisture convention was not independently established. Revenue = modeled bu/acre × Nebraska crop-year marketing-year-average price × operator share (share = 1 for UNL/ERS). Cash margin = revenue − source cash cost; total source-account return = revenue − source total cost. Breakeven field yield = total cost/(price × operator share). Economic marginality is return < 0 for complete economic accounts. Exactly zero return is not a loss. Quartile marginality is yield ≤ the linear empirical 25th percentile across all valid annual regional crop pixels, retaining ties and reporting actual area. The threshold is regional, not recomputed by county or crop patch.
+
+The nine sensitivity scenarios independently multiply price and total/cash costs by 0.85, 1 and 1.15, with yield fixed. Grain-only Nebraska NASS prices are $3.52/bu for 2019 and $5.96/bu for 2021, from finalized columns in [Crop Values 2021 Summary](https://www.nass.usda.gov/Publications/Todays_Reports/reports/cpvl0222.pdf) and [Crop Values 2022 Summary](https://downloads.usda.library.cornell.edu/usda-esmis/files/k35694332/b85171637/3r0767797/cpvl0223.pdf), both page 16. CPI-U U.S. city average annual all-items, not seasonally adjusted, converts nominal amounts by 270.970/CPI(year); 2019 CPI is 255.657. This is a purchasing-power adjustment, not an agricultural input-price reconstruction. See [BLS annual CPI table](https://www.bls.gov/regions/mid-atlantic/data/consumerpriceindexannualandsemiannual_table.htm).
+
+### Spatial support and uncertainty
+
+All analysis retains the existing 30 m EPSG:5070 grid and masks; each cell represents 0.09 ha. Nodata, negative sentinel yields and missing NCCPI remain missing. Valid zero yields remain valid. Area and dollar totals sum valid support only; missing crop area is reported separately. County–AOI intersections use the official study polygon and 2021 TIGER counties, with pixel-center county assignment and nonoverlapping partitions. A few immutable crop-mask edge cells have centers outside the vector AOI; these are retained and assigned by the containing full county to preserve the original raster support. Their area is explicitly reported as aoi_boundary_crop_ha, rather than silently dropping or shifting them. Polygon geometric area can differ from center-assigned raster area at boundaries. Crop patches are existing annual connected crop regions, not surveyed ownership parcels. Patch and county valid-area sums, marginal areas and dollar totals reconcile to regional results. No overlapping reference fields enter totals. FINBIN county sums reconcile to its restricted four-county analysis domain.
+
+Annual footprints and strict common-valid pixels across 2001–2019 are reported separately. Quartile persistence counts marginal observed corn seasons divided by valid observed corn seasons; observation count accompanies each estimate. It does not imply continuously planted corn or interpolate intervening even years. Transitions compare adjacent observed odd years on their pairwise common-valid pixels. There is only one eligible primary economic year, so economic persistence, economic transitions and economic time trends are unavailable rather than fabricated. 2021 is excluded. Maps use nearest-neighbor display reduction only; numerical analysis and delivered rasters retain 30 m resolution.
+
+NCCPI corn v3 uses the previously verified 0–1 raster. Descriptive Pearson correlations are calculated for yield, quartile indicator, return and loss indicator; indicator correlations are point-biserial associations. Uncertainty resamples entire paired spatial blocks anchored at projected (0,0), with 10 km primary blocks, 5/20 km sensitivity, 1,999 replicates and seed 20260928. Percentile 95% intervals require at least 20 occupied blocks and 95% defined replicates. Constant indicators produce undefined correlations, not zero. No independent-pixel significance tests, causal effects or profitability validation are claimed. Uniform spatial costs make return–NCCPI correlations algebraically inherited from yield–NCCPI correlations; they are not new validation evidence.
+
+### Literature and reproducibility
+
+SciSpace and Consensus searches were performed for subfield profitability, low-yield marginality and soil productivity. Search records are archived. Brandes et al. (2016), *Subfield profitability analysis reveals an economic case for cropland diversification*, Environmental Research Letters 11, supports treating profitability as sensitive to prices and spatial productivity; it does not validate these Nebraska predictions. [Consensus verified record](https://consensus.app/papers/subfield-profitability-analysis-reveals-an-economic-case-brandes-mcnunn/5909f0bd83d55d2aa080933f565339ed/). Kinoshita et al. (2016), *Within-Field Profitability Analysis Informs Agronomic Management Decisions in the Mid-Atlantic USA*, [doi:10.2134/AEL2016.09.0034](https://doi.org/10.2134/AEL2016.09.0034), provides a producer-data counterpart; such observations are absent here. These studies motivate distinct economic and yield-based definitions, without transferring published results into this analysis.
+
+Original budgets and data extracts, input and output checksums, code, fixed random seed, accounting definitions, eligibility register, sensitivity tables and the executed Colab notebook provide the audit trail. The original CH4 draft is a methodological guide, not a source of executable instructions or accepted numerical results.
+
+Boundary reconciliation: retained historical crop-mask centers extend up to 24.1 m beyond the vector county–AOI boundary. Centers are assigned to their containing full county, or to the nearest AOI county within 30 m where outside state coverage. Annual aoi_boundary_crop_ha reports this area. No source masks are clipped or altered; county raster areas include these documented edge allocations and differ from exact polygon intersection areas.
+
+### Bibliographic references
+
+Brandes, E., McNunn, G. S., Schulte, L. A., Bonner, I. J., Muth, D. J., Babcock, B. A., Sharma, B., & Heaton, E. A. (2016). Subfield profitability analysis reveals an economic case for cropland diversification. *Environmental Research Letters, 11*(1), 014009. https://doi.org/10.1088/1748-9326/11/1/014009. Bibliographic details verified against the authors' University of Illinois publication record.
+
+Kinoshita, R., van Es, H., Dantinne, J., & Twining, M. (2016). Within-Field Profitability Analysis Informs Agronomic Management Decisions in the Mid-Atlantic USA. *Agricultural & Environmental Letters, 1*, 160034. https://doi.org/10.2134/ael2016.09.0034. Bibliographic details verified against the publisher's record.
+
+Cash-cost interpretation check: the 2019 printed 2.14 dollars/bushel is arithmetically consistent with excluding the 20 dollars/acre general-overhead line: (363.18 - 20)/160 = 2.144875. This is an inference about the printed convention, not a confirmed erratum. The explicitly labeled line-item-derived cash scenario includes general overhead; the original printed value is retained separately. Total-economic-cost marginality is unaffected by this cash-account distinction.

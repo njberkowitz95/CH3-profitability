@@ -1,0 +1,10 @@
+{
+  "verified": true,
+  "analysis": "CH4_Rotation_Priority_executed.ipynb",
+  "asset_and_candidate_verification": "CH4_Rotation_Verification_executed.ipynb",
+  "workspace": "CH4_Rotation_Evidence_executed.ipynb",
+  "execution_environment": "Google Colab Google Compute Engine backend",
+  "original_workspace_log_preserved": true,
+  "post_submission_launcher_issue": "Original workspace completed exports and all asset submissions, then its verification import failed. The separate verification notebook completed successfully after refreshing module discovery. The retained workspace log documents the original attempt.",
+  "presentation_revision": "The final candidate account label and PDF footer were corrected using the same verified numerical inputs; candidate SHA is recorded separately."
+}

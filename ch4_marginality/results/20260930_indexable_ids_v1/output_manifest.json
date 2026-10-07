@@ -1,0 +1,92 @@
+{
+  "run_id": "20260930_indexable_ids_v1",
+  "created_utc": "2026-09-30T07:29:40.844397+00:00",
+  "files": [
+    {
+      "path": "annual_crop_pixel_ids.tif",
+      "bytes": 47810485,
+      "sha256": "59155cfa801be1c0b01e4e6f54c61fb9886f378e2a46279302e3f40571a4d0af"
+    },
+    {
+      "path": "app_publication_record.json",
+      "bytes": 565,
+      "sha256": "dff86c7c858ee85b4ee4c5b949e7fb10b31d672b16a016f531ee472db0ecf160"
+    },
+    {
+      "path": "crop_pixel_index.sqlite",
+      "bytes": 1223983104,
+      "sha256": "69fd8b787c6d4a4f64d3a6e3815cfcdcf64d307bd216c05ad29c68720edc3a34"
+    },
+    {
+      "path": "delivery_status.json",
+      "bytes": 836,
+      "sha256": "de012a43497cd1d9c1de90cb7b4e25b6cf5182d00c919f080828eb36376514d9"
+    },
+    {
+      "path": "deployment_input_manifest.json",
+      "bytes": 86336,
+      "sha256": "d69c582a1f4c4173cb36ff487d829fed15645cfe563df5175bd1abc0bdece759"
+    },
+    {
+      "path": "gee_app_Yield_PEM_published.js",
+      "bytes": 281099,
+      "sha256": "1cb018a48e5c8b8ab5fab9fb39abc58b6c33f1d805df6a57bc570d91a232ceac"
+    },
+    {
+      "path": "github_ci_code_revision.json",
+      "bytes": 3222,
+      "sha256": "f69a63ed4b32ffd33a57bb820da7086cd1e2c2cdf355d73b8dbf43ee1ebde489"
+    },
+    {
+      "path": "github_code_inventory.json",
+      "bytes": 51382,
+      "sha256": "f61c10dd3b05649ab5d85e64f7958641a9875c5e3d9ffe5fe01a6dbda13c99c9"
+    },
+    {
+      "path": "id_coverage.csv",
+      "bytes": 428,
+      "sha256": "50af50528a72799aa94eeec978d7d18047c3cb9ffd33a0e32f67fc0dad050a41"
+    },
+    {
+      "path": "id_verification.json",
+      "bytes": 8350,
+      "sha256": "3de9e8fb179f7333a457db91308528dbcb4dc15a675546e23d77a280385e1a90"
+    },
+    {
+      "path": "identity_schema.json",
+      "bytes": 4401,
+      "sha256": "dfe8f8734983687608f9c85dd3028da81c6077175983603aaff7903a2bdf970e"
+    },
+    {
+      "path": "parent_live_ui_verification.json",
+      "bytes": 1854,
+      "sha256": "b0f1c9138a85694533ae1ed4ce95406dd4991dc2473537c8670e09c695e50dd8"
+    },
+    {
+      "path": "patch_identity_registry.csv",
+      "bytes": 20544888,
+      "sha256": "979d4ed86e90f508b0c16168f9e52b789271fbff0a49e3d5d4157fec1617bf7b"
+    },
+    {
+      "path": "pixel_identity.py",
+      "bytes": 15178,
+      "sha256": "4c5e985fa26c5ede484a93ee0e37efdaa1748888eb65bfeb1c919d113bf38073"
+    },
+    {
+      "path": "PIXEL_IDS.md",
+      "bytes": 4458,
+      "sha256": "ae3f6b2bf59b80f87e2190b5770e7e0bd7ac94cc7e4054e1b1e7ff25a7b798d0"
+    },
+    {
+      "path": "representative_patch_lookup.json",
+      "bytes": 545,
+      "sha256": "8a53d7c3939a9f03a115af3b4a0e52807b39d325e2ff40a6991408cef22c8520"
+    },
+    {
+      "path": "test_pixel_identity.py",
+      "bytes": 3378,
+      "sha256": "e99ac623e456fa753550581f95d692f61407c19ba78a909c267b74ddfb44471d"
+    }
+  ],
+  "total_bytes": 1292800509
+}

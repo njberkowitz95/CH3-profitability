@@ -1,0 +1,45 @@
+name: CH4 economics scientific contracts
+on:
+  push:
+    paths: ['ch4_marginality/**', '.github/workflows/ch4-economics.yml']
+  pull_request:
+    paths: ['ch4_marginality/**', '.github/workflows/ch4-economics.yml']
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.11', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+          cache-dependency-path: ch4_marginality/requirements.txt
+      - run: python -m pip install -r ch4_marginality/requirements.txt
+      - name: Retrieve checksum-pinned original UNL budget evidence
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib, json, requests
+          root=Path('ch4_marginality/sources')
+          ledger=json.loads((root/'acquisition_manifest.json').read_text())
+          registry=json.loads((root/'unl_budget_registry.json').read_text())
+          for name in [r['file'] for r in registry['years'] if r['eligible']]:
+              row=next(r for r in ledger if r['file']==name)
+              response=requests.get(row['url'],timeout=120)
+              response.raise_for_status()
+              assert hashlib.sha256(response.content).hexdigest()==row['sha256'],name
+              (root/name).write_bytes(response.content)
+              print('Verified original budget:',name)
+          PY
+      - run: python -m unittest discover -s ch4_marginality/tests -v
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --check csp3_maize_gpp/gee_app_Yield_PEM.js
+      - run: node ch4_marginality/tests/profit_ui_contracts.cjs
+      - run: node ch4_marginality/tests/profit_ui_contracts.cjs --compiled

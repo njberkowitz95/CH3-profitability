@@ -1,0 +1,8 @@
+{
+  "verified": true,
+  "drive_folder": "https://drive.google.com/drive/folders/1JmwjLfWM2FwWVa07YqEvKZmExKuebz9d",
+  "downloaded_manifest_sha256": "857bbc715dca11f9d61c3f816d010d3418eb4e98a8be5a8a42723964328e71ae",
+  "verified_file_count": 190,
+  "verified_bytes": 60312890,
+  "scope": "Cloud-downloaded manifest matches local manifest; all 190 listed Drive-mounted files match recorded bytes. Original 2001 PDF and source register also observed in Drive browser."
+}

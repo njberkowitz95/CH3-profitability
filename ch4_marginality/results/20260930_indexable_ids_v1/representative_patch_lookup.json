@@ -1,0 +1,16 @@
+{
+  "year": 2019,
+  "pixel_id": 5050367,
+  "patch_id": 1060,
+  "pixel_key": "CH4G5070V1:P5050367",
+  "pixel_year_key": "CH4G5070V1:Y2019:P5050367",
+  "patch_key": "CH4G5070V1:Y2019:C1060",
+  "grid_row": 923,
+  "grid_column": 2479,
+  "field_id": "PATCH_1fe493fde6a53550fe0150fa82ab98641b4970e1c590ffc4c0ebcb08a6b3ef55",
+  "field_year_id": "PATCH_1fe493fde6a53550fe0150fa82ab98641b4970e1c590ffc4c0ebcb08a6b3ef55_2019",
+  "center_easting_m": -36900.0,
+  "center_northing_m": 2019570.0,
+  "crop_pixels": 712,
+  "crop_area_ha": 64.08
+}

@@ -1,0 +1,9 @@
+{
+  "url": "https://ee-njberkowitz95.projects.earthengine.app/view/yieldpem",
+  "published_source_sha256": "1cb018a48e5c8b8ab5fab9fb39abc58b6c33f1d805df6a57bc570d91a232ceac",
+  "code_matches_tested_live_deployment": true,
+  "last_verified_utc": "2026-09-30T06:40:15.516679+00:00",
+  "new_script_deployment_required": false,
+  "fresh_browser_recheck": false,
+  "fresh_browser_recheck_reason": "Chrome interaction timed out; previous completed deployment evidence is preserved. This identity-only supplement does not alter app code, assets or calculations."
+}

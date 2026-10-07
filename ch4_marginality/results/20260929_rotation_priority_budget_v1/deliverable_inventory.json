@@ -1,0 +1,12 @@
+{
+  "run_id": "20260929_rotation_priority_budget_v1",
+  "verified": true,
+  "constant_dollar_cogs_verified": 174,
+  "analysis_cogs": 981,
+  "raster_files": 1006,
+  "geopackages": 2,
+  "csv_tables": 134,
+  "pdf_files": 80,
+  "workbooks": 5,
+  "output_bytes": 9364317039
+}

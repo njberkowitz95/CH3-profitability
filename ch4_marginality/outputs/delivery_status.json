@@ -1,0 +1,43 @@
+{
+  "verified_utc": "2026-09-29T18:15:35Z",
+  "run": "20260928_corefilter_exact_year_v2",
+  "input_update": "20260928_corefilter_remask_v1",
+  "colab_url": "https://colab.research.google.com/drive/10pKscDzqeBuTmwKGzbSK74UqWHOKD1Y5",
+  "colab_executed": true,
+  "colab_package_commit": "0d9359d",
+  "validation_passed": true,
+  "unit_tests_passed": 10,
+  "annual_surfaces": 22,
+  "sensitivity_rows": 126,
+  "cog_count": 211,
+  "earth_engine_native_checks_passed": 22,
+  "earth_engine_classification_checks_passed": 5,
+  "workbook_verified": true,
+  "live_app_url": "https://ee-njberkowitz95.projects.earthengine.app/view/yieldpem",
+  "live_app_verified": true,
+  "live_app_checks": [
+    "2019 UNL M1 overlap matches Colab totals",
+    "2021 experimental UNL M1 overlap matches Colab totals",
+    "2001 economics blocked; yield-only preserved",
+    "original yield model view remains available"
+  ],
+  "github_repository": "njberkowitz95/Yields-and-Fields-CH1",
+  "github_branch": "codex/ch4-marginality",
+  "github_published": true,
+  "exact_year_budget_eligible": [
+    2019,
+    2021
+  ],
+  "experimental_year": 2021,
+  "blocked_economic_years": [
+    2001,
+    2003,
+    2005,
+    2007,
+    2009,
+    2011,
+    2013,
+    2015,
+    2017
+  ]
+}

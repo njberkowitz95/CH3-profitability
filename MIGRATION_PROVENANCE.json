@@ -1,0 +1,969 @@
+{
+  "source_repository": "https://github.com/njberkowitz95/Yields-and-Fields-CH1",
+  "source_revision": "dc5306dacc80fa1c809e7928a2c4899768596592",
+  "source_branch": "codex/ch4-marginality",
+  "destination_repository": "https://github.com/njberkowitz95/CH4-marginality",
+  "scientific_package_unchanged": true,
+  "files": [
+    {
+      "path": ".github/workflows/ch4-economics.yml",
+      "sha256": "317f0930950e0caae2c5c8c3ce996d22edbda7e07a79c5419d030b61a77e317e",
+      "bytes": 1850
+    },
+    {
+      "path": "ch4_marginality/.gitignore",
+      "sha256": "4d0654e3f425e5daa0acc19125111df3969ce3886a483a7e4f18c9137f8fd428",
+      "bytes": 316
+    },
+    {
+      "path": "ch4_marginality/CH4_Marginality.ipynb",
+      "sha256": "f4fc71dd042409c14b30485e5d101681d030582fca92f6a76d81dcd873345ab6",
+      "bytes": 4837
+    },
+    {
+      "path": "ch4_marginality/CH4_Profit_Workspace.ipynb",
+      "sha256": "ee84870eb7bef5024075b658b08fd3d2623dba78e4a16ead70e3c37f3218bb75",
+      "bytes": 4850
+    },
+    {
+      "path": "ch4_marginality/CH4_Profit_Workspace_executed_20260929.ipynb",
+      "sha256": "d8a6d60bb34f804a3fcce6901db8d6c65de13257bbe536a33c754b38495a5b30",
+      "bytes": 1267727
+    },
+    {
+      "path": "ch4_marginality/CH4_Rotation_Evidence.ipynb",
+      "sha256": "7ddb85f74122e52efb7e4b5df7e74b0ed52d172d2eadad01d1a52ff4482fb918",
+      "bytes": 2173
+    },
+    {
+      "path": "ch4_marginality/CH4_Rotation_Priority.ipynb",
+      "sha256": "7000907b7883c4159326d45f79326d04700bc5201c91322923280ccb11446d0c",
+      "bytes": 2521
+    },
+    {
+      "path": "ch4_marginality/HISTORICAL_BUDGET_AUDIT.md",
+      "sha256": "7b7287e9026cb9034de946acc87d14060e89c003480edf9d4480c9ef867cb539",
+      "bytes": 6236
+    },
+    {
+      "path": "ch4_marginality/INPUT_FRESHNESS.md",
+      "sha256": "3014860fcbea84a411c87c39da911cc483937b4e0822c7134cdd2ef051378972",
+      "bytes": 2033
+    },
+    {
+      "path": "ch4_marginality/METHODS.md",
+      "sha256": "d9876dcd0ba0bee89c441cd03dbb365ea58206e4def1b448e36d5c94e4544ba6",
+      "bytes": 17403
+    },
+    {
+      "path": "ch4_marginality/METHODS_exact_policy_20260928.md",
+      "sha256": "14bac2a5ccc57bd30f08ceed347f05472cb2e7d01173949678d5d596f61eec5f",
+      "bytes": 15131
+    },
+    {
+      "path": "ch4_marginality/PIXEL_IDS.md",
+      "sha256": "ae3f6b2bf59b80f87e2190b5770e7e0bd7ac94cc7e4054e1b1e7ff25a7b798d0",
+      "bytes": 4458
+    },
+    {
+      "path": "ch4_marginality/PROFIT_WORKSPACE.md",
+      "sha256": "9ab5b4f35ac1c4513300b002ccdbb9655eb66baaa22534acc74c2984f7fe7caa",
+      "bytes": 4019
+    },
+    {
+      "path": "ch4_marginality/README.md",
+      "sha256": "6ca67beba3c2b8a4eefd28d37d87fa8924d10a4fbf607f9d4ced73ef3d28b0d9",
+      "bytes": 7960
+    },
+    {
+      "path": "ch4_marginality/ROTATION_PRIORITY.md",
+      "sha256": "6553bf82a191daea625e9bc3be839ebd7482c8cc531cd8e355f102a4d67ca697",
+      "bytes": 5292
+    },
+    {
+      "path": "ch4_marginality/__init__.py",
+      "sha256": "ce9c3b193f2f6c8c04cc471407a1341114b8ac788e01af588ded5f67ce9daab1",
+      "bytes": 62
+    },
+    {
+      "path": "ch4_marginality/acquire_sources.py",
+      "sha256": "191e3c07e10e17a957cece4e52d5ba9680258aa6a5a2cbcc22c24477c6aa77cc",
+      "bytes": 1684
+    },
+    {
+      "path": "ch4_marginality/budget_policy.py",
+      "sha256": "689b571511467d0e2b408d676dfe85a124e7112680f7e7c2f87a799c96f691de",
+      "bytes": 3451
+    },
+    {
+      "path": "ch4_marginality/budget_registry.py",
+      "sha256": "a1057a47a7c6ed1b701ea670260ad3f6c3fcd414f7400adf92190f312e71d410",
+      "bytes": 3306
+    },
+    {
+      "path": "ch4_marginality/build_app.py",
+      "sha256": "1efa4016a777c79ea65f63b9313282ec6bbe0ba878ea4b7e0b53b12c028cd9dc",
+      "bytes": 2050
+    },
+    {
+      "path": "ch4_marginality/build_assets_current.py",
+      "sha256": "2a0b7fff5c5a8d4eed60f74e15ec54fe547be4eea19c8d779b375c75da653186",
+      "bytes": 751
+    },
+    {
+      "path": "ch4_marginality/build_profit_app.py",
+      "sha256": "110d77f2ac053772f4f88811aa7ca5a72a1d502c0e18031d972309c5ffbf0efd",
+      "bytes": 4859
+    },
+    {
+      "path": "ch4_marginality/core.py",
+      "sha256": "bc0952354f96819ed89961a767fc400a03f451867b1f65354cbefd10426fcc65",
+      "bytes": 3227
+    },
+    {
+      "path": "ch4_marginality/execute_notebook.py",
+      "sha256": "8a263b011a52d76ceed13767b2999aece6a616ee48f6017ac4731c630079c1d9",
+      "bytes": 754
+    },
+    {
+      "path": "ch4_marginality/final_checks.py",
+      "sha256": "a0cf37ab069404efbcf22c887635b8457b9d8f4a5452a3e327998075c46ca1b1",
+      "bytes": 6950
+    },
+    {
+      "path": "ch4_marginality/finalize_notebook.py",
+      "sha256": "eefaad238b898fbb501b18ce3f012e2ced0194f9cd96a6d6b7edba37927c1b81",
+      "bytes": 1838
+    },
+    {
+      "path": "ch4_marginality/finalize_profit.py",
+      "sha256": "23ad63d74db765368757f2fe630c8a10f0ee1ced65941b0facaa12bd9dbe59d9",
+      "bytes": 3606
+    },
+    {
+      "path": "ch4_marginality/gee_controls.js",
+      "sha256": "e865738f6a10221d799fca309ebfa053fbba3ca301cec53274ff7ead522c636d",
+      "bytes": 9715
+    },
+    {
+      "path": "ch4_marginality/gee_profit_controls.js",
+      "sha256": "d54843e2e007cc52b9e3edf3d459ed91f9d8a81a7b8465b8384fa60bdcbeb6ff",
+      "bytes": 32528
+    },
+    {
+      "path": "ch4_marginality/historical_budget_release.py",
+      "sha256": "c14a005a366dd3be8712eb5506d37296a3fa0452ec92c652aa0df090f815ed9c",
+      "bytes": 5973
+    },
+    {
+      "path": "ch4_marginality/outputs/CH4_Marginality_executed.ipynb",
+      "sha256": "d57b89f988a6e0c34241bd62cb45dda628f2cce371ca54119c1b0c6f1296f314",
+      "bytes": 1253054
+    },
+    {
+      "path": "ch4_marginality/outputs/CH4_methods_results.md",
+      "sha256": "18beacf2d161feae23874c873fbe0089ca959d3affde7dea1e9b1fa8876a74f4",
+      "bytes": 23525
+    },
+    {
+      "path": "ch4_marginality/outputs/CH4_methods_results.pdf",
+      "sha256": "a601b212c46b0c6d70afa5fd590173613a249cdf1aec01c9143592405d84c112",
+      "bytes": 3423030
+    },
+    {
+      "path": "ch4_marginality/outputs/app_build_verification.json",
+      "sha256": "a4c7bef49c3dff6563043f3ecf53d454e63c51c2b5c8a4e0fbb6d2e229bae1f7",
+      "bytes": 165
+    },
+    {
+      "path": "ch4_marginality/outputs/delivery_status.json",
+      "sha256": "1aae5d195e4a6b043cb31cd8db3eb16af69adfc12b08f970cd6425025ec7706e",
+      "bytes": 1245
+    },
+    {
+      "path": "ch4_marginality/outputs/ee_classification_verification.json",
+      "sha256": "fb442f378ef7644d0065c0b01d0f9947d166794df00d571a05d6595e034823df",
+      "bytes": 1273
+    },
+    {
+      "path": "ch4_marginality/outputs/ee_ingestion_verification.json",
+      "sha256": "4cf9bc095e4a15159c6bbfbd15a5fa525bda8badc025b80512fe016cd55d995c",
+      "bytes": 18265
+    },
+    {
+      "path": "ch4_marginality/outputs/historical_budget_audit_20260929/cloud_verification.json",
+      "sha256": "cbcba1451d1f9501fcf3907f6402f156c67e395198b3217f0a8f33cced53f9f3",
+      "bytes": 468
+    },
+    {
+      "path": "ch4_marginality/outputs/historical_budget_audit_20260929/delivery_status.json",
+      "sha256": "26cda159b543d010a5743323f99fa4049dae6f5ad902ecdcd8634ff385f3ee57",
+      "bytes": 1976
+    },
+    {
+      "path": "ch4_marginality/outputs/historical_budget_audit_20260929/live_historical_review.png",
+      "sha256": "3bd7fa47b46305f15f9f1ec1fc8b19438dcf98ce986e7df8e656d3b8fcf88abc",
+      "bytes": 83235
+    },
+    {
+      "path": "ch4_marginality/outputs/historical_budget_audit_20260929/numerical_results_reference.json",
+      "sha256": "09540a8a2cb56a893efd9e0794aab303758644bab60b530952b5544da86d6e21",
+      "bytes": 512
+    },
+    {
+      "path": "ch4_marginality/outputs/historical_budget_audit_20260929/output_manifest.json",
+      "sha256": "b68345988900b2fd699eca94c849e36c2d84c7a0874e91b58b3aa6a09d1b6db3",
+      "bytes": 33235
+    },
+    {
+      "path": "ch4_marginality/outputs/historical_budget_audit_20260929/output_manifest.sha256",
+      "sha256": "c05bad33d28321c9bf9e6b9425c719453037382f983cbe7b01dc484ea1ce12de",
+      "bytes": 87
+    },
+    {
+      "path": "ch4_marginality/outputs/historical_budget_audit_20260929/source_audit.csv",
+      "sha256": "942f03818c0f8bd645cd12fbd4086e7c6dbe65ed8d2ba515c33bbac34703d465",
+      "bytes": 5392
+    },
+    {
+      "path": "ch4_marginality/outputs/historical_budget_audit_20260929/source_manifest.json",
+      "sha256": "2d07aa46da80510f621192075944e4625741c9968e3fa0045d7373817f49f5d1",
+      "bytes": 25827
+    },
+    {
+      "path": "ch4_marginality/outputs/historical_budget_audit_20260929/unl_budget_candidates.csv",
+      "sha256": "4b4d4f8bc4ad8a3957b2509d8bf07d2f30478a792c5ede10222abe82b4ae4b81",
+      "bytes": 11811
+    },
+    {
+      "path": "ch4_marginality/outputs/historical_budget_audit_20260929/verification.json",
+      "sha256": "1d7792886c638615e6117f8e7a1b69b8aaf8e9c3cc3b1a34d3dbb110977f63fd",
+      "bytes": 839
+    },
+    {
+      "path": "ch4_marginality/outputs/historical_budget_audit_20260929/year_eligibility.csv",
+      "sha256": "942f03818c0f8bd645cd12fbd4086e7c6dbe65ed8d2ba515c33bbac34703d465",
+      "bytes": 5392
+    },
+    {
+      "path": "ch4_marginality/outputs/manifest.json",
+      "sha256": "b710e7843d1ed6e55cc65d1aef94dd7272044cdebc7d0f674c37af82d95ac23f",
+      "bytes": 82319
+    },
+    {
+      "path": "ch4_marginality/outputs/profit_20260929/CH4_profit_workspace_methods_results.md",
+      "sha256": "ec5ac1d017f691c9d9ad8c72e098011ef6d58459a30eff8ca60dba1a32d43084",
+      "bytes": 3195
+    },
+    {
+      "path": "ch4_marginality/outputs/profit_20260929/app_build_verification.json",
+      "sha256": "d89269b1cb1cf0612852a35f204e3b6862d37f56749d2a712cd6b02151b2c5f4",
+      "bytes": 211
+    },
+    {
+      "path": "ch4_marginality/outputs/profit_20260929/asset_verification.json",
+      "sha256": "e23e4087accc4139d690e41a02b742996d4331e05cd716b34becefb9d687e30c",
+      "bytes": 2626
+    },
+    {
+      "path": "ch4_marginality/outputs/profit_20260929/candidate_verification.json",
+      "sha256": "37e633337c93fda1477b55e929dd234cf5922512c68197a4ea6013e30d5fa86e",
+      "bytes": 283
+    },
+    {
+      "path": "ch4_marginality/outputs/profit_20260929/county_sensitivity.csv",
+      "sha256": "67d3d601a53be9961ecc4fe70a7d97f76f2f3d067a63ee389b21bf5e50552372",
+      "bytes": 465575
+    },
+    {
+      "path": "ch4_marginality/outputs/profit_20260929/delivery_status.json",
+      "sha256": "54beb7432a45923da2764e406bd25e1c011e18d6097054b7125930d619980c80",
+      "bytes": 1626
+    },
+    {
+      "path": "ch4_marginality/outputs/profit_20260929/economic_scenarios.csv",
+      "sha256": "1df1da7884a1dd283d8d52798094360336b12a6b59d4a7eea7006677b3539e53",
+      "bytes": 2534
+    },
+    {
+      "path": "ch4_marginality/outputs/profit_20260929/input_manifest.json",
+      "sha256": "7164c8d526808f815d15c165f69958797b5853190fc3f1348ad933ac2c08e93a",
+      "bytes": 72711
+    },
+    {
+      "path": "ch4_marginality/outputs/profit_20260929/live_patch_source_comparison.json",
+      "sha256": "f5ee2b0b561f3de7d3ab2f441371aa72932e161b006f4a26bec19317ad7a7b23",
+      "bytes": 326
+    },
+    {
+      "path": "ch4_marginality/outputs/profit_20260929/live_profit_workspace.jpg",
+      "sha256": "a28cd34d744057d3f66b4f746563fda9cdc60949c5aa3bb488887891c78e78c0",
+      "bytes": 108258
+    },
+    {
+      "path": "ch4_marginality/outputs/profit_20260929/live_ui_verification.json",
+      "sha256": "cc772ad37cf2543bf9a6a8e7e8bb10e75bea43067e941112988bc2f47a6437c9",
+      "bytes": 1506
+    },
+    {
+      "path": "ch4_marginality/outputs/profit_20260929/output_manifest.json",
+      "sha256": "58e232d6016efa105d7225c06d1c2e6e7104142073698000b5b90603acadb19b",
+      "bytes": 44734
+    },
+    {
+      "path": "ch4_marginality/outputs/profit_20260929/output_manifest.sha256",
+      "sha256": "a2b4cc015e49425096ba608912bed2c5d3a2ef758a511addb7bcb69b242408cb",
+      "bytes": 87
+    },
+    {
+      "path": "ch4_marginality/outputs/profit_20260929/profit_pixel_verification.json",
+      "sha256": "95d5662ca65aa7e3eee470782c1b102ddc20d292beaae449745fee57f0435879",
+      "bytes": 2131
+    },
+    {
+      "path": "ch4_marginality/outputs/profit_20260929/sensitivity.csv",
+      "sha256": "8534676542aec9cec54dae0567e4d849f83ddd5efa6d6f8ddc3b2aa8fa390f7d",
+      "bytes": 48872
+    },
+    {
+      "path": "ch4_marginality/outputs/profit_20260929/validation.json",
+      "sha256": "8dd6e49843f8bd44603679e5231569058b682008efb747bc05684717dbd02673",
+      "bytes": 33293
+    },
+    {
+      "path": "ch4_marginality/outputs/profit_20260929/year_eligibility.csv",
+      "sha256": "ffd51f13728b5d9c82bef504550d18d052435824f5f0c7897c0d95cf57e72c5a",
+      "bytes": 2368
+    },
+    {
+      "path": "ch4_marginality/outputs/tables/annual_yield.csv",
+      "sha256": "dcff6657824f092952155fac2156d56afbdcbebacd0a2b677df71d3104b87439",
+      "bytes": 6601
+    },
+    {
+      "path": "ch4_marginality/outputs/tables/common_valid_yield.csv",
+      "sha256": "aed1e29f7e335538a25ccd4a051ce2f1040fd5ac1c32fcb61e2e28be1b2efa25",
+      "bytes": 4681
+    },
+    {
+      "path": "ch4_marginality/outputs/tables/county_statistics.csv",
+      "sha256": "d4017caa02ca30b5f8bddfbe0c84b6cc5bdbc9a05c2032eaacb0681258bf98bc",
+      "bytes": 110316
+    },
+    {
+      "path": "ch4_marginality/outputs/tables/deflator.csv",
+      "sha256": "52f17e4a2d37858f8bc056581c05edf08ae82f8965a2db5843e5c872a44d5c6a",
+      "bytes": 404
+    },
+    {
+      "path": "ch4_marginality/outputs/tables/economic_scenarios.csv",
+      "sha256": "1df1da7884a1dd283d8d52798094360336b12a6b59d4a7eea7006677b3539e53",
+      "bytes": 2534
+    },
+    {
+      "path": "ch4_marginality/outputs/tables/ers_annual_source_values.csv",
+      "sha256": "cb548e33b879547d7304f83443168d87d695818501e6b474c5d74c5161ecdf1d",
+      "bytes": 85789
+    },
+    {
+      "path": "ch4_marginality/outputs/tables/finbin_annual_source_values.csv",
+      "sha256": "e5bf07619efe0d67b74448b4f9cd59a1146dfabd792f4dc4d98e6cb46ff05a7a",
+      "bytes": 85846
+    },
+    {
+      "path": "ch4_marginality/outputs/tables/input_inventory.csv",
+      "sha256": "a83a758728e20acd95d58690c000d1f9eebd7c79581c5a644919564dd9606dc0",
+      "bytes": 10281
+    },
+    {
+      "path": "ch4_marginality/outputs/tables/nass_prices.csv",
+      "sha256": "a9fc9ec5671af833a51f6f78b2cb8904d30c4a069af352cfec85284653a9673d",
+      "bytes": 225
+    },
+    {
+      "path": "ch4_marginality/outputs/tables/nccpi_associations.csv",
+      "sha256": "f91a97051a8592c1affd62d517fe6864a078a5a389788a2d9013788a9a083fb0",
+      "bytes": 31801
+    },
+    {
+      "path": "ch4_marginality/outputs/tables/persistence_M1_fixed.csv",
+      "sha256": "2b967a5694e44c8214e1f7b01b0db562fbf1e332e30af8efdc9bd9a23e320644",
+      "bytes": 1546
+    },
+    {
+      "path": "ch4_marginality/outputs/tables/persistence_M2_HI_sensitivity.csv",
+      "sha256": "efdd5cc5452ce7ac1761614f59b2b361618ee4923caa7b85b73cc54220cf2618",
+      "bytes": 2131
+    },
+    {
+      "path": "ch4_marginality/outputs/tables/quartile_cutoffs.json",
+      "sha256": "3b52edb72ebd27d81091534b6399364ee6f76804c4498a3bc5586241a8f25cb7",
+      "bytes": 936
+    },
+    {
+      "path": "ch4_marginality/outputs/tables/quartile_transitions.csv",
+      "sha256": "60e0d23159dbb4b186c1be8dacf873013f6a2839dbffa8f5e32a9c5480872bd3",
+      "bytes": 4053
+    },
+    {
+      "path": "ch4_marginality/outputs/tables/sensitivity.csv",
+      "sha256": "8534676542aec9cec54dae0567e4d849f83ddd5efa6d6f8ddc3b2aa8fa390f7d",
+      "bytes": 48872
+    },
+    {
+      "path": "ch4_marginality/outputs/tables/unl_line_items.csv",
+      "sha256": "8f69cf3e8938983c69d3bf5869ffaa935751721a0fe56ae2aed53faa64b58c12",
+      "bytes": 1839
+    },
+    {
+      "path": "ch4_marginality/outputs/tables/year_eligibility.csv",
+      "sha256": "942f03818c0f8bd645cd12fbd4086e7c6dbe65ed8d2ba515c33bbac34703d465",
+      "bytes": 5392
+    },
+    {
+      "path": "ch4_marginality/outputs/validation.json",
+      "sha256": "4c9dacd0c0e579fcece1699b55ba623d83bda0f2dc50c892a547521659903988",
+      "bytes": 2946
+    },
+    {
+      "path": "ch4_marginality/package_outputs.py",
+      "sha256": "3f3d86b4fefc32e13b734a0d29b685f2243092b757c20c559c0c2e45ac440f97",
+      "bytes": 2275
+    },
+    {
+      "path": "ch4_marginality/pipeline.py",
+      "sha256": "26fc6f78e98f48bc040a400b9bbffc653b1bd1a253f7159ec8987b255838f7a6",
+      "bytes": 21518
+    },
+    {
+      "path": "ch4_marginality/pixel_identity.py",
+      "sha256": "4c5e985fa26c5ede484a93ee0e37efdaa1748888eb65bfeb1c919d113bf38073",
+      "bytes": 15178
+    },
+    {
+      "path": "ch4_marginality/prepare_app_asset.py",
+      "sha256": "f1f91322dd3236a4ccfcabb57fef588b7fc08b2a5099f2043e2a86cb509ece63",
+      "bytes": 1815
+    },
+    {
+      "path": "ch4_marginality/prepare_budgets.py",
+      "sha256": "ebbe50f2cf89ad0d5b8f66cc5fe3936bf39177d74742fa52b0f712e2de57674d",
+      "bytes": 10423
+    },
+    {
+      "path": "ch4_marginality/profit_assets.py",
+      "sha256": "4f00d642ff1d60abd46e6213ef46018a3fc646066882adf94832383cd3c5a1f3",
+      "bytes": 6125
+    },
+    {
+      "path": "ch4_marginality/profit_figures.py",
+      "sha256": "a027012707c6135d981276aa00e84e0099ff23456a7f27b6ee33a80dca9bf4ff",
+      "bytes": 4722
+    },
+    {
+      "path": "ch4_marginality/profit_report.py",
+      "sha256": "a94694a0044536b0ac6eb47e460db5fb8615a3846887b2575103f9f864f9bbad",
+      "bytes": 8819
+    },
+    {
+      "path": "ch4_marginality/profit_workspace.py",
+      "sha256": "17ff2854a9c167dd285455e84df0f8053ae8028a7d282fde2157b6abacab7079",
+      "bytes": 14730
+    },
+    {
+      "path": "ch4_marginality/release_context.py",
+      "sha256": "951c29275416b8a249c533d614c330a8f48861247579e26613e3a916c5e87f77",
+      "bytes": 500
+    },
+    {
+      "path": "ch4_marginality/release_manifest.py",
+      "sha256": "5bf7aa23491537b48762e895715cb64dbdf3ca09f86eb7db1a5cbb0b0b07ead5",
+      "bytes": 1478
+    },
+    {
+      "path": "ch4_marginality/reporting.py",
+      "sha256": "e5825095d2629ae5dcd17a8c560c756f56bc5f86f5198d09657635d77c431fd2",
+      "bytes": 16324
+    },
+    {
+      "path": "ch4_marginality/requirements.txt",
+      "sha256": "efc73d089c5fc1cbe42c1c8e99b9d9dd6c5de204c34f282e028ebad8bfaa4b33",
+      "bytes": 269
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/CH4_Rotation_Priority_executed.ipynb",
+      "sha256": "c89a8f38da5ee2123b92247e87d7e67c83bb1a5f7348e0e5cba80bcc2deb89c8",
+      "bytes": 105008
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/CH4_Rotation_Verification_executed.ipynb",
+      "sha256": "4284a0d591345ffd605539464770053baeb9e00bd14429b00680738ec84668b5",
+      "bytes": 16231
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/CH4_methods_results.md",
+      "sha256": "4d4ab8f3456130ef0eced5c6958c1efb201d53aaa7ceb81e425637b6780737e0",
+      "bytes": 19965
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/README.md",
+      "sha256": "94eccc684444fa06c066ec4c4be898ddc0e150d7f308659ad173af77d2a1c9f0",
+      "bytes": 3171
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/analysis_validation.json",
+      "sha256": "6815157d3a2e6a5a21813edc80c3a284c6c1e2bdb5557a8650961b82f57ece4e",
+      "bytes": 2886
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/annual_yield.csv",
+      "sha256": "dcff6657824f092952155fac2156d56afbdcbebacd0a2b677df71d3104b87439",
+      "bytes": 6601
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/app_build_verification.json",
+      "sha256": "ca28b1b075d75d2744ffb49e477ec3bd92cc211e7f48d72a6e6d1e2a00189978",
+      "bytes": 211
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/asset_verification.json",
+      "sha256": "04f574b8e39a7a200cc3af5ee76a2819d91c6e23dc2c4d94c1ea0d08f82f7ab6",
+      "bytes": 2624
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/baseline_academic_summary.csv",
+      "sha256": "9ddcceb45973326d4b734dd7021d1260e73a270586bf0fb7d70f07a2367961df",
+      "bytes": 30970
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/candidate_verification.json",
+      "sha256": "b2cf13e93f3c567818e573a682197f1a2673b904b71bbb9b16515d6b476487bc",
+      "bytes": 473
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/code_stage_manifest.json",
+      "sha256": "3b0e2e34b90077af4e0c1beec5ccc755441b2c93fc77f99933649d16d93c5871",
+      "bytes": 22508
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/constant_dollar_rasters.json",
+      "sha256": "23e2846d46b368232eacaea94a03795292b41913d18ca9877f0e9fa84bc063d6",
+      "bytes": 28697
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/deflator.csv",
+      "sha256": "9a77602d3bdba34fe28042d6774d27e8c9c48705b15796edc74a924f5111c0c6",
+      "bytes": 1282
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/deliverable_inventory.json",
+      "sha256": "113ffafe77cd7e1d2b46de77775c93e6dec5a494e4e6f256eb8e967a8ab06e6e",
+      "bytes": 270
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/delivery_status.json",
+      "sha256": "37567dccfef48562682860fd98f6d40cba5fa82d0fbc7d4b8f03572174520beb",
+      "bytes": 952
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/economic_common_valid.csv",
+      "sha256": "74309e34c9c45e71774872dd56a21f984e587ad3a764195ef658e2af9a59b075",
+      "bytes": 17413
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/economic_persistence.csv",
+      "sha256": "97f1d74e9170282cda426d41a0f36d939fec9c7818060e29fe0c641c29dd1f6c",
+      "bytes": 17943
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/economic_scenarios.csv",
+      "sha256": "81643182cba916f9dfd7dd6f09bd62bc798538b2b4d74d465fcf855f08131730",
+      "bytes": 17634
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/economic_transition_gaps.csv",
+      "sha256": "671ff83c0a48a083f1f57b43b13af7cba7990bb836e57d6706826fbea6c3d71e",
+      "bytes": 1081
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/economic_transitions.csv",
+      "sha256": "efa623455567e74498344f21b08e8066349f81605266be9bdd01b1002b49c9a8",
+      "bytes": 9938
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/evidence_asset_verification.json",
+      "sha256": "0ef5ec618418c23615f15b06ac3085350abe5b81a6a6ced4962b7188d26a2ddf",
+      "bytes": 233
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/execution_resolution.json",
+      "sha256": "7348d88281fad8eac8422ed88314a4150acd7092d6e11cda0c3266b9109f80cd",
+      "bytes": 796
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/finbin_eligibility.csv",
+      "sha256": "b87138bbc1f0c3b280d276622afdcdb2ed8604ab082b362ed2e37d6bc6a5b34b",
+      "bytes": 2956
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/github_ci_df09b14.json",
+      "sha256": "0ee9ac7daef1ecbfd0a4e299218727c248fd8ea931aaefae133ea3b6d662e54e",
+      "bytes": 4098
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/input_manifest.json",
+      "sha256": "4c6aaf6e5683e69cd20c535cda20c6f3b55301340e333a99ea338aa1e59531eb",
+      "bytes": 85178
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/live_patch_source_comparison.json",
+      "sha256": "a89a94eca4511663e2c037321514d9f8057eedd0c07af8f0cc668c06435ee9c9",
+      "bytes": 319
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/live_ui_verification.json",
+      "sha256": "d962557301eded8a38450c7460c82b0fbe026d1a4c4cfea75ab892100ff3dca2",
+      "bytes": 1809
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/nass_prices.csv",
+      "sha256": "16fe9d92e3032080cc2e00f114eb6b79f90e69f5affa25d2de4f915856961ba5",
+      "bytes": 2891
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/nccpi_associations.csv",
+      "sha256": "9057cf15ac93677a0087ad97a6ce68cb6fb22e8d32c1214f283dcd97196321a5",
+      "bytes": 70196
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/output_manifest.json",
+      "sha256": "073d0ac6b8aafc4b6df9d92f4ad197efb249387a3dc9f9b9c032ee5936ce6347",
+      "bytes": 311175
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/output_manifest.sha256",
+      "sha256": "f041a403249bdd75813ebf17c0cc0cbcf551006a9d7c4bcc78f45572976db2e4",
+      "bytes": 87
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/profit_pixel_verification.json",
+      "sha256": "589a7cb0d7c7de84fba2aa242e462387f2cb18e09403c31981d9787132eaec70",
+      "bytes": 8377
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/reuse_verification.json",
+      "sha256": "02ac49bbfacf61187a0f3a229c88d279736caa9ba9fe22fb61efb461c5f24faa",
+      "bytes": 617
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/rotation_source_ledger.csv",
+      "sha256": "fcf5e87053000d1461260b296d78e0a72c52f4eb28bb9d66573c1a3f762c4e3e",
+      "bytes": 3953
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/sensitivity.csv",
+      "sha256": "517b4ee44ec97b0ed3a80cdaa1bf92d3ebe4845c78977436aca6f16212ef8112",
+      "bytes": 205336
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/unl_cost_reconciliation.csv",
+      "sha256": "ff44c1185c7196f00ea574d29b1192bca9f5c6799a184a6f0b7f3e77b5542897",
+      "bytes": 1646
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/unl_incomplete_accounts.csv",
+      "sha256": "3891242c28e8d3be9d746b383d6cb4f4a2495cc954b2e6b0962620c4707a8f48",
+      "bytes": 357
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/unl_line_items.csv",
+      "sha256": "9a8ea9e39b63ccc9b276e9f1bcc8f0b709a6422ed4846c218e24c756565331e9",
+      "bytes": 8021
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/validation.json",
+      "sha256": "1e0a01c5a5b969342574fade512ba0bc33d2161d2f6d9ba923858f9761e9d115",
+      "bytes": 137343
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/workbook_formulas.json",
+      "sha256": "66ff15725378a906b909c8c008078741d0e818c35c73a53c69aebed6df9ac67b",
+      "bytes": 8371
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/year_eligibility.csv",
+      "sha256": "eff297a736a10d857e1a25b5e2f515d7178b8d8eb37f429ef44793dc74fb16e2",
+      "bytes": 8324
+    },
+    {
+      "path": "ch4_marginality/results/20260930_indexable_ids_v1/README.md",
+      "sha256": "e8c173d251bfee597eaf87bf625483d052c43bf2d6d06b12309951fe50241a02",
+      "bytes": 2493
+    },
+    {
+      "path": "ch4_marginality/results/20260930_indexable_ids_v1/app_publication_record.json",
+      "sha256": "f8474d4e93dda700b831d53c278d2d098de6c53d6a285ea2b8314c10af0a867f",
+      "bytes": 557
+    },
+    {
+      "path": "ch4_marginality/results/20260930_indexable_ids_v1/delivery_status.json",
+      "sha256": "aa5b57a53d810d6ad911c49cb27dfdc9a0d4d3a0ba0a9ce1b591fb84d82f90f5",
+      "bytes": 819
+    },
+    {
+      "path": "ch4_marginality/results/20260930_indexable_ids_v1/github_ci_code_revision.json",
+      "sha256": "f69a63ed4b32ffd33a57bb820da7086cd1e2c2cdf355d73b8dbf43ee1ebde489",
+      "bytes": 3222
+    },
+    {
+      "path": "ch4_marginality/results/20260930_indexable_ids_v1/github_code_inventory.json",
+      "sha256": "b1b5945f7245a25b8585ee94af92a074198f805a3e588f41044dede2eb38c1f6",
+      "bytes": 50276
+    },
+    {
+      "path": "ch4_marginality/results/20260930_indexable_ids_v1/id_coverage.csv",
+      "sha256": "5e418b28d59aa110bb06321ea6e6467b742e0badba1608ef54e92ccdfa474712",
+      "bytes": 416
+    },
+    {
+      "path": "ch4_marginality/results/20260930_indexable_ids_v1/id_verification.json",
+      "sha256": "44885fe2e22c6a3de0183c568b6d12553459dc5ec27ab3e59baa3c0419f6f717",
+      "bytes": 8096
+    },
+    {
+      "path": "ch4_marginality/results/20260930_indexable_ids_v1/identity_schema.json",
+      "sha256": "c4c2caecec4341c8e3b75ccb7b8effa047444fe6b54569212d89b7f00e19427b",
+      "bytes": 4295
+    },
+    {
+      "path": "ch4_marginality/results/20260930_indexable_ids_v1/output_manifest.json",
+      "sha256": "6f13f7279b3b9cf9ee71a034a611ef866f32d4d3c61f8034b6e6f17afbca0e34",
+      "bytes": 2858
+    },
+    {
+      "path": "ch4_marginality/results/20260930_indexable_ids_v1/output_manifest.sha256",
+      "sha256": "a749a68297ee62339f071ea2f91ba59648a2bda6e22b4cd00f547c5290fb48fc",
+      "bytes": 87
+    },
+    {
+      "path": "ch4_marginality/results/20260930_indexable_ids_v1/representative_patch_lookup.json",
+      "sha256": "7023aaf60d05314187de7c64fa64c02f52ebebef55d61522fcea70e309880109",
+      "bytes": 530
+    },
+    {
+      "path": "ch4_marginality/resume_report.py",
+      "sha256": "7df89c260da465e16af1c4c6dedfe1cecf357d0c00e6c41b598651fe7513584f",
+      "bytes": 2455
+    },
+    {
+      "path": "ch4_marginality/rollback/gee_app_Yield_PEM_pre_CH4.js",
+      "sha256": "53fabef9e682cf0c13739d16ff926c5016f3bcfcc0af2bfec9ebc03ed86e4a7c",
+      "bytes": 80624
+    },
+    {
+      "path": "ch4_marginality/rollback/gee_app_Yield_PEM_pre_profit_20260929.js",
+      "sha256": "d9bcc527b24f9eaa5aa5bfc8b0bf72c866d2524baad780c440f84464bbba23e2",
+      "bytes": 234241
+    },
+    {
+      "path": "ch4_marginality/rotation_analysis.py",
+      "sha256": "c8814d8d156bb81039e8200cf789193df899edc98c90a4ec78de66f105c7a6e4",
+      "bytes": 10447
+    },
+    {
+      "path": "ch4_marginality/rotation_evidence_assets.py",
+      "sha256": "b4e4888abc1649e11751c414403bd983fe910738f3e50259c777ad1bfa55fe81",
+      "bytes": 3308
+    },
+    {
+      "path": "ch4_marginality/rotation_exports.py",
+      "sha256": "7e04d3db956df4d4b2151cee4be01f965c30a094d2a1126ce107884d7f524ece",
+      "bytes": 11517
+    },
+    {
+      "path": "ch4_marginality/rotation_temporal.py",
+      "sha256": "89c58af25facabef24b2faa30f4343dc57ec7d75ce1c93164e6beff74d513b0d",
+      "bytes": 3719
+    },
+    {
+      "path": "ch4_marginality/rotation_verify_release.py",
+      "sha256": "59987b72d636b2731f2a6e83838cfcafb7138ed86c5d043b34ac0aa798248ab2",
+      "bytes": 3104
+    },
+    {
+      "path": "ch4_marginality/run_current.py",
+      "sha256": "38a921b2ac358fa426d323fa9ba12deea8a1fbe71d2e5085c8b1de34a634d295",
+      "bytes": 667
+    },
+    {
+      "path": "ch4_marginality/sources/acquisition_manifest.json",
+      "sha256": "787c443ebbd5d9cc1e5fea202663247176f76fc2af875cfda98a72363f842c82",
+      "bytes": 9931
+    },
+    {
+      "path": "ch4_marginality/sources/bls_historical_cpi_extraction.json",
+      "sha256": "614508c122bfaf7a1940827c32363d6887897b036cfc9cf48704d2a4e892070f",
+      "bytes": 21385
+    },
+    {
+      "path": "ch4_marginality/sources/ers_corn.csv",
+      "sha256": "f65087d97fecf23502e2ce0ba565c8331f64b124a1f0a30868e20ad58f38a96f",
+      "bytes": 920433
+    },
+    {
+      "path": "ch4_marginality/sources/finbin_county_1008338.csv",
+      "sha256": "13d4e91f0eb7b78637166e9031ff8f6c5ca4fc628b980b21c680edb9272c4dbd",
+      "bytes": 10428
+    },
+    {
+      "path": "ch4_marginality/sources/finbin_state_1008210.csv",
+      "sha256": "1d818a2ed6a0ebcd80a5c5192cdd63014e995bd044163d3d86e27feeb0fc179d",
+      "bytes": 13189
+    },
+    {
+      "path": "ch4_marginality/sources/historical_search_responses.json",
+      "sha256": "da2c76a93c7a364c260afeafd91b9982b7ec043db2a986a750e12ccd0b0de621",
+      "bytes": 6360
+    },
+    {
+      "path": "ch4_marginality/sources/nass_price_table.txt",
+      "sha256": "dc201832b43fe76b8a59910d7f73d72169e15df2b5cbdf91b84458e6e373e376",
+      "bytes": 9339
+    },
+    {
+      "path": "ch4_marginality/sources/original_draft_preservation.json",
+      "sha256": "12a59d0e4353440e8e9702c62b1d784e2ed27c99a3cdc08ea3c64087437eddc2",
+      "bytes": 188
+    },
+    {
+      "path": "ch4_marginality/sources/rotation_annual_prices.json",
+      "sha256": "26539197942abc24f7e0b6d5736d00fc10135f24a59a92056a5e5fcb25ea1f1c",
+      "bytes": 2919
+    },
+    {
+      "path": "ch4_marginality/sources/rotation_budget_transcriptions.json",
+      "sha256": "5a51f75e15677572a28bc24c923644ce33b2f145cf2a06145036f12547f52652",
+      "bytes": 8292
+    },
+    {
+      "path": "ch4_marginality/sources/unl_budget_registry.json",
+      "sha256": "ec9b83b95504642de44452cd61bf51edb85d0a56fc7bf881cda5a0f67b88c052",
+      "bytes": 27288
+    },
+    {
+      "path": "ch4_marginality/sources/unl_rotation_selections.json",
+      "sha256": "1bd2b47796e4b9d93f7f967b96bf096f06399a7841b16b04635d3755ebf527a1",
+      "bytes": 3666
+    },
+    {
+      "path": "ch4_marginality/sources/unl_verified_transcriptions.json",
+      "sha256": "ac973cd0d083013fca6b39de82e0e0a32241617b3f4d2e20de43d2e4c1ca15cb",
+      "bytes": 980
+    },
+    {
+      "path": "ch4_marginality/sources/verified_annual_prices.json",
+      "sha256": "4217293c61251217cc75faf9815a16203ce4262b589d2b32efffdf2e40d0da2f",
+      "bytes": 264
+    },
+    {
+      "path": "ch4_marginality/stage_app.py",
+      "sha256": "a9f3d8f6b70af102dee8ac0a38965154c8dd246c67144bc4416b2c1013ab2373",
+      "bytes": 2933
+    },
+    {
+      "path": "ch4_marginality/tables/deflator.csv",
+      "sha256": "52f17e4a2d37858f8bc056581c05edf08ae82f8965a2db5843e5c872a44d5c6a",
+      "bytes": 404
+    },
+    {
+      "path": "ch4_marginality/tables/economic_scenarios.csv",
+      "sha256": "1df1da7884a1dd283d8d52798094360336b12a6b59d4a7eea7006677b3539e53",
+      "bytes": 2534
+    },
+    {
+      "path": "ch4_marginality/tables/ers_annual_source_values.csv",
+      "sha256": "cb548e33b879547d7304f83443168d87d695818501e6b474c5d74c5161ecdf1d",
+      "bytes": 85789
+    },
+    {
+      "path": "ch4_marginality/tables/finbin_annual_source_values.csv",
+      "sha256": "e5bf07619efe0d67b74448b4f9cd59a1146dfabd792f4dc4d98e6cb46ff05a7a",
+      "bytes": 85846
+    },
+    {
+      "path": "ch4_marginality/tables/nass_prices.csv",
+      "sha256": "a9fc9ec5671af833a51f6f78b2cb8904d30c4a069af352cfec85284653a9673d",
+      "bytes": 225
+    },
+    {
+      "path": "ch4_marginality/tables/unl_line_items.csv",
+      "sha256": "8f69cf3e8938983c69d3bf5869ffaa935751721a0fe56ae2aed53faa64b58c12",
+      "bytes": 1839
+    },
+    {
+      "path": "ch4_marginality/tables/year_eligibility.csv",
+      "sha256": "942f03818c0f8bd645cd12fbd4086e7c6dbe65ed8d2ba515c33bbac34703d465",
+      "bytes": 5392
+    },
+    {
+      "path": "ch4_marginality/tests/profit_ui_contracts.cjs",
+      "sha256": "005908086f1a982ac67fba3d9132bd49a567b3283344a118c14a6792d7951681",
+      "bytes": 6031
+    },
+    {
+      "path": "ch4_marginality/tests/profit_ui_fixture.json",
+      "sha256": "d5add5b3df49c8f94d6606df6108aabcdc88f0e98007f8cf1246dbafb0731207",
+      "bytes": 135677
+    },
+    {
+      "path": "ch4_marginality/tests/test_budget_registry.py",
+      "sha256": "24148838008691e069a5959b71c73a987bff2329bbb8198f29fe171d90a519ee",
+      "bytes": 3232
+    },
+    {
+      "path": "ch4_marginality/tests/test_core.py",
+      "sha256": "b23688b4afc75e345714effc0f00c5f828e6296c1e71026559f5f245411e36d3",
+      "bytes": 3702
+    },
+    {
+      "path": "ch4_marginality/tests/test_pixel_identity.py",
+      "sha256": "e99ac623e456fa753550581f95d692f61407c19ba78a909c267b74ddfb44471d",
+      "bytes": 3378
+    },
+    {
+      "path": "ch4_marginality/tests/test_profit_workspace.py",
+      "sha256": "34c0323675b9224cb86f60e30ec6e0379a5a84cc65267c32af796c5cd27156b8",
+      "bytes": 2167
+    },
+    {
+      "path": "ch4_marginality/tests/test_rotation_policy.py",
+      "sha256": "f7c2c089113c27a0df0c0e659c058774cf92ccc0f92fb8779913e419585db1d9",
+      "bytes": 5092
+    },
+    {
+      "path": "ch4_marginality/verify_app_classes.py",
+      "sha256": "0b80fa78e9051cb92bfa1cd559e6cd0066b76274f05b4956cd9a95e35b81139c",
+      "bytes": 2194
+    },
+    {
+      "path": "ch4_marginality/verify_ee_assets.py",
+      "sha256": "5ff2b5a7fad14e2411bd142dab69e6ef9b8e22e53136513b0908cb10aab6a211",
+      "bytes": 1987
+    },
+    {
+      "path": "ch4_marginality/verify_profit_pixels.py",
+      "sha256": "fde00b1589b0eead4f7ab5bbd7c50f4a5d45d9a1c3fc8151ff314e95ddc53fef",
+      "bytes": 4328
+    },
+    {
+      "path": "ch4_marginality/verify_workbook.mjs",
+      "sha256": "4c38505c47483d37ac2e45554c23f76d87aeb2fb0e039dec610176d08806edb1",
+      "bytes": 9871
+    },
+    {
+      "path": "csp3_maize_gpp/gee_app_Yield_PEM.js",
+      "sha256": "1cb018a48e5c8b8ab5fab9fb39abc58b6c33f1d805df6a57bc570d91a232ceac",
+      "bytes": 281099
+    }
+  ]
+}

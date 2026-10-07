@@ -1,0 +1,8 @@
+year,component_total_usd_ac,published_total_usd_ac,difference_usd_ac,field_rounding_usd_ac,materials_rounding_usd_ac,note
+2001,231.98000000000002,231.97,0.010000000000019327,-0.00999999999999801,0.0,Published category sums exceed total by $0.01/acre; field columns sum $31.10 versus published $31.11. Preserve published total. Combined land taxes/interest and machinery charges do not separate cash and opportunity costs.
+2011,347.88,347.88,0.0,0.0,-0.03999999999999204,Published interest $8.68 differs from printed cash-base/rate/time multiplication; Lorsban applied total $0.06 differs from printed factors. Preserve published amounts. Published cash/unit excludes overhead; analytical cash includes identifiable overhead and real-estate taxes. Printed material line items sum $187.58 versus published category total $187.62; retain category total and document $0.04 source residual.
+2013,450.19,450.19,0.0,-7.105427357601002e-15,0.0,Published cash/unit excludes overhead; analytical cash includes identifiable overhead and real-estate taxes.
+2015,478.01,478.01,0.0,0.0,0.0,Published cash/unit excludes overhead; analytical cash includes identifiable overhead and real-estate taxes.
+2017,654.49,654.49,0.0,0.0,0.0,Crop insurance has printed rate $24 but applied amount $0.00; preserve $0.00 and do not invent additional costs. Published cash/unit excludes overhead; analytical cash includes identifiable overhead and real-estate taxes.
+2019,565.52,565.52,0.0,0.0,0.0,Line-item-derived cash cost; printed 2019 cash-per-bushel does not reconcile
+2021,572.1800000000001,572.18,1.1368683772161603e-13,0.0,0.0,Cash-per-bushel agrees within rounding

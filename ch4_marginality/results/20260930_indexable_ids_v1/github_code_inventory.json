@@ -1,0 +1,1107 @@
+{
+  "repository": "njberkowitz95/Yields-and-Fields-CH1",
+  "branch": "codex/ch4-marginality",
+  "code_revision": "900d9995d36b35ed9327285257f837d9e714831d",
+  "code_files": 183,
+  "files": [
+    {
+      "path": ".github/workflows/ch4-economics.yml",
+      "github_sha256": "317f0930950e0caae2c5c8c3ce996d22edbda7e07a79c5419d030b61a77e317e",
+      "working_sha256": "317f0930950e0caae2c5c8c3ce996d22edbda7e07a79c5419d030b61a77e317e",
+      "bytes": 1850
+    },
+    {
+      "path": ".github/workflows/csp3-ch2v6.yml",
+      "github_sha256": "9e44b4daaba54eb0367ee40ef09f0886fc97cd75c0a15f1f13ef0f6a34914078",
+      "working_sha256": "9e44b4daaba54eb0367ee40ef09f0886fc97cd75c0a15f1f13ef0f6a34914078",
+      "bytes": 683
+    },
+    {
+      "path": ".github/workflows/indigo-validation.yml",
+      "github_sha256": "438ce3fdd6d38af4566408c4bc1bce076a799f7a0b8659465b564497a8c6b969",
+      "working_sha256": "438ce3fdd6d38af4566408c4bc1bce076a799f7a0b8659465b564497a8c6b969",
+      "bytes": 798
+    },
+    {
+      "path": "ch4_marginality/CH4_Marginality.ipynb",
+      "github_sha256": "f4fc71dd042409c14b30485e5d101681d030582fca92f6a76d81dcd873345ab6",
+      "working_sha256": "56c41710162133d5368daca87bf097920da68b76704fc6d436151ab78cb0cef6",
+      "bytes": 4837
+    },
+    {
+      "path": "ch4_marginality/CH4_Profit_Workspace.ipynb",
+      "github_sha256": "ee84870eb7bef5024075b658b08fd3d2623dba78e4a16ead70e3c37f3218bb75",
+      "working_sha256": "12558697724b7c1f9175d6e4b47a62cd551029a0e1658c7eff96dc14bb65af94",
+      "bytes": 4850
+    },
+    {
+      "path": "ch4_marginality/CH4_Profit_Workspace_executed_20260929.ipynb",
+      "github_sha256": "d8a6d60bb34f804a3fcce6901db8d6c65de13257bbe536a33c754b38495a5b30",
+      "working_sha256": "d8a6d60bb34f804a3fcce6901db8d6c65de13257bbe536a33c754b38495a5b30",
+      "bytes": 1267727
+    },
+    {
+      "path": "ch4_marginality/CH4_Rotation_Evidence.ipynb",
+      "github_sha256": "7ddb85f74122e52efb7e4b5df7e74b0ed52d172d2eadad01d1a52ff4482fb918",
+      "working_sha256": "5b45643a26b0f4af8ef6991d213fd7bbf81e6a035ef5c7f58156436519e3dd70",
+      "bytes": 2173
+    },
+    {
+      "path": "ch4_marginality/CH4_Rotation_Priority.ipynb",
+      "github_sha256": "7000907b7883c4159326d45f79326d04700bc5201c91322923280ccb11446d0c",
+      "working_sha256": "e7c882341dee547c642311ffba53f92fb5a0495698595ab39ffa05248665fc60",
+      "bytes": 2521
+    },
+    {
+      "path": "ch4_marginality/__init__.py",
+      "github_sha256": "ce9c3b193f2f6c8c04cc471407a1341114b8ac788e01af588ded5f67ce9daab1",
+      "working_sha256": "ce9c3b193f2f6c8c04cc471407a1341114b8ac788e01af588ded5f67ce9daab1",
+      "bytes": 62
+    },
+    {
+      "path": "ch4_marginality/acquire_sources.py",
+      "github_sha256": "191e3c07e10e17a957cece4e52d5ba9680258aa6a5a2cbcc22c24477c6aa77cc",
+      "working_sha256": "191e3c07e10e17a957cece4e52d5ba9680258aa6a5a2cbcc22c24477c6aa77cc",
+      "bytes": 1684
+    },
+    {
+      "path": "ch4_marginality/budget_policy.py",
+      "github_sha256": "689b571511467d0e2b408d676dfe85a124e7112680f7e7c2f87a799c96f691de",
+      "working_sha256": "db1cdb6835e36a5d8e145c159f3c7e84f976d710e29db010ec4533de8c9b779a",
+      "bytes": 3451
+    },
+    {
+      "path": "ch4_marginality/budget_registry.py",
+      "github_sha256": "a1057a47a7c6ed1b701ea670260ad3f6c3fcd414f7400adf92190f312e71d410",
+      "working_sha256": "a1057a47a7c6ed1b701ea670260ad3f6c3fcd414f7400adf92190f312e71d410",
+      "bytes": 3306
+    },
+    {
+      "path": "ch4_marginality/build_app.py",
+      "github_sha256": "1efa4016a777c79ea65f63b9313282ec6bbe0ba878ea4b7e0b53b12c028cd9dc",
+      "working_sha256": "1efa4016a777c79ea65f63b9313282ec6bbe0ba878ea4b7e0b53b12c028cd9dc",
+      "bytes": 2050
+    },
+    {
+      "path": "ch4_marginality/build_assets_current.py",
+      "github_sha256": "2a0b7fff5c5a8d4eed60f74e15ec54fe547be4eea19c8d779b375c75da653186",
+      "working_sha256": "2a0b7fff5c5a8d4eed60f74e15ec54fe547be4eea19c8d779b375c75da653186",
+      "bytes": 751
+    },
+    {
+      "path": "ch4_marginality/build_profit_app.py",
+      "github_sha256": "110d77f2ac053772f4f88811aa7ca5a72a1d502c0e18031d972309c5ffbf0efd",
+      "working_sha256": "11db9b56c92da0a8c9c845ff003c9c7b133312f5523a509164e5bf1eb49d74c4",
+      "bytes": 4859
+    },
+    {
+      "path": "ch4_marginality/core.py",
+      "github_sha256": "bc0952354f96819ed89961a767fc400a03f451867b1f65354cbefd10426fcc65",
+      "working_sha256": "bc0952354f96819ed89961a767fc400a03f451867b1f65354cbefd10426fcc65",
+      "bytes": 3227
+    },
+    {
+      "path": "ch4_marginality/execute_notebook.py",
+      "github_sha256": "8a263b011a52d76ceed13767b2999aece6a616ee48f6017ac4731c630079c1d9",
+      "working_sha256": "8a263b011a52d76ceed13767b2999aece6a616ee48f6017ac4731c630079c1d9",
+      "bytes": 754
+    },
+    {
+      "path": "ch4_marginality/final_checks.py",
+      "github_sha256": "a0cf37ab069404efbcf22c887635b8457b9d8f4a5452a3e327998075c46ca1b1",
+      "working_sha256": "972cb42a7a9dc71ec609d83da1a2f987dc92b49add82e0459126e1ea391d88b0",
+      "bytes": 6950
+    },
+    {
+      "path": "ch4_marginality/finalize_notebook.py",
+      "github_sha256": "eefaad238b898fbb501b18ce3f012e2ced0194f9cd96a6d6b7edba37927c1b81",
+      "working_sha256": "eefaad238b898fbb501b18ce3f012e2ced0194f9cd96a6d6b7edba37927c1b81",
+      "bytes": 1838
+    },
+    {
+      "path": "ch4_marginality/finalize_profit.py",
+      "github_sha256": "23ad63d74db765368757f2fe630c8a10f0ee1ced65941b0facaa12bd9dbe59d9",
+      "working_sha256": "7901bbd2d27c1bce5ba7fd1c2092ed3e2d78ff2345585cd148884146377d5ac0",
+      "bytes": 3606
+    },
+    {
+      "path": "ch4_marginality/gee_controls.js",
+      "github_sha256": "e865738f6a10221d799fca309ebfa053fbba3ca301cec53274ff7ead522c636d",
+      "working_sha256": "e865738f6a10221d799fca309ebfa053fbba3ca301cec53274ff7ead522c636d",
+      "bytes": 9715
+    },
+    {
+      "path": "ch4_marginality/gee_profit_controls.js",
+      "github_sha256": "d54843e2e007cc52b9e3edf3d459ed91f9d8a81a7b8465b8384fa60bdcbeb6ff",
+      "working_sha256": "d54843e2e007cc52b9e3edf3d459ed91f9d8a81a7b8465b8384fa60bdcbeb6ff",
+      "bytes": 32528
+    },
+    {
+      "path": "ch4_marginality/historical_budget_release.py",
+      "github_sha256": "c14a005a366dd3be8712eb5506d37296a3fa0452ec92c652aa0df090f815ed9c",
+      "working_sha256": "c14a005a366dd3be8712eb5506d37296a3fa0452ec92c652aa0df090f815ed9c",
+      "bytes": 5973
+    },
+    {
+      "path": "ch4_marginality/outputs/CH4_Marginality_executed.ipynb",
+      "github_sha256": "d57b89f988a6e0c34241bd62cb45dda628f2cce371ca54119c1b0c6f1296f314",
+      "working_sha256": "d57b89f988a6e0c34241bd62cb45dda628f2cce371ca54119c1b0c6f1296f314",
+      "bytes": 1253054
+    },
+    {
+      "path": "ch4_marginality/package_outputs.py",
+      "github_sha256": "3f3d86b4fefc32e13b734a0d29b685f2243092b757c20c559c0c2e45ac440f97",
+      "working_sha256": "3f3d86b4fefc32e13b734a0d29b685f2243092b757c20c559c0c2e45ac440f97",
+      "bytes": 2275
+    },
+    {
+      "path": "ch4_marginality/pipeline.py",
+      "github_sha256": "26fc6f78e98f48bc040a400b9bbffc653b1bd1a253f7159ec8987b255838f7a6",
+      "working_sha256": "3ab7c51ff52eecc5e62bba1434b42b289f179f953d813623cef1aa4e812d008e",
+      "bytes": 21518
+    },
+    {
+      "path": "ch4_marginality/pixel_identity.py",
+      "github_sha256": "4c5e985fa26c5ede484a93ee0e37efdaa1748888eb65bfeb1c919d113bf38073",
+      "working_sha256": "4c5e985fa26c5ede484a93ee0e37efdaa1748888eb65bfeb1c919d113bf38073",
+      "bytes": 15178
+    },
+    {
+      "path": "ch4_marginality/prepare_app_asset.py",
+      "github_sha256": "f1f91322dd3236a4ccfcabb57fef588b7fc08b2a5099f2043e2a86cb509ece63",
+      "working_sha256": "f1f91322dd3236a4ccfcabb57fef588b7fc08b2a5099f2043e2a86cb509ece63",
+      "bytes": 1815
+    },
+    {
+      "path": "ch4_marginality/prepare_budgets.py",
+      "github_sha256": "ebbe50f2cf89ad0d5b8f66cc5fe3936bf39177d74742fa52b0f712e2de57674d",
+      "working_sha256": "788f11ae75a1beb04727f6ded80d49330b823bca9afbe26fdaea67ef0bf8cdc3",
+      "bytes": 10423
+    },
+    {
+      "path": "ch4_marginality/profit_assets.py",
+      "github_sha256": "4f00d642ff1d60abd46e6213ef46018a3fc646066882adf94832383cd3c5a1f3",
+      "working_sha256": "4f00d642ff1d60abd46e6213ef46018a3fc646066882adf94832383cd3c5a1f3",
+      "bytes": 6125
+    },
+    {
+      "path": "ch4_marginality/profit_figures.py",
+      "github_sha256": "a027012707c6135d981276aa00e84e0099ff23456a7f27b6ee33a80dca9bf4ff",
+      "working_sha256": "a027012707c6135d981276aa00e84e0099ff23456a7f27b6ee33a80dca9bf4ff",
+      "bytes": 4722
+    },
+    {
+      "path": "ch4_marginality/profit_report.py",
+      "github_sha256": "a94694a0044536b0ac6eb47e460db5fb8615a3846887b2575103f9f864f9bbad",
+      "working_sha256": "575f8fa6432d1c2a3e2d0531531fbdf1b1dc152e37e5a91e779b5b1b9e1ed24b",
+      "bytes": 8819
+    },
+    {
+      "path": "ch4_marginality/profit_workspace.py",
+      "github_sha256": "17ff2854a9c167dd285455e84df0f8053ae8028a7d282fde2157b6abacab7079",
+      "working_sha256": "ad7da97d9073f5142e58ce0e30a558b391621547b606d236a4c2b15cace74940",
+      "bytes": 14730
+    },
+    {
+      "path": "ch4_marginality/release_context.py",
+      "github_sha256": "951c29275416b8a249c533d614c330a8f48861247579e26613e3a916c5e87f77",
+      "working_sha256": "951c29275416b8a249c533d614c330a8f48861247579e26613e3a916c5e87f77",
+      "bytes": 500
+    },
+    {
+      "path": "ch4_marginality/release_manifest.py",
+      "github_sha256": "5bf7aa23491537b48762e895715cb64dbdf3ca09f86eb7db1a5cbb0b0b07ead5",
+      "working_sha256": "5bf7aa23491537b48762e895715cb64dbdf3ca09f86eb7db1a5cbb0b0b07ead5",
+      "bytes": 1478
+    },
+    {
+      "path": "ch4_marginality/reporting.py",
+      "github_sha256": "e5825095d2629ae5dcd17a8c560c756f56bc5f86f5198d09657635d77c431fd2",
+      "working_sha256": "9d91331f34f6c7c3561553b2b02fe26a1cac797290bba28f81318b1b7d1ac65b",
+      "bytes": 16324
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/CH4_Rotation_Priority_executed.ipynb",
+      "github_sha256": "c89a8f38da5ee2123b92247e87d7e67c83bb1a5f7348e0e5cba80bcc2deb89c8",
+      "working_sha256": "c89a8f38da5ee2123b92247e87d7e67c83bb1a5f7348e0e5cba80bcc2deb89c8",
+      "bytes": 105008
+    },
+    {
+      "path": "ch4_marginality/results/20260929_rotation_priority_budget_v1/CH4_Rotation_Verification_executed.ipynb",
+      "github_sha256": "4284a0d591345ffd605539464770053baeb9e00bd14429b00680738ec84668b5",
+      "working_sha256": "4284a0d591345ffd605539464770053baeb9e00bd14429b00680738ec84668b5",
+      "bytes": 16231
+    },
+    {
+      "path": "ch4_marginality/resume_report.py",
+      "github_sha256": "7df89c260da465e16af1c4c6dedfe1cecf357d0c00e6c41b598651fe7513584f",
+      "working_sha256": "7df89c260da465e16af1c4c6dedfe1cecf357d0c00e6c41b598651fe7513584f",
+      "bytes": 2455
+    },
+    {
+      "path": "ch4_marginality/rollback/gee_app_Yield_PEM_pre_CH4.js",
+      "github_sha256": "53fabef9e682cf0c13739d16ff926c5016f3bcfcc0af2bfec9ebc03ed86e4a7c",
+      "working_sha256": "07b88a85130d3eb920ba78e949e6372db763e0926e0fc2378124bb6e9025caa1",
+      "bytes": 80624
+    },
+    {
+      "path": "ch4_marginality/rollback/gee_app_Yield_PEM_pre_profit_20260929.js",
+      "github_sha256": "d9bcc527b24f9eaa5aa5bfc8b0bf72c866d2524baad780c440f84464bbba23e2",
+      "working_sha256": "e0282164520e637533512b83890072af7aa256f275f7edd8c93eaf6687708bee",
+      "bytes": 234241
+    },
+    {
+      "path": "ch4_marginality/rotation_analysis.py",
+      "github_sha256": "c8814d8d156bb81039e8200cf789193df899edc98c90a4ec78de66f105c7a6e4",
+      "working_sha256": "de730eb6b5bf932ceb6798db4553840468479fe20f155d2cbeda37d842fa68c0",
+      "bytes": 10447
+    },
+    {
+      "path": "ch4_marginality/rotation_evidence_assets.py",
+      "github_sha256": "b4e4888abc1649e11751c414403bd983fe910738f3e50259c777ad1bfa55fe81",
+      "working_sha256": "b4e4888abc1649e11751c414403bd983fe910738f3e50259c777ad1bfa55fe81",
+      "bytes": 3308
+    },
+    {
+      "path": "ch4_marginality/rotation_exports.py",
+      "github_sha256": "7e04d3db956df4d4b2151cee4be01f965c30a094d2a1126ce107884d7f524ece",
+      "working_sha256": "a08cc6e15de85719fe46616a7992f3e633fb1e8e60b8867f3faa68473b94afd0",
+      "bytes": 11517
+    },
+    {
+      "path": "ch4_marginality/rotation_temporal.py",
+      "github_sha256": "89c58af25facabef24b2faa30f4343dc57ec7d75ce1c93164e6beff74d513b0d",
+      "working_sha256": "730897ea392ce034f306cd0c044e7d61c770e9296619ad3c3987d724e77f3d57",
+      "bytes": 3719
+    },
+    {
+      "path": "ch4_marginality/rotation_verify_release.py",
+      "github_sha256": "59987b72d636b2731f2a6e83838cfcafb7138ed86c5d043b34ac0aa798248ab2",
+      "working_sha256": "59987b72d636b2731f2a6e83838cfcafb7138ed86c5d043b34ac0aa798248ab2",
+      "bytes": 3104
+    },
+    {
+      "path": "ch4_marginality/run_current.py",
+      "github_sha256": "38a921b2ac358fa426d323fa9ba12deea8a1fbe71d2e5085c8b1de34a634d295",
+      "working_sha256": "38a921b2ac358fa426d323fa9ba12deea8a1fbe71d2e5085c8b1de34a634d295",
+      "bytes": 667
+    },
+    {
+      "path": "ch4_marginality/stage_app.py",
+      "github_sha256": "a9f3d8f6b70af102dee8ac0a38965154c8dd246c67144bc4416b2c1013ab2373",
+      "working_sha256": "a9f3d8f6b70af102dee8ac0a38965154c8dd246c67144bc4416b2c1013ab2373",
+      "bytes": 2933
+    },
+    {
+      "path": "ch4_marginality/tests/profit_ui_contracts.cjs",
+      "github_sha256": "005908086f1a982ac67fba3d9132bd49a567b3283344a118c14a6792d7951681",
+      "working_sha256": "c1af9d1e1d4f4afad27c13c6f6a4cae8030320071715a50c8b06c7d59ae8e759",
+      "bytes": 6031
+    },
+    {
+      "path": "ch4_marginality/tests/test_budget_registry.py",
+      "github_sha256": "24148838008691e069a5959b71c73a987bff2329bbb8198f29fe171d90a519ee",
+      "working_sha256": "24148838008691e069a5959b71c73a987bff2329bbb8198f29fe171d90a519ee",
+      "bytes": 3232
+    },
+    {
+      "path": "ch4_marginality/tests/test_core.py",
+      "github_sha256": "b23688b4afc75e345714effc0f00c5f828e6296c1e71026559f5f245411e36d3",
+      "working_sha256": "b23688b4afc75e345714effc0f00c5f828e6296c1e71026559f5f245411e36d3",
+      "bytes": 3702
+    },
+    {
+      "path": "ch4_marginality/tests/test_pixel_identity.py",
+      "github_sha256": "e99ac623e456fa753550581f95d692f61407c19ba78a909c267b74ddfb44471d",
+      "working_sha256": "e99ac623e456fa753550581f95d692f61407c19ba78a909c267b74ddfb44471d",
+      "bytes": 3378
+    },
+    {
+      "path": "ch4_marginality/tests/test_profit_workspace.py",
+      "github_sha256": "34c0323675b9224cb86f60e30ec6e0379a5a84cc65267c32af796c5cd27156b8",
+      "working_sha256": "34c0323675b9224cb86f60e30ec6e0379a5a84cc65267c32af796c5cd27156b8",
+      "bytes": 2167
+    },
+    {
+      "path": "ch4_marginality/tests/test_rotation_policy.py",
+      "github_sha256": "f7c2c089113c27a0df0c0e659c058774cf92ccc0f92fb8779913e419585db1d9",
+      "working_sha256": "f7c2c089113c27a0df0c0e659c058774cf92ccc0f92fb8779913e419585db1d9",
+      "bytes": 5092
+    },
+    {
+      "path": "ch4_marginality/verify_app_classes.py",
+      "github_sha256": "0b80fa78e9051cb92bfa1cd559e6cd0066b76274f05b4956cd9a95e35b81139c",
+      "working_sha256": "0b80fa78e9051cb92bfa1cd559e6cd0066b76274f05b4956cd9a95e35b81139c",
+      "bytes": 2194
+    },
+    {
+      "path": "ch4_marginality/verify_ee_assets.py",
+      "github_sha256": "5ff2b5a7fad14e2411bd142dab69e6ef9b8e22e53136513b0908cb10aab6a211",
+      "working_sha256": "5ff2b5a7fad14e2411bd142dab69e6ef9b8e22e53136513b0908cb10aab6a211",
+      "bytes": 1987
+    },
+    {
+      "path": "ch4_marginality/verify_profit_pixels.py",
+      "github_sha256": "fde00b1589b0eead4f7ab5bbd7c50f4a5d45d9a1c3fc8151ff314e95ddc53fef",
+      "working_sha256": "08fbcd423d1450f8b8400b0373e09a97f8e44f15395a3c87479481b4eb036e8f",
+      "bytes": 4328
+    },
+    {
+      "path": "ch4_marginality/verify_workbook.mjs",
+      "github_sha256": "4c38505c47483d37ac2e45554c23f76d87aeb2fb0e039dec610176d08806edb1",
+      "working_sha256": "4c38505c47483d37ac2e45554c23f76d87aeb2fb0e039dec610176d08806edb1",
+      "bytes": 9871
+    },
+    {
+      "path": "csp3_maize_gpp/CSP3_FINBIN_Yield_Benchmark.ipynb",
+      "github_sha256": "fc39e14d1f5d198e7cd86b92c14e4df973b5122fb25c49f2c97854a6d5f5268e",
+      "working_sha256": "f19657d89636946edd0d5dadf573a9ba6773ab7e8693977db2765dafca0eb55c",
+      "bytes": 4672
+    },
+    {
+      "path": "csp3_maize_gpp/CSP3_GPP_Colab.ipynb",
+      "github_sha256": "396e1d91d60ed27bbccb44fa3442867c922f4f43c10f16ec42445bee8870fd38",
+      "working_sha256": "36041df1be073a196bb29245f4b76e0d75aa952f1f6ba17d9b716dd875556682",
+      "bytes": 19844
+    },
+    {
+      "path": "csp3_maize_gpp/CSP3_GPP_Colab_CH2V6.ipynb",
+      "github_sha256": "abeb1087d8f1e922fb5bab9d17c1b10869119212f0ebc8899cb5e908d543d1ca",
+      "working_sha256": "dda7ccd3789319f9e3263c99fed987289b378e957f940a63a70c4ab5f71cd3d2",
+      "bytes": 30381
+    },
+    {
+      "path": "csp3_maize_gpp/aoi.py",
+      "github_sha256": "27996ad7568a0f265683022899c9ffc2b27b4e0e0ade11d78df377441fc0aa87",
+      "working_sha256": "2e036dc0e9666c4523945119cd72e463df214a4415dd11933954136963f67621",
+      "bytes": 3518
+    },
+    {
+      "path": "csp3_maize_gpp/build_ch2v6_notebook.py",
+      "github_sha256": "d4b2183cc0662a18a9c0e1e31eea6d9eda7d9026b5909828900808a3094840e4",
+      "working_sha256": "06ac482fdf98a181a0182983fb7a246fb7c8cc7a059747dbb8e2705fb2074912",
+      "bytes": 16829
+    },
+    {
+      "path": "csp3_maize_gpp/build_outputs.py",
+      "github_sha256": "f4f3875fa71abd1b982a1b5e056e858ccc40c94744c47d55ebbb06e5f05e97f2",
+      "working_sha256": "08d2b0fa342c8ffd935fc678da0f602f86f7585e53ebdcb871db245e051f0541",
+      "bytes": 12325
+    },
+    {
+      "path": "csp3_maize_gpp/build_outputs_report.py",
+      "github_sha256": "a6840274d20bd9749721290190b1cedb36936cf764b9548971ee20e14d631c9b",
+      "working_sha256": "63ad277088b3a97e00b0ac4573572352466c0ab71bf723d5c924e036ab461fd7",
+      "bytes": 9136
+    },
+    {
+      "path": "csp3_maize_gpp/ch2v6_pipeline.py",
+      "github_sha256": "981e335a48db1071ef8d98cec1b897e531a5fcd691119ad0e14c73a256d6e9d3",
+      "working_sha256": "981e335a48db1071ef8d98cec1b897e531a5fcd691119ad0e14c73a256d6e9d3",
+      "bytes": 22655
+    },
+    {
+      "path": "csp3_maize_gpp/config.py",
+      "github_sha256": "16438141cd24b5f8e3a2d017e59ada5d28b9c77f9c029657afa5344833aa1653",
+      "working_sha256": "16438141cd24b5f8e3a2d017e59ada5d28b9c77f9c029657afa5344833aa1653",
+      "bytes": 9874
+    },
+    {
+      "path": "csp3_maize_gpp/discover_workbooks.py",
+      "github_sha256": "9bfbf8a79ed1965e9d37b114fdc3397da5a927dc9ef6b0084126bed846e530a7",
+      "working_sha256": "93580768dc8c203e78cec740c33daca3b73e5c76457771185a1f62eabe5be4ab",
+      "bytes": 5641
+    },
+    {
+      "path": "csp3_maize_gpp/extension_2019.py",
+      "github_sha256": "dffca77900bc118ef5336586122fbd121b8110d1e17b5bb1f0a7abbd3f5a963d",
+      "working_sha256": "9cf69884c604990472bbd3e06c9aabff5b623a2893556e381a176fc59c4c31ec",
+      "bytes": 9452
+    },
+    {
+      "path": "csp3_maize_gpp/extension_bridge.py",
+      "github_sha256": "7fc6430b2d35b6a69b5a5aa6d92d9211133afdb08ff3027a28168d332ae876c1",
+      "working_sha256": "4c612d78853bbca209328154abd0b33077dfa55009e4ee867b3e74de49ca00f7",
+      "bytes": 3703
+    },
+    {
+      "path": "csp3_maize_gpp/extension_contract.py",
+      "github_sha256": "b59d461d1024f6f095000b6a3094c44a3bde5797862cd1aa7aa9b30ce16ce0d0",
+      "working_sha256": "395e8328d4faaccdfa506c114d01f02e8dc8aae4d97fdcb15af2326635574797",
+      "bytes": 8665
+    },
+    {
+      "path": "csp3_maize_gpp/extension_exports.py",
+      "github_sha256": "7d96142fa97c471b4ddeaaac7cb4bfa1a414074c3fab15e4645d5f61ab4a9532",
+      "working_sha256": "0c690337b581972a6467d14035807337fb1a3aba4176a119cb99a7a2cd3aa935",
+      "bytes": 8969
+    },
+    {
+      "path": "csp3_maize_gpp/extension_hi_audit.py",
+      "github_sha256": "79024fb216aec41d3c90bdf8e47c1b4eaf282de898d45a8b09c1fb7bb47d23e2",
+      "working_sha256": "28237a82ef5ccac56d9bcfd8fd97f63e3092add3a01cc5a46bb67a38ecefd870",
+      "bytes": 4814
+    },
+    {
+      "path": "csp3_maize_gpp/extension_masks.py",
+      "github_sha256": "604a7fbed6c32480d0f25544f18751978dd01e8ea5e8d7f02bd5f1a964c633f9",
+      "working_sha256": "a0480071132eb05c94d39599a71bfade2ca3d11d3268cf9685312befb15db3ab",
+      "bytes": 7513
+    },
+    {
+      "path": "csp3_maize_gpp/extension_progress.py",
+      "github_sha256": "01d756646919fe55102b653c6df2be39838bef1daf9b005273fb13861f3d09be",
+      "working_sha256": "f2c9a8fdc71e980b08ade234d39fcb74e8da13a5095d04f3091ebc8ec2a4b475",
+      "bytes": 3293
+    },
+    {
+      "path": "csp3_maize_gpp/extension_sources.py",
+      "github_sha256": "6fc2d9e6a12244c84bc588ff38a62dd4a69c4772cc426028dfed2f77bac0362b",
+      "working_sha256": "8094928565e337505e4d07fab7ea23e03e434a91076898688f632e64d41bf31f",
+      "bytes": 7958
+    },
+    {
+      "path": "csp3_maize_gpp/extension_statistics.py",
+      "github_sha256": "ef6c96ca0159615b0d90fa67094426a1ca5f6a2dc9f763287448b9dd3d14e07a",
+      "working_sha256": "129d927ba8835d20a6f75d56a128b32fb24f4e46b4f5f25bb7d868aa41f28112",
+      "bytes": 4460
+    },
+    {
+      "path": "csp3_maize_gpp/extract_grain_moisture.py",
+      "github_sha256": "dea5999804163ca728d941c6e5a9c448af62191becf3afc552412fed709af5a8",
+      "working_sha256": "dea5999804163ca728d941c6e5a9c448af62191becf3afc552412fed709af5a8",
+      "bytes": 2910
+    },
+    {
+      "path": "csp3_maize_gpp/extract_parameters.py",
+      "github_sha256": "33ba1d602dd79530c716cf9ba7baae3dd0f795a4e40806a8c9d33bc1a22fd87e",
+      "working_sha256": "3bdfc38fabc0ca0a896f2a8fecc1b90bc11820096972605cbf05b48f99e5f8bc",
+      "bytes": 21083
+    },
+    {
+      "path": "csp3_maize_gpp/extract_site_history.py",
+      "github_sha256": "c87cea24fd8afed89d79681c21eca2cf054910dbbac6781354221c810e997e1d",
+      "working_sha256": "28cf2c0d13bd6b2b76634c2e9639f02d3802239abe404d20654cec4754a3d556",
+      "bytes": 10542
+    },
+    {
+      "path": "csp3_maize_gpp/extract_summary_hi.py",
+      "github_sha256": "67fafafb8ab5d267890aa84d7c95c4e884aa6df17c28b9c9e91b27773882bc53",
+      "working_sha256": "67fafafb8ab5d267890aa84d7c95c4e884aa6df17c28b9c9e91b27773882bc53",
+      "bytes": 11666
+    },
+    {
+      "path": "csp3_maize_gpp/field_index.py",
+      "github_sha256": "dbefa0d49631b0eaef46b6d0f258e4232550bf311b65e40b0784512db0bec85a",
+      "working_sha256": "cc405e52eed91d529b771f99ad7686ed195c019b855025c68717467042b34ee0",
+      "bytes": 26371
+    },
+    {
+      "path": "csp3_maize_gpp/field_verification.py",
+      "github_sha256": "f8219156825232fe15210fa74571533e4f1db11208c34850b43d70a2d100d059",
+      "working_sha256": "95024025cc7c4b69cd4403e31013175849738b2528c137b1e8d37be9a6be5004",
+      "bytes": 5147
+    },
+    {
+      "path": "csp3_maize_gpp/finbin_benchmark.py",
+      "github_sha256": "121036817dcea22ab52633d3895872978b32ad0f821256526eee0aee319f6566",
+      "working_sha256": "1b1fac28e9101421e459e1928bb49e177875ff97d4bd1235d06d35c00c72c42b",
+      "bytes": 13207
+    },
+    {
+      "path": "csp3_maize_gpp/finbin_county_context.py",
+      "github_sha256": "3e1132e39ca020b6fd3c329ef0ef670e2d86884d83ce212441ac2b554a095946",
+      "working_sha256": "710f6aea9065a103eec55666fe8c9328dc8f4625418d19cd56f27515294aea41",
+      "bytes": 17476
+    },
+    {
+      "path": "csp3_maize_gpp/finbin_delivery.py",
+      "github_sha256": "1e217757896ab70d48b4383f605f854d42f5be5d8dc88bf60ffde9ce2e291758",
+      "working_sha256": "4abf1c00f16260f0f1a7a402f9c44a2214c3f9b5c44a5f86ad935b0f8644aaa9",
+      "bytes": 6968
+    },
+    {
+      "path": "csp3_maize_gpp/formulas.py",
+      "github_sha256": "a332696963e2aa25b1da896dc1b77c533892ade1dfa60991f9283817279dee01",
+      "working_sha256": "a332696963e2aa25b1da896dc1b77c533892ade1dfa60991f9283817279dee01",
+      "bytes": 5285
+    },
+    {
+      "path": "csp3_maize_gpp/gee_app_2019_2021_extension.js",
+      "github_sha256": "023485aa461ba8d48274418a48368a7b8f0b4299d1adf7a08e6a41b71ffe0836",
+      "working_sha256": "ca9729a8e80fb84b0f9ad04245cf4d26b4d579c3b6799dcd1092adba6a0fa279",
+      "bytes": 6309
+    },
+    {
+      "path": "csp3_maize_gpp/gee_app_Yield_PEM.js",
+      "github_sha256": "1cb018a48e5c8b8ab5fab9fb39abc58b6c33f1d805df6a57bc570d91a232ceac",
+      "working_sha256": "1cb018a48e5c8b8ab5fab9fb39abc58b6c33f1d805df6a57bc570d91a232ceac",
+      "bytes": 281099
+    },
+    {
+      "path": "csp3_maize_gpp/gee_gpp.py",
+      "github_sha256": "27bbce33d73ec2eb02364bf8e021e8cc1353947a87a4d09aa14089cf47a1909d",
+      "working_sha256": "6bb50e54c1cb3beb6c2b380e823a511558d1e70f4a4db15ead878bc69ede762b",
+      "bytes": 15599
+    },
+    {
+      "path": "csp3_maize_gpp/gee_npp.py",
+      "github_sha256": "166d90685def3f6be8686460059bc5ed6ff82d8b78db49f7557ded4c7c472cfa",
+      "working_sha256": "292aea7b1b1aae0ceddc4851680d4b73bd9191b185cc4f21c98cfa594243d9be",
+      "bytes": 13219
+    },
+    {
+      "path": "csp3_maize_gpp/headers.py",
+      "github_sha256": "99f827fa3e7cf216839a0504d886ad259e9d776d97ef0904c6aad38b1d3af1f0",
+      "working_sha256": "2858e1d0520dbd8b933da323046eabe672d66cd53e3b9022a6181402fbfba23d",
+      "bytes": 3600
+    },
+    {
+      "path": "csp3_maize_gpp/lgrip_proxy.py",
+      "github_sha256": "f62aa2984d11f7199e3149e88b1abf4cf04a256a4e3c2a41b7f6b3edfadde514",
+      "working_sha256": "bfdeba50a484720c871a051a373d8348e6f4bb0198e80c13714c33096ac38333",
+      "bytes": 6778
+    },
+    {
+      "path": "csp3_maize_gpp/lgrip_sources.py",
+      "github_sha256": "5979f02cad2fcab481cfa429f4ac4ecd7e0de676ccf6a6769992d1374c681b16",
+      "working_sha256": "551bb3dfe49ca0d2bbc289449ffdf713b168cf892876ad5980132d9fa20b9613",
+      "bytes": 4755
+    },
+    {
+      "path": "csp3_maize_gpp/package_proxy_helpers.py",
+      "github_sha256": "215e1b988ff810fecca966866e659ec2958d6b1d3e6271fe5df842430848a069",
+      "working_sha256": "86e7063b1eadc2d01bf7605fab6fdaf5d0a14625ceca274daa4f5612c3ff659f",
+      "bytes": 1110
+    },
+    {
+      "path": "csp3_maize_gpp/parameter_models.py",
+      "github_sha256": "4b34a0d4ea0c9d1f0d912e4be5f2b7859b7bbfab4ceb3ac044897c1cee8a2174",
+      "working_sha256": "4b34a0d4ea0c9d1f0d912e4be5f2b7859b7bbfab4ceb3ac044897c1cee8a2174",
+      "bytes": 7344
+    },
+    {
+      "path": "csp3_maize_gpp/proxy_charts.py",
+      "github_sha256": "28fcf40ac126359427d50ad4919a1101a7407679c466cb9dcdae044a87f57e4d",
+      "working_sha256": "1645c247ea929de27019bb2f0591c8c7d5889992e8605f4b7c7240dc7720ff8b",
+      "bytes": 6623
+    },
+    {
+      "path": "csp3_maize_gpp/proxy_delivery.py",
+      "github_sha256": "59e8e07d915580ca706805192e096e0214777d5eeff473e05c3fbd828f82c6c7",
+      "working_sha256": "881a9ac8ddfc8c828e48f2924041e30714a9ff2d6972951da018add9da935690",
+      "bytes": 12997
+    },
+    {
+      "path": "csp3_maize_gpp/proxy_extended_summary.py",
+      "github_sha256": "d8eec8c09bfe183c27ff0d06665c8d7be0bb956d1d415255162a7155ebaac2be",
+      "working_sha256": "d5d397687c7aed21caacd9e7101d62910ad0c21e9cad3aea6332edf5e35108a2",
+      "bytes": 5580
+    },
+    {
+      "path": "csp3_maize_gpp/proxy_gpp.py",
+      "github_sha256": "a02139878a0e3d4d7a95fa81bbf0e4353ccf7e31c2562c75f87773758d363642",
+      "working_sha256": "f16fa702d47449792fa21844aa513f8ec57d417749081410113661d12bf2233c",
+      "bytes": 4213
+    },
+    {
+      "path": "csp3_maize_gpp/proxy_mask_preview.py",
+      "github_sha256": "3d302bdfc4af87d5e9f06a99acf5c6ca44790f571dbe8be09b8ced08506c2585",
+      "working_sha256": "043ef411ba28a272e2d287b6e5e1f5cd1846052312f32e4d34fa1e53b7a50540",
+      "bytes": 4285
+    },
+    {
+      "path": "csp3_maize_gpp/proxy_progress.py",
+      "github_sha256": "9de3cd020c47551431902a14c4c0fb52bcf12927261e768d1411df1007c2c430",
+      "working_sha256": "32df56e1078e37f238950d9ccc46185043967d632eae350e10753957b55b260c",
+      "bytes": 2829
+    },
+    {
+      "path": "csp3_maize_gpp/proxy_progress_v2.py",
+      "github_sha256": "2e35761dfc74aaf8bad172e4fcd819fc0c173b678bac2d587f953e9cbfec1819",
+      "working_sha256": "579891aed00d6cdc2681d19ac61bbace7ed4db100a5f90adc47ff14e7a50f372",
+      "bytes": 3504
+    },
+    {
+      "path": "csp3_maize_gpp/publish_rasters.py",
+      "github_sha256": "fb5cc3f450c9c5c243483c8077e5e951ac649880f11d5a1f1d043ac50c0a8b5f",
+      "working_sha256": "fb5cc3f450c9c5c243483c8077e5e951ac649880f11d5a1f1d043ac50c0a8b5f",
+      "bytes": 3485
+    },
+    {
+      "path": "csp3_maize_gpp/reconstruction_benchmark.py",
+      "github_sha256": "7cceb8517c9f1c46f962eeb087e74878b7da96464746ecff43d1bc81c6af3623",
+      "working_sha256": "8e00f15769593819cbdc719d4761873076bd07a62378dfa58767fabbb28eda89",
+      "bytes": 3651
+    },
+    {
+      "path": "csp3_maize_gpp/reconstruction_math.py",
+      "github_sha256": "9d074e5dc6320b1ce0d14a9ee457e70a7ba6ec531c5a15803bcb63bd9f12e12f",
+      "working_sha256": "c7f8ee919faaca1d5044ba2dd99fa3c14da8346cb319d0a9fd1376c651f76517",
+      "bytes": 6285
+    },
+    {
+      "path": "csp3_maize_gpp/reconstruction_npp_ee.py",
+      "github_sha256": "d220d69b8cb37078e0ade0f1206a51720307da87ff60783db904182709bd9d7c",
+      "working_sha256": "9160d5561272ed5d7e5694c3c03e1d224bfc1c9510b243e4289e168720693f3e",
+      "bytes": 14498
+    },
+    {
+      "path": "csp3_maize_gpp/reconstruction_references.py",
+      "github_sha256": "60dd0d8612e3d629ee99f0c4eafbe819da01566d032fb01126e1f415a3b06bf8",
+      "working_sha256": "9680a69ec1d4c9cb6ea9091719474a1c3adb801cfb2fe8c8b3e8e1671d3edf5b",
+      "bytes": 4605
+    },
+    {
+      "path": "csp3_maize_gpp/reconstruction_regional.py",
+      "github_sha256": "3217b72f8a52d725934c7a5af45799f7a1216f605702be6de712aa1686697ce4",
+      "working_sha256": "d229a3229449322eb6824b0766d361c0a91e2a5642d307615a291e197a5ea4cf",
+      "bytes": 6491
+    },
+    {
+      "path": "csp3_maize_gpp/reconstruction_regional_verify.py",
+      "github_sha256": "63231199f4f70c62adff4c2e7a063d2120840bb0f3a53c5600afde19949bc5c7",
+      "working_sha256": "10861a9600c988f4b683afdc833e953a740e6f90a2e9859fca1f3e63a1f0fc2e",
+      "bytes": 4458
+    },
+    {
+      "path": "csp3_maize_gpp/reconstruction_verify.py",
+      "github_sha256": "e483f391316fdf5f125b79f4f93ecdfc894f3231ac6d2ece560849838e67bda4",
+      "working_sha256": "7adcaaacad98d7a08d36acfada264b9df664e196d4c40f748449b90c2cb06cd6",
+      "bytes": 4630
+    },
+    {
+      "path": "csp3_maize_gpp/remask_2019_2021.py",
+      "github_sha256": "f7facb78f13b1bb5c08fde1d84ad476904ab16babf0de9d338380bd7ff94a744",
+      "working_sha256": "50f0f9dc6a836703f759b915d40ac87864c3600613a18ccbf97885af1f6ed8e0",
+      "bytes": 6082
+    },
+    {
+      "path": "csp3_maize_gpp/run_pipeline.py",
+      "github_sha256": "653492a832aac58fe9990bba1b773afe67e0cc502ffdfa168f415b9768f75ca8",
+      "working_sha256": "653492a832aac58fe9990bba1b773afe67e0cc502ffdfa168f415b9768f75ca8",
+      "bytes": 5096
+    },
+    {
+      "path": "csp3_maize_gpp/statistics_notebook.py",
+      "github_sha256": "054d928134b5851f536eb89005436a5c8f86c66ea4dc937a339400ef70de909a",
+      "working_sha256": "054d928134b5851f536eb89005436a5c8f86c66ea4dc937a339400ef70de909a",
+      "bytes": 6290
+    },
+    {
+      "path": "csp3_maize_gpp/statistics_report.py",
+      "github_sha256": "4fb5587466a602f6b1fb7f756c421015e274695b476d7e616cf2b7d9010d5ebf",
+      "working_sha256": "677f0fc0fa6e65e369356181c4a48f54662cd51496ae324639989bbd03ddf0f7",
+      "bytes": 22773
+    },
+    {
+      "path": "csp3_maize_gpp/sync_field_notebooks.py",
+      "github_sha256": "9100581f08ec9f289f4e9a7db03379fca93630b122545b7a21d884f27ea16795",
+      "working_sha256": "0f985c9dc0b481b7bf4834ab19e1bb0fc20315cbe4b79d0b46d1a539010b4456",
+      "bytes": 3725
+    },
+    {
+      "path": "csp3_maize_gpp/sync_hi_to_drive.py",
+      "github_sha256": "f479dcdafbc39d0329d01208cb3de51c116c978c2780128c03ac7ad72357c4db",
+      "working_sha256": "f479dcdafbc39d0329d01208cb3de51c116c978c2780128c03ac7ad72357c4db",
+      "bytes": 4396
+    },
+    {
+      "path": "csp3_maize_gpp/sync_statistics_notebook.py",
+      "github_sha256": "8d019db2f22f4e15bdf9c23e0aa6985f97bd17aa6ccab788868908c83a8eb60d",
+      "working_sha256": "8d019db2f22f4e15bdf9c23e0aa6985f97bd17aa6ccab788868908c83a8eb60d",
+      "bytes": 1652
+    },
+    {
+      "path": "csp3_maize_gpp/tests/conftest.py",
+      "github_sha256": "b79253abb36d243928b1823701b2d9e69110244e527cf4849d9f116c2fa42e3c",
+      "working_sha256": "a3c67af27287c19364ea0f7844c22ba3e60b3e00aefa17c996d6251b1963828b",
+      "bytes": 232
+    },
+    {
+      "path": "csp3_maize_gpp/tests/test_aoi_grid.py",
+      "github_sha256": "cca899b54cf583b4fea2b3e3db10d20ebeffa48a23436ecdc4794ac38456b8c1",
+      "working_sha256": "e7073b6f98525dd60ab0aeb82f53f1f37be5bfe07e3ef367457f7981c1e8dc04",
+      "bytes": 902
+    },
+    {
+      "path": "csp3_maize_gpp/tests/test_auth.py",
+      "github_sha256": "7dbd6c55a354318b2b2b550cf5d1b39dc63567dc8721228e6029f6c572631ee6",
+      "working_sha256": "7dbd6c55a354318b2b2b550cf5d1b39dc63567dc8721228e6029f6c572631ee6",
+      "bytes": 3290
+    },
+    {
+      "path": "csp3_maize_gpp/tests/test_ch2v6_contract.py",
+      "github_sha256": "d20fe68835903e599148fd090f6a72dc73942677ea39372b92930b0afab3d278",
+      "working_sha256": "d20fe68835903e599148fd090f6a72dc73942677ea39372b92930b0afab3d278",
+      "bytes": 1636
+    },
+    {
+      "path": "csp3_maize_gpp/tests/test_drive_hi_sync.py",
+      "github_sha256": "214bc0cb890366c365aee79d3faebfe4e803ba74150da35670a6f93a52dbcca4",
+      "working_sha256": "214bc0cb890366c365aee79d3faebfe4e803ba74150da35670a6f93a52dbcca4",
+      "bytes": 2401
+    },
+    {
+      "path": "csp3_maize_gpp/tests/test_export_delivery.py",
+      "github_sha256": "3098b61b66cfabcad0f9f2c962a7297363da40d1875da047aa87baeebed0fe5b",
+      "working_sha256": "3098b61b66cfabcad0f9f2c962a7297363da40d1875da047aa87baeebed0fe5b",
+      "bytes": 1678
+    },
+    {
+      "path": "csp3_maize_gpp/tests/test_extension_contract.py",
+      "github_sha256": "059cf6a74105136dac37ca15787b2aba35dd49f793d4ee561754605483d34bc2",
+      "working_sha256": "d5e222fea56d618ae919392877fe56d4e838ab498eab97f1440dcf39e22f7fda",
+      "bytes": 5368
+    },
+    {
+      "path": "csp3_maize_gpp/tests/test_extension_notebook_update.py",
+      "github_sha256": "b9e2ad3c9df719ce093389e7fa8013cbca80da245b28b06b5c2029bf3816db41",
+      "working_sha256": "0957b966458c515743f7aa118b866459249e3246434890b02925d8c4a8cfbd96",
+      "bytes": 809
+    },
+    {
+      "path": "csp3_maize_gpp/tests/test_extension_progress.py",
+      "github_sha256": "715295b66c791a383d4a9def372778af9f22d1f9c68bcd8b14f911f5c3466a53",
+      "working_sha256": "d443df97ad96879f79b08c556f2ad86c0e9fc2f9e31cecae0858c04dad5b264d",
+      "bytes": 984
+    },
+    {
+      "path": "csp3_maize_gpp/tests/test_field_index.py",
+      "github_sha256": "218beaa71207be6ae13af130facaec847b6cdc69936a23556688797a62c6b684",
+      "working_sha256": "87a22053ea5b3226c25a57a2d660574ae828ded706db0cbebfb34623b1226cad",
+      "bytes": 9131
+    },
+    {
+      "path": "csp3_maize_gpp/tests/test_field_notebooks.py",
+      "github_sha256": "b9a39603d1bbc818e0dbff0fff72dd22faf285a7f1732b97a8de245124353330",
+      "working_sha256": "ea55b27cddb67cd8e7df4a809b43ddb71763419358dd12f21bd52c3ddc1926ea",
+      "bytes": 2886
+    },
+    {
+      "path": "csp3_maize_gpp/tests/test_finbin_benchmark.py",
+      "github_sha256": "c6c24850a0f730bd220b27d933d95ea5858a69d4845f5e2a5337cdaed10fa404",
+      "working_sha256": "c2bf38ad5bee58600c0952f7ec1eb635f2ab4e605a3ec7c766e3766b8b90bc52",
+      "bytes": 5421
+    },
+    {
+      "path": "csp3_maize_gpp/tests/test_finbin_county_context.py",
+      "github_sha256": "19a7ef9c9d6cc564c6e87bb9c03c60db143d1caa133c40342e20d16cf57f750d",
+      "working_sha256": "edecc0951d747ad8bfa09fa83eaaac392acb144f92b4eb4f660d733ae5a567a3",
+      "bytes": 3827
+    },
+    {
+      "path": "csp3_maize_gpp/tests/test_formulas.py",
+      "github_sha256": "19720190898742495b987823e241fff6d44bc3b31cfa9cd82089b3c8339b2189",
+      "working_sha256": "93acc21d04e9002fd813a0bda16b38ed27a9d513eff7a273b64cc1134c21bfef",
+      "bytes": 4073
+    },
+    {
+      "path": "csp3_maize_gpp/tests/test_gee_app_main_switcher.py",
+      "github_sha256": "ba9936c4a0d429dc7447b500efec33700abfe97ccf10dd45598c62cc19978aa2",
+      "working_sha256": "1d59abe55ad3673df6bc6df99314a36d57c5536b0c05926fbcadd84f21f7f6b7",
+      "bytes": 2356
+    },
+    {
+      "path": "csp3_maize_gpp/tests/test_gpp_contract.py",
+      "github_sha256": "818e8da5dcb688f997ef32d7c42c3b1ec41b1cf36d85652deed6eb923449bb58",
+      "working_sha256": "b8f1f60d13180e1ca3fa930ea37ef11fe94884bad97e404e734ffdf7dc73121e",
+      "bytes": 728
+    },
+    {
+      "path": "csp3_maize_gpp/tests/test_grain_moisture.py",
+      "github_sha256": "25ebfd55ef174f72885e1039aadd41a2c19c5fc2419b4249669e84fe55782da6",
+      "working_sha256": "25ebfd55ef174f72885e1039aadd41a2c19c5fc2419b4249669e84fe55782da6",
+      "bytes": 2795
+    },
+    {
+      "path": "csp3_maize_gpp/tests/test_hard_checks.py",
+      "github_sha256": "0c8699b2d0b36b2826b136894f393f5bd5330b4a046607c68518ba7ee7ebeb35",
+      "working_sha256": "751efe1e242f382db931a4c759e74261f7ed898788283844b88be29e9874c113",
+      "bytes": 2748
+    },
+    {
+      "path": "csp3_maize_gpp/tests/test_lgrip_proxy.py",
+      "github_sha256": "dea25885c6ad4bc4224506694aa0c5a34a69c49b2f6ec63aeb89c3af64f19ad8",
+      "working_sha256": "f48038a24b76c18f68cfb0c0951dd7754a18dd674e6ca54408acc149c5febca6",
+      "bytes": 2200
+    },
+    {
+      "path": "csp3_maize_gpp/tests/test_parameter_models.py",
+      "github_sha256": "2d00b682e8f11b05902d331db96dc60b39173dc4431c6ad7ac3c6429ebaa444d",
+      "working_sha256": "2d00b682e8f11b05902d331db96dc60b39173dc4431c6ad7ac3c6429ebaa444d",
+      "bytes": 2132
+    },
+    {
+      "path": "csp3_maize_gpp/tests/test_proxy_delivery.py",
+      "github_sha256": "5b7d9f16b6dcf8948a167a8b2b6adeae73a2ace2dbc9684ef9e3737a97157fff",
+      "working_sha256": "6875ed4bb4842fc3b804104bea9dd530ac122c1d492585d7eaf29e79ceb73e31",
+      "bytes": 3110
+    },
+    {
+      "path": "csp3_maize_gpp/tests/test_proxy_progress.py",
+      "github_sha256": "9cb0f9b4f4a7936f31f4d28a884836245ae67498a7e77592824e1770c4a8ee30",
+      "working_sha256": "d4d4746fd9828974a42b15dacbf27df807e35337ef64eafebeb5291dd4e98bf2",
+      "bytes": 788
+    },
+    {
+      "path": "csp3_maize_gpp/tests/test_publish_rasters.py",
+      "github_sha256": "99b66391aa032cfbc2a34aa80e36dea660d39a97dc166fac0e43e2324cbaab0a",
+      "working_sha256": "99b66391aa032cfbc2a34aa80e36dea660d39a97dc166fac0e43e2324cbaab0a",
+      "bytes": 2868
+    },
+    {
+      "path": "csp3_maize_gpp/tests/test_reconstruction_math.py",
+      "github_sha256": "08ef786ee08d66109ddd53acdfdf897bc6cdb06fa582371181fa73b018e73027",
+      "working_sha256": "8b5772d6c7cb56ed4789b4838620fceafaa3f9350433ada77f1de985f4888c9a",
+      "bytes": 3493
+    },
+    {
+      "path": "csp3_maize_gpp/tests/test_reconstruction_regional.py",
+      "github_sha256": "2547fe7a656387c0d07d5a71259245a89fda6a71bf9ce97cebcde37c58ce35c7",
+      "working_sha256": "231d34df796bf8bd6635c32cdbdcace0416400e04de1321959bdf66da52410f6",
+      "bytes": 910
+    },
+    {
+      "path": "csp3_maize_gpp/tests/test_reconstruction_verify.py",
+      "github_sha256": "4449ea66345a0a218f5cbb2283aa2b7c8869dc2d5845b9eda11e400280724936",
+      "working_sha256": "20a202b0a507273978856f4b65c8817ddbfddbd1c6585f2d98d529ee22bc591b",
+      "bytes": 1550
+    },
+    {
+      "path": "csp3_maize_gpp/tests/test_regional_verification.py",
+      "github_sha256": "ec898b941c61ba4a6d2160d6c06d3fe047ca8df68d637446a6eaa4aca2270126",
+      "working_sha256": "64ac3d757c82d144ae391e3b8d304d42cfa0595b178e13d4c8bf5796066fee68",
+      "bytes": 1795
+    },
+    {
+      "path": "csp3_maize_gpp/tests/test_run_pipeline.py",
+      "github_sha256": "1daae365623d9267981669649ef1150c68a33865f7677e3f0754522258f3b037",
+      "working_sha256": "7f5a9e09b1fa6c4afb0617a41c314c3cf6721e3ee554d0a73ba259902e182172",
+      "bytes": 632
+    },
+    {
+      "path": "csp3_maize_gpp/tests/test_s8_validation.py",
+      "github_sha256": "a590304fb69a01dcc614ca36a0ed5c8110e443a53a1b6e06133a8303a8e84273",
+      "working_sha256": "a590304fb69a01dcc614ca36a0ed5c8110e443a53a1b6e06133a8303a8e84273",
+      "bytes": 1327
+    },
+    {
+      "path": "csp3_maize_gpp/tests/test_statistics_report.py",
+      "github_sha256": "663e2ddbd159f1db0e5ca42fe79abd598ce266d7ca47bb95ec6105987755d3bd",
+      "working_sha256": "663e2ddbd159f1db0e5ca42fe79abd598ce266d7ca47bb95ec6105987755d3bd",
+      "bytes": 5783
+    },
+    {
+      "path": "csp3_maize_gpp/tests/test_summary_hi.py",
+      "github_sha256": "9cdf16fe296dda2a919985ecc3172d560a400e36912f122953056de90479d4b8",
+      "working_sha256": "9cdf16fe296dda2a919985ecc3172d560a400e36912f122953056de90479d4b8",
+      "bytes": 5434
+    },
+    {
+      "path": "csp3_maize_gpp/tests/test_workbook_inventory.py",
+      "github_sha256": "80ff49614c736ec591cc0c728c1a06bfa1fef24c1e51204c4a0b90bd9c2f4591",
+      "working_sha256": "80ff49614c736ec591cc0c728c1a06bfa1fef24c1e51204c4a0b90bd9c2f4591",
+      "bytes": 1575
+    },
+    {
+      "path": "csp3_maize_gpp/tests/test_yield_rasters.py",
+      "github_sha256": "5a819fbdc001b4f443ad6a4817b482d608b215564bd47304100bd2095725fb44",
+      "working_sha256": "5a819fbdc001b4f443ad6a4817b482d608b215564bd47304100bd2095725fb44",
+      "bytes": 4411
+    },
+    {
+      "path": "csp3_maize_gpp/update_extension_notebooks.py",
+      "github_sha256": "e141bb2a06889fbd444b38662970bdbecfee004b1b64f674e3d1cb2a783aba3b",
+      "working_sha256": "820d552269e20da70cb2a769a3a7f6dc4c95c64703fdb3cb504798cde68678b7",
+      "bytes": 7728
+    },
+    {
+      "path": "csp3_maize_gpp/update_legacy_field_notebook.py",
+      "github_sha256": "2ef4cbb193e4c5ebc81b70957ceb79ffb779d252b93dac4c4bca3a5b0c9a3c6b",
+      "working_sha256": "78bcc283f019f559a6c59fe74a864b5d35a577a187a359537ae1e8a23631068d",
+      "bytes": 6229
+    },
+    {
+      "path": "csp3_maize_gpp/update_proxy_notebooks.py",
+      "github_sha256": "98eef7bfcb2aa2db534675f0120118dac1bc441340fb9f359e4b068f405f516d",
+      "working_sha256": "9d3275b0732fe29ea8442f9ae48b85641c71b95afb519754e562d2585c4d7eb5",
+      "bytes": 5372
+    },
+    {
+      "path": "csp3_maize_gpp/validate_s8.py",
+      "github_sha256": "ca02c63067d60fcdc25f70cd20d0ce708193414311173791bea01cc42db59239",
+      "working_sha256": "ca02c63067d60fcdc25f70cd20d0ce708193414311173791bea01cc42db59239",
+      "bytes": 7521
+    },
+    {
+      "path": "csp3_maize_gpp/vector_hygiene.py",
+      "github_sha256": "deccbd5b8a5a79620964dc01a09a78e41f46e410ae667b7bbcd15b7bed97da20",
+      "working_sha256": "deccbd5b8a5a79620964dc01a09a78e41f46e410ae667b7bbcd15b7bed97da20",
+      "bytes": 3640
+    },
+    {
+      "path": "csp3_maize_gpp/verify_ids_2001_2021.py",
+      "github_sha256": "69df03422ad9daceeeec5cd140c0b48b1a5cfcfd86fb810f0912e913a95ac38f",
+      "working_sha256": "173a3b17d00efa5eca10980bc56d9cd92137ec9392775806301168bf171a30fb",
+      "bytes": 4566
+    },
+    {
+      "path": "csp3_maize_gpp/verify_proxy_checkpoint.py",
+      "github_sha256": "e055142109272072e9b92f2fbbb04cccce7309f55fad47c8a3f337326fa19fe2",
+      "working_sha256": "d554771c1211b75ec930cc48042a888f716d0ef0d30ade88610e918507e272b1",
+      "bytes": 3293
+    },
+    {
+      "path": "csp3_maize_gpp/workbook_inventory.py",
+      "github_sha256": "4dfefb216a4b464c5958a4510fd94a963811fb28935af31ed470d1aa605614af",
+      "working_sha256": "4dfefb216a4b464c5958a4510fd94a963811fb28935af31ed470d1aa605614af",
+      "bytes": 7235
+    },
+    {
+      "path": "csp3_maize_gpp/yield_rasters.py",
+      "github_sha256": "e89c9bd250f0663b0c04d476f5e35c3115b825984ac21d1a75daccb4f4cbbbe2",
+      "working_sha256": "450d5ef2c7d27a855539e13289172047a958817ced2facddffd62ce598d00b49",
+      "bytes": 17062
+    },
+    {
+      "path": "indigo_validation/CSP3_IndigoAg_Field_Yield_Validation.ipynb",
+      "github_sha256": "1de25313f234e00a48a17156955df685821f958263bb3784ba232ef2d9c55939",
+      "working_sha256": "8b4453333848e24da966957f0e5eb027cf550a6ffaa91449d88dfbe940de559d",
+      "bytes": 13440
+    },
+    {
+      "path": "indigo_validation/CSP3_IndigoAg_Field_Yield_Validation_executed_20260927.ipynb",
+      "github_sha256": "7fb2cd0d6ca1ca8c4087fef7af67be048b4024b0a308c4903f2fc68bdbf1d963",
+      "working_sha256": "a78372a763e7c393a1b25708f8a6335926c795dcb9cddea2ca9885cc901ca25f",
+      "bytes": 997208
+    },
+    {
+      "path": "indigo_validation/CSP3_IndigoAg_Field_Yield_Validation_executed_20260928.ipynb",
+      "github_sha256": "68557ce20a043c790e35b9d15d99a0b508c474d10f38ca69d0a2db6206371e46",
+      "working_sha256": "41b4efb2523202537ce98484fb4cdc11abca16bb2e177fcb2ebe0ae9761ff65a",
+      "bytes": 1012356
+    },
+    {
+      "path": "indigo_validation/build_notebook.py",
+      "github_sha256": "5b3be0830b1bbc7c44844ce16a887ac5cdba9bab87cec9919ca8b8de91c61c72",
+      "working_sha256": "903e2889ea1936f7072a196f4837759b3105ebf11890c66d1089eab1da6f2ebc",
+      "bytes": 6558
+    },
+    {
+      "path": "indigo_validation/cropland_ids.py",
+      "github_sha256": "fe5d9b72b27009b6ca25d06bb6434e4012d064c04eb5f0b131dca9f3f5e95f43",
+      "working_sha256": "fe5d9b72b27009b6ca25d06bb6434e4012d064c04eb5f0b131dca9f3f5e95f43",
+      "bytes": 11734
+    },
+    {
+      "path": "indigo_validation/prepare_attributes.py",
+      "github_sha256": "ff30a24a7797ee5b06a9f1704fce6ae33b0a7ff97218fab3c93c2aab8eb6b261",
+      "working_sha256": "ff30a24a7797ee5b06a9f1704fce6ae33b0a7ff97218fab3c93c2aab8eb6b261",
+      "bytes": 5448
+    },
+    {
+      "path": "indigo_validation/refresh_manifest.py",
+      "github_sha256": "05ef7b04d8d048c15df3c61f1426431c74ad7a4828c190064fb5ae91a2150ef7",
+      "working_sha256": "05ef7b04d8d048c15df3c61f1426431c74ad7a4828c190064fb5ae91a2150ef7",
+      "bytes": 1907
+    },
+    {
+      "path": "indigo_validation/reporting.py",
+      "github_sha256": "05c2ba7ce44b1979ec6d8ddcc105863e8ea6d6c1a6ca12f4b2a874864121ff6e",
+      "working_sha256": "23e2625e593909c805408cea82b8246893d72d59d199e0381140953e599e32d2",
+      "bytes": 11783
+    },
+    {
+      "path": "indigo_validation/test_cropland_ids.py",
+      "github_sha256": "e2920ae9021c2478a7117b199de56f4b2cbef1353d81e4fa6fde24e12c31271d",
+      "working_sha256": "e2920ae9021c2478a7117b199de56f4b2cbef1353d81e4fa6fde24e12c31271d",
+      "bytes": 4706
+    },
+    {
+      "path": "indigo_validation/test_extension_years.py",
+      "github_sha256": "731e94de7d88c6919d40f23e80a6363fca3d63e35ca26c4a02c32f66bbea69c3",
+      "working_sha256": "70a87c750c1e123cbcb7f2a170c57452b102abe59079704a9c04cf984d15a961",
+      "bytes": 2795
+    },
+    {
+      "path": "indigo_validation/test_integration.py",
+      "github_sha256": "8b483463e9a874c83e992cf54ade8f1e1fdbf068ba83c1470c7df820ea7e66e5",
+      "working_sha256": "8b483463e9a874c83e992cf54ade8f1e1fdbf068ba83c1470c7df820ea7e66e5",
+      "bytes": 2484
+    },
+    {
+      "path": "indigo_validation/test_validation.py",
+      "github_sha256": "5701ad0e734e0f972831bbf1dc97a5b01eaddbefe7477eb539fc786ba7f8006b",
+      "working_sha256": "5701ad0e734e0f972831bbf1dc97a5b01eaddbefe7477eb539fc786ba7f8006b",
+      "bytes": 1587
+    },
+    {
+      "path": "indigo_validation/validation.py",
+      "github_sha256": "6a1cd843e8953582b79cadad12c66423a6d0ef74faa573a9619a1b6a1809c1c6",
+      "working_sha256": "7828d0c9ce53ccabaa7d5ea67556e625fb839620c9778380f7f63e601d0e6b98",
+      "bytes": 18788
+    },
+    {
+      "path": "indigo_validation/verify_crop_indexes.py",
+      "github_sha256": "1553ae73dde8d491fe9113f02c5a26b95f5a6841df7699ae812d2ae7429a3979",
+      "working_sha256": "1553ae73dde8d491fe9113f02c5a26b95f5a6841df7699ae812d2ae7429a3979",
+      "bytes": 2912
+    },
+    {
+      "path": "indigo_validation/verify_outputs.py",
+      "github_sha256": "9092d2df12b833fd363931eff3c9d0b7edd1628a980460a65dd55d82b3360bf5",
+      "working_sha256": "9092d2df12b833fd363931eff3c9d0b7edd1628a980460a65dd55d82b3360bf5",
+      "bytes": 3926
+    },
+    {
+      "path": "nccpi_comparison/CSP3_NCCPI_Corn_V3_Slope_Comparison.ipynb",
+      "github_sha256": "e2e0981d332326caede1f0b81e2ab6624119c0dc77e2a50c484f8fabadbb8042",
+      "working_sha256": "4725df211ee5bd905a1f913b3eea8ef4b466aa5a77cc213af298bc825cceb68d",
+      "bytes": 14905208
+    },
+    {
+      "path": "nccpi_comparison/code/acquire_arcgis.py",
+      "github_sha256": "7903c80bdbb104660b5b195f942128a5d0ec49bbbb230161b82940ce36ba2d3d",
+      "working_sha256": "7903c80bdbb104660b5b195f942128a5d0ec49bbbb230161b82940ce36ba2d3d",
+      "bytes": 3007
+    },
+    {
+      "path": "nccpi_comparison/code/pipeline.py",
+      "github_sha256": "f7d9e4a6a12b2416f413ff4878a418e2fa79de201b43bdd2d06472f78b9fc71f",
+      "working_sha256": "f7d9e4a6a12b2416f413ff4878a418e2fa79de201b43bdd2d06472f78b9fc71f",
+      "bytes": 29159
+    },
+    {
+      "path": "nccpi_comparison/code/reporting.py",
+      "github_sha256": "afb82fd1aab501fff1f63853f90f13dd527592b5c89addb58a7f5cad187d1036",
+      "working_sha256": "afb82fd1aab501fff1f63853f90f13dd527592b5c89addb58a7f5cad187d1036",
+      "bytes": 15800
+    },
+    {
+      "path": "nccpi_comparison/code/spatial_stats.py",
+      "github_sha256": "9abfa87e0caa06898cb6e0df4bd2eaa68a718b21d0e0e60d3165ee6b945d8c33",
+      "working_sha256": "9abfa87e0caa06898cb6e0df4bd2eaa68a718b21d0e0e60d3165ee6b945d8c33",
+      "bytes": 6093
+    },
+    {
+      "path": "nccpi_comparison/code/test_spatial_stats.py",
+      "github_sha256": "a6e605a2649585b9d61539d863457965994dce22f23c54b83512c856653b7b68",
+      "working_sha256": "a6e605a2649585b9d61539d863457965994dce22f23c54b83512c856653b7b68",
+      "bytes": 1690
+    },
+    {
+      "path": "nccpi_comparison/deploy_in_colab.py",
+      "github_sha256": "2f7b34aa5161dfb4e15bbdf1fb22cb4a227f1ad987abe8d450b0833ea26880d3",
+      "working_sha256": "2f7b34aa5161dfb4e15bbdf1fb22cb4a227f1ad987abe8d450b0833ea26880d3",
+      "bytes": 1256
+    },
+    {
+      "path": "non_irrigated_corn_mlra_ne.ipynb",
+      "github_sha256": "cfc522abd76b31538cad0999bd8bf3ba09b0229b6066e443d2ccb0cbdb93b4c1",
+      "working_sha256": "cfc522abd76b31538cad0999bd8bf3ba09b0229b6066e443d2ccb0cbdb93b4c1",
+      "bytes": 2459878
+    }
+  ],
+  "line_endings": "Git blob hashes are canonical; working hashes separately retain Windows bytes."
+}

@@ -1,0 +1,9 @@
+{
+  "verified": true,
+  "input_manifest_sha256": "4c6aaf6e5683e69cd20c535cda20c6f3b55301340e333a99ea338aa1e59531eb",
+  "candidate_sha256": "1cb018a48e5c8b8ab5fab9fb39abc58b6c33f1d805df6a57bc570d91a232ceac",
+  "verified_utc": "2026-09-30T06:18:36.491530+00:00",
+  "published": true,
+  "presentation_revision": "Current release footer and undefined-cash account label; numerical inputs and evidence unchanged",
+  "published_verified_utc": "2026-09-30T06:42:53.829563+00:00"
+}

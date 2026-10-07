@@ -1,0 +1,97 @@
+{
+  "headRevision": "900d9995d36b35ed9327285257f837d9e714831d",
+  "checks": [
+    {
+      "id": 109786032058,
+      "name": "test (3.12)",
+      "head_sha": "900d9995d36b35ed9327285257f837d9e714831d",
+      "status": "completed",
+      "conclusion": "success",
+      "details_url": "https://github.com/njberkowitz95/Yields-and-Fields-CH1/actions/runs/36684155372/job/109786032058",
+      "output": {
+        "title": null,
+        "summary": null,
+        "text": null,
+        "annotations_count": 2
+      }
+    },
+    {
+      "id": 109786031975,
+      "name": "test (3.12)",
+      "head_sha": "900d9995d36b35ed9327285257f837d9e714831d",
+      "status": "completed",
+      "conclusion": "success",
+      "details_url": "https://github.com/njberkowitz95/Yields-and-Fields-CH1/actions/runs/36684155427/job/109786031975",
+      "output": {
+        "title": null,
+        "summary": null,
+        "text": null,
+        "annotations_count": 2
+      }
+    },
+    {
+      "id": 109786031799,
+      "name": "test (3.11)",
+      "head_sha": "900d9995d36b35ed9327285257f837d9e714831d",
+      "status": "completed",
+      "conclusion": "success",
+      "details_url": "https://github.com/njberkowitz95/Yields-and-Fields-CH1/actions/runs/36684155372/job/109786031799",
+      "output": {
+        "title": null,
+        "summary": null,
+        "text": null,
+        "annotations_count": 2
+      }
+    },
+    {
+      "id": 109786031789,
+      "name": "test (3.11)",
+      "head_sha": "900d9995d36b35ed9327285257f837d9e714831d",
+      "status": "completed",
+      "conclusion": "success",
+      "details_url": "https://github.com/njberkowitz95/Yields-and-Fields-CH1/actions/runs/36684155427/job/109786031789",
+      "output": {
+        "title": null,
+        "summary": null,
+        "text": null,
+        "annotations_count": 2
+      }
+    },
+    {
+      "id": 109785665042,
+      "name": "test (3.12)",
+      "head_sha": "900d9995d36b35ed9327285257f837d9e714831d",
+      "status": "completed",
+      "conclusion": "success",
+      "details_url": "https://github.com/njberkowitz95/Yields-and-Fields-CH1/actions/runs/36684032634/job/109785665042",
+      "output": {
+        "title": null,
+        "summary": null,
+        "text": null,
+        "annotations_count": 2
+      }
+    },
+    {
+      "id": 109785664778,
+      "name": "test (3.11)",
+      "head_sha": "900d9995d36b35ed9327285257f837d9e714831d",
+      "status": "completed",
+      "conclusion": "success",
+      "details_url": "https://github.com/njberkowitz95/Yields-and-Fields-CH1/actions/runs/36684032634/job/109785664778",
+      "output": {
+        "title": null,
+        "summary": null,
+        "text": null,
+        "annotations_count": 2
+      }
+    }
+  ],
+  "statuses": [],
+  "annotations": [],
+  "hasMore": false,
+  "job": null,
+  "jobs": [],
+  "log": null,
+  "logTruncated": false,
+  "providerGuidance": "GitHub guidance for this response only: use checkRunId for output and annotations, runId from a GitHub Actions /runs/<id> link to list jobs, or jobId from a /jobs/<id> link for logs. page paginates checks, jobs or annotations. Keep the supplied account and returned headRevision on follow-up reads. Third-party CI exposes only the output reported to GitHub."
+}

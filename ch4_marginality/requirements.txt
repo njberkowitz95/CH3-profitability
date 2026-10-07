@@ -1,0 +1,16 @@
+numpy>=1.26,<3
+pandas>=2,<4
+scipy>=1.11,<2
+rasterio>=1.4,<2
+geopandas>=1.0,<2
+shapely>=2,<3
+matplotlib>=3.8,<4
+openpyxl>=3.1,<4
+nbformat>=5,<6
+nbclient>=0.10,<1
+markdown>=3,<4
+tabulate>=0.9,<1
+requests>=2,<3
+beautifulsoup4>=4,<5
+earthengine-api>=1.5,<2
+reportlab>=4,<5

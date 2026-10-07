@@ -1,0 +1,18 @@
+{
+  "status": "completed_verified",
+  "identity_scope": "Every positive annual dryland corn pixel in the CH4 MLRA 106 masks, 2001-2021 biennially, including missing yield",
+  "annual_crop_patches": 111290,
+  "crop_pixel_years": 37286045,
+  "unindexed_crop_pixels": 0,
+  "all_output_pixels_checked": true,
+  "source_freshness_checked": true,
+  "locked_input_files": 158,
+  "scientific_tests_passed": 28,
+  "github_code_revision": "900d9995d36b35ed9327285257f837d9e714831d",
+  "github_ci_successful_checks": 6,
+  "code_files_published": 183,
+  "parent_release_unchanged": true,
+  "model_and_economic_results_unchanged": true,
+  "app": "See app_publication_record.json: source matches previously published and tested deployment; browser recheck unavailable this turn",
+  "created_utc": "2026-09-30T07:29:27.704391+00:00"
+}

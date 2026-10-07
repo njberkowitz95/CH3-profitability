@@ -1,0 +1,956 @@
+{
+  "run_id": "20260929_historical_budget_audit_v1",
+  "files": [
+    {
+      "path": "app_data_profit_source_audit.json",
+      "size_bytes": 1856216,
+      "sha256": "557d20a86bf8c44f2bccbaf5640a1153709d9ef3d0827b848e68cb5b8b64d14c"
+    },
+    {
+      "path": "code/__init__.py",
+      "size_bytes": 62,
+      "sha256": "ce9c3b193f2f6c8c04cc471407a1341114b8ac788e01af588ded5f67ce9daab1"
+    },
+    {
+      "path": "code/acquire_sources.py",
+      "size_bytes": 1684,
+      "sha256": "191e3c07e10e17a957cece4e52d5ba9680258aa6a5a2cbcc22c24477c6aa77cc"
+    },
+    {
+      "path": "code/budget_registry.py",
+      "size_bytes": 3306,
+      "sha256": "a1057a47a7c6ed1b701ea670260ad3f6c3fcd414f7400adf92190f312e71d410"
+    },
+    {
+      "path": "code/build_app.py",
+      "size_bytes": 2050,
+      "sha256": "1efa4016a777c79ea65f63b9313282ec6bbe0ba878ea4b7e0b53b12c028cd9dc"
+    },
+    {
+      "path": "code/build_assets_current.py",
+      "size_bytes": 751,
+      "sha256": "2a0b7fff5c5a8d4eed60f74e15ec54fe547be4eea19c8d779b375c75da653186"
+    },
+    {
+      "path": "code/build_profit_app.py",
+      "size_bytes": 3937,
+      "sha256": "476c18017d504cfbfde2e33f563c3046efbfd291c5d21e948bd011c784c67262"
+    },
+    {
+      "path": "code/ch4-economics.yml",
+      "size_bytes": 1850,
+      "sha256": "317f0930950e0caae2c5c8c3ce996d22edbda7e07a79c5419d030b61a77e317e"
+    },
+    {
+      "path": "code/core.py",
+      "size_bytes": 3190,
+      "sha256": "c7f5a9d5f5df926995e7c8b3ee405f4af0b352ca669c8c0b84aa34d8dcde5883"
+    },
+    {
+      "path": "code/execute_notebook.py",
+      "size_bytes": 754,
+      "sha256": "8a263b011a52d76ceed13767b2999aece6a616ee48f6017ac4731c630079c1d9"
+    },
+    {
+      "path": "code/final_checks.py",
+      "size_bytes": 7004,
+      "sha256": "b0022576ba724e049e1790981c492e4d0566b356070b53641f5089a46f1f1957"
+    },
+    {
+      "path": "code/finalize_notebook.py",
+      "size_bytes": 1838,
+      "sha256": "eefaad238b898fbb501b18ce3f012e2ced0194f9cd96a6d6b7edba37927c1b81"
+    },
+    {
+      "path": "code/finalize_profit.py",
+      "size_bytes": 2650,
+      "sha256": "e8408f45b1322f5ea5b37f22a867f7f7f51f0dea0fc0fb8966b3f1a6c6bfe7d1"
+    },
+    {
+      "path": "code/gee_profit_controls.js",
+      "size_bytes": 29155,
+      "sha256": "ebe9e6372bbfaf19ffda57e7db9a810ff4ebcfbcde7e77976907725181960284"
+    },
+    {
+      "path": "code/HISTORICAL_BUDGET_AUDIT.md",
+      "size_bytes": 6236,
+      "sha256": "7b7287e9026cb9034de946acc87d14060e89c003480edf9d4480c9ef867cb539"
+    },
+    {
+      "path": "code/historical_budget_release.py",
+      "size_bytes": 5973,
+      "sha256": "c14a005a366dd3be8712eb5506d37296a3fa0452ec92c652aa0df090f815ed9c"
+    },
+    {
+      "path": "code/package_outputs.py",
+      "size_bytes": 2275,
+      "sha256": "3f3d86b4fefc32e13b734a0d29b685f2243092b757c20c559c0c2e45ac440f97"
+    },
+    {
+      "path": "code/pipeline.py",
+      "size_bytes": 21804,
+      "sha256": "3ab7c51ff52eecc5e62bba1434b42b289f179f953d813623cef1aa4e812d008e"
+    },
+    {
+      "path": "code/prepare_app_asset.py",
+      "size_bytes": 1815,
+      "sha256": "f1f91322dd3236a4ccfcabb57fef588b7fc08b2a5099f2043e2a86cb509ece63"
+    },
+    {
+      "path": "code/prepare_budgets.py",
+      "size_bytes": 7604,
+      "sha256": "ed7bf36b6384736b8210112a4f76575cbe4d3a3e0702a41d2e8e632c85e21824"
+    },
+    {
+      "path": "code/profit_assets.py",
+      "size_bytes": 6125,
+      "sha256": "4f00d642ff1d60abd46e6213ef46018a3fc646066882adf94832383cd3c5a1f3"
+    },
+    {
+      "path": "code/profit_figures.py",
+      "size_bytes": 4335,
+      "sha256": "bc0a66181a66f104715313e063cc9bb3e11d079969d8cca52afaa9128c163424"
+    },
+    {
+      "path": "code/profit_report.py",
+      "size_bytes": 8288,
+      "sha256": "36e8d1d25d5bcd3daa45eb6f8ce8c59fdf06ddacaa6c9f5dd3d88e869eee503d"
+    },
+    {
+      "path": "code/profit_workspace.py",
+      "size_bytes": 14871,
+      "sha256": "7fd8d014f74537286573bed15697fd37a1cf368e4ce77795cdbba9e1e1d35049"
+    },
+    {
+      "path": "code/README.md",
+      "size_bytes": 6920,
+      "sha256": "cc771799cdc8ee8da11a1bebc7e0cf2add1d9a8d88fbd43c39050bc52519dfd4"
+    },
+    {
+      "path": "code/release_manifest.py",
+      "size_bytes": 1478,
+      "sha256": "5bf7aa23491537b48762e895715cb64dbdf3ca09f86eb7db1a5cbb0b0b07ead5"
+    },
+    {
+      "path": "code/reporting.py",
+      "size_bytes": 16024,
+      "sha256": "4fe8fb07f21c945cacaaad10acc4aee59bc96b33ba2a787b61c6f2bf09ab1e38"
+    },
+    {
+      "path": "code/requirements.txt",
+      "size_bytes": 269,
+      "sha256": "efc73d089c5fc1cbe42c1c8e99b9d9dd6c5de204c34f282e028ebad8bfaa4b33"
+    },
+    {
+      "path": "code/resume_report.py",
+      "size_bytes": 2455,
+      "sha256": "7df89c260da465e16af1c4c6dedfe1cecf357d0c00e6c41b598651fe7513584f"
+    },
+    {
+      "path": "code/run_current.py",
+      "size_bytes": 667,
+      "sha256": "38a921b2ac358fa426d323fa9ba12deea8a1fbe71d2e5085c8b1de34a634d295"
+    },
+    {
+      "path": "code/stage_app.py",
+      "size_bytes": 2933,
+      "sha256": "a9f3d8f6b70af102dee8ac0a38965154c8dd246c67144bc4416b2c1013ab2373"
+    },
+    {
+      "path": "code/verify_app_classes.py",
+      "size_bytes": 2194,
+      "sha256": "0b80fa78e9051cb92bfa1cd559e6cd0066b76274f05b4956cd9a95e35b81139c"
+    },
+    {
+      "path": "code/verify_ee_assets.py",
+      "size_bytes": 1987,
+      "sha256": "5ff2b5a7fad14e2411bd142dab69e6ef9b8e22e53136513b0908cb10aab6a211"
+    },
+    {
+      "path": "code/verify_profit_pixels.py",
+      "size_bytes": 4297,
+      "sha256": "ea9151898d71a509bee53b8e5b16fd7d7fede57f0978d365b10568959758ce4f"
+    },
+    {
+      "path": "delivery_status.json",
+      "size_bytes": 2030,
+      "sha256": "0686124552d2ddecab85a88457d4918b31e97ce8cf838051b2176063726f2cf3"
+    },
+    {
+      "path": "deployment_input_manifest.json",
+      "size_bytes": 73716,
+      "sha256": "6230f924ecd3c4b45ab02526c9e5e7fba1fdd2fbb3ce7427d9ff34f231cc1183"
+    },
+    {
+      "path": "gee_app_Yield_PEM_source_audit.js",
+      "size_bytes": 482633,
+      "sha256": "f3a03a2d887c299902782d022df72cea61a2ba67b26913f59dda4501a8049b41"
+    },
+    {
+      "path": "HISTORICAL_BUDGET_AUDIT.md",
+      "size_bytes": 6236,
+      "sha256": "7b7287e9026cb9034de946acc87d14060e89c003480edf9d4480c9ef867cb539"
+    },
+    {
+      "path": "numerical_results_reference.json",
+      "size_bytes": 520,
+      "sha256": "cb1267addade4725775c42936d337ad4c8c04ff323e1db0f369e460f929df828"
+    },
+    {
+      "path": "source_manifest.json",
+      "size_bytes": 26557,
+      "sha256": "15aa6af8e18e417ab3e2170ba114f16f34a325582a534bab3458e98699ae64f0"
+    },
+    {
+      "path": "sources/acquisition_manifest.json",
+      "size_bytes": 6978,
+      "sha256": "f2ccfcf52178a69fa88bb5c911454833265b049c3907d96d63c494d103a279d2"
+    },
+    {
+      "path": "sources/consensus_search.json",
+      "size_bytes": 34503,
+      "sha256": "7d4db355d8b6d342584e4f5aa5d7f8448089e18dcf0ef50749372ea5eb46a441"
+    },
+    {
+      "path": "sources/ers_corn.csv",
+      "size_bytes": 926099,
+      "sha256": "107a04eb8efd4d538766429c206cb1851dc9bea2d97cc090552dc5048c21aee3"
+    },
+    {
+      "path": "sources/ers_corn.xlsx",
+      "size_bytes": 364326,
+      "sha256": "aa2da87bad77dede806fe30bfe472439fa1b4e8311237567c5458a3b1f75d991"
+    },
+    {
+      "path": "sources/ers_regions.pdf",
+      "size_bytes": 2401562,
+      "sha256": "9bc57ada57d2aa1c834095607ec9d10e3aa8e050be9f0cd1187698dd8bd8ad08"
+    },
+    {
+      "path": "sources/ers_tb1970.pdf",
+      "size_bytes": 5968009,
+      "sha256": "7533e97f0c9825d0e1071f57d36cb0bf535fb12ed3f204f3873f319e459296d8"
+    },
+    {
+      "path": "sources/finbin_county_1008338.csv",
+      "size_bytes": 10534,
+      "sha256": "60c1f44e47274e041bbe19fe0af0d82477a3151e9c9902bc048f65da44b58029"
+    },
+    {
+      "path": "sources/finbin_state_1008210.csv",
+      "size_bytes": 13298,
+      "sha256": "9c71006c8df4010b187ef6035378dc10ee591142b94ce3995afaa256119a322d"
+    },
+    {
+      "path": "sources/historical_search_responses.json",
+      "size_bytes": 6360,
+      "sha256": "da2c76a93c7a364c260afeafd91b9982b7ec043db2a986a750e12ccd0b0de621"
+    },
+    {
+      "path": "sources/nass_crop_values_2021.pdf",
+      "size_bytes": 1059102,
+      "sha256": "fa662c9c9ca51ba28136bc791a5e6a8e138e1f8a14e5d78579ce9696208ad4d1"
+    },
+    {
+      "path": "sources/nass_crop_values_2022.pdf",
+      "size_bytes": 950949,
+      "sha256": "2b52a4c6637e96392ade137fac165cd0dd2c3c36cce1556efcdfb90e71bc8f62"
+    },
+    {
+      "path": "sources/nass_price_table.txt",
+      "size_bytes": 9417,
+      "sha256": "bb801028c3b0303a283720850051d0c57b309f06fb37c7ca095fce18774e005f"
+    },
+    {
+      "path": "sources/original_draft_preservation.json",
+      "size_bytes": 192,
+      "sha256": "c1933bfa9e718fa0d40cd1a0c2268d4ddf709f0ae3eb73554d6eaa3525e7af9f"
+    },
+    {
+      "path": "sources/scispace_search.json",
+      "size_bytes": 65285,
+      "sha256": "172cddf49af31e7218a5e8dd6d87d39bbae771f3f44b79b111a7ea0883524bad"
+    },
+    {
+      "path": "sources/unl_2001.pdf",
+      "size_bytes": 8712717,
+      "sha256": "498daecae9221687f51958187452e1ff908f5894ec222b2b12445b5921949b4b"
+    },
+    {
+      "path": "sources/unl_2009.pdf",
+      "size_bytes": 1865687,
+      "sha256": "1c8b75dbfd4a0d4279a8cc5c063c8bad553b4b0ea3753ceeebe1df76d8532e80"
+    },
+    {
+      "path": "sources/unl_2011.pdf",
+      "size_bytes": 2236859,
+      "sha256": "b8a2152dcc047ac3b2274d4353517f6ffb1f543bc5c93068b79cb9548e255ac9"
+    },
+    {
+      "path": "sources/unl_2013.pdf",
+      "size_bytes": 6363722,
+      "sha256": "ffed1c52df62b67f7248ac74401b9ea85fd39ad4ec2730c1277998734f856994"
+    },
+    {
+      "path": "sources/unl_2015.pdf",
+      "size_bytes": 1698100,
+      "sha256": "f1b374b5075e3e9ed08b42576466fef8fbd5afccebf45fd4e5a0b9c4f0c67445"
+    },
+    {
+      "path": "sources/unl_2017.pdf",
+      "size_bytes": 1556642,
+      "sha256": "8543fc37829cd7e5dd1d2f903578dad96ffc6831c17d2f61e0715e790d86d395"
+    },
+    {
+      "path": "sources/unl_2017_page_27.txt",
+      "size_bytes": 2029,
+      "sha256": "88e38bd7245808743239f8630d4a76c2048d91f4b2216c3d85d52369d7ca0a17"
+    },
+    {
+      "path": "sources/unl_2017_page_28.txt",
+      "size_bytes": 2307,
+      "sha256": "df25877eb1bbf29f131f508de2152e7d4a254f8740d1cce11d36350b4dff3f55"
+    },
+    {
+      "path": "sources/unl_2017_page_3.txt",
+      "size_bytes": 3217,
+      "sha256": "9cf99f7f09b49755ccc5f91cbf76fdf22403149c9503d71f98609bd5db2e7f91"
+    },
+    {
+      "path": "sources/unl_2017_page_30.txt",
+      "size_bytes": 2247,
+      "sha256": "20d51de95b14e3c280139877078cfdb6f64952057333c00583050a69b952a1c4"
+    },
+    {
+      "path": "sources/unl_2017_page_31.txt",
+      "size_bytes": 2529,
+      "sha256": "68e62c7368c8f317d3d4d379eaff269e501f04ff203d2afa04dc721a53c7a857"
+    },
+    {
+      "path": "sources/unl_2017_page_32.txt",
+      "size_bytes": 2344,
+      "sha256": "9bebe2787f869d07f74d201028c3dcd842aba00c679873eb1b73b993ff256a89"
+    },
+    {
+      "path": "sources/unl_2017_page_34.txt",
+      "size_bytes": 2350,
+      "sha256": "eeac31c51b23bc2daa5a48c4eaabe9abc19507db142b78df9fbdc38f6a2b3525"
+    },
+    {
+      "path": "sources/unl_2017_page_68_layout.txt",
+      "size_bytes": 56977,
+      "sha256": "4444042deb58c3ee8016c135ec1377754cd9d8e986bcdf6e758f82313c2a72f7"
+    },
+    {
+      "path": "sources/unl_2017_page_69_layout.txt",
+      "size_bytes": 57354,
+      "sha256": "fcfc919c187b6604b5959244b7755d271b3ee6b986907db231e8d52171fc93e1"
+    },
+    {
+      "path": "sources/unl_2017_page_71_layout.txt",
+      "size_bytes": 53124,
+      "sha256": "8ffd3332246f98d3507c7581caf5b7a36e0a81e67a026008c7f4297afe261a93"
+    },
+    {
+      "path": "sources/unl_2017_page_72_layout.txt",
+      "size_bytes": 53053,
+      "sha256": "74cb47ab5610328b420db0f4e80984b3b42ed6efb9335247f104b8d82ca778f8"
+    },
+    {
+      "path": "sources/unl_2019.pdf",
+      "size_bytes": 2250134,
+      "sha256": "6a0693e0c7f8c0f6bcee620595b45fa1214e342147fbd0de40df2e60eab5dd09"
+    },
+    {
+      "path": "sources/unl_2019_page_2.txt",
+      "size_bytes": 3350,
+      "sha256": "d56db93208cf5d023018bfa6b863d62720902092b6bb1c46a9a68d88bd1012f9"
+    },
+    {
+      "path": "sources/unl_2019_page_3.txt",
+      "size_bytes": 2827,
+      "sha256": "cece5da05be00e8b62e177b0a6e7f3d3e59c7136172c9c6d86e599bff89d3a1f"
+    },
+    {
+      "path": "sources/unl_2019_page_34.txt",
+      "size_bytes": 2422,
+      "sha256": "5c665cae6ac422d60032e18849fa02cee59472d630be22def8f95a8d0efe9b65"
+    },
+    {
+      "path": "sources/unl_2019_page_36.txt",
+      "size_bytes": 2242,
+      "sha256": "cbdd30df298bb1482cca073e2b4fee2a02f5bab6a5abad0dfe9a1a98fe3eeb6d"
+    },
+    {
+      "path": "sources/unl_2019_page_6.txt",
+      "size_bytes": 3514,
+      "sha256": "376a6a1f674b1d0a9aac6135f32b187d500ca7540596a6b698f0ce71760a7cbd"
+    },
+    {
+      "path": "sources/unl_2019_page_73.txt",
+      "size_bytes": 2069,
+      "sha256": "d2c300ba67416025f264fe986b0f42b4f54e2585352ff3851f150e92df5c2ba0"
+    },
+    {
+      "path": "sources/unl_2019_page_74.txt",
+      "size_bytes": 2345,
+      "sha256": "6a8f89d36a0f9de1cc3b36888b4432369458cc0b65ff1c950c85d67613896a19"
+    },
+    {
+      "path": "sources/unl_2019_page_76.txt",
+      "size_bytes": 2293,
+      "sha256": "49610b006fd5ae8102884cc36b9ad5877a2457e22560683cb94b67a4bc26f84d"
+    },
+    {
+      "path": "sources/unl_2019_page_77.txt",
+      "size_bytes": 2611,
+      "sha256": "bde5ca4ff0b850f987b7cf1faef97ab0057b08a26a624aeb68fd9440236f99c8"
+    },
+    {
+      "path": "sources/unl_2019_page_78.txt",
+      "size_bytes": 2487,
+      "sha256": "cbde1c16fbca59cfe5bc23c169a26802c2706b97b979caf42b56c280f9a40c69"
+    },
+    {
+      "path": "sources/unl_2019_page_80.txt",
+      "size_bytes": 2487,
+      "sha256": "6570585a5ef775b506072dd56da042074fa89ccbebcfd399b6cd73b58e623709"
+    },
+    {
+      "path": "sources/unl_2021.pdf",
+      "size_bytes": 2998287,
+      "sha256": "6f8182a9f7cb98b806308a3c378d4e7c9a2ed78b974aad95f93bf9ea87b0e6b4"
+    },
+    {
+      "path": "sources/unl_2021_page_2.txt",
+      "size_bytes": 1827,
+      "sha256": "8fe70282a38d104304ee5f63cbc14271696da90c74543a533ff60a42b8bec18b"
+    },
+    {
+      "path": "sources/unl_2021_page_28.txt",
+      "size_bytes": 2368,
+      "sha256": "9eeb67abdd2862209fc88284f3c8e3465025b432def0961547b7eb2b597cb2db"
+    },
+    {
+      "path": "sources/unl_2021_page_3.txt",
+      "size_bytes": 3452,
+      "sha256": "cbb8bfb011ddf5d627bfbc32850f917f7b6d8237937a5e9338742fab33e8364d"
+    },
+    {
+      "path": "sources/unl_2021_page_30.txt",
+      "size_bytes": 2228,
+      "sha256": "007195d5a439d9ad660528b7bcdca96affc7a74b162124f7a34db7aa7572e8b9"
+    },
+    {
+      "path": "sources/unl_2021_page_6.txt",
+      "size_bytes": 3614,
+      "sha256": "3e7f90fc5111a7ca774003aec4ba27553af6e0b1878ea93c1ab98b65a8a1eb75"
+    },
+    {
+      "path": "sources/unl_2021_page_69.txt",
+      "size_bytes": 2126,
+      "sha256": "6c3787aad01f4ca9ce01837fb8bda4986d72e2f2b79bb4c56eac37af3e828815"
+    },
+    {
+      "path": "sources/unl_2021_page_70.txt",
+      "size_bytes": 2417,
+      "sha256": "0caae0e7cc5e9fac27fae349e0c0cd254107d9e2e36989dd6ceb650f5b16fdff"
+    },
+    {
+      "path": "sources/unl_2021_page_72.txt",
+      "size_bytes": 2352,
+      "sha256": "51660f25533456343a2e395fb36275733146f72249553a7b4f4393a63c6318e0"
+    },
+    {
+      "path": "sources/unl_2021_page_73.txt",
+      "size_bytes": 2634,
+      "sha256": "7abf6fdc97bcbe4e65e011884224ab1db217dc59e92ba07526163f0dc88d46c2"
+    },
+    {
+      "path": "sources/unl_2021_page_74.txt",
+      "size_bytes": 2461,
+      "sha256": "a841129f00e795530b7e56144ef6b26d47c8b6cd152a63d62b515582d6016f0c"
+    },
+    {
+      "path": "sources/unl_2021_page_76.txt",
+      "size_bytes": 2439,
+      "sha256": "aa0e6bab18b60ba11ff62f515d23122d986705ff9fe7a7faaf9443f3a6a6f45f"
+    },
+    {
+      "path": "sources/unl_2021_page_77.txt",
+      "size_bytes": 2464,
+      "sha256": "78ab9278f27e591b492b0bd31be412815a22ff9aa3105bd84991ab1bc733f561"
+    },
+    {
+      "path": "sources/unl_2021_page_78.txt",
+      "size_bytes": 2463,
+      "sha256": "bef0771bfba5c766dd4e100b0ab1e6a7a79ffadccacb1db3af6baed67a463eaf"
+    },
+    {
+      "path": "sources/unl_budget_registry.json",
+      "size_bytes": 27288,
+      "sha256": "ec9b83b95504642de44452cd61bf51edb85d0a56fc7bf881cda5a0f67b88c052"
+    },
+    {
+      "path": "sources/unl_verified_transcriptions.json",
+      "size_bytes": 1050,
+      "sha256": "558b505ec1f89c2f86c94e77385989e5cdfe62f97398d0d4183c13a5658c62b7"
+    },
+    {
+      "path": "sources/verified_annual_prices.json",
+      "size_bytes": 280,
+      "sha256": "2378f6fbb8b5d5974cf3f731ced2390a767730e5ab467f575244c11c3c31b114"
+    },
+    {
+      "path": "sources/verify_unl_2019.png",
+      "size_bytes": 170036,
+      "sha256": "d0058dfadd4c8cfa8fabb2b6a3f808602e8144287391a0868a58ce7515ffef6f"
+    },
+    {
+      "path": "sources/verify_unl_2021.png",
+      "size_bytes": 166892,
+      "sha256": "cf8a78e2dea63cec8fbe6b1e4af5f784acd5db0a66d9521191740c327f4ef6b6"
+    },
+    {
+      "path": "tables/deflator.csv",
+      "size_bytes": 407,
+      "sha256": "30a90f869ac31f385b49921fbd7722911d00dca194bc98429204c20c9aa4821a"
+    },
+    {
+      "path": "tables/economic_scenarios.csv",
+      "size_bytes": 2542,
+      "sha256": "1cca8cd842055e649722c7e3ef30808087ec78ba016592b344b52d6c9213b9ba"
+    },
+    {
+      "path": "tables/ers_annual_source_values.csv",
+      "size_bytes": 86384,
+      "sha256": "f4a13b99c099256bb3e1b94b5b258c0357deaf05f45124a7fe077bcf68d06093"
+    },
+    {
+      "path": "tables/finbin_annual_source_values.csv",
+      "size_bytes": 86895,
+      "sha256": "9587db3572b40fd3a35e5cb4b72f93203410926d0ce5c1aaec1853012050c5e4"
+    },
+    {
+      "path": "tables/nass_prices.csv",
+      "size_bytes": 228,
+      "sha256": "807f9f3fb7faeef37bd72e68a8640e43deb216cbca6604ce924d817245043b02"
+    },
+    {
+      "path": "tables/source_audit.csv",
+      "size_bytes": 5404,
+      "sha256": "40cb6f98250ef6666a08b07ee08c2b19c26e18319e55e352b0832581d887afe7"
+    },
+    {
+      "path": "tables/unl_budget_candidates.csv",
+      "size_bytes": 11844,
+      "sha256": "8dc349a59dbf6d5eab564da2a34f9050ff87560de57de88f471c7ace62c5cd0c"
+    },
+    {
+      "path": "tables/unl_line_items.csv",
+      "size_bytes": 1888,
+      "sha256": "90baa589ab29883b5f9b0e92ea1e9c5eeceda413498c2b6cbeaaac73da3aed28"
+    },
+    {
+      "path": "tables/year_eligibility.csv",
+      "size_bytes": 5404,
+      "sha256": "40cb6f98250ef6666a08b07ee08c2b19c26e18319e55e352b0832581d887afe7"
+    },
+    {
+      "path": "verification/archive_responses.json",
+      "size_bytes": 236883,
+      "sha256": "5bd8ba642719ead255a4cee9c12e4e1f02d7b8eabafdc0333034e02817410d03"
+    },
+    {
+      "path": "verification/live_2021_methods.txt",
+      "size_bytes": 8720,
+      "sha256": "f3f574f7a51c186e663acec5018a96bf69bdd2429b2ec9d28fc43f27b86b2587"
+    },
+    {
+      "path": "verification/live_historical_review.png",
+      "size_bytes": 83235,
+      "sha256": "3bd7fa47b46305f15f9f1ec1fc8b19438dcf98ce986e7df8e656d3b8fcf88abc"
+    },
+    {
+      "path": "verification/review_pages/2001_pdfpage_27.png",
+      "size_bytes": 770764,
+      "sha256": "85c8f9a7f44678d6945a5663bce086f514fc440840ea60b8eb6a8cd8b7ea73c2"
+    },
+    {
+      "path": "verification/review_pages/2001_pdfpage_27.txt",
+      "size_bytes": 2418,
+      "sha256": "8a3b99738b2e0dffc4bab0be43c71138775be54736a9588eaab5be594fb56647"
+    },
+    {
+      "path": "verification/review_pages/2001_pdfpage_28.png",
+      "size_bytes": 704300,
+      "sha256": "1c3d577ba78f0d60aa590c3811699b692fbdc4c126ec2893b3a60761eb8d8b95"
+    },
+    {
+      "path": "verification/review_pages/2001_pdfpage_28.txt",
+      "size_bytes": 2167,
+      "sha256": "388841a69c86e854fc6dd40d8aab9c7b9867a0131ddc9b84a42f5130d28cbd67"
+    },
+    {
+      "path": "verification/review_pages/2001_pdfpage_29.png",
+      "size_bytes": 681389,
+      "sha256": "1f87fa1a8bac1826c7fdab51a0b53eb9eff55465a55147afc921d6d1df66aa5a"
+    },
+    {
+      "path": "verification/review_pages/2001_pdfpage_29.txt",
+      "size_bytes": 2099,
+      "sha256": "7ea223814a16544ef30650281387827f2ba5c907ed94012cff26ed56889e0a17"
+    },
+    {
+      "path": "verification/review_pages/2001_pdfpage_30.png",
+      "size_bytes": 789601,
+      "sha256": "413c9104a86d32e25f294cc0440d1457ecee6ff749a975e05720c2a0c9139767"
+    },
+    {
+      "path": "verification/review_pages/2001_pdfpage_30.txt",
+      "size_bytes": 2468,
+      "sha256": "f2e97c4680823cf3f772c391fad01a025867252085e05e4706b3ac2cacc68baf"
+    },
+    {
+      "path": "verification/review_pages/2001_pdfpage_31.png",
+      "size_bytes": 771833,
+      "sha256": "964a800a8b222f5a110acb280e7f523926c8ec65e311b1737fbb82f6d9631b44"
+    },
+    {
+      "path": "verification/review_pages/2001_pdfpage_31.txt",
+      "size_bytes": 2460,
+      "sha256": "1d47712c74555d12e787033e00b92a61558d7000a714806d21fb417191f45c9b"
+    },
+    {
+      "path": "verification/review_pages/2001_review.jpg",
+      "size_bytes": 837945,
+      "sha256": "dcccab9305ebfdc7cee39c86fb40a738faee75c8b32ac01476a0abf0bdb06cfe"
+    },
+    {
+      "path": "verification/review_pages/2009_pdfpage_17.png",
+      "size_bytes": 325039,
+      "sha256": "6d570f9e43ba717529e5c978a8ec034fe69998bf0955b6348599eda9ac8b36da"
+    },
+    {
+      "path": "verification/review_pages/2009_pdfpage_17.txt",
+      "size_bytes": 2714,
+      "sha256": "78d50d2b07fbc1ded70376f22cb354ad580eba64609094f19056bb1d3b81b335"
+    },
+    {
+      "path": "verification/review_pages/2009_pdfpage_18.png",
+      "size_bytes": 275349,
+      "sha256": "56ff808c1c42b814317424251732d17cc188c5713167cddb8b81643ecff180a2"
+    },
+    {
+      "path": "verification/review_pages/2009_pdfpage_18.txt",
+      "size_bytes": 2446,
+      "sha256": "b70d8ebc0d436675f2625d65f256ef6e0358f3a9ef6f5662fe20239c4220071a"
+    },
+    {
+      "path": "verification/review_pages/2009_pdfpage_19.png",
+      "size_bytes": 285632,
+      "sha256": "3cd82f930407690662ca0548c9b341545912c0a3f76973362726ed6a2d293211"
+    },
+    {
+      "path": "verification/review_pages/2009_pdfpage_19.txt",
+      "size_bytes": 2504,
+      "sha256": "45db463f7d4ca447a08b9738b8be2050b1679be7278fcfb88ce3f63a7f477fb7"
+    },
+    {
+      "path": "verification/review_pages/2009_pdfpage_20.png",
+      "size_bytes": 316926,
+      "sha256": "e5f0954e3f600232dda25df4f5e38d089957132c8ac172900428b87b68cd765c"
+    },
+    {
+      "path": "verification/review_pages/2009_pdfpage_20.txt",
+      "size_bytes": 2678,
+      "sha256": "a73b57e25ee23c450eaa3b83b1f13f50ed5474e4dddf2f248faa64d185bcb57e"
+    },
+    {
+      "path": "verification/review_pages/2009_review.jpg",
+      "size_bytes": 856258,
+      "sha256": "206272ce3880476944bd8b3954da15ed439798ba6cbadf1dda3039faa4f9216f"
+    },
+    {
+      "path": "verification/review_pages/2011_pdfpage_16.png",
+      "size_bytes": 321295,
+      "sha256": "f880e5a7f4abe2f2bbae0fd8b1143237eadc4b23f3a99a4cd9f38676b9bdd838"
+    },
+    {
+      "path": "verification/review_pages/2011_pdfpage_16.txt",
+      "size_bytes": 2783,
+      "sha256": "98ac7b3ea4de7a3b3405060e038bf40d8c0cb536bd9d2394e62bc3757b1a3a81"
+    },
+    {
+      "path": "verification/review_pages/2011_pdfpage_17.png",
+      "size_bytes": 284681,
+      "sha256": "7389ef48ae2d30dc011297303a1ab295e828e1537a27117b157c9516baee447a"
+    },
+    {
+      "path": "verification/review_pages/2011_pdfpage_17.txt",
+      "size_bytes": 2460,
+      "sha256": "06afba06f9a26ccdaa91aeaf9c7f0d087966c9a83bf5d52d19fd3c20507758e1"
+    },
+    {
+      "path": "verification/review_pages/2011_pdfpage_18.png",
+      "size_bytes": 284005,
+      "sha256": "3127e8da9ccfca6cb5372ac341e967501ce49cffdc1a3a2c8dbabcbfb6b53f23"
+    },
+    {
+      "path": "verification/review_pages/2011_pdfpage_18.txt",
+      "size_bytes": 2446,
+      "sha256": "87f6cae738cfdcaf66adb5da98849cf52d3cc043d75b549df908e6ae42f9d32b"
+    },
+    {
+      "path": "verification/review_pages/2011_pdfpage_19.png",
+      "size_bytes": 292871,
+      "sha256": "6b53c22e5923ea04ae26203a454d8d687922b57b7da7263d8af8f1533a62e5c0"
+    },
+    {
+      "path": "verification/review_pages/2011_pdfpage_19.txt",
+      "size_bytes": 2505,
+      "sha256": "b76845820d408801b711f6b7acc7262a6ff3fd14a1b72c2b1d5115585c6b7bad"
+    },
+    {
+      "path": "verification/review_pages/2011_pdfpage_20.png",
+      "size_bytes": 323753,
+      "sha256": "ca2953a807035d4b3526aec6edd8e053f1de2bbab9ab66b622c2fd58a737d830"
+    },
+    {
+      "path": "verification/review_pages/2011_pdfpage_20.txt",
+      "size_bytes": 2788,
+      "sha256": "5e4187916368e3ecceb1a002d5df868a2ae28713d99c5df605cf7102f25bec82"
+    },
+    {
+      "path": "verification/review_pages/2011_review.jpg",
+      "size_bytes": 1057039,
+      "sha256": "fb0f50b5f0059c1b7a6b9a90b9bf57eb4c74cbb4f9b778a4fa0eab7f5df93c1a"
+    },
+    {
+      "path": "verification/review_pages/2013_pdfpage_17.png",
+      "size_bytes": 322493,
+      "sha256": "bf5ab58213cf20f275fc458cea7b2c54507a019e88b0d1259bb88fa5db8ea907"
+    },
+    {
+      "path": "verification/review_pages/2013_pdfpage_17.txt",
+      "size_bytes": 2701,
+      "sha256": "0c9a9df8dc68e23a69eb77564f3a4073061e2e37b156c5ab4d68e5f43aca32bf"
+    },
+    {
+      "path": "verification/review_pages/2013_pdfpage_18.png",
+      "size_bytes": 299766,
+      "sha256": "3550c0808863165803bf0b9633e61c2aec5482352a6adaebed3404b97c960a60"
+    },
+    {
+      "path": "verification/review_pages/2013_pdfpage_18.txt",
+      "size_bytes": 2529,
+      "sha256": "09dd1d9eca276a13b7391f62cd29d13bdbd708cdd19c7ef257b80dce1e748059"
+    },
+    {
+      "path": "verification/review_pages/2013_pdfpage_19.png",
+      "size_bytes": 263005,
+      "sha256": "bc169f41389eb9da70b191082dcf2abfe20d78b09881bb86f3ada6ff0dee585c"
+    },
+    {
+      "path": "verification/review_pages/2013_pdfpage_19.txt",
+      "size_bytes": 2180,
+      "sha256": "5f7c30cb57bcc4b4c91064dd49cfe715237af5c4843d00373c4d5a2a30fdc786"
+    },
+    {
+      "path": "verification/review_pages/2013_pdfpage_20.png",
+      "size_bytes": 294991,
+      "sha256": "6ffe4c8591f388d3a574cd0f0ae9d1e6ba54fee869ff57cc5a33c9674ddc7f59"
+    },
+    {
+      "path": "verification/review_pages/2013_pdfpage_20.txt",
+      "size_bytes": 2533,
+      "sha256": "33678ec6b07c5532529d19dedae7f807f672a1e435bebaa7d8718811e85091ad"
+    },
+    {
+      "path": "verification/review_pages/2013_pdfpage_21.png",
+      "size_bytes": 348613,
+      "sha256": "c87f1e1ef231572bc738abe7c8cf14bb109f2dc80bb666d2255d4a827374fef7"
+    },
+    {
+      "path": "verification/review_pages/2013_pdfpage_21.txt",
+      "size_bytes": 3023,
+      "sha256": "51e21164e9c4430b1aba8e66b4bbe3ed30a68076470a37a01e1bc983fbf73db0"
+    },
+    {
+      "path": "verification/review_pages/2013_review.jpg",
+      "size_bytes": 1053437,
+      "sha256": "d44814bca44af83831bdccdbe1578c2acb214d098f3fabb301a482e8cc8b2aeb"
+    },
+    {
+      "path": "verification/review_pages/2015_pdfpage_24.png",
+      "size_bytes": 205359,
+      "sha256": "7aa24be8b598cf4514293d4298854f7db96a2453c1c7bcfb7ae2ced983d61235"
+    },
+    {
+      "path": "verification/review_pages/2015_pdfpage_24.txt",
+      "size_bytes": 2063,
+      "sha256": "346281286fe9db9bec5fc191505b17cae2309547851dd07231666007d54ec82b"
+    },
+    {
+      "path": "verification/review_pages/2015_pdfpage_25.png",
+      "size_bytes": 190478,
+      "sha256": "168a59b4f9d906c492f7b9f19974c2d336be5b5338d459971be7fb75f860959f"
+    },
+    {
+      "path": "verification/review_pages/2015_pdfpage_25.txt",
+      "size_bytes": 1984,
+      "sha256": "720c4444e88a405bbfc69a3656f0dae1e75a9f3d0c9c358e8e535dadf40bee7a"
+    },
+    {
+      "path": "verification/review_pages/2015_pdfpage_26.png",
+      "size_bytes": 169882,
+      "sha256": "3c94e75fcf4d5684a709b3360a7b55abdaf0c6ac6b24a6a4c0c6ca01e292a377"
+    },
+    {
+      "path": "verification/review_pages/2015_pdfpage_26.txt",
+      "size_bytes": 1744,
+      "sha256": "bbebc209f934ab9a3820eade4ba3c29a4d5ba5cf09c4169598b941cbf5b1b0ba"
+    },
+    {
+      "path": "verification/review_pages/2015_pdfpage_27.png",
+      "size_bytes": 197303,
+      "sha256": "16abca193fe059381f200edcbff2bd5b37082bdd73ae38ccab8e26cf3183479b"
+    },
+    {
+      "path": "verification/review_pages/2015_pdfpage_27.txt",
+      "size_bytes": 2054,
+      "sha256": "3a816cc7db46c0049c167fdb1cf5f34fcb7f120a60ee1cdd249ab382e58db98b"
+    },
+    {
+      "path": "verification/review_pages/2015_pdfpage_28.png",
+      "size_bytes": 226528,
+      "sha256": "e9599c78d46f977b8ffbfd30c24b7540b818664ed059241518c6b7ae23b6824a"
+    },
+    {
+      "path": "verification/review_pages/2015_pdfpage_28.txt",
+      "size_bytes": 2370,
+      "sha256": "4ce30ace33c538fb19e56215d0360a357fc806c102faf3ded655be31c08efe8e"
+    },
+    {
+      "path": "verification/review_pages/2015_review.jpg",
+      "size_bytes": 590580,
+      "sha256": "e769abb025f612b42656da1592e2550ec929a5426a84ba764192a866bfb8389c"
+    },
+    {
+      "path": "verification/review_pages/2017_pdfpage_68.png",
+      "size_bytes": 201963,
+      "sha256": "9c320c8f6f92993cb9aec5c29bdbd1484a56ad156c1c2fcf9bd388bcbaacb28a"
+    },
+    {
+      "path": "verification/review_pages/2017_pdfpage_68.txt",
+      "size_bytes": 2348,
+      "sha256": "8fedeeb1405d9fdf332d2c13bc05fb12caf96051497c6f5b7634c549e925b184"
+    },
+    {
+      "path": "verification/review_pages/2017_pdfpage_69.png",
+      "size_bytes": 222416,
+      "sha256": "cd99876ebe45c19b8caf106ab513a010882002d99d6e180d791ca400b3d419ef"
+    },
+    {
+      "path": "verification/review_pages/2017_pdfpage_69.txt",
+      "size_bytes": 2611,
+      "sha256": "b9b11ddb8e4c1acdd12f703d24610567bfbbb371bbd16d9322804748ea50579f"
+    },
+    {
+      "path": "verification/review_pages/2017_pdfpage_70.png",
+      "size_bytes": 224532,
+      "sha256": "46740083c42af9d3036c3cc8f6e10550d721325bf28af22a09c97b8a82b40629"
+    },
+    {
+      "path": "verification/review_pages/2017_pdfpage_70.txt",
+      "size_bytes": 2630,
+      "sha256": "c3102e68497d758f045597a494c9cb14b18cb8b0a5ae4a5a3e8e4ad17493f288"
+    },
+    {
+      "path": "verification/review_pages/2017_pdfpage_71.png",
+      "size_bytes": 201467,
+      "sha256": "1cf83a399a5db775d0b1f2d344b25ca28b562cda8af85a8e4e899de56abb0d50"
+    },
+    {
+      "path": "verification/review_pages/2017_pdfpage_71.txt",
+      "size_bytes": 2321,
+      "sha256": "1adc3b8ef0d8bbba0f8de43eff80e4a7d04890d75f5a139d1dc63d5859dd6dcc"
+    },
+    {
+      "path": "verification/review_pages/2017_pdfpage_72.png",
+      "size_bytes": 204211,
+      "sha256": "7a9cfc24dfb1de76e045159984ec812b42b6fbe3be97251e34947a526c5c7dd5"
+    },
+    {
+      "path": "verification/review_pages/2017_pdfpage_72.txt",
+      "size_bytes": 2343,
+      "sha256": "c00e921549ac0bfd15d2321c2bde9f29c781dfa8dd020cfcedd0b35a78a3433c"
+    },
+    {
+      "path": "verification/review_pages/2017_pdfpage_73.png",
+      "size_bytes": 230048,
+      "sha256": "f3b76b942a7b5f6d41d381d921e03b996dcacc3d4dfa47690e0c339d9a70e0c3"
+    },
+    {
+      "path": "verification/review_pages/2017_pdfpage_73.txt",
+      "size_bytes": 2706,
+      "sha256": "02ba162848d39d560bdb47cc6cc473195db49cad7eac6b851b50a6a5fe5a7e98"
+    },
+    {
+      "path": "verification/review_pages/2017_pdfpage_74.png",
+      "size_bytes": 231633,
+      "sha256": "de7297aa443d8bd3e1fae2d8a29aacd7f33292486c33a29113df17c346ff65c2"
+    },
+    {
+      "path": "verification/review_pages/2017_pdfpage_74.txt",
+      "size_bytes": 2725,
+      "sha256": "638075befc76f53f258053303b3a3a23d6256286df95e8290cb4f741979d0ac7"
+    },
+    {
+      "path": "verification/review_pages/2017_pdfpage_75.png",
+      "size_bytes": 240552,
+      "sha256": "80063ce718a2351a29133f951e2f8770c90712054f0006f525447957eebafe02"
+    },
+    {
+      "path": "verification/review_pages/2017_pdfpage_75.txt",
+      "size_bytes": 2836,
+      "sha256": "47a22139a0338811b93b070feceb590616fd8affcae57400a47d4b30f86dfa32"
+    },
+    {
+      "path": "verification/review_pages/2017_review.jpg",
+      "size_bytes": 961619,
+      "sha256": "9b9e5b2cd325bb0031b8b016727086e9fc3ee394269ed0b6136271175536dce5"
+    },
+    {
+      "path": "verification/review_pages/2019_pdfpage_36.png",
+      "size_bytes": 187773,
+      "sha256": "4747609059173ef324a8e5087ca7b22078ff976d00f779ca63bec81ff51ff6b4"
+    },
+    {
+      "path": "verification/review_pages/2019_pdfpage_36.txt",
+      "size_bytes": 2242,
+      "sha256": "cbdd30df298bb1482cca073e2b4fee2a02f5bab6a5abad0dfe9a1a98fe3eeb6d"
+    },
+    {
+      "path": "verification/review_pages/2021_pdfpage_30.png",
+      "size_bytes": 187803,
+      "sha256": "7df0f6fb2ae0f384b01647a65c3c28e9857b67eba02610b9ba6ae8f8fa4319aa"
+    },
+    {
+      "path": "verification/review_pages/2021_pdfpage_30.txt",
+      "size_bytes": 2228,
+      "sha256": "007195d5a439d9ad660528b7bcdca96affc7a74b162124f7a34db7aa7572e8b9"
+    },
+    {
+      "path": "verification.json",
+      "size_bytes": 867,
+      "sha256": "2d0cc3292d20f63e0d5c874ee562b84b10958eeb25a3a62d7f9428111eb2a31b"
+    },
+    {
+      "path": "Yield_PEM_rollback_before_historical_audit.js",
+      "size_bytes": 475930,
+      "sha256": "063ebf48833b063676126ef378ec329fec3bf767b931ce13f7fdb6bbb4f490af"
+    }
+  ],
+  "total_size_bytes": 60312890
+}

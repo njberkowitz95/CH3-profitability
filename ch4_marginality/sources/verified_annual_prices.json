@@ -1,0 +1,16 @@
+[
+  {
+    "year": 2019,
+    "price_usd_bu": 3.52,
+    "file": "nass_crop_values_2021.pdf",
+    "page": 16,
+    "cpi_u": 255.657
+  },
+  {
+    "year": 2021,
+    "price_usd_bu": 5.96,
+    "file": "nass_crop_values_2022.pdf",
+    "page": 16,
+    "cpi_u": 270.97
+  }
+]

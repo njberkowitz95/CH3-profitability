@@ -1,0 +1,17 @@
+year,scope,report,calculation_enabled,sample_n,status,practice,tenure,geography
+2001,county,1008338,True,6.0,complete reported account,Corn enterprise; rainfed and tillage practice not verified,All tenures; operator share retained,"Gage, Johnson, Lancaster, Pawnee"
+2009,county,1008338,True,6.0,complete reported account,Corn enterprise; rainfed and tillage practice not verified,All tenures; operator share retained,"Gage, Johnson, Lancaster, Pawnee"
+2011,county,1008338,True,8.0,complete reported account,Corn enterprise; rainfed and tillage practice not verified,All tenures; operator share retained,"Gage, Johnson, Lancaster, Pawnee"
+2013,county,1008338,True,5.0,complete reported account,Corn enterprise; rainfed and tillage practice not verified,All tenures; operator share retained,"Gage, Johnson, Lancaster, Pawnee"
+2015,county,1008338,True,5.0,complete reported account,Corn enterprise; rainfed and tillage practice not verified,All tenures; operator share retained,"Gage, Johnson, Lancaster, Pawnee"
+2017,county,1008338,False,,unavailable or suppressed required values,Corn enterprise; rainfed and tillage practice not verified,All tenures; operator share retained,"Gage, Johnson, Lancaster, Pawnee"
+2019,county,1008338,True,5.0,complete reported account,Corn enterprise; rainfed and tillage practice not verified,All tenures; operator share retained,"Gage, Johnson, Lancaster, Pawnee"
+2021,county,1008338,False,,unavailable or suppressed required values,Corn enterprise; rainfed and tillage practice not verified,All tenures; operator share retained,"Gage, Johnson, Lancaster, Pawnee"
+2001,state,1008210,True,60.0,complete reported account,Corn enterprise; rainfed and tillage practice not verified,All tenures; operator share retained,Nebraska statewide
+2009,state,1008210,True,60.0,complete reported account,Corn enterprise; rainfed and tillage practice not verified,All tenures; operator share retained,Nebraska statewide
+2011,state,1008210,True,64.0,complete reported account,Corn enterprise; rainfed and tillage practice not verified,All tenures; operator share retained,Nebraska statewide
+2013,state,1008210,True,58.0,complete reported account,Corn enterprise; rainfed and tillage practice not verified,All tenures; operator share retained,Nebraska statewide
+2015,state,1008210,True,52.0,complete reported account,Corn enterprise; rainfed and tillage practice not verified,All tenures; operator share retained,Nebraska statewide
+2017,state,1008210,True,54.0,complete reported account,Corn enterprise; rainfed and tillage practice not verified,All tenures; operator share retained,Nebraska statewide
+2019,state,1008210,True,63.0,complete reported account,Corn enterprise; rainfed and tillage practice not verified,All tenures; operator share retained,Nebraska statewide
+2021,state,1008210,True,52.0,complete reported account,Corn enterprise; rainfed and tillage practice not verified,All tenures; operator share retained,Nebraska statewide

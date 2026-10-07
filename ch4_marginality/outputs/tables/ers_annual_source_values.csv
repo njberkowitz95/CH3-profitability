@@ -1,0 +1,595 @@
+Commodity,Category,Item,Units,Size,Region,Country,Year,Value,Survey base year
+Corn,Gross value of production,"Primary product, grain",dollars per planted acre,No specific size,Heartland,United States,2001,271.8,Base survey of 2001
+Corn,Gross value of production,"Primary product, grain",dollars per planted acre,No specific size,Heartland,United States,2003,329.7,Base survey of 2001
+Corn,Gross value of production,"Primary product, grain",dollars per planted acre,No specific size,Heartland,United States,2005,266.76,Base survey of 2005
+Corn,Gross value of production,"Primary product, grain",dollars per planted acre,No specific size,Heartland,United States,2007,500.65,Base survey of 2005
+Corn,Gross value of production,"Primary product, grain",dollars per planted acre,No specific size,Heartland,United States,2009,606.48,Base survey of 2005
+Corn,Gross value of production,"Primary product, grain",dollars per planted acre,No specific size,Heartland,United States,2011,883.5,Base survey of 2010
+Corn,Gross value of production,"Primary product, grain",dollars per planted acre,No specific size,Heartland,United States,2013,757.35,Base survey of 2010
+Corn,Gross value of production,"Primary product, grain",dollars per planted acre,No specific size,Heartland,United States,2015,633.36,Base survey of 2010
+Corn,Gross value of production,"Primary product, grain",dollars per planted acre,No specific size,Heartland,United States,2017,646.0,Base survey of 2016
+Corn,Gross value of production,"Primary product, grain",dollars per planted acre,No specific size,Heartland,United States,2019,714.4,Base survey of 2016
+Corn,Gross value of production,"Primary product, grain",dollars per planted acre,No specific size,Heartland,United States,2021,1008.47,Base survey of 2021
+Corn,Gross value of production,"Primary product, grain",dollars per planted acre,No specific size,Prairie Gateway,United States,2001,297.0,Base survey of 2001
+Corn,Gross value of production,"Primary product, grain",dollars per planted acre,No specific size,Prairie Gateway,United States,2003,330.75,Base survey of 2001
+Corn,Gross value of production,"Primary product, grain",dollars per planted acre,No specific size,Prairie Gateway,United States,2005,243.0,Base survey of 2005
+Corn,Gross value of production,"Primary product, grain",dollars per planted acre,No specific size,Prairie Gateway,United States,2007,474.6,Base survey of 2005
+Corn,Gross value of production,"Primary product, grain",dollars per planted acre,No specific size,Prairie Gateway,United States,2009,532.14,Base survey of 2005
+Corn,Gross value of production,"Primary product, grain",dollars per planted acre,No specific size,Prairie Gateway,United States,2011,707.6,Base survey of 2010
+Corn,Gross value of production,"Primary product, grain",dollars per planted acre,No specific size,Prairie Gateway,United States,2013,685.86,Base survey of 2010
+Corn,Gross value of production,"Primary product, grain",dollars per planted acre,No specific size,Prairie Gateway,United States,2015,610.56,Base survey of 2010
+Corn,Gross value of production,"Primary product, grain",dollars per planted acre,No specific size,Prairie Gateway,United States,2017,519.67,Base survey of 2016
+Corn,Gross value of production,"Primary product, grain",dollars per planted acre,No specific size,Prairie Gateway,United States,2019,582.93,Base survey of 2016
+Corn,Gross value of production,"Primary product, grain",dollars per planted acre,No specific size,Prairie Gateway,United States,2021,843.35,Base survey of 2021
+Corn,Gross value of production,"Secondary product, silage",dollars per planted acre,No specific size,Heartland,United States,2001,1.37,Base survey of 2001
+Corn,Gross value of production,"Secondary product, silage",dollars per planted acre,No specific size,Heartland,United States,2003,1.36,Base survey of 2001
+Corn,Gross value of production,"Secondary product, silage",dollars per planted acre,No specific size,Heartland,United States,2005,0.56,Base survey of 2005
+Corn,Gross value of production,"Secondary product, silage",dollars per planted acre,No specific size,Heartland,United States,2007,0.62,Base survey of 2005
+Corn,Gross value of production,"Secondary product, silage",dollars per planted acre,No specific size,Heartland,United States,2009,0.7,Base survey of 2005
+Corn,Gross value of production,"Secondary product, silage",dollars per planted acre,No specific size,Heartland,United States,2011,0.42,Base survey of 2010
+Corn,Gross value of production,"Secondary product, silage",dollars per planted acre,No specific size,Heartland,United States,2013,0.35,Base survey of 2010
+Corn,Gross value of production,"Secondary product, silage",dollars per planted acre,No specific size,Heartland,United States,2015,0.3,Base survey of 2010
+Corn,Gross value of production,"Secondary product, silage",dollars per planted acre,No specific size,Heartland,United States,2017,0.92,Base survey of 2016
+Corn,Gross value of production,"Secondary product, silage",dollars per planted acre,No specific size,Heartland,United States,2019,1.01,Base survey of 2016
+Corn,Gross value of production,"Secondary product, silage",dollars per planted acre,No specific size,Heartland,United States,2021,1.71,Base survey of 2021
+Corn,Gross value of production,"Secondary product, silage",dollars per planted acre,No specific size,Prairie Gateway,United States,2001,0.97,Base survey of 2001
+Corn,Gross value of production,"Secondary product, silage",dollars per planted acre,No specific size,Prairie Gateway,United States,2003,0.9,Base survey of 2001
+Corn,Gross value of production,"Secondary product, silage",dollars per planted acre,No specific size,Prairie Gateway,United States,2005,1.92,Base survey of 2005
+Corn,Gross value of production,"Secondary product, silage",dollars per planted acre,No specific size,Prairie Gateway,United States,2007,3.27,Base survey of 2005
+Corn,Gross value of production,"Secondary product, silage",dollars per planted acre,No specific size,Prairie Gateway,United States,2009,2.47,Base survey of 2005
+Corn,Gross value of production,"Secondary product, silage",dollars per planted acre,No specific size,Prairie Gateway,United States,2011,1.45,Base survey of 2010
+Corn,Gross value of production,"Secondary product, silage",dollars per planted acre,No specific size,Prairie Gateway,United States,2013,1.42,Base survey of 2010
+Corn,Gross value of production,"Secondary product, silage",dollars per planted acre,No specific size,Prairie Gateway,United States,2015,1.59,Base survey of 2010
+Corn,Gross value of production,"Secondary product, silage",dollars per planted acre,No specific size,Prairie Gateway,United States,2017,1.23,Base survey of 2016
+Corn,Gross value of production,"Secondary product, silage",dollars per planted acre,No specific size,Prairie Gateway,United States,2019,1.64,Base survey of 2016
+Corn,Gross value of production,"Secondary product, silage",dollars per planted acre,No specific size,Prairie Gateway,United States,2021,1.34,Base survey of 2021
+Corn,Gross value of production,"Total, gross value of production",dollars per planted acre,No specific size,Heartland,United States,2001,273.17,Base survey of 2001
+Corn,Gross value of production,"Total, gross value of production",dollars per planted acre,No specific size,Heartland,United States,2003,331.06,Base survey of 2001
+Corn,Gross value of production,"Total, gross value of production",dollars per planted acre,No specific size,Heartland,United States,2005,267.32,Base survey of 2005
+Corn,Gross value of production,"Total, gross value of production",dollars per planted acre,No specific size,Heartland,United States,2007,501.27,Base survey of 2005
+Corn,Gross value of production,"Total, gross value of production",dollars per planted acre,No specific size,Heartland,United States,2009,607.18,Base survey of 2005
+Corn,Gross value of production,"Total, gross value of production",dollars per planted acre,No specific size,Heartland,United States,2011,883.92,Base survey of 2010
+Corn,Gross value of production,"Total, gross value of production",dollars per planted acre,No specific size,Heartland,United States,2013,757.7,Base survey of 2010
+Corn,Gross value of production,"Total, gross value of production",dollars per planted acre,No specific size,Heartland,United States,2015,633.66,Base survey of 2010
+Corn,Gross value of production,"Total, gross value of production",dollars per planted acre,No specific size,Heartland,United States,2017,646.92,Base survey of 2016
+Corn,Gross value of production,"Total, gross value of production",dollars per planted acre,No specific size,Heartland,United States,2019,715.41,Base survey of 2016
+Corn,Gross value of production,"Total, gross value of production",dollars per planted acre,No specific size,Heartland,United States,2021,1010.18,Base survey of 2021
+Corn,Gross value of production,"Total, gross value of production",dollars per planted acre,No specific size,Prairie Gateway,United States,2001,297.97,Base survey of 2001
+Corn,Gross value of production,"Total, gross value of production",dollars per planted acre,No specific size,Prairie Gateway,United States,2003,331.65,Base survey of 2001
+Corn,Gross value of production,"Total, gross value of production",dollars per planted acre,No specific size,Prairie Gateway,United States,2005,244.92,Base survey of 2005
+Corn,Gross value of production,"Total, gross value of production",dollars per planted acre,No specific size,Prairie Gateway,United States,2007,477.87,Base survey of 2005
+Corn,Gross value of production,"Total, gross value of production",dollars per planted acre,No specific size,Prairie Gateway,United States,2009,534.61,Base survey of 2005
+Corn,Gross value of production,"Total, gross value of production",dollars per planted acre,No specific size,Prairie Gateway,United States,2011,709.05,Base survey of 2010
+Corn,Gross value of production,"Total, gross value of production",dollars per planted acre,No specific size,Prairie Gateway,United States,2013,687.28,Base survey of 2010
+Corn,Gross value of production,"Total, gross value of production",dollars per planted acre,No specific size,Prairie Gateway,United States,2015,612.15,Base survey of 2010
+Corn,Gross value of production,"Total, gross value of production",dollars per planted acre,No specific size,Prairie Gateway,United States,2017,520.9,Base survey of 2016
+Corn,Gross value of production,"Total, gross value of production",dollars per planted acre,No specific size,Prairie Gateway,United States,2019,584.57,Base survey of 2016
+Corn,Gross value of production,"Total, gross value of production",dollars per planted acre,No specific size,Prairie Gateway,United States,2021,844.69,Base survey of 2021
+Corn,Operating costs,Seed,dollars per planted acre,No specific size,Heartland,United States,2001,33.0,Base survey of 2001
+Corn,Operating costs,Seed,dollars per planted acre,No specific size,Heartland,United States,2003,34.89,Base survey of 2001
+Corn,Operating costs,Seed,dollars per planted acre,No specific size,Heartland,United States,2005,41.23,Base survey of 2005
+Corn,Operating costs,Seed,dollars per planted acre,No specific size,Heartland,United States,2007,49.4,Base survey of 2005
+Corn,Operating costs,Seed,dollars per planted acre,No specific size,Heartland,United States,2009,80.61,Base survey of 2005
+Corn,Operating costs,Seed,dollars per planted acre,No specific size,Heartland,United States,2011,90.78,Base survey of 2010
+Corn,Operating costs,Seed,dollars per planted acre,No specific size,Heartland,United States,2013,104.96,Base survey of 2010
+Corn,Operating costs,Seed,dollars per planted acre,No specific size,Heartland,United States,2015,109.17,Base survey of 2010
+Corn,Operating costs,Seed,dollars per planted acre,No specific size,Heartland,United States,2017,103.26,Base survey of 2016
+Corn,Operating costs,Seed,dollars per planted acre,No specific size,Heartland,United States,2019,97.18,Base survey of 2016
+Corn,Operating costs,Seed,dollars per planted acre,No specific size,Heartland,United States,2021,104.82,Base survey of 2021
+Corn,Operating costs,Seed,dollars per planted acre,No specific size,Prairie Gateway,United States,2001,31.16,Base survey of 2001
+Corn,Operating costs,Seed,dollars per planted acre,No specific size,Prairie Gateway,United States,2003,35.41,Base survey of 2001
+Corn,Operating costs,Seed,dollars per planted acre,No specific size,Prairie Gateway,United States,2005,40.96,Base survey of 2005
+Corn,Operating costs,Seed,dollars per planted acre,No specific size,Prairie Gateway,United States,2007,43.54,Base survey of 2005
+Corn,Operating costs,Seed,dollars per planted acre,No specific size,Prairie Gateway,United States,2009,71.04,Base survey of 2005
+Corn,Operating costs,Seed,dollars per planted acre,No specific size,Prairie Gateway,United States,2011,65.42,Base survey of 2010
+Corn,Operating costs,Seed,dollars per planted acre,No specific size,Prairie Gateway,United States,2013,75.63,Base survey of 2010
+Corn,Operating costs,Seed,dollars per planted acre,No specific size,Prairie Gateway,United States,2015,78.67,Base survey of 2010
+Corn,Operating costs,Seed,dollars per planted acre,No specific size,Prairie Gateway,United States,2017,80.44,Base survey of 2016
+Corn,Operating costs,Seed,dollars per planted acre,No specific size,Prairie Gateway,United States,2019,75.64,Base survey of 2016
+Corn,Operating costs,Seed,dollars per planted acre,No specific size,Prairie Gateway,United States,2021,81.74,Base survey of 2021
+Corn,Operating costs,Fertilizer,dollars per planted acre,No specific size,Heartland,United States,2001,56.49,Base survey of 2001
+Corn,Operating costs,Fertilizer,dollars per planted acre,No specific size,Heartland,United States,2003,51.43,Base survey of 2001
+Corn,Operating costs,Fertilizer,dollars per planted acre,No specific size,Heartland,United States,2005,72.67,Base survey of 2005
+Corn,Operating costs,Fertilizer,dollars per planted acre,No specific size,Heartland,United States,2007,96.13,Base survey of 2005
+Corn,Operating costs,Fertilizer,dollars per planted acre,No specific size,Heartland,United States,2009,137.89,Base survey of 2005
+Corn,Operating costs,Fertilizer,dollars per planted acre,No specific size,Heartland,United States,2011,155.18,Base survey of 2010
+Corn,Operating costs,Fertilizer,dollars per planted acre,No specific size,Heartland,United States,2013,161.58,Base survey of 2010
+Corn,Operating costs,Fertilizer,dollars per planted acre,No specific size,Heartland,United States,2015,144.54,Base survey of 2010
+Corn,Operating costs,Fertilizer,dollars per planted acre,No specific size,Heartland,United States,2017,115.61,Base survey of 2016
+Corn,Operating costs,Fertilizer,dollars per planted acre,No specific size,Heartland,United States,2019,128.67,Base survey of 2016
+Corn,Operating costs,Fertilizer,dollars per planted acre,No specific size,Heartland,United States,2021,127.12,Base survey of 2021
+Corn,Operating costs,Fertilizer,dollars per planted acre,No specific size,Prairie Gateway,United States,2001,47.37,Base survey of 2001
+Corn,Operating costs,Fertilizer,dollars per planted acre,No specific size,Prairie Gateway,United States,2003,44.23,Base survey of 2001
+Corn,Operating costs,Fertilizer,dollars per planted acre,No specific size,Prairie Gateway,United States,2005,55.62,Base survey of 2005
+Corn,Operating costs,Fertilizer,dollars per planted acre,No specific size,Prairie Gateway,United States,2007,63.36,Base survey of 2005
+Corn,Operating costs,Fertilizer,dollars per planted acre,No specific size,Prairie Gateway,United States,2009,90.88,Base survey of 2005
+Corn,Operating costs,Fertilizer,dollars per planted acre,No specific size,Prairie Gateway,United States,2011,111.64,Base survey of 2010
+Corn,Operating costs,Fertilizer,dollars per planted acre,No specific size,Prairie Gateway,United States,2013,116.25,Base survey of 2010
+Corn,Operating costs,Fertilizer,dollars per planted acre,No specific size,Prairie Gateway,United States,2015,103.99,Base survey of 2010
+Corn,Operating costs,Fertilizer,dollars per planted acre,No specific size,Prairie Gateway,United States,2017,92.66,Base survey of 2016
+Corn,Operating costs,Fertilizer,dollars per planted acre,No specific size,Prairie Gateway,United States,2019,103.55,Base survey of 2016
+Corn,Operating costs,Fertilizer,dollars per planted acre,No specific size,Prairie Gateway,United States,2021,85.74,Base survey of 2021
+Corn,Operating costs,Chemicals,dollars per planted acre,No specific size,Heartland,United States,2001,26.67,Base survey of 2001
+Corn,Operating costs,Chemicals,dollars per planted acre,No specific size,Heartland,United States,2003,26.5,Base survey of 2001
+Corn,Operating costs,Chemicals,dollars per planted acre,No specific size,Heartland,United States,2005,24.71,Base survey of 2005
+Corn,Operating costs,Chemicals,dollars per planted acre,No specific size,Heartland,United States,2007,26.55,Base survey of 2005
+Corn,Operating costs,Chemicals,dollars per planted acre,No specific size,Heartland,United States,2009,30.52,Base survey of 2005
+Corn,Operating costs,Chemicals,dollars per planted acre,No specific size,Heartland,United States,2011,26.95,Base survey of 2010
+Corn,Operating costs,Chemicals,dollars per planted acre,No specific size,Heartland,United States,2013,29.4,Base survey of 2010
+Corn,Operating costs,Chemicals,dollars per planted acre,No specific size,Heartland,United States,2015,28.66,Base survey of 2010
+Corn,Operating costs,Chemicals,dollars per planted acre,No specific size,Heartland,United States,2017,35.05,Base survey of 2016
+Corn,Operating costs,Chemicals,dollars per planted acre,No specific size,Heartland,United States,2019,33.88,Base survey of 2016
+Corn,Operating costs,Chemicals,dollars per planted acre,No specific size,Heartland,United States,2021,41.74,Base survey of 2021
+Corn,Operating costs,Chemicals,dollars per planted acre,No specific size,Prairie Gateway,United States,2001,28.86,Base survey of 2001
+Corn,Operating costs,Chemicals,dollars per planted acre,No specific size,Prairie Gateway,United States,2003,28.04,Base survey of 2001
+Corn,Operating costs,Chemicals,dollars per planted acre,No specific size,Prairie Gateway,United States,2005,19.23,Base survey of 2005
+Corn,Operating costs,Chemicals,dollars per planted acre,No specific size,Prairie Gateway,United States,2007,20.02,Base survey of 2005
+Corn,Operating costs,Chemicals,dollars per planted acre,No specific size,Prairie Gateway,United States,2009,23.01,Base survey of 2005
+Corn,Operating costs,Chemicals,dollars per planted acre,No specific size,Prairie Gateway,United States,2011,26.42,Base survey of 2010
+Corn,Operating costs,Chemicals,dollars per planted acre,No specific size,Prairie Gateway,United States,2013,28.82,Base survey of 2010
+Corn,Operating costs,Chemicals,dollars per planted acre,No specific size,Prairie Gateway,United States,2015,28.1,Base survey of 2010
+Corn,Operating costs,Chemicals,dollars per planted acre,No specific size,Prairie Gateway,United States,2017,38.35,Base survey of 2016
+Corn,Operating costs,Chemicals,dollars per planted acre,No specific size,Prairie Gateway,United States,2019,37.25,Base survey of 2016
+Corn,Operating costs,Chemicals,dollars per planted acre,No specific size,Prairie Gateway,United States,2021,46.76,Base survey of 2021
+Corn,Operating costs,Custom services,dollars per planted acre,No specific size,Heartland,United States,2001,9.77,Base survey of 2001
+Corn,Operating costs,Custom services,dollars per planted acre,No specific size,Heartland,United States,2003,10.09,Base survey of 2001
+Corn,Operating costs,Custom services,dollars per planted acre,No specific size,Heartland,United States,2005,8.99,Base survey of 2005
+Corn,Operating costs,Custom services,dollars per planted acre,No specific size,Heartland,United States,2007,9.8,Base survey of 2005
+Corn,Operating costs,Custom services,dollars per planted acre,No specific size,Heartland,United States,2009,10.47,Base survey of 2005
+Corn,Operating costs,Custom services,dollars per planted acre,No specific size,Heartland,United States,2011,15.53,Base survey of 2010
+Corn,Allocated overhead,Hired labor,dollars per planted acre,No specific size,Prairie Gateway,United States,2001,5.04,Base survey of 2001
+Corn,Allocated overhead,Hired labor,dollars per planted acre,No specific size,Prairie Gateway,United States,2003,5.48,Base survey of 2001
+Corn,Allocated overhead,Hired labor,dollars per planted acre,No specific size,Prairie Gateway,United States,2005,3.66,Base survey of 2005
+Corn,Allocated overhead,Hired labor,dollars per planted acre,No specific size,Prairie Gateway,United States,2007,3.79,Base survey of 2005
+Corn,Allocated overhead,Hired labor,dollars per planted acre,No specific size,Prairie Gateway,United States,2009,4.01,Base survey of 2005
+Corn,Allocated overhead,Hired labor,dollars per planted acre,No specific size,Prairie Gateway,United States,2011,3.38,Base survey of 2010
+Corn,Allocated overhead,Hired labor,dollars per planted acre,No specific size,Prairie Gateway,United States,2013,3.6,Base survey of 2010
+Corn,Allocated overhead,Hired labor,dollars per planted acre,No specific size,Prairie Gateway,United States,2015,3.8,Base survey of 2010
+Corn,Allocated overhead,Hired labor,dollars per planted acre,No specific size,Prairie Gateway,United States,2017,7.96,Base survey of 2016
+Corn,Allocated overhead,Hired labor,dollars per planted acre,No specific size,Prairie Gateway,United States,2019,8.8,Base survey of 2016
+Corn,Allocated overhead,Hired labor,dollars per planted acre,No specific size,Prairie Gateway,United States,2021,5.84,Base survey of 2021
+Corn,Allocated overhead,Opportunity cost of unpaid labor,dollars per planted acre,No specific size,Heartland,United States,2001,22.2,Base survey of 2001
+Corn,Allocated overhead,Opportunity cost of unpaid labor,dollars per planted acre,No specific size,Heartland,United States,2003,23.79,Base survey of 2001
+Corn,Allocated overhead,Opportunity cost of unpaid labor,dollars per planted acre,No specific size,Heartland,United States,2005,19.8,Base survey of 2005
+Corn,Allocated overhead,Opportunity cost of unpaid labor,dollars per planted acre,No specific size,Heartland,United States,2007,21.24,Base survey of 2005
+Corn,Allocated overhead,Opportunity cost of unpaid labor,dollars per planted acre,No specific size,Heartland,United States,2009,22.44,Base survey of 2005
+Corn,Allocated overhead,Opportunity cost of unpaid labor,dollars per planted acre,No specific size,Heartland,United States,2011,20.42,Base survey of 2010
+Corn,Allocated overhead,Opportunity cost of unpaid labor,dollars per planted acre,No specific size,Heartland,United States,2013,21.76,Base survey of 2010
+Corn,Allocated overhead,Opportunity cost of unpaid labor,dollars per planted acre,No specific size,Heartland,United States,2015,22.97,Base survey of 2010
+Corn,Allocated overhead,Opportunity cost of unpaid labor,dollars per planted acre,No specific size,Heartland,United States,2017,24.53,Base survey of 2016
+Corn,Allocated overhead,Opportunity cost of unpaid labor,dollars per planted acre,No specific size,Heartland,United States,2019,27.42,Base survey of 2016
+Corn,Allocated overhead,Opportunity cost of unpaid labor,dollars per planted acre,No specific size,Heartland,United States,2021,26.82,Base survey of 2021
+Corn,Allocated overhead,Opportunity cost of unpaid labor,dollars per planted acre,No specific size,Prairie Gateway,United States,2001,29.44,Base survey of 2001
+Corn,Allocated overhead,Opportunity cost of unpaid labor,dollars per planted acre,No specific size,Prairie Gateway,United States,2003,32.74,Base survey of 2001
+Corn,Allocated overhead,Opportunity cost of unpaid labor,dollars per planted acre,No specific size,Prairie Gateway,United States,2005,24.24,Base survey of 2005
+Corn,Allocated overhead,Opportunity cost of unpaid labor,dollars per planted acre,No specific size,Prairie Gateway,United States,2007,25.12,Base survey of 2005
+Corn,Allocated overhead,Opportunity cost of unpaid labor,dollars per planted acre,No specific size,Prairie Gateway,United States,2009,26.54,Base survey of 2005
+Corn,Allocated overhead,Opportunity cost of unpaid labor,dollars per planted acre,No specific size,Prairie Gateway,United States,2011,24.63,Base survey of 2010
+Corn,Allocated overhead,Opportunity cost of unpaid labor,dollars per planted acre,No specific size,Prairie Gateway,United States,2013,26.24,Base survey of 2010
+Corn,Allocated overhead,Opportunity cost of unpaid labor,dollars per planted acre,No specific size,Prairie Gateway,United States,2015,27.7,Base survey of 2010
+Corn,Allocated overhead,Opportunity cost of unpaid labor,dollars per planted acre,No specific size,Prairie Gateway,United States,2017,30.29,Base survey of 2016
+Corn,Allocated overhead,Opportunity cost of unpaid labor,dollars per planted acre,No specific size,Prairie Gateway,United States,2019,33.4,Base survey of 2016
+Corn,Allocated overhead,Opportunity cost of unpaid labor,dollars per planted acre,No specific size,Prairie Gateway,United States,2021,20.87,Base survey of 2021
+Corn,Allocated overhead,Capital recovery of machinery and equipment,dollars per planted acre,No specific size,Heartland,United States,2001,51.27,Base survey of 2001
+Corn,Allocated overhead,Capital recovery of machinery and equipment,dollars per planted acre,No specific size,Heartland,United States,2003,53.06,Base survey of 2001
+Corn,Allocated overhead,Capital recovery of machinery and equipment,dollars per planted acre,No specific size,Heartland,United States,2005,60.45,Base survey of 2005
+Corn,Allocated overhead,Capital recovery of machinery and equipment,dollars per planted acre,No specific size,Heartland,United States,2007,66.73,Base survey of 2005
+Corn,Allocated overhead,Capital recovery of machinery and equipment,dollars per planted acre,No specific size,Heartland,United States,2009,77.56,Base survey of 2005
+Corn,Allocated overhead,Capital recovery of machinery and equipment,dollars per planted acre,No specific size,Heartland,United States,2011,86.16,Base survey of 2010
+Corn,Allocated overhead,Capital recovery of machinery and equipment,dollars per planted acre,No specific size,Heartland,United States,2013,93.06,Base survey of 2010
+Corn,Allocated overhead,Capital recovery of machinery and equipment,dollars per planted acre,No specific size,Heartland,United States,2015,98.74,Base survey of 2010
+Corn,Allocated overhead,Capital recovery of machinery and equipment,dollars per planted acre,No specific size,Heartland,United States,2017,118.97,Base survey of 2016
+Corn,Allocated overhead,Capital recovery of machinery and equipment,dollars per planted acre,No specific size,Heartland,United States,2019,125.01,Base survey of 2016
+Corn,Allocated overhead,Capital recovery of machinery and equipment,dollars per planted acre,No specific size,Heartland,United States,2021,147.71,Base survey of 2021
+Corn,Allocated overhead,Capital recovery of machinery and equipment,dollars per planted acre,No specific size,Prairie Gateway,United States,2001,69.4,Base survey of 2001
+Corn,Allocated overhead,Capital recovery of machinery and equipment,dollars per planted acre,No specific size,Prairie Gateway,United States,2003,73.28,Base survey of 2001
+Corn,Allocated overhead,Capital recovery of machinery and equipment,dollars per planted acre,No specific size,Prairie Gateway,United States,2005,81.97,Base survey of 2005
+Corn,Allocated overhead,Capital recovery of machinery and equipment,dollars per planted acre,No specific size,Prairie Gateway,United States,2007,86.23,Base survey of 2005
+Corn,Allocated overhead,Capital recovery of machinery and equipment,dollars per planted acre,No specific size,Prairie Gateway,United States,2009,100.23,Base survey of 2005
+Corn,Allocated overhead,Capital recovery of machinery and equipment,dollars per planted acre,No specific size,Prairie Gateway,United States,2011,107.19,Base survey of 2010
+Corn,Allocated overhead,Capital recovery of machinery and equipment,dollars per planted acre,No specific size,Prairie Gateway,United States,2013,115.77,Base survey of 2010
+Corn,Allocated overhead,Capital recovery of machinery and equipment,dollars per planted acre,No specific size,Prairie Gateway,United States,2015,122.84,Base survey of 2010
+Corn,Allocated overhead,Capital recovery of machinery and equipment,dollars per planted acre,No specific size,Prairie Gateway,United States,2017,141.46,Base survey of 2016
+Corn,Allocated overhead,Capital recovery of machinery and equipment,dollars per planted acre,No specific size,Prairie Gateway,United States,2019,146.93,Base survey of 2016
+Corn,Allocated overhead,Capital recovery of machinery and equipment,dollars per planted acre,No specific size,Prairie Gateway,United States,2021,150.49,Base survey of 2021
+Corn,Allocated overhead,Opportunity cost of land,dollars per planted acre,No specific size,Heartland,United States,2001,96.9,Base survey of 2001
+Corn,Allocated overhead,Opportunity cost of land,dollars per planted acre,No specific size,Heartland,United States,2003,100.28,Base survey of 2001
+Corn,Allocated overhead,Opportunity cost of land,dollars per planted acre,No specific size,Heartland,United States,2005,104.87,Base survey of 2005
+Corn,Allocated overhead,Opportunity cost of land,dollars per planted acre,No specific size,Heartland,United States,2007,110.48,Base survey of 2005
+Corn,Allocated overhead,Opportunity cost of land,dollars per planted acre,No specific size,Heartland,United States,2009,142.36,Base survey of 2005
+Corn,Allocated overhead,Opportunity cost of land,dollars per planted acre,No specific size,Heartland,United States,2011,163.77,Base survey of 2010
+Corn,Allocated overhead,Opportunity cost of land,dollars per planted acre,No specific size,Heartland,United States,2013,200.65,Base survey of 2010
+Corn,Allocated overhead,Opportunity cost of land,dollars per planted acre,No specific size,Heartland,United States,2015,212.46,Base survey of 2010
+Corn,Allocated overhead,Opportunity cost of land,dollars per planted acre,No specific size,Heartland,United States,2017,190.98,Base survey of 2016
+Corn,Allocated overhead,Opportunity cost of land,dollars per planted acre,No specific size,Heartland,United States,2019,193.03,Base survey of 2016
+Corn,Allocated overhead,Opportunity cost of land,dollars per planted acre,No specific size,Heartland,United States,2021,198.86,Base survey of 2021
+Corn,Allocated overhead,Opportunity cost of land,dollars per planted acre,No specific size,Prairie Gateway,United States,2001,71.21,Base survey of 2001
+Corn,Allocated overhead,Opportunity cost of land,dollars per planted acre,No specific size,Prairie Gateway,United States,2003,73.48,Base survey of 2001
+Corn,Allocated overhead,Opportunity cost of land,dollars per planted acre,No specific size,Prairie Gateway,United States,2005,70.82,Base survey of 2005
+Corn,Allocated overhead,Opportunity cost of land,dollars per planted acre,No specific size,Prairie Gateway,United States,2007,69.67,Base survey of 2005
+Corn,Allocated overhead,Opportunity cost of land,dollars per planted acre,No specific size,Prairie Gateway,United States,2009,89.77,Base survey of 2005
+Corn,Allocated overhead,Opportunity cost of land,dollars per planted acre,No specific size,Prairie Gateway,United States,2011,94.09,Base survey of 2010
+Corn,Allocated overhead,Opportunity cost of land,dollars per planted acre,No specific size,Prairie Gateway,United States,2013,115.28,Base survey of 2010
+Corn,Allocated overhead,Opportunity cost of land,dollars per planted acre,No specific size,Prairie Gateway,United States,2015,122.06,Base survey of 2010
+Corn,Allocated overhead,Opportunity cost of land,dollars per planted acre,No specific size,Prairie Gateway,United States,2017,109.09,Base survey of 2016
+Corn,Allocated overhead,Opportunity cost of land,dollars per planted acre,No specific size,Prairie Gateway,United States,2019,107.65,Base survey of 2016
+Corn,Allocated overhead,Opportunity cost of land,dollars per planted acre,No specific size,Prairie Gateway,United States,2021,125.13,Base survey of 2021
+Corn,Allocated overhead,Taxes and insurance,dollars per planted acre,No specific size,Heartland,United States,2001,5.15,Base survey of 2001
+Corn,Allocated overhead,Taxes and insurance,dollars per planted acre,No specific size,Heartland,United States,2003,5.19,Base survey of 2001
+Corn,Allocated overhead,Taxes and insurance,dollars per planted acre,No specific size,Heartland,United States,2005,6.06,Base survey of 2005
+Corn,Allocated overhead,Taxes and insurance,dollars per planted acre,No specific size,Heartland,United States,2007,6.88,Base survey of 2005
+Corn,Allocated overhead,Taxes and insurance,dollars per planted acre,No specific size,Heartland,United States,2009,7.46,Base survey of 2005
+Corn,Allocated overhead,Taxes and insurance,dollars per planted acre,No specific size,Heartland,United States,2011,8.18,Base survey of 2010
+Corn,Allocated overhead,Taxes and insurance,dollars per planted acre,No specific size,Heartland,United States,2013,8.42,Base survey of 2010
+Corn,Allocated overhead,Taxes and insurance,dollars per planted acre,No specific size,Heartland,United States,2015,10.1,Base survey of 2010
+Corn,Allocated overhead,Taxes and insurance,dollars per planted acre,No specific size,Heartland,United States,2017,11.67,Base survey of 2016
+Corn,Allocated overhead,Taxes and insurance,dollars per planted acre,No specific size,Heartland,United States,2019,12.33,Base survey of 2016
+Corn,Allocated overhead,Taxes and insurance,dollars per planted acre,No specific size,Heartland,United States,2021,17.1,Base survey of 2021
+Corn,Allocated overhead,Taxes and insurance,dollars per planted acre,No specific size,Prairie Gateway,United States,2001,6.63,Base survey of 2001
+Corn,Allocated overhead,Taxes and insurance,dollars per planted acre,No specific size,Prairie Gateway,United States,2003,6.74,Base survey of 2001
+Corn,Allocated overhead,Taxes and insurance,dollars per planted acre,No specific size,Prairie Gateway,United States,2005,8.0,Base survey of 2005
+Corn,Allocated overhead,Taxes and insurance,dollars per planted acre,No specific size,Prairie Gateway,United States,2007,8.42,Base survey of 2005
+Corn,Allocated overhead,Taxes and insurance,dollars per planted acre,No specific size,Prairie Gateway,United States,2009,9.13,Base survey of 2005
+Corn,Allocated overhead,Taxes and insurance,dollars per planted acre,No specific size,Prairie Gateway,United States,2011,10.99,Base survey of 2010
+Corn,Allocated overhead,Taxes and insurance,dollars per planted acre,No specific size,Prairie Gateway,United States,2013,11.32,Base survey of 2010
+Corn,Allocated overhead,Taxes and insurance,dollars per planted acre,No specific size,Prairie Gateway,United States,2015,13.59,Base survey of 2010
+Corn,Allocated overhead,Taxes and insurance,dollars per planted acre,No specific size,Prairie Gateway,United States,2017,11.99,Base survey of 2016
+Corn,Allocated overhead,Taxes and insurance,dollars per planted acre,No specific size,Prairie Gateway,United States,2019,12.36,Base survey of 2016
+Corn,Allocated overhead,Taxes and insurance,dollars per planted acre,No specific size,Prairie Gateway,United States,2021,16.62,Base survey of 2021
+Corn,Allocated overhead,General farm overhead,dollars per planted acre,No specific size,Heartland,United States,2001,10.49,Base survey of 2001
+Corn,Allocated overhead,General farm overhead,dollars per planted acre,No specific size,Heartland,United States,2003,10.93,Base survey of 2001
+Corn,Allocated overhead,General farm overhead,dollars per planted acre,No specific size,Heartland,United States,2005,12.14,Base survey of 2005
+Corn,Allocated overhead,General farm overhead,dollars per planted acre,No specific size,Heartland,United States,2007,13.0,Base survey of 2005
+Corn,Allocated overhead,General farm overhead,dollars per planted acre,No specific size,Heartland,United States,2009,13.61,Base survey of 2005
+Corn,Allocated overhead,General farm overhead,dollars per planted acre,No specific size,Heartland,United States,2011,17.91,Base survey of 2010
+Corn,Allocated overhead,General farm overhead,dollars per planted acre,No specific size,Heartland,United States,2013,18.63,Base survey of 2010
+Corn,Allocated overhead,General farm overhead,dollars per planted acre,No specific size,Heartland,United States,2015,18.95,Base survey of 2010
+Corn,Allocated overhead,General farm overhead,dollars per planted acre,No specific size,Heartland,United States,2017,17.07,Base survey of 2016
+Corn,Allocated overhead,General farm overhead,dollars per planted acre,No specific size,Heartland,United States,2019,18.32,Base survey of 2016
+Corn,Allocated overhead,General farm overhead,dollars per planted acre,No specific size,Heartland,United States,2021,24.08,Base survey of 2021
+Corn,Allocated overhead,General farm overhead,dollars per planted acre,No specific size,Prairie Gateway,United States,2001,14.31,Base survey of 2001
+Corn,Allocated overhead,General farm overhead,dollars per planted acre,No specific size,Prairie Gateway,United States,2003,14.99,Base survey of 2001
+Corn,Allocated overhead,General farm overhead,dollars per planted acre,No specific size,Prairie Gateway,United States,2005,12.64,Base survey of 2005
+Corn,Allocated overhead,General farm overhead,dollars per planted acre,No specific size,Prairie Gateway,United States,2007,13.09,Base survey of 2005
+Corn,Allocated overhead,General farm overhead,dollars per planted acre,No specific size,Prairie Gateway,United States,2009,13.7,Base survey of 2005
+Corn,Allocated overhead,General farm overhead,dollars per planted acre,No specific size,Prairie Gateway,United States,2011,17.36,Base survey of 2010
+Corn,Allocated overhead,General farm overhead,dollars per planted acre,No specific size,Prairie Gateway,United States,2013,18.06,Base survey of 2010
+Corn,Allocated overhead,General farm overhead,dollars per planted acre,No specific size,Prairie Gateway,United States,2015,18.37,Base survey of 2010
+Corn,Allocated overhead,General farm overhead,dollars per planted acre,No specific size,Prairie Gateway,United States,2017,16.1,Base survey of 2016
+Corn,Allocated overhead,General farm overhead,dollars per planted acre,No specific size,Prairie Gateway,United States,2019,17.02,Base survey of 2016
+Corn,Allocated overhead,General farm overhead,dollars per planted acre,No specific size,Prairie Gateway,United States,2021,16.06,Base survey of 2021
+Corn,Allocated overhead,"Total, allocated overhead",dollars per planted acre,No specific size,Heartland,United States,2001,188.11,Base survey of 2001
+Corn,Allocated overhead,"Total, allocated overhead",dollars per planted acre,No specific size,Heartland,United States,2003,195.55,Base survey of 2001
+Corn,Allocated overhead,"Total, allocated overhead",dollars per planted acre,No specific size,Heartland,United States,2005,204.73,Base survey of 2005
+Corn,Allocated overhead,"Total, allocated overhead",dollars per planted acre,No specific size,Heartland,United States,2007,219.84,Base survey of 2005
+Corn,Allocated overhead,"Total, allocated overhead",dollars per planted acre,No specific size,Heartland,United States,2009,265.02,Base survey of 2005
+Corn,Allocated overhead,"Total, allocated overhead",dollars per planted acre,No specific size,Heartland,United States,2011,299.08,Base survey of 2010
+Corn,Allocated overhead,"Total, allocated overhead",dollars per planted acre,No specific size,Heartland,United States,2013,345.33,Base survey of 2010
+Corn,Allocated overhead,"Total, allocated overhead",dollars per planted acre,No specific size,Heartland,United States,2015,366.19,Base survey of 2010
+Corn,Allocated overhead,"Total, allocated overhead",dollars per planted acre,No specific size,Heartland,United States,2017,366.48,Base survey of 2016
+Corn,Allocated overhead,"Total, allocated overhead",dollars per planted acre,No specific size,Heartland,United States,2019,379.79,Base survey of 2016
+Corn,Allocated overhead,"Total, allocated overhead",dollars per planted acre,No specific size,Heartland,United States,2021,417.51,Base survey of 2021
+Corn,Allocated overhead,"Total, allocated overhead",dollars per planted acre,No specific size,Prairie Gateway,United States,2001,196.03,Base survey of 2001
+Corn,Allocated overhead,"Total, allocated overhead",dollars per planted acre,No specific size,Prairie Gateway,United States,2003,206.71,Base survey of 2001
+Corn,Allocated overhead,"Total, allocated overhead",dollars per planted acre,No specific size,Prairie Gateway,United States,2005,201.33,Base survey of 2005
+Corn,Allocated overhead,"Total, allocated overhead",dollars per planted acre,No specific size,Prairie Gateway,United States,2007,206.32,Base survey of 2005
+Corn,Allocated overhead,"Total, allocated overhead",dollars per planted acre,No specific size,Prairie Gateway,United States,2009,243.38,Base survey of 2005
+Corn,Allocated overhead,"Total, allocated overhead",dollars per planted acre,No specific size,Prairie Gateway,United States,2011,257.64,Base survey of 2010
+Corn,Allocated overhead,"Total, allocated overhead",dollars per planted acre,No specific size,Prairie Gateway,United States,2013,290.27,Base survey of 2010
+Corn,Allocated overhead,"Total, allocated overhead",dollars per planted acre,No specific size,Prairie Gateway,United States,2015,308.36,Base survey of 2010
+Corn,Allocated overhead,"Total, allocated overhead",dollars per planted acre,No specific size,Prairie Gateway,United States,2017,316.89,Base survey of 2016
+Corn,Allocated overhead,"Total, allocated overhead",dollars per planted acre,No specific size,Prairie Gateway,United States,2019,326.16,Base survey of 2016
+Corn,Allocated overhead,"Total, allocated overhead",dollars per planted acre,No specific size,Prairie Gateway,United States,2021,335.01,Base survey of 2021
+Corn,Costs listed,"Total, costs listed",dollars per planted acre,No specific size,Heartland,United States,2001,344.93,Base survey of 2001
+Corn,Costs listed,"Total, costs listed",dollars per planted acre,No specific size,Heartland,United States,2003,350.69,Base survey of 2001
+Corn,Costs listed,"Total, costs listed",dollars per planted acre,No specific size,Heartland,United States,2005,387.95,Base survey of 2005
+Corn,Costs listed,"Total, costs listed",dollars per planted acre,No specific size,Heartland,United States,2007,444.68,Base survey of 2005
+Corn,Costs listed,"Total, costs listed",dollars per planted acre,No specific size,Heartland,United States,2009,560.79,Base survey of 2005
+Corn,Costs listed,"Total, costs listed",dollars per planted acre,No specific size,Heartland,United States,2011,637.9,Base survey of 2010
+Corn,Costs listed,"Total, costs listed",dollars per planted acre,No specific size,Heartland,United States,2013,708.86,Base survey of 2010
+Corn,Costs listed,"Total, costs listed",dollars per planted acre,No specific size,Heartland,United States,2015,708.4,Base survey of 2010
+Corn,Costs listed,"Total, costs listed",dollars per planted acre,No specific size,Heartland,United States,2017,698.83,Base survey of 2016
+Corn,Costs listed,"Total, costs listed",dollars per planted acre,No specific size,Heartland,United States,2019,724.79,Base survey of 2016
+Corn,Costs listed,"Total, costs listed",dollars per planted acre,No specific size,Heartland,United States,2021,783.59,Base survey of 2021
+Corn,Costs listed,"Total, costs listed",dollars per planted acre,No specific size,Prairie Gateway,United States,2001,390.74,Base survey of 2001
+Corn,Costs listed,"Total, costs listed",dollars per planted acre,No specific size,Prairie Gateway,United States,2003,401.72,Base survey of 2001
+Corn,Costs listed,"Total, costs listed",dollars per planted acre,No specific size,Prairie Gateway,United States,2005,416.85,Base survey of 2005
+Corn,Costs listed,"Total, costs listed",dollars per planted acre,No specific size,Prairie Gateway,United States,2007,452.76,Base survey of 2005
+Corn,Costs listed,"Total, costs listed",dollars per planted acre,No specific size,Prairie Gateway,United States,2009,535.65,Base survey of 2005
+Corn,Costs listed,"Total, costs listed",dollars per planted acre,No specific size,Prairie Gateway,United States,2011,566.7,Base survey of 2010
+Corn,Costs listed,"Total, costs listed",dollars per planted acre,No specific size,Prairie Gateway,United States,2013,619.88,Base survey of 2010
+Corn,Costs listed,"Total, costs listed",dollars per planted acre,No specific size,Prairie Gateway,United States,2015,612.61,Base survey of 2010
+Corn,Costs listed,"Total, costs listed",dollars per planted acre,No specific size,Prairie Gateway,United States,2017,637.91,Base survey of 2016
+Corn,Costs listed,"Total, costs listed",dollars per planted acre,No specific size,Prairie Gateway,United States,2019,659.27,Base survey of 2016
+Corn,Costs listed,"Total, costs listed",dollars per planted acre,No specific size,Prairie Gateway,United States,2021,650.34,Base survey of 2021
+Corn,Net value,Value of production less total costs listed,dollars per planted acre,No specific size,Heartland,United States,2001,-71.76,Base survey of 2001
+Corn,Net value,Value of production less total costs listed,dollars per planted acre,No specific size,Heartland,United States,2003,-19.63,Base survey of 2001
+Corn,Net value,Value of production less total costs listed,dollars per planted acre,No specific size,Heartland,United States,2005,-120.63,Base survey of 2005
+Corn,Net value,Value of production less total costs listed,dollars per planted acre,No specific size,Heartland,United States,2007,56.59,Base survey of 2005
+Corn,Net value,Value of production less total costs listed,dollars per planted acre,No specific size,Heartland,United States,2009,46.39,Base survey of 2005
+Corn,Net value,Value of production less total costs listed,dollars per planted acre,No specific size,Heartland,United States,2011,246.02,Base survey of 2010
+Corn,Net value,Value of production less total costs listed,dollars per planted acre,No specific size,Heartland,United States,2013,48.84,Base survey of 2010
+Corn,Net value,Value of production less total costs listed,dollars per planted acre,No specific size,Heartland,United States,2015,-74.74,Base survey of 2010
+Corn,Net value,Value of production less total costs listed,dollars per planted acre,No specific size,Heartland,United States,2017,-51.91,Base survey of 2016
+Corn,Net value,Value of production less total costs listed,dollars per planted acre,No specific size,Heartland,United States,2019,-9.38,Base survey of 2016
+Corn,Net value,Value of production less total costs listed,dollars per planted acre,No specific size,Heartland,United States,2021,226.59,Base survey of 2021
+Corn,Net value,Value of production less total costs listed,dollars per planted acre,No specific size,Prairie Gateway,United States,2001,-92.77,Base survey of 2001
+Corn,Net value,Value of production less total costs listed,dollars per planted acre,No specific size,Prairie Gateway,United States,2003,-70.07,Base survey of 2001
+Corn,Net value,Value of production less total costs listed,dollars per planted acre,No specific size,Prairie Gateway,United States,2005,-171.93,Base survey of 2005
+Corn,Net value,Value of production less total costs listed,dollars per planted acre,No specific size,Prairie Gateway,United States,2007,25.11,Base survey of 2005
+Corn,Net value,Value of production less total costs listed,dollars per planted acre,No specific size,Prairie Gateway,United States,2009,-1.04,Base survey of 2005
+Corn,Net value,Value of production less total costs listed,dollars per planted acre,No specific size,Prairie Gateway,United States,2011,142.35,Base survey of 2010
+Corn,Net value,Value of production less total costs listed,dollars per planted acre,No specific size,Prairie Gateway,United States,2013,67.4,Base survey of 2010
+Corn,Net value,Value of production less total costs listed,dollars per planted acre,No specific size,Prairie Gateway,United States,2015,-0.46,Base survey of 2010
+Corn,Net value,Value of production less total costs listed,dollars per planted acre,No specific size,Prairie Gateway,United States,2017,-117.01,Base survey of 2016
+Corn,Net value,Value of production less total costs listed,dollars per planted acre,No specific size,Prairie Gateway,United States,2019,-74.7,Base survey of 2016
+Corn,Net value,Value of production less total costs listed,dollars per planted acre,No specific size,Prairie Gateway,United States,2021,194.36,Base survey of 2021
+Corn,Net value,Value of production less operating costs,dollars per planted acre,No specific size,Heartland,United States,2001,116.35,Base survey of 2001
+Corn,Net value,Value of production less operating costs,dollars per planted acre,No specific size,Heartland,United States,2003,175.92,Base survey of 2001
+Corn,Net value,Value of production less operating costs,dollars per planted acre,No specific size,Heartland,United States,2005,84.1,Base survey of 2005
+Corn,Net value,Value of production less operating costs,dollars per planted acre,No specific size,Heartland,United States,2007,276.43,Base survey of 2005
+Corn,Net value,Value of production less operating costs,dollars per planted acre,No specific size,Heartland,United States,2009,311.41,Base survey of 2005
+Corn,Net value,Value of production less operating costs,dollars per planted acre,No specific size,Heartland,United States,2011,545.1,Base survey of 2010
+Corn,Net value,Value of production less operating costs,dollars per planted acre,No specific size,Heartland,United States,2013,394.17,Base survey of 2010
+Corn,Net value,Value of production less operating costs,dollars per planted acre,No specific size,Heartland,United States,2015,291.45,Base survey of 2010
+Corn,Net value,Value of production less operating costs,dollars per planted acre,No specific size,Heartland,United States,2017,314.57,Base survey of 2016
+Corn,Net value,Value of production less operating costs,dollars per planted acre,No specific size,Heartland,United States,2019,370.41,Base survey of 2016
+Corn,Net value,Value of production less operating costs,dollars per planted acre,No specific size,Heartland,United States,2021,644.1,Base survey of 2021
+Corn,Net value,Value of production less operating costs,dollars per planted acre,No specific size,Prairie Gateway,United States,2001,103.26,Base survey of 2001
+Corn,Net value,Value of production less operating costs,dollars per planted acre,No specific size,Prairie Gateway,United States,2003,136.64,Base survey of 2001
+Corn,Net value,Value of production less operating costs,dollars per planted acre,No specific size,Prairie Gateway,United States,2005,29.4,Base survey of 2005
+Corn,Net value,Value of production less operating costs,dollars per planted acre,No specific size,Prairie Gateway,United States,2007,231.43,Base survey of 2005
+Corn,Net value,Value of production less operating costs,dollars per planted acre,No specific size,Prairie Gateway,United States,2009,242.34,Base survey of 2005
+Corn,Net value,Value of production less operating costs,dollars per planted acre,No specific size,Prairie Gateway,United States,2011,399.99,Base survey of 2010
+Corn,Net value,Value of production less operating costs,dollars per planted acre,No specific size,Prairie Gateway,United States,2013,357.67,Base survey of 2010
+Corn,Net value,Value of production less operating costs,dollars per planted acre,No specific size,Prairie Gateway,United States,2015,307.9,Base survey of 2010
+Corn,Net value,Value of production less operating costs,dollars per planted acre,No specific size,Prairie Gateway,United States,2017,199.88,Base survey of 2016
+Corn,Net value,Value of production less operating costs,dollars per planted acre,No specific size,Prairie Gateway,United States,2019,251.46,Base survey of 2016
+Corn,Net value,Value of production less operating costs,dollars per planted acre,No specific size,Prairie Gateway,United States,2021,529.36,Base survey of 2021
+Corn,Supporting information,Yield,bushels per planted acre,No specific size,Heartland,United States,2001,151.0,Base survey of 2001
+Corn,Supporting information,Yield,bushels per planted acre,No specific size,Heartland,United States,2003,157.0,Base survey of 2001
+Corn,Supporting information,Yield,bushels per planted acre,No specific size,Heartland,United States,2005,156.0,Base survey of 2005
+Corn,Supporting information,Yield,bushels per planted acre,No specific size,Heartland,United States,2007,155.0,Base survey of 2005
+Corn,Supporting information,Yield,bushels per planted acre,No specific size,Heartland,United States,2009,168.0,Base survey of 2005
+Corn,Supporting information,Yield,bushels per planted acre,No specific size,Heartland,United States,2011,155.0,Base survey of 2010
+Corn,Supporting information,Yield,bushels per planted acre,No specific size,Heartland,United States,2013,165.0,Base survey of 2010
+Corn,Supporting information,Yield,bushels per planted acre,No specific size,Heartland,United States,2015,174.0,Base survey of 2010
+Corn,Supporting information,Yield,bushels per planted acre,No specific size,Heartland,United States,2017,200.0,Base survey of 2016
+Corn,Supporting information,Yield,bushels per planted acre,No specific size,Heartland,United States,2019,188.0,Base survey of 2016
+Corn,Supporting information,Yield,bushels per planted acre,No specific size,Heartland,United States,2021,201.0,Base survey of 2021
+Corn,Supporting information,Yield,bushels per planted acre,No specific size,Prairie Gateway,United States,2001,150.0,Base survey of 2001
+Corn,Supporting information,Yield,bushels per planted acre,No specific size,Prairie Gateway,United States,2003,147.0,Base survey of 2001
+Corn,Supporting information,Yield,bushels per planted acre,No specific size,Prairie Gateway,United States,2005,135.0,Base survey of 2005
+Corn,Supporting information,Yield,bushels per planted acre,No specific size,Prairie Gateway,United States,2007,140.0,Base survey of 2005
+Corn,Supporting information,Yield,bushels per planted acre,No specific size,Prairie Gateway,United States,2009,147.0,Base survey of 2005
+Corn,Supporting information,Yield,bushels per planted acre,No specific size,Prairie Gateway,United States,2011,122.0,Base survey of 2010
+Corn,Supporting information,Yield,bushels per planted acre,No specific size,Prairie Gateway,United States,2013,142.0,Base survey of 2010
+Corn,Supporting information,Yield,bushels per planted acre,No specific size,Prairie Gateway,United States,2015,159.0,Base survey of 2010
+Corn,Supporting information,Yield,bushels per planted acre,No specific size,Prairie Gateway,United States,2017,157.0,Base survey of 2016
+Corn,Supporting information,Yield,bushels per planted acre,No specific size,Prairie Gateway,United States,2019,153.0,Base survey of 2016
+Corn,Supporting information,Yield,bushels per planted acre,No specific size,Prairie Gateway,United States,2021,166.0,Base survey of 2021
+Corn,Supporting information,Price,dollars per bushel at harvest,No specific size,Heartland,United States,2001,1.8,Base survey of 2001
+Corn,Supporting information,Price,dollars per bushel at harvest,No specific size,Heartland,United States,2003,2.1,Base survey of 2001
+Corn,Supporting information,Price,dollars per bushel at harvest,No specific size,Heartland,United States,2005,1.71,Base survey of 2005
+Corn,Supporting information,Price,dollars per bushel at harvest,No specific size,Heartland,United States,2007,3.23,Base survey of 2005
+Corn,Supporting information,Price,dollars per bushel at harvest,No specific size,Heartland,United States,2009,3.61,Base survey of 2005
+Corn,Supporting information,Price,dollars per bushel at harvest,No specific size,Heartland,United States,2011,5.7,Base survey of 2010
+Corn,Supporting information,Price,dollars per bushel at harvest,No specific size,Heartland,United States,2013,4.59,Base survey of 2010
+Corn,Supporting information,Price,dollars per bushel at harvest,No specific size,Heartland,United States,2015,3.64,Base survey of 2010
+Corn,Supporting information,Price,dollars per bushel at harvest,No specific size,Heartland,United States,2017,3.23,Base survey of 2016
+Corn,Supporting information,Price,dollars per bushel at harvest,No specific size,Heartland,United States,2019,3.8,Base survey of 2016
+Corn,Supporting information,Price,dollars per bushel at harvest,No specific size,Heartland,United States,2021,5.02,Base survey of 2021
+Corn,Supporting information,Price,dollars per bushel at harvest,No specific size,Prairie Gateway,United States,2001,1.98,Base survey of 2001
+Corn,Supporting information,Price,dollars per bushel at harvest,No specific size,Prairie Gateway,United States,2003,2.25,Base survey of 2001
+Corn,Supporting information,Price,dollars per bushel at harvest,No specific size,Prairie Gateway,United States,2005,1.8,Base survey of 2005
+Corn,Supporting information,Price,dollars per bushel at harvest,No specific size,Prairie Gateway,United States,2007,3.39,Base survey of 2005
+Corn,Supporting information,Price,dollars per bushel at harvest,No specific size,Prairie Gateway,United States,2009,3.62,Base survey of 2005
+Corn,Supporting information,Price,dollars per bushel at harvest,No specific size,Prairie Gateway,United States,2011,5.8,Base survey of 2010
+Corn,Supporting information,Price,dollars per bushel at harvest,No specific size,Prairie Gateway,United States,2013,4.83,Base survey of 2010
+Corn,Supporting information,Price,dollars per bushel at harvest,No specific size,Prairie Gateway,United States,2015,3.84,Base survey of 2010
+Corn,Supporting information,Price,dollars per bushel at harvest,No specific size,Prairie Gateway,United States,2017,3.31,Base survey of 2016
+Corn,Supporting information,Price,dollars per bushel at harvest,No specific size,Prairie Gateway,United States,2019,3.81,Base survey of 2016
+Corn,Supporting information,Price,dollars per bushel at harvest,No specific size,Prairie Gateway,United States,2021,5.08,Base survey of 2021
+Corn,Supporting information,Enterprise size,planted acres,No specific size,Heartland,United States,2001,270.0,Base survey of 2001
+Corn,Supporting information,Enterprise size,planted acres,No specific size,Heartland,United States,2003,270.0,Base survey of 2001
+Corn,Supporting information,Enterprise size,planted acres,No specific size,Heartland,United States,2005,281.0,Base survey of 2005
+Corn,Supporting information,Enterprise size,planted acres,No specific size,Heartland,United States,2007,281.0,Base survey of 2005
+Corn,Supporting information,Enterprise size,planted acres,No specific size,Heartland,United States,2009,281.0,Base survey of 2005
+Corn,Supporting information,Enterprise size,planted acres,No specific size,Heartland,United States,2011,313.0,Base survey of 2010
+Corn,Supporting information,Enterprise size,planted acres,No specific size,Heartland,United States,2013,313.0,Base survey of 2010
+Corn,Supporting information,Enterprise size,planted acres,No specific size,Heartland,United States,2015,313.0,Base survey of 2010
+Corn,Supporting information,Enterprise size,planted acres,No specific size,Heartland,United States,2017,302.0,Base survey of 2016
+Corn,Supporting information,Enterprise size,planted acres,No specific size,Heartland,United States,2019,302.0,Base survey of 2016
+Corn,Supporting information,Enterprise size,planted acres,No specific size,Heartland,United States,2021,274.0,Base survey of 2021
+Corn,Supporting information,Enterprise size,planted acres,No specific size,Prairie Gateway,United States,2001,346.0,Base survey of 2001
+Corn,Supporting information,Enterprise size,planted acres,No specific size,Prairie Gateway,United States,2003,346.0,Base survey of 2001
+Corn,Supporting information,Enterprise size,planted acres,No specific size,Prairie Gateway,United States,2005,322.0,Base survey of 2005
+Corn,Supporting information,Enterprise size,planted acres,No specific size,Prairie Gateway,United States,2007,322.0,Base survey of 2005
+Corn,Supporting information,Enterprise size,planted acres,No specific size,Prairie Gateway,United States,2009,322.0,Base survey of 2005
+Corn,Supporting information,Enterprise size,planted acres,No specific size,Prairie Gateway,United States,2011,371.0,Base survey of 2010
+Corn,Supporting information,Enterprise size,planted acres,No specific size,Prairie Gateway,United States,2013,371.0,Base survey of 2010
+Corn,Supporting information,Enterprise size,planted acres,No specific size,Prairie Gateway,United States,2015,371.0,Base survey of 2010
+Corn,Supporting information,Enterprise size,planted acres,No specific size,Prairie Gateway,United States,2017,433.0,Base survey of 2016
+Corn,Supporting information,Enterprise size,planted acres,No specific size,Prairie Gateway,United States,2019,433.0,Base survey of 2016
+Corn,Supporting information,Enterprise size,planted acres,No specific size,Prairie Gateway,United States,2021,499.0,Base survey of 2021
+Corn,Production practices,Dryland,percent of acres,No specific size,Heartland,United States,2001,95.0,Base survey of 2001
+Corn,Production practices,Dryland,percent of acres,No specific size,Heartland,United States,2003,95.0,Base survey of 2001
+Corn,Production practices,Dryland,percent of acres,No specific size,Heartland,United States,2005,95.0,Base survey of 2005
+Corn,Production practices,Dryland,percent of acres,No specific size,Heartland,United States,2007,95.0,Base survey of 2005
+Corn,Production practices,Dryland,percent of acres,No specific size,Heartland,United States,2009,95.0,Base survey of 2005
+Corn,Production practices,Dryland,percent of acres,No specific size,Heartland,United States,2011,95.0,Base survey of 2010
+Corn,Production practices,Dryland,percent of acres,No specific size,Heartland,United States,2013,95.0,Base survey of 2010
+Corn,Production practices,Dryland,percent of acres,No specific size,Heartland,United States,2015,95.0,Base survey of 2010
+Corn,Production practices,Dryland,percent of acres,No specific size,Heartland,United States,2017,94.0,Base survey of 2016
+Corn,Production practices,Dryland,percent of acres,No specific size,Heartland,United States,2019,93.0,Base survey of 2016
+Corn,Production practices,Dryland,percent of acres,No specific size,Heartland,United States,2021,95.0,Base survey of 2021
+Corn,Production practices,Dryland,percent of acres,No specific size,Prairie Gateway,United States,2001,39.0,Base survey of 2001
+Corn,Production practices,Dryland,percent of acres,No specific size,Prairie Gateway,United States,2003,39.0,Base survey of 2001
+Corn,Production practices,Dryland,percent of acres,No specific size,Prairie Gateway,United States,2005,52.0,Base survey of 2005
+Corn,Production practices,Dryland,percent of acres,No specific size,Prairie Gateway,United States,2007,52.0,Base survey of 2005
+Corn,Production practices,Dryland,percent of acres,No specific size,Prairie Gateway,United States,2009,52.0,Base survey of 2005
+Corn,Production practices,Dryland,percent of acres,No specific size,Prairie Gateway,United States,2011,57.0,Base survey of 2010
+Corn,Production practices,Dryland,percent of acres,No specific size,Prairie Gateway,United States,2013,57.0,Base survey of 2010
+Corn,Production practices,Dryland,percent of acres,No specific size,Prairie Gateway,United States,2015,57.0,Base survey of 2010
+Corn,Production practices,Dryland,percent of acres,No specific size,Prairie Gateway,United States,2017,61.0,Base survey of 2016
+Corn,Production practices,Dryland,percent of acres,No specific size,Prairie Gateway,United States,2019,62.0,Base survey of 2016
+Corn,Production practices,Dryland,percent of acres,No specific size,Prairie Gateway,United States,2021,73.0,Base survey of 2021
+Corn,Production practices,Irrigated,percent of acres,No specific size,Heartland,United States,2001,5.0,Base survey of 2001
+Corn,Production practices,Irrigated,percent of acres,No specific size,Heartland,United States,2003,5.0,Base survey of 2001
+Corn,Production practices,Irrigated,percent of acres,No specific size,Heartland,United States,2005,5.0,Base survey of 2005
+Corn,Production practices,Irrigated,percent of acres,No specific size,Heartland,United States,2007,5.0,Base survey of 2005
+Corn,Production practices,Irrigated,percent of acres,No specific size,Heartland,United States,2009,5.0,Base survey of 2005
+Corn,Production practices,Irrigated,percent of acres,No specific size,Heartland,United States,2011,5.0,Base survey of 2010
+Corn,Production practices,Irrigated,percent of acres,No specific size,Heartland,United States,2013,5.0,Base survey of 2010
+Corn,Production practices,Irrigated,percent of acres,No specific size,Heartland,United States,2015,5.0,Base survey of 2010
+Corn,Production practices,Irrigated,percent of acres,No specific size,Heartland,United States,2017,6.0,Base survey of 2016
+Corn,Production practices,Irrigated,percent of acres,No specific size,Heartland,United States,2019,7.0,Base survey of 2016
+Corn,Production practices,Irrigated,percent of acres,No specific size,Heartland,United States,2021,5.0,Base survey of 2021
+Corn,Production practices,Irrigated,percent of acres,No specific size,Prairie Gateway,United States,2001,61.0,Base survey of 2001
+Corn,Production practices,Irrigated,percent of acres,No specific size,Prairie Gateway,United States,2003,61.0,Base survey of 2001
+Corn,Production practices,Irrigated,percent of acres,No specific size,Prairie Gateway,United States,2005,48.0,Base survey of 2005
+Corn,Production practices,Irrigated,percent of acres,No specific size,Prairie Gateway,United States,2007,48.0,Base survey of 2005
+Corn,Production practices,Irrigated,percent of acres,No specific size,Prairie Gateway,United States,2009,48.0,Base survey of 2005
+Corn,Production practices,Irrigated,percent of acres,No specific size,Prairie Gateway,United States,2011,43.0,Base survey of 2010
+Corn,Production practices,Irrigated,percent of acres,No specific size,Prairie Gateway,United States,2013,43.0,Base survey of 2010
+Corn,Production practices,Irrigated,percent of acres,No specific size,Prairie Gateway,United States,2015,43.0,Base survey of 2010
+Corn,Production practices,Irrigated,percent of acres,No specific size,Prairie Gateway,United States,2017,39.0,Base survey of 2016
+Corn,Production practices,Irrigated,percent of acres,No specific size,Prairie Gateway,United States,2019,38.0,Base survey of 2016
+Corn,Production practices,Irrigated,percent of acres,No specific size,Prairie Gateway,United States,2021,27.0,Base survey of 2021
+Corn,Operating costs,Custom services,dollars per planted acre,No specific size,Heartland,United States,2013,16.47,Base survey of 2010
+Corn,Operating costs,Custom services,dollars per planted acre,No specific size,Heartland,United States,2015,17.66,Base survey of 2010
+Corn,Operating costs,Custom services,dollars per planted acre,No specific size,Heartland,United States,2017,22.59,Base survey of 2016
+Corn,Operating costs,Custom services,dollars per planted acre,No specific size,Heartland,United States,2019,23.48,Base survey of 2016
+Corn,Operating costs,Custom services,dollars per planted acre,No specific size,Heartland,United States,2021,30.08,Base survey of 2021
+Corn,Operating costs,Custom services,dollars per planted acre,No specific size,Prairie Gateway,United States,2001,16.39,Base survey of 2001
+Corn,Operating costs,Custom services,dollars per planted acre,No specific size,Prairie Gateway,United States,2003,16.16,Base survey of 2001
+Corn,Operating costs,Custom services,dollars per planted acre,No specific size,Prairie Gateway,United States,2005,14.1,Base survey of 2005
+Corn,Operating costs,Custom services,dollars per planted acre,No specific size,Prairie Gateway,United States,2007,14.74,Base survey of 2005
+Corn,Operating costs,Custom services,dollars per planted acre,No specific size,Prairie Gateway,United States,2009,15.75,Base survey of 2005
+Corn,Operating costs,Custom services,dollars per planted acre,No specific size,Prairie Gateway,United States,2011,19.39,Base survey of 2010
+Corn,Operating costs,Custom services,dollars per planted acre,No specific size,Prairie Gateway,United States,2013,20.56,Base survey of 2010
+Corn,Operating costs,Custom services,dollars per planted acre,No specific size,Prairie Gateway,United States,2015,22.05,Base survey of 2010
+Corn,Operating costs,Custom services,dollars per planted acre,No specific size,Prairie Gateway,United States,2017,16.99,Base survey of 2016
+Corn,Operating costs,Custom services,dollars per planted acre,No specific size,Prairie Gateway,United States,2019,17.59,Base survey of 2016
+Corn,Operating costs,Custom services,dollars per planted acre,No specific size,Prairie Gateway,United States,2021,25.99,Base survey of 2021
+Corn,Operating costs,"Fuel, lube, and electricity",dollars per planted acre,No specific size,Heartland,United States,2001,16.18,Base survey of 2001
+Corn,Operating costs,"Fuel, lube, and electricity",dollars per planted acre,No specific size,Heartland,United States,2003,18.81,Base survey of 2001
+Corn,Operating costs,"Fuel, lube, and electricity",dollars per planted acre,No specific size,Heartland,United States,2005,20.32,Base survey of 2005
+Corn,Operating costs,"Fuel, lube, and electricity",dollars per planted acre,No specific size,Heartland,United States,2007,25.0,Base survey of 2005
+Corn,Operating costs,"Fuel, lube, and electricity",dollars per planted acre,No specific size,Heartland,United States,2009,22.13,Base survey of 2005
+Corn,Operating costs,"Fuel, lube, and electricity",dollars per planted acre,No specific size,Heartland,United States,2011,27.76,Base survey of 2010
+Corn,Operating costs,"Fuel, lube, and electricity",dollars per planted acre,No specific size,Heartland,United States,2013,27.62,Base survey of 2010
+Corn,Operating costs,"Fuel, lube, and electricity",dollars per planted acre,No specific size,Heartland,United States,2015,18.14,Base survey of 2010
+Corn,Operating costs,"Fuel, lube, and electricity",dollars per planted acre,No specific size,Heartland,United States,2017,23.21,Base survey of 2016
+Corn,Operating costs,"Fuel, lube, and electricity",dollars per planted acre,No specific size,Heartland,United States,2019,25.29,Base survey of 2016
+Corn,Operating costs,"Fuel, lube, and electricity",dollars per planted acre,No specific size,Heartland,United States,2021,22.77,Base survey of 2021
+Corn,Operating costs,"Fuel, lube, and electricity",dollars per planted acre,No specific size,Prairie Gateway,United States,2001,46.68,Base survey of 2001
+Corn,Operating costs,"Fuel, lube, and electricity",dollars per planted acre,No specific size,Prairie Gateway,United States,2003,47.93,Base survey of 2001
+Corn,Operating costs,"Fuel, lube, and electricity",dollars per planted acre,No specific size,Prairie Gateway,United States,2005,59.79,Base survey of 2005
+Corn,Operating costs,"Fuel, lube, and electricity",dollars per planted acre,No specific size,Prairie Gateway,United States,2007,76.3,Base survey of 2005
+Corn,Operating costs,"Fuel, lube, and electricity",dollars per planted acre,No specific size,Prairie Gateway,United States,2009,67.07,Base survey of 2005
+Corn,Operating costs,"Fuel, lube, and electricity",dollars per planted acre,No specific size,Prairie Gateway,United States,2011,52.28,Base survey of 2010
+Corn,Operating costs,"Fuel, lube, and electricity",dollars per planted acre,No specific size,Prairie Gateway,United States,2013,53.1,Base survey of 2010
+Corn,Operating costs,"Fuel, lube, and electricity",dollars per planted acre,No specific size,Prairie Gateway,United States,2015,35.44,Base survey of 2010
+Corn,Operating costs,"Fuel, lube, and electricity",dollars per planted acre,No specific size,Prairie Gateway,United States,2017,45.52,Base survey of 2016
+Corn,Operating costs,"Fuel, lube, and electricity",dollars per planted acre,No specific size,Prairie Gateway,United States,2019,48.04,Base survey of 2016
+Corn,Operating costs,"Fuel, lube, and electricity",dollars per planted acre,No specific size,Prairie Gateway,United States,2021,27.2,Base survey of 2021
+Corn,Operating costs,Repairs,dollars per planted acre,No specific size,Heartland,United States,2001,12.21,Base survey of 2001
+Corn,Operating costs,Repairs,dollars per planted acre,No specific size,Heartland,United States,2003,12.63,Base survey of 2001
+Corn,Operating costs,Repairs,dollars per planted acre,No specific size,Heartland,United States,2005,12.23,Base survey of 2005
+Corn,Operating costs,Repairs,dollars per planted acre,No specific size,Heartland,United States,2007,13.11,Base survey of 2005
+Corn,Operating costs,Repairs,dollars per planted acre,No specific size,Heartland,United States,2009,13.72,Base survey of 2005
+Corn,Operating costs,Repairs,dollars per planted acre,No specific size,Heartland,United States,2011,22.45,Base survey of 2010
+Corn,Operating costs,Repairs,dollars per planted acre,No specific size,Heartland,United States,2013,23.34,Base survey of 2010
+Corn,Operating costs,Repairs,dollars per planted acre,No specific size,Heartland,United States,2015,23.75,Base survey of 2010
+Corn,Operating costs,Repairs,dollars per planted acre,No specific size,Heartland,United States,2017,30.89,Base survey of 2016
+Corn,Operating costs,Repairs,dollars per planted acre,No specific size,Heartland,United States,2019,32.97,Base survey of 2016
+Corn,Operating costs,Repairs,dollars per planted acre,No specific size,Heartland,United States,2021,39.45,Base survey of 2021
+Corn,Operating costs,Repairs,dollars per planted acre,No specific size,Prairie Gateway,United States,2001,20.47,Base survey of 2001
+Corn,Operating costs,Repairs,dollars per planted acre,No specific size,Prairie Gateway,United States,2003,21.6,Base survey of 2001
+Corn,Operating costs,Repairs,dollars per planted acre,No specific size,Prairie Gateway,United States,2005,22.04,Base survey of 2005
+Corn,Operating costs,Repairs,dollars per planted acre,No specific size,Prairie Gateway,United States,2007,22.83,Base survey of 2005
+Corn,Operating costs,Repairs,dollars per planted acre,No specific size,Prairie Gateway,United States,2009,23.9,Base survey of 2005
+Corn,Operating costs,Repairs,dollars per planted acre,No specific size,Prairie Gateway,United States,2011,33.38,Base survey of 2010
+Corn,Operating costs,Repairs,dollars per planted acre,No specific size,Prairie Gateway,United States,2013,34.71,Base survey of 2010
+Corn,Operating costs,Repairs,dollars per planted acre,No specific size,Prairie Gateway,United States,2015,35.31,Base survey of 2010
+Corn,Operating costs,Repairs,dollars per planted acre,No specific size,Prairie Gateway,United States,2017,44.27,Base survey of 2016
+Corn,Operating costs,Repairs,dollars per planted acre,No specific size,Prairie Gateway,United States,2019,46.52,Base survey of 2016
+Corn,Operating costs,Repairs,dollars per planted acre,No specific size,Prairie Gateway,United States,2021,46.54,Base survey of 2021
+Corn,Operating costs,Purchased irrigation water,dollars per planted acre,No specific size,Heartland,United States,2001,0.0,Base survey of 2001
+Corn,Operating costs,Purchased irrigation water,dollars per planted acre,No specific size,Heartland,United States,2003,0.0,Base survey of 2001
+Corn,Operating costs,Purchased irrigation water,dollars per planted acre,No specific size,Heartland,United States,2005,0.0,Base survey of 2005
+Corn,Operating costs,Purchased irrigation water,dollars per planted acre,No specific size,Heartland,United States,2007,0.0,Base survey of 2005
+Corn,Operating costs,Purchased irrigation water,dollars per planted acre,No specific size,Heartland,United States,2009,0.0,Base survey of 2005
+Corn,Operating costs,Purchased irrigation water,dollars per planted acre,No specific size,Heartland,United States,2011,0.0,Base survey of 2010
+Corn,Operating costs,Purchased irrigation water,dollars per planted acre,No specific size,Heartland,United States,2013,0.0,Base survey of 2010
+Corn,Operating costs,Purchased irrigation water,dollars per planted acre,No specific size,Heartland,United States,2015,0.0,Base survey of 2010
+Corn,Operating costs,Purchased irrigation water,dollars per planted acre,No specific size,Heartland,United States,2017,0.0,Base survey of 2016
+Corn,Operating costs,Purchased irrigation water,dollars per planted acre,No specific size,Heartland,United States,2019,0.0,Base survey of 2016
+Corn,Operating costs,Purchased irrigation water,dollars per planted acre,No specific size,Heartland,United States,2021,0.0,Base survey of 2021
+Corn,Operating costs,Purchased irrigation water,dollars per planted acre,No specific size,Prairie Gateway,United States,2001,0.59,Base survey of 2001
+Corn,Operating costs,Purchased irrigation water,dollars per planted acre,No specific size,Prairie Gateway,United States,2003,0.63,Base survey of 2001
+Corn,Operating costs,Purchased irrigation water,dollars per planted acre,No specific size,Prairie Gateway,United States,2005,0.18,Base survey of 2005
+Corn,Operating costs,Purchased irrigation water,dollars per planted acre,No specific size,Prairie Gateway,United States,2007,0.19,Base survey of 2005
+Corn,Operating costs,Purchased irrigation water,dollars per planted acre,No specific size,Prairie Gateway,United States,2009,0.2,Base survey of 2005
+Corn,Operating costs,Purchased irrigation water,dollars per planted acre,No specific size,Prairie Gateway,United States,2011,0.38,Base survey of 2010
+Corn,Operating costs,Purchased irrigation water,dollars per planted acre,No specific size,Prairie Gateway,United States,2013,0.4,Base survey of 2010
+Corn,Operating costs,Purchased irrigation water,dollars per planted acre,No specific size,Prairie Gateway,United States,2015,0.43,Base survey of 2010
+Corn,Operating costs,Purchased irrigation water,dollars per planted acre,No specific size,Prairie Gateway,United States,2017,1.11,Base survey of 2016
+Corn,Operating costs,Purchased irrigation water,dollars per planted acre,No specific size,Prairie Gateway,United States,2019,1.11,Base survey of 2016
+Corn,Operating costs,Purchased irrigation water,dollars per planted acre,No specific size,Prairie Gateway,United States,2021,1.25,Base survey of 2021
+Corn,Operating costs,Interest on operating capital,dollars per planted acre,No specific size,Heartland,United States,2001,2.5,Base survey of 2001
+Corn,Operating costs,Interest on operating capital,dollars per planted acre,No specific size,Heartland,United States,2003,0.79,Base survey of 2001
+Corn,Operating costs,Interest on operating capital,dollars per planted acre,No specific size,Heartland,United States,2005,3.07,Base survey of 2005
+Corn,Operating costs,Interest on operating capital,dollars per planted acre,No specific size,Heartland,United States,2007,4.85,Base survey of 2005
+Corn,Operating costs,Interest on operating capital,dollars per planted acre,No specific size,Heartland,United States,2009,0.43,Base survey of 2005
+Corn,Operating costs,Interest on operating capital,dollars per planted acre,No specific size,Heartland,United States,2011,0.17,Base survey of 2010
+Corn,Operating costs,Interest on operating capital,dollars per planted acre,No specific size,Heartland,United States,2013,0.16,Base survey of 2010
+Corn,Operating costs,Interest on operating capital,dollars per planted acre,No specific size,Heartland,United States,2015,0.29,Base survey of 2010
+Corn,Operating costs,Interest on operating capital,dollars per planted acre,No specific size,Heartland,United States,2017,1.74,Base survey of 2016
+Corn,Operating costs,Interest on operating capital,dollars per planted acre,No specific size,Heartland,United States,2019,3.53,Base survey of 2016
+Corn,Operating costs,Interest on operating capital,dollars per planted acre,No specific size,Heartland,United States,2021,0.11,Base survey of 2021
+Corn,Operating costs,Interest on operating capital,dollars per planted acre,No specific size,Prairie Gateway,United States,2001,3.19,Base survey of 2001
+Corn,Operating costs,Interest on operating capital,dollars per planted acre,No specific size,Prairie Gateway,United States,2003,1.01,Base survey of 2001
+Corn,Operating costs,Interest on operating capital,dollars per planted acre,No specific size,Prairie Gateway,United States,2005,3.6,Base survey of 2005
+Corn,Operating costs,Interest on operating capital,dollars per planted acre,No specific size,Prairie Gateway,United States,2007,5.46,Base survey of 2005
+Corn,Operating costs,Interest on operating capital,dollars per planted acre,No specific size,Prairie Gateway,United States,2009,0.42,Base survey of 2005
+Corn,Operating costs,Interest on operating capital,dollars per planted acre,No specific size,Prairie Gateway,United States,2011,0.15,Base survey of 2010
+Corn,Operating costs,Interest on operating capital,dollars per planted acre,No specific size,Prairie Gateway,United States,2013,0.14,Base survey of 2010
+Corn,Operating costs,Interest on operating capital,dollars per planted acre,No specific size,Prairie Gateway,United States,2015,0.26,Base survey of 2010
+Corn,Operating costs,Interest on operating capital,dollars per planted acre,No specific size,Prairie Gateway,United States,2017,1.68,Base survey of 2016
+Corn,Operating costs,Interest on operating capital,dollars per planted acre,No specific size,Prairie Gateway,United States,2019,3.41,Base survey of 2016
+Corn,Operating costs,Interest on operating capital,dollars per planted acre,No specific size,Prairie Gateway,United States,2021,0.09,Base survey of 2021
+Corn,Operating costs,"Total, operating costs",dollars per planted acre,No specific size,Heartland,United States,2001,156.82,Base survey of 2001
+Corn,Operating costs,"Total, operating costs",dollars per planted acre,No specific size,Heartland,United States,2003,155.14,Base survey of 2001
+Corn,Operating costs,"Total, operating costs",dollars per planted acre,No specific size,Heartland,United States,2005,183.22,Base survey of 2005
+Corn,Operating costs,"Total, operating costs",dollars per planted acre,No specific size,Heartland,United States,2007,224.84,Base survey of 2005
+Corn,Operating costs,"Total, operating costs",dollars per planted acre,No specific size,Heartland,United States,2009,295.77,Base survey of 2005
+Corn,Operating costs,"Total, operating costs",dollars per planted acre,No specific size,Heartland,United States,2011,338.82,Base survey of 2010
+Corn,Operating costs,"Total, operating costs",dollars per planted acre,No specific size,Heartland,United States,2013,363.53,Base survey of 2010
+Corn,Operating costs,"Total, operating costs",dollars per planted acre,No specific size,Heartland,United States,2015,342.21,Base survey of 2010
+Corn,Operating costs,"Total, operating costs",dollars per planted acre,No specific size,Heartland,United States,2017,332.35,Base survey of 2016
+Corn,Operating costs,"Total, operating costs",dollars per planted acre,No specific size,Heartland,United States,2019,345.0,Base survey of 2016
+Corn,Operating costs,"Total, operating costs",dollars per planted acre,No specific size,Heartland,United States,2021,366.08,Base survey of 2021
+Corn,Operating costs,"Total, operating costs",dollars per planted acre,No specific size,Prairie Gateway,United States,2001,194.71,Base survey of 2001
+Corn,Operating costs,"Total, operating costs",dollars per planted acre,No specific size,Prairie Gateway,United States,2003,195.01,Base survey of 2001
+Corn,Operating costs,"Total, operating costs",dollars per planted acre,No specific size,Prairie Gateway,United States,2005,215.52,Base survey of 2005
+Corn,Operating costs,"Total, operating costs",dollars per planted acre,No specific size,Prairie Gateway,United States,2007,246.44,Base survey of 2005
+Corn,Operating costs,"Total, operating costs",dollars per planted acre,No specific size,Prairie Gateway,United States,2009,292.27,Base survey of 2005
+Corn,Operating costs,"Total, operating costs",dollars per planted acre,No specific size,Prairie Gateway,United States,2011,309.06,Base survey of 2010
+Corn,Operating costs,"Total, operating costs",dollars per planted acre,No specific size,Prairie Gateway,United States,2013,329.61,Base survey of 2010
+Corn,Operating costs,"Total, operating costs",dollars per planted acre,No specific size,Prairie Gateway,United States,2015,304.25,Base survey of 2010
+Corn,Operating costs,"Total, operating costs",dollars per planted acre,No specific size,Prairie Gateway,United States,2017,321.02,Base survey of 2016
+Corn,Operating costs,"Total, operating costs",dollars per planted acre,No specific size,Prairie Gateway,United States,2019,333.11,Base survey of 2016
+Corn,Operating costs,"Total, operating costs",dollars per planted acre,No specific size,Prairie Gateway,United States,2021,315.33,Base survey of 2021
+Corn,Allocated overhead,Hired labor,dollars per planted acre,No specific size,Heartland,United States,2001,2.1,Base survey of 2001
+Corn,Allocated overhead,Hired labor,dollars per planted acre,No specific size,Heartland,United States,2003,2.3,Base survey of 2001
+Corn,Allocated overhead,Hired labor,dollars per planted acre,No specific size,Heartland,United States,2005,1.41,Base survey of 2005
+Corn,Allocated overhead,Hired labor,dollars per planted acre,No specific size,Heartland,United States,2007,1.51,Base survey of 2005
+Corn,Allocated overhead,Hired labor,dollars per planted acre,No specific size,Heartland,United States,2009,1.59,Base survey of 2005
+Corn,Allocated overhead,Hired labor,dollars per planted acre,No specific size,Heartland,United States,2011,2.64,Base survey of 2010
+Corn,Allocated overhead,Hired labor,dollars per planted acre,No specific size,Heartland,United States,2013,2.81,Base survey of 2010
+Corn,Allocated overhead,Hired labor,dollars per planted acre,No specific size,Heartland,United States,2015,2.97,Base survey of 2010
+Corn,Allocated overhead,Hired labor,dollars per planted acre,No specific size,Heartland,United States,2017,3.26,Base survey of 2016
+Corn,Allocated overhead,Hired labor,dollars per planted acre,No specific size,Heartland,United States,2019,3.68,Base survey of 2016
+Corn,Allocated overhead,Hired labor,dollars per planted acre,No specific size,Heartland,United States,2021,2.94,Base survey of 2021

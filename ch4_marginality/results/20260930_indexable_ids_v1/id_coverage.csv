@@ -1,0 +1,12 @@
+year,crop_pixels,patches,unindexed_pixels,missing_yield_pixels_retained,verified
+2001,3624486,10894,0,True,True
+2003,3220597,9526,0,True,True
+2005,3512230,10183,0,True,True
+2007,3569283,10065,0,True,True
+2009,2945332,10674,0,True,True
+2011,3853253,9436,0,True,True
+2013,3448634,9951,0,True,True
+2015,3508386,9807,0,True,True
+2017,3590869,9629,0,True,True
+2019,3926226,12456,0,True,True
+2021,2086749,8669,0,True,True

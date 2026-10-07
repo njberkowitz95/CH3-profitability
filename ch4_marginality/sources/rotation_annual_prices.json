@@ -1,0 +1,94 @@
+[
+  {
+    "year": 2001,
+    "price_usd_bu": 1.94,
+    "file": "nass_crop_values_publication_2003.pdf",
+    "page": 17,
+    "report_publication_year": 2003,
+    "price_status": "finalized",
+    "geography": "Nebraska",
+    "commodity": "corn for grain",
+    "cpi_u": 177.1,
+    "cpi_source_url": "https://www.bls.gov/cpi/tables/supplemental-files/historical-cpi-u-202106.pdf",
+    "cpi_evidence_file": "bls_historical_cpi_extraction.json"
+  },
+  {
+    "year": 2009,
+    "price_usd_bu": 3.58,
+    "file": "nass_crop_values_publication_2011.pdf",
+    "page": 17,
+    "report_publication_year": 2011,
+    "price_status": "finalized",
+    "geography": "Nebraska",
+    "commodity": "corn for grain",
+    "cpi_u": 214.537,
+    "cpi_source_url": "https://www.bls.gov/cpi/tables/supplemental-files/historical-cpi-u-202106.pdf",
+    "cpi_evidence_file": "bls_historical_cpi_extraction.json"
+  },
+  {
+    "year": 2011,
+    "price_usd_bu": 6.11,
+    "file": "nass_crop_values_publication_2013.pdf",
+    "page": 17,
+    "report_publication_year": 2013,
+    "price_status": "finalized",
+    "geography": "Nebraska",
+    "commodity": "corn for grain",
+    "cpi_u": 224.939,
+    "cpi_source_url": "https://www.bls.gov/cpi/tables/supplemental-files/historical-cpi-u-202106.pdf",
+    "cpi_evidence_file": "bls_historical_cpi_extraction.json"
+  },
+  {
+    "year": 2013,
+    "price_usd_bu": 4.47,
+    "file": "nass_crop_values_publication_2015.pdf",
+    "page": 17,
+    "report_publication_year": 2015,
+    "price_status": "finalized",
+    "geography": "Nebraska",
+    "commodity": "corn for grain",
+    "cpi_u": 232.957,
+    "cpi_source_url": "https://www.bls.gov/cpi/tables/supplemental-files/historical-cpi-u-202106.pdf",
+    "cpi_evidence_file": "bls_historical_cpi_extraction.json"
+  },
+  {
+    "year": 2015,
+    "price_usd_bu": 3.57,
+    "file": "nass_crop_values_publication_2017.pdf",
+    "page": 17,
+    "report_publication_year": 2017,
+    "price_status": "finalized",
+    "geography": "Nebraska",
+    "commodity": "corn for grain",
+    "cpi_u": 237.017,
+    "cpi_source_url": "https://www.bls.gov/cpi/tables/supplemental-files/historical-cpi-u-202106.pdf",
+    "cpi_evidence_file": "bls_historical_cpi_extraction.json"
+  },
+  {
+    "year": 2017,
+    "price_usd_bu": 3.35,
+    "file": "nass_crop_values_publication_2019.pdf",
+    "page": 16,
+    "report_publication_year": 2019,
+    "price_status": "finalized",
+    "geography": "Nebraska",
+    "commodity": "corn for grain",
+    "cpi_u": 245.12,
+    "cpi_source_url": "https://www.bls.gov/cpi/tables/supplemental-files/historical-cpi-u-202106.pdf",
+    "cpi_evidence_file": "bls_historical_cpi_extraction.json"
+  },
+  {
+    "year": 2019,
+    "price_usd_bu": 3.52,
+    "file": "nass_crop_values_2021.pdf",
+    "page": 16,
+    "cpi_u": 255.657
+  },
+  {
+    "year": 2021,
+    "price_usd_bu": 5.96,
+    "file": "nass_crop_values_2022.pdf",
+    "page": 16,
+    "cpi_u": 270.97
+  }
+]

@@ -1,0 +1,255 @@
+{
+  "verified": true,
+  "created_utc": "2026-09-30T07:25:31.681487+00:00",
+  "years": [
+    {
+      "year": 2001,
+      "crop_pixels": 3624486,
+      "patches": 10894,
+      "unindexed_pixels": 0,
+      "missing_yield_pixels_retained": true,
+      "verified": true
+    },
+    {
+      "year": 2003,
+      "crop_pixels": 3220597,
+      "patches": 9526,
+      "unindexed_pixels": 0,
+      "missing_yield_pixels_retained": true,
+      "verified": true
+    },
+    {
+      "year": 2005,
+      "crop_pixels": 3512230,
+      "patches": 10183,
+      "unindexed_pixels": 0,
+      "missing_yield_pixels_retained": true,
+      "verified": true
+    },
+    {
+      "year": 2007,
+      "crop_pixels": 3569283,
+      "patches": 10065,
+      "unindexed_pixels": 0,
+      "missing_yield_pixels_retained": true,
+      "verified": true
+    },
+    {
+      "year": 2009,
+      "crop_pixels": 2945332,
+      "patches": 10674,
+      "unindexed_pixels": 0,
+      "missing_yield_pixels_retained": true,
+      "verified": true
+    },
+    {
+      "year": 2011,
+      "crop_pixels": 3853253,
+      "patches": 9436,
+      "unindexed_pixels": 0,
+      "missing_yield_pixels_retained": true,
+      "verified": true
+    },
+    {
+      "year": 2013,
+      "crop_pixels": 3448634,
+      "patches": 9951,
+      "unindexed_pixels": 0,
+      "missing_yield_pixels_retained": true,
+      "verified": true
+    },
+    {
+      "year": 2015,
+      "crop_pixels": 3508386,
+      "patches": 9807,
+      "unindexed_pixels": 0,
+      "missing_yield_pixels_retained": true,
+      "verified": true
+    },
+    {
+      "year": 2017,
+      "crop_pixels": 3590869,
+      "patches": 9629,
+      "unindexed_pixels": 0,
+      "missing_yield_pixels_retained": true,
+      "verified": true
+    },
+    {
+      "year": 2019,
+      "crop_pixels": 3926226,
+      "patches": 12456,
+      "unindexed_pixels": 0,
+      "missing_yield_pixels_retained": true,
+      "verified": true
+    },
+    {
+      "year": 2021,
+      "crop_pixels": 2086749,
+      "patches": 8669,
+      "unindexed_pixels": 0,
+      "missing_yield_pixels_retained": true,
+      "verified": true
+    }
+  ],
+  "total_pixel_years": 37286045,
+  "total_annual_patches": 111290,
+  "all_output_pixels_checked": true,
+  "database_integrity": "ok",
+  "unindexed_crop_pixels": 0,
+  "examples": [
+    {
+      "year": 2001,
+      "pixel_id": 17935,
+      "patch_id": 1,
+      "pixel_key": "CH4G5070V1:P17935",
+      "pixel_year_key": "CH4G5070V1:Y2001:P17935",
+      "patch_key": "CH4G5070V1:Y2001:C1",
+      "grid_row": 3,
+      "grid_column": 1527,
+      "field_id": "PATCH_9b840db60bf3a6179873d14d0a9800cd42d6f6527d6c2c743a1e4ef68b662737",
+      "field_year_id": "PATCH_9b840db60bf3a6179873d14d0a9800cd42d6f6527d6c2c743a1e4ef68b662737_2001",
+      "center_easting_m": -65460.0,
+      "center_northing_m": 2047170.0
+    },
+    {
+      "year": 2003,
+      "pixel_id": 12475,
+      "patch_id": 1,
+      "pixel_key": "CH4G5070V1:P12475",
+      "pixel_year_key": "CH4G5070V1:Y2003:P12475",
+      "patch_key": "CH4G5070V1:Y2003:C1",
+      "grid_row": 2,
+      "grid_column": 1536,
+      "field_id": "PATCH_b042eb309e0f520b30a0554efe0b6cfe6565c3580e26d26d641dc1d7e31e98bf",
+      "field_year_id": "PATCH_b042eb309e0f520b30a0554efe0b6cfe6565c3580e26d26d641dc1d7e31e98bf_2003",
+      "center_easting_m": -65190.0,
+      "center_northing_m": 2047200.0
+    },
+    {
+      "year": 2005,
+      "pixel_id": 12487,
+      "patch_id": 1,
+      "pixel_key": "CH4G5070V1:P12487",
+      "pixel_year_key": "CH4G5070V1:Y2005:P12487",
+      "patch_key": "CH4G5070V1:Y2005:C1",
+      "grid_row": 2,
+      "grid_column": 1548,
+      "field_id": "PATCH_a2311c83c4a1d9b1f28da1a9dbb8841e4f7cbf148f8848808cb04f8332ae243d",
+      "field_year_id": "PATCH_a2311c83c4a1d9b1f28da1a9dbb8841e4f7cbf148f8848808cb04f8332ae243d_2005",
+      "center_easting_m": -64830.0,
+      "center_northing_m": 2047200.0
+    },
+    {
+      "year": 2007,
+      "pixel_id": 17935,
+      "patch_id": 1,
+      "pixel_key": "CH4G5070V1:P17935",
+      "pixel_year_key": "CH4G5070V1:Y2007:P17935",
+      "patch_key": "CH4G5070V1:Y2007:C1",
+      "grid_row": 3,
+      "grid_column": 1527,
+      "field_id": "PATCH_e19b7797f3eeadc20a0fd77286c8ad312aa3520e61677691663fdadfee60cae0",
+      "field_year_id": "PATCH_e19b7797f3eeadc20a0fd77286c8ad312aa3520e61677691663fdadfee60cae0_2007",
+      "center_easting_m": -65460.0,
+      "center_northing_m": 2047170.0
+    },
+    {
+      "year": 2009,
+      "pixel_id": 39901,
+      "patch_id": 1,
+      "pixel_key": "CH4G5070V1:P39901",
+      "pixel_year_key": "CH4G5070V1:Y2009:P39901",
+      "patch_key": "CH4G5070V1:Y2009:C1",
+      "grid_row": 7,
+      "grid_column": 1617,
+      "field_id": "PATCH_791464b38be28123177cf6140063415750b57c85181b8e8126c84942d078f916",
+      "field_year_id": "PATCH_791464b38be28123177cf6140063415750b57c85181b8e8126c84942d078f916_2009",
+      "center_easting_m": -62760.0,
+      "center_northing_m": 2047050.0
+    },
+    {
+      "year": 2011,
+      "pixel_id": 17935,
+      "patch_id": 1,
+      "pixel_key": "CH4G5070V1:P17935",
+      "pixel_year_key": "CH4G5070V1:Y2011:P17935",
+      "patch_key": "CH4G5070V1:Y2011:C1",
+      "grid_row": 3,
+      "grid_column": 1527,
+      "field_id": "PATCH_e2af2912d524d2171af7291fac9ef64bcdccce6b4f731de2892650c06cc633d6",
+      "field_year_id": "PATCH_e2af2912d524d2171af7291fac9ef64bcdccce6b4f731de2892650c06cc633d6_2011",
+      "center_easting_m": -65460.0,
+      "center_northing_m": 2047170.0
+    },
+    {
+      "year": 2013,
+      "pixel_id": 17935,
+      "patch_id": 1,
+      "pixel_key": "CH4G5070V1:P17935",
+      "pixel_year_key": "CH4G5070V1:Y2013:P17935",
+      "patch_key": "CH4G5070V1:Y2013:C1",
+      "grid_row": 3,
+      "grid_column": 1527,
+      "field_id": "PATCH_563d6b4067b75a1d5abb111a2c6ac658e4a58f8a61042f59ab7954e3e3ca37f2",
+      "field_year_id": "PATCH_563d6b4067b75a1d5abb111a2c6ac658e4a58f8a61042f59ab7954e3e3ca37f2_2013",
+      "center_easting_m": -65460.0,
+      "center_northing_m": 2047170.0
+    },
+    {
+      "year": 2015,
+      "pixel_id": 23463,
+      "patch_id": 1,
+      "pixel_key": "CH4G5070V1:P23463",
+      "pixel_year_key": "CH4G5070V1:Y2015:P23463",
+      "patch_key": "CH4G5070V1:Y2015:C1",
+      "grid_row": 4,
+      "grid_column": 1586,
+      "field_id": "PATCH_f71cfbcc7464872b0e76319a9550463a504cb6f8deabbad70d534e5b91b99487",
+      "field_year_id": "PATCH_f71cfbcc7464872b0e76319a9550463a504cb6f8deabbad70d534e5b91b99487_2015",
+      "center_easting_m": -63690.0,
+      "center_northing_m": 2047140.0
+    },
+    {
+      "year": 2017,
+      "pixel_id": 23395,
+      "patch_id": 1,
+      "pixel_key": "CH4G5070V1:P23395",
+      "pixel_year_key": "CH4G5070V1:Y2017:P23395",
+      "patch_key": "CH4G5070V1:Y2017:C1",
+      "grid_row": 4,
+      "grid_column": 1518,
+      "field_id": "PATCH_a6721a21fb13bfee1993b2c15b2618d442184aedb64fad2e848c6f61e7841275",
+      "field_year_id": "PATCH_a6721a21fb13bfee1993b2c15b2618d442184aedb64fad2e848c6f61e7841275_2017",
+      "center_easting_m": -65730.0,
+      "center_northing_m": 2047140.0
+    },
+    {
+      "year": 2019,
+      "pixel_id": 17935,
+      "patch_id": 1,
+      "pixel_key": "CH4G5070V1:P17935",
+      "pixel_year_key": "CH4G5070V1:Y2019:P17935",
+      "patch_key": "CH4G5070V1:Y2019:C1",
+      "grid_row": 3,
+      "grid_column": 1527,
+      "field_id": "PATCH_eff80630736d499fa5bc6d9f1c91eb48090cac6141d5d524d2488f2a9008b1e8",
+      "field_year_id": "PATCH_eff80630736d499fa5bc6d9f1c91eb48090cac6141d5d524d2488f2a9008b1e8_2019",
+      "center_easting_m": -65460.0,
+      "center_northing_m": 2047170.0
+    },
+    {
+      "year": 2021,
+      "pixel_id": 991062,
+      "patch_id": 1,
+      "pixel_key": "CH4G5070V1:P991062",
+      "pixel_year_key": "CH4G5070V1:Y2021:P991062",
+      "patch_key": "CH4G5070V1:Y2021:C1",
+      "grid_row": 181,
+      "grid_column": 1172,
+      "field_id": "PATCH_15864d38d1410b5b0bec93a1ff60d96ce0f2e1da3f862b45c389db5a3fc525f5",
+      "field_year_id": "PATCH_15864d38d1410b5b0bec93a1ff60d96ce0f2e1da3f862b45c389db5a3fc525f5_2021",
+      "center_easting_m": -76110.0,
+      "center_northing_m": 2041830.0
+    }
+  ]
+}

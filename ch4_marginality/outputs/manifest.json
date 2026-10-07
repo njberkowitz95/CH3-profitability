@@ -1,0 +1,2279 @@
+{
+  "created_utc": "2026-09-29T18:18:41.216584+00:00",
+  "run": "20260928_corefilter_exact_year_v2",
+  "files": [
+    {
+      "file": "app_assets/build_status.json",
+      "sha256": "427f56b03a22a22e756f4f32e790d75f5c21852b2c86afd42446f77f3f0dc795",
+      "bytes": 179
+    },
+    {
+      "file": "app_assets/ch4_finbin_county_scope_corefilter_20260928.tif",
+      "sha256": "143aa9a4182108e5150c93a1380df93f9ad9872778cc42dec3db845bc9bb3407",
+      "bytes": 244595
+    },
+    {
+      "file": "app_assets/ch4_verified_yields_corefilter_20260928.json",
+      "sha256": "8d7cbc021001902cae8d95972125333041e23253679d750d4aa9d8d545891b1a",
+      "bytes": 4717
+    },
+    {
+      "file": "app_assets/ch4_verified_yields_corefilter_20260928.tif",
+      "sha256": "8f8808fb5c1db0584cd004fa4816ffb0b2a0a94da2e6a56c48d0ea870c5cdbb4",
+      "bytes": 325760258
+    },
+    {
+      "file": "app_build_verification.json",
+      "sha256": "fcbac3aad21d544f09419f5705ec587fcd2c524352e0b6a22fcdc94901994a7b",
+      "bytes": 169
+    },
+    {
+      "file": "app_data.json",
+      "sha256": "e6398d040d4f07f211f34e5383c685669cb421cb2fe2e1de9c6161948367c94e",
+      "bytes": 171198
+    },
+    {
+      "file": "app_data_candidate.json",
+      "sha256": "7c8946ef2adc243e19f9f4c6bee5a1d4755ad64005a4fabf7e8787a65d729619",
+      "bytes": 70918
+    },
+    {
+      "file": "CH4_budget_workbook.xlsx",
+      "sha256": "f1627de83ee4d12cd7e69fd9eeb83abbc3b71411cb678b19f2865879405b67db",
+      "bytes": 143776
+    },
+    {
+      "file": "CH4_budget_workbook.xlsx.inspect.ndjson",
+      "sha256": "a88c3b81e523fe11bfd79d8356c6a8106ef0c35ac983efe2459ec1b76e525df7",
+      "bytes": 7229232
+    },
+    {
+      "file": "CH4_Marginality_executed.ipynb",
+      "sha256": "d57b89f988a6e0c34241bd62cb45dda628f2cce371ca54119c1b0c6f1296f314",
+      "bytes": 1253054
+    },
+    {
+      "file": "CH4_methods_results.html",
+      "sha256": "9fb16b6b902414d79c051938c8b013d2c6b0e63ca295f3a4ed6264f49e20e993",
+      "bytes": 35943
+    },
+    {
+      "file": "CH4_methods_results.md",
+      "sha256": "18beacf2d161feae23874c873fbe0089ca959d3affde7dea1e9b1fa8876a74f4",
+      "bytes": 23525
+    },
+    {
+      "file": "CH4_methods_results.pdf",
+      "sha256": "a601b212c46b0c6d70afa5fd590173613a249cdf1aec01c9143592405d84c112",
+      "bytes": 3423030
+    },
+    {
+      "file": "CH4_spatial.gpkg",
+      "sha256": "23ea75d786f521cce140f656fbd4a274b5b4c2de8ecf1bb088a3be41419aadd1",
+      "bytes": 309268480
+    },
+    {
+      "file": "code/ch4_marginality/.gitignore",
+      "sha256": "ec11f8f9b5f86c9baf4d4d408bba4c7e129556f0accf7c5d2bf5b51de722f1c3",
+      "bytes": 317
+    },
+    {
+      "file": "code/ch4_marginality/__init__.py",
+      "sha256": "ce9c3b193f2f6c8c04cc471407a1341114b8ac788e01af588ded5f67ce9daab1",
+      "bytes": 62
+    },
+    {
+      "file": "code/ch4_marginality/__pycache__/__init__.cpython-313.pyc",
+      "sha256": "5eb599b2f853629535298b55b2e6511b0d8f53bd045c3cde94ac483d17a7cc5b",
+      "bytes": 293
+    },
+    {
+      "file": "code/ch4_marginality/__pycache__/core.cpython-313.pyc",
+      "sha256": "707112f184791aca6e97838a886a6f992347c1cd1c29eba2907a42d9380539ef",
+      "bytes": 6589
+    },
+    {
+      "file": "code/ch4_marginality/__pycache__/final_checks.cpython-313.pyc",
+      "sha256": "c6d616f5759ff1d76c9cada1ffb1a4ec7c8a944e2b8bd3ba7286d2d6539545a9",
+      "bytes": 13763
+    },
+    {
+      "file": "code/ch4_marginality/__pycache__/pipeline.cpython-313.pyc",
+      "sha256": "d265d65c32bd7bd8b550b207af14ebc8c6ee877d808cc511a4a40d5442782944",
+      "bytes": 39177
+    },
+    {
+      "file": "code/ch4_marginality/__pycache__/prepare_budgets.cpython-313.pyc",
+      "sha256": "fda4251e19159929ff13897be6bf496b37f8ed5072bc3de55f7c43c99601cc34",
+      "bytes": 14046
+    },
+    {
+      "file": "code/ch4_marginality/__pycache__/reporting.cpython-313.pyc",
+      "sha256": "2855f42ba46b1327be9377a27336ee9e17e8e72c8bf8ecddc507d738cb88d664",
+      "bytes": 29290
+    },
+    {
+      "file": "code/ch4_marginality/__pycache__/verify_app_classes.cpython-313.pyc",
+      "sha256": "b5d45ee22879365304c0690da85c79c4530f06782f30f1ffd1eb3ea98afbb462",
+      "bytes": 5628
+    },
+    {
+      "file": "code/ch4_marginality/__pycache__/verify_ee_assets.cpython-313.pyc",
+      "sha256": "a8d626fe8d8c0234c2cecaad4e85949f4aa7e7d00d3e906174640dfac065d8f0",
+      "bytes": 3882
+    },
+    {
+      "file": "code/ch4_marginality/acquire_sources.py",
+      "sha256": "191e3c07e10e17a957cece4e52d5ba9680258aa6a5a2cbcc22c24477c6aa77cc",
+      "bytes": 1684
+    },
+    {
+      "file": "code/ch4_marginality/build_app.py",
+      "sha256": "1efa4016a777c79ea65f63b9313282ec6bbe0ba878ea4b7e0b53b12c028cd9dc",
+      "bytes": 2050
+    },
+    {
+      "file": "code/ch4_marginality/build_assets_current.py",
+      "sha256": "2a0b7fff5c5a8d4eed60f74e15ec54fe547be4eea19c8d779b375c75da653186",
+      "bytes": 751
+    },
+    {
+      "file": "code/ch4_marginality/CH4_Marginality.ipynb",
+      "sha256": "56c41710162133d5368daca87bf097920da68b76704fc6d436151ab78cb0cef6",
+      "bytes": 4993
+    },
+    {
+      "file": "code/ch4_marginality/core.py",
+      "sha256": "c7f5a9d5f5df926995e7c8b3ee405f4af0b352ca669c8c0b84aa34d8dcde5883",
+      "bytes": 3190
+    },
+    {
+      "file": "code/ch4_marginality/execute_notebook.py",
+      "sha256": "8a263b011a52d76ceed13767b2999aece6a616ee48f6017ac4731c630079c1d9",
+      "bytes": 754
+    },
+    {
+      "file": "code/ch4_marginality/final_checks.py",
+      "sha256": "f253c753c7451a3300d764090f2d13e19fa5f0d20c8f8d0bd6c57f78ee01ef9c",
+      "bytes": 6792
+    },
+    {
+      "file": "code/ch4_marginality/finalize_notebook.py",
+      "sha256": "eefaad238b898fbb501b18ce3f012e2ced0194f9cd96a6d6b7edba37927c1b81",
+      "bytes": 1838
+    },
+    {
+      "file": "code/ch4_marginality/gee_controls.js",
+      "sha256": "e865738f6a10221d799fca309ebfa053fbba3ca301cec53274ff7ead522c636d",
+      "bytes": 9715
+    },
+    {
+      "file": "code/ch4_marginality/INPUT_FRESHNESS.md",
+      "sha256": "3014860fcbea84a411c87c39da911cc483937b4e0822c7134cdd2ef051378972",
+      "bytes": 2033
+    },
+    {
+      "file": "code/ch4_marginality/METHODS.md",
+      "sha256": "8780a542d44b9843295bdedad07067b5991eb74a414e5afdea01b94ad7383180",
+      "bytes": 15179
+    },
+    {
+      "file": "code/ch4_marginality/package_outputs.py",
+      "sha256": "3f3d86b4fefc32e13b734a0d29b685f2243092b757c20c559c0c2e45ac440f97",
+      "bytes": 2275
+    },
+    {
+      "file": "code/ch4_marginality/pipeline.py",
+      "sha256": "dc38d46fef8d9cc6d714989e1caf927725b641fca1e04ca3767fa48679167de6",
+      "bytes": 21450
+    },
+    {
+      "file": "code/ch4_marginality/prepare_app_asset.py",
+      "sha256": "f1f91322dd3236a4ccfcabb57fef588b7fc08b2a5099f2043e2a86cb509ece63",
+      "bytes": 1815
+    },
+    {
+      "file": "code/ch4_marginality/prepare_budgets.py",
+      "sha256": "16794eadca6385761ac80c6a98c923f5561c68d2e4445d477bdcb6b473ee7038",
+      "bytes": 8741
+    },
+    {
+      "file": "code/ch4_marginality/README.md",
+      "sha256": "19e9db5d95fcab3e43db730883b56193fbf698e1334df035f70b45738232a7ba",
+      "bytes": 4401
+    },
+    {
+      "file": "code/ch4_marginality/reporting.py",
+      "sha256": "1a1a14cacf5cc4080057c62942b3d0c3a7ea129adec73b9f50e2d7537ad378dc",
+      "bytes": 15831
+    },
+    {
+      "file": "code/ch4_marginality/requirements.txt",
+      "sha256": "efc73d089c5fc1cbe42c1c8e99b9d9dd6c5de204c34f282e028ebad8bfaa4b33",
+      "bytes": 269
+    },
+    {
+      "file": "code/ch4_marginality/resume_report.py",
+      "sha256": "7df89c260da465e16af1c4c6dedfe1cecf357d0c00e6c41b598651fe7513584f",
+      "bytes": 2455
+    },
+    {
+      "file": "code/ch4_marginality/rollback/gee_app_Yield_PEM_pre_CH4.js",
+      "sha256": "07b88a85130d3eb920ba78e949e6372db763e0926e0fc2378124bb6e9025caa1",
+      "bytes": 82144
+    },
+    {
+      "file": "code/ch4_marginality/run_current.py",
+      "sha256": "38a921b2ac358fa426d323fa9ba12deea8a1fbe71d2e5085c8b1de34a634d295",
+      "bytes": 667
+    },
+    {
+      "file": "code/ch4_marginality/sources/acquisition_manifest.json",
+      "sha256": "35434a38791d4ca3e3dbe8a53d9f62e4b8efa0c2ac380f4d80c4602312e84721",
+      "bytes": 6296
+    },
+    {
+      "file": "code/ch4_marginality/sources/consensus_search.json",
+      "sha256": "7d4db355d8b6d342584e4f5aa5d7f8448089e18dcf0ef50749372ea5eb46a441",
+      "bytes": 34503
+    },
+    {
+      "file": "code/ch4_marginality/sources/ers_corn.csv",
+      "sha256": "107a04eb8efd4d538766429c206cb1851dc9bea2d97cc090552dc5048c21aee3",
+      "bytes": 926099
+    },
+    {
+      "file": "code/ch4_marginality/sources/ers_corn.xlsx",
+      "sha256": "aa2da87bad77dede806fe30bfe472439fa1b4e8311237567c5458a3b1f75d991",
+      "bytes": 364326
+    },
+    {
+      "file": "code/ch4_marginality/sources/ers_regions.pdf",
+      "sha256": "9bc57ada57d2aa1c834095607ec9d10e3aa8e050be9f0cd1187698dd8bd8ad08",
+      "bytes": 2401562
+    },
+    {
+      "file": "code/ch4_marginality/sources/ers_tb1970.pdf",
+      "sha256": "7533e97f0c9825d0e1071f57d36cb0bf535fb12ed3f204f3873f319e459296d8",
+      "bytes": 5968009
+    },
+    {
+      "file": "code/ch4_marginality/sources/finbin_county_1008338.csv",
+      "sha256": "60c1f44e47274e041bbe19fe0af0d82477a3151e9c9902bc048f65da44b58029",
+      "bytes": 10534
+    },
+    {
+      "file": "code/ch4_marginality/sources/finbin_state_1008210.csv",
+      "sha256": "9c71006c8df4010b187ef6035378dc10ee591142b94ce3995afaa256119a322d",
+      "bytes": 13298
+    },
+    {
+      "file": "code/ch4_marginality/sources/nass_crop_values_2021.pdf",
+      "sha256": "fa662c9c9ca51ba28136bc791a5e6a8e138e1f8a14e5d78579ce9696208ad4d1",
+      "bytes": 1059102
+    },
+    {
+      "file": "code/ch4_marginality/sources/nass_crop_values_2022.pdf",
+      "sha256": "2b52a4c6637e96392ade137fac165cd0dd2c3c36cce1556efcdfb90e71bc8f62",
+      "bytes": 950949
+    },
+    {
+      "file": "code/ch4_marginality/sources/nass_price_table.txt",
+      "sha256": "bb801028c3b0303a283720850051d0c57b309f06fb37c7ca095fce18774e005f",
+      "bytes": 9417
+    },
+    {
+      "file": "code/ch4_marginality/sources/original_draft_preservation.json",
+      "sha256": "c1933bfa9e718fa0d40cd1a0c2268d4ddf709f0ae3eb73554d6eaa3525e7af9f",
+      "bytes": 192
+    },
+    {
+      "file": "code/ch4_marginality/sources/scispace_search.json",
+      "sha256": "172cddf49af31e7218a5e8dd6d87d39bbae771f3f44b79b111a7ea0883524bad",
+      "bytes": 65285
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2009.pdf",
+      "sha256": "1c8b75dbfd4a0d4279a8cc5c063c8bad553b4b0ea3753ceeebe1df76d8532e80",
+      "bytes": 1865687
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2011.pdf",
+      "sha256": "b8a2152dcc047ac3b2274d4353517f6ffb1f543bc5c93068b79cb9548e255ac9",
+      "bytes": 2236859
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2013.pdf",
+      "sha256": "ffed1c52df62b67f7248ac74401b9ea85fd39ad4ec2730c1277998734f856994",
+      "bytes": 6363722
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2015.pdf",
+      "sha256": "f1b374b5075e3e9ed08b42576466fef8fbd5afccebf45fd4e5a0b9c4f0c67445",
+      "bytes": 1698100
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2017.pdf",
+      "sha256": "8543fc37829cd7e5dd1d2f903578dad96ffc6831c17d2f61e0715e790d86d395",
+      "bytes": 1556642
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2017_page_27.txt",
+      "sha256": "88e38bd7245808743239f8630d4a76c2048d91f4b2216c3d85d52369d7ca0a17",
+      "bytes": 2029
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2017_page_28.txt",
+      "sha256": "df25877eb1bbf29f131f508de2152e7d4a254f8740d1cce11d36350b4dff3f55",
+      "bytes": 2307
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2017_page_3.txt",
+      "sha256": "9cf99f7f09b49755ccc5f91cbf76fdf22403149c9503d71f98609bd5db2e7f91",
+      "bytes": 3217
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2017_page_30.txt",
+      "sha256": "20d51de95b14e3c280139877078cfdb6f64952057333c00583050a69b952a1c4",
+      "bytes": 2247
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2017_page_31.txt",
+      "sha256": "68e62c7368c8f317d3d4d379eaff269e501f04ff203d2afa04dc721a53c7a857",
+      "bytes": 2529
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2017_page_32.txt",
+      "sha256": "9bebe2787f869d07f74d201028c3dcd842aba00c679873eb1b73b993ff256a89",
+      "bytes": 2344
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2017_page_34.txt",
+      "sha256": "eeac31c51b23bc2daa5a48c4eaabe9abc19507db142b78df9fbdc38f6a2b3525",
+      "bytes": 2350
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2017_page_68_layout.txt",
+      "sha256": "4444042deb58c3ee8016c135ec1377754cd9d8e986bcdf6e758f82313c2a72f7",
+      "bytes": 56977
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2017_page_69_layout.txt",
+      "sha256": "fcfc919c187b6604b5959244b7755d271b3ee6b986907db231e8d52171fc93e1",
+      "bytes": 57354
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2017_page_71_layout.txt",
+      "sha256": "8ffd3332246f98d3507c7581caf5b7a36e0a81e67a026008c7f4297afe261a93",
+      "bytes": 53124
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2017_page_72_layout.txt",
+      "sha256": "74cb47ab5610328b420db0f4e80984b3b42ed6efb9335247f104b8d82ca778f8",
+      "bytes": 53053
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2019.pdf",
+      "sha256": "6a0693e0c7f8c0f6bcee620595b45fa1214e342147fbd0de40df2e60eab5dd09",
+      "bytes": 2250134
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2019_page_2.txt",
+      "sha256": "d56db93208cf5d023018bfa6b863d62720902092b6bb1c46a9a68d88bd1012f9",
+      "bytes": 3350
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2019_page_3.txt",
+      "sha256": "cece5da05be00e8b62e177b0a6e7f3d3e59c7136172c9c6d86e599bff89d3a1f",
+      "bytes": 2827
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2019_page_34.txt",
+      "sha256": "5c665cae6ac422d60032e18849fa02cee59472d630be22def8f95a8d0efe9b65",
+      "bytes": 2422
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2019_page_36.txt",
+      "sha256": "cbdd30df298bb1482cca073e2b4fee2a02f5bab6a5abad0dfe9a1a98fe3eeb6d",
+      "bytes": 2242
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2019_page_6.txt",
+      "sha256": "376a6a1f674b1d0a9aac6135f32b187d500ca7540596a6b698f0ce71760a7cbd",
+      "bytes": 3514
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2019_page_73.txt",
+      "sha256": "d2c300ba67416025f264fe986b0f42b4f54e2585352ff3851f150e92df5c2ba0",
+      "bytes": 2069
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2019_page_74.txt",
+      "sha256": "6a8f89d36a0f9de1cc3b36888b4432369458cc0b65ff1c950c85d67613896a19",
+      "bytes": 2345
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2019_page_76.txt",
+      "sha256": "49610b006fd5ae8102884cc36b9ad5877a2457e22560683cb94b67a4bc26f84d",
+      "bytes": 2293
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2019_page_77.txt",
+      "sha256": "bde5ca4ff0b850f987b7cf1faef97ab0057b08a26a624aeb68fd9440236f99c8",
+      "bytes": 2611
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2019_page_78.txt",
+      "sha256": "cbde1c16fbca59cfe5bc23c169a26802c2706b97b979caf42b56c280f9a40c69",
+      "bytes": 2487
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2019_page_80.txt",
+      "sha256": "6570585a5ef775b506072dd56da042074fa89ccbebcfd399b6cd73b58e623709",
+      "bytes": 2487
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2021.pdf",
+      "sha256": "6f8182a9f7cb98b806308a3c378d4e7c9a2ed78b974aad95f93bf9ea87b0e6b4",
+      "bytes": 2998287
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2021_page_2.txt",
+      "sha256": "8fe70282a38d104304ee5f63cbc14271696da90c74543a533ff60a42b8bec18b",
+      "bytes": 1827
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2021_page_28.txt",
+      "sha256": "9eeb67abdd2862209fc88284f3c8e3465025b432def0961547b7eb2b597cb2db",
+      "bytes": 2368
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2021_page_3.txt",
+      "sha256": "cbb8bfb011ddf5d627bfbc32850f917f7b6d8237937a5e9338742fab33e8364d",
+      "bytes": 3452
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2021_page_30.txt",
+      "sha256": "007195d5a439d9ad660528b7bcdca96affc7a74b162124f7a34db7aa7572e8b9",
+      "bytes": 2228
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2021_page_6.txt",
+      "sha256": "3e7f90fc5111a7ca774003aec4ba27553af6e0b1878ea93c1ab98b65a8a1eb75",
+      "bytes": 3614
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2021_page_69.txt",
+      "sha256": "6c3787aad01f4ca9ce01837fb8bda4986d72e2f2b79bb4c56eac37af3e828815",
+      "bytes": 2126
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2021_page_70.txt",
+      "sha256": "0caae0e7cc5e9fac27fae349e0c0cd254107d9e2e36989dd6ceb650f5b16fdff",
+      "bytes": 2417
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2021_page_72.txt",
+      "sha256": "51660f25533456343a2e395fb36275733146f72249553a7b4f4393a63c6318e0",
+      "bytes": 2352
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2021_page_73.txt",
+      "sha256": "7abf6fdc97bcbe4e65e011884224ab1db217dc59e92ba07526163f0dc88d46c2",
+      "bytes": 2634
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2021_page_74.txt",
+      "sha256": "a841129f00e795530b7e56144ef6b26d47c8b6cd152a63d62b515582d6016f0c",
+      "bytes": 2461
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2021_page_76.txt",
+      "sha256": "aa0e6bab18b60ba11ff62f515d23122d986705ff9fe7a7faaf9443f3a6a6f45f",
+      "bytes": 2439
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2021_page_77.txt",
+      "sha256": "78ab9278f27e591b492b0bd31be412815a22ff9aa3105bd84991ab1bc733f561",
+      "bytes": 2464
+    },
+    {
+      "file": "code/ch4_marginality/sources/unl_2021_page_78.txt",
+      "sha256": "bef0771bfba5c766dd4e100b0ab1e6a7a79ffadccacb1db3af6baed67a463eaf",
+      "bytes": 2463
+    },
+    {
+      "file": "code/ch4_marginality/sources/verify_unl_2019.png",
+      "sha256": "d0058dfadd4c8cfa8fabb2b6a3f808602e8144287391a0868a58ce7515ffef6f",
+      "bytes": 170036
+    },
+    {
+      "file": "code/ch4_marginality/sources/verify_unl_2021.png",
+      "sha256": "cf8a78e2dea63cec8fbe6b1e4af5f784acd5db0a66d9521191740c327f4ef6b6",
+      "bytes": 166892
+    },
+    {
+      "file": "code/ch4_marginality/stage_app.py",
+      "sha256": "a9f3d8f6b70af102dee8ac0a38965154c8dd246c67144bc4416b2c1013ab2373",
+      "bytes": 2933
+    },
+    {
+      "file": "code/ch4_marginality/tables/deflator.csv",
+      "sha256": "30a90f869ac31f385b49921fbd7722911d00dca194bc98429204c20c9aa4821a",
+      "bytes": 407
+    },
+    {
+      "file": "code/ch4_marginality/tables/economic_scenarios.csv",
+      "sha256": "1cca8cd842055e649722c7e3ef30808087ec78ba016592b344b52d6c9213b9ba",
+      "bytes": 2542
+    },
+    {
+      "file": "code/ch4_marginality/tables/ers_annual_source_values.csv",
+      "sha256": "f4a13b99c099256bb3e1b94b5b258c0357deaf05f45124a7fe077bcf68d06093",
+      "bytes": 86384
+    },
+    {
+      "file": "code/ch4_marginality/tables/finbin_annual_source_values.csv",
+      "sha256": "9587db3572b40fd3a35e5cb4b72f93203410926d0ce5c1aaec1853012050c5e4",
+      "bytes": 86895
+    },
+    {
+      "file": "code/ch4_marginality/tables/nass_prices.csv",
+      "sha256": "807f9f3fb7faeef37bd72e68a8640e43deb216cbca6604ce924d817245043b02",
+      "bytes": 228
+    },
+    {
+      "file": "code/ch4_marginality/tables/unl_line_items.csv",
+      "sha256": "90baa589ab29883b5f9b0e92ea1e9c5eeceda413498c2b6cbeaaac73da3aed28",
+      "bytes": 1888
+    },
+    {
+      "file": "code/ch4_marginality/tables/year_eligibility.csv",
+      "sha256": "8c9486d2d0d5029d2a979e9d85bee56466acbe55d169b3a6a7ee6ad71938f925",
+      "bytes": 2380
+    },
+    {
+      "file": "code/ch4_marginality/tests/__pycache__/test_core.cpython-312.pyc",
+      "sha256": "a716563605c4d71b8796af20384514862550d8b9e3ee45e19ba0c2ba1430835d",
+      "bytes": 9213
+    },
+    {
+      "file": "code/ch4_marginality/tests/__pycache__/test_core.cpython-313.pyc",
+      "sha256": "5a764238810f678b4412439a4f0a2b2085f9e89e9418f6d22532b975aab40e67",
+      "bytes": 9245
+    },
+    {
+      "file": "code/ch4_marginality/tests/test_core.py",
+      "sha256": "b23688b4afc75e345714effc0f00c5f828e6296c1e71026559f5f245411e36d3",
+      "bytes": 3702
+    },
+    {
+      "file": "code/ch4_marginality/verify_app_classes.py",
+      "sha256": "0b80fa78e9051cb92bfa1cd559e6cd0066b76274f05b4956cd9a95e35b81139c",
+      "bytes": 2194
+    },
+    {
+      "file": "code/ch4_marginality/verify_ee_assets.py",
+      "sha256": "5ff2b5a7fad14e2411bd142dab69e6ef9b8e22e53136513b0908cb10aab6a211",
+      "bytes": 1987
+    },
+    {
+      "file": "code/ch4_marginality/verify_workbook.mjs",
+      "sha256": "12b2e9e2856663b628a311aac972afbabbcacebbcefb5979c24f6879aa0c887c",
+      "bytes": 2902
+    },
+    {
+      "file": "delivery_status.json",
+      "sha256": "27bc1a4fed5ccd6db3ebe3e5041563c950ee38852727df5edc1389a3136c8e06",
+      "bytes": 1288
+    },
+    {
+      "file": "ee_classification_verification.json",
+      "sha256": "fb442f378ef7644d0065c0b01d0f9947d166794df00d571a05d6595e034823df",
+      "bytes": 1273
+    },
+    {
+      "file": "ee_ingestion_verification.json",
+      "sha256": "4cf9bc095e4a15159c6bbfbd15a5fa525bda8badc025b80512fe016cd55d995c",
+      "bytes": 18265
+    },
+    {
+      "file": "figures/annual_yield_and_quartile.pdf",
+      "sha256": "116f7ece2a76e2587e0a7dd722926ee83d364b479637da021bbdab9ae3c69569",
+      "bytes": 18806
+    },
+    {
+      "file": "figures/annual_yield_and_quartile.png",
+      "sha256": "a5d6c82663d4f4ec41d3a20123bb8a1d53cdcfdc479d4e96edc88aa7070bf87e",
+      "bytes": 205694
+    },
+    {
+      "file": "figures/county_quartile_trajectories.pdf",
+      "sha256": "bbe99b201fe9a1d66839f1b2a7debf456f433c35e112770b1126e6b0f63f73e3",
+      "bytes": 26674
+    },
+    {
+      "file": "figures/county_quartile_trajectories.png",
+      "sha256": "299a43ea40762a76d25e3ab7e1032e95ec92aa61b324ad0d4f83650555c7714d",
+      "bytes": 484496
+    },
+    {
+      "file": "figures/economic_quartile_2019.pdf",
+      "sha256": "634cb0a59e887bdd0238c93a464937d41ed8c3a23aa20d6e79bbf39f7812c29d",
+      "bytes": 18125
+    },
+    {
+      "file": "figures/economic_quartile_2019.png",
+      "sha256": "54115153bc5378abc7d925bf5f13d23cec5d01e8b9099b2268e84409d6d4445d",
+      "bytes": 98595
+    },
+    {
+      "file": "figures/economic_quartile_2021.pdf",
+      "sha256": "a2812012ff6874a33a53776ab19bc1bf720aedd1f515908e5fd21c23e8bb3bd4",
+      "bytes": 18000
+    },
+    {
+      "file": "figures/economic_quartile_2021.png",
+      "sha256": "2a2ba36828ddff09731439e84dfb804c99294a99669dc091df8f8498b555f3d1",
+      "bytes": 84544
+    },
+    {
+      "file": "figures/nccpi_association.pdf",
+      "sha256": "55a01975522d1112d8ea0c81bce3b2f3b98320cba32333c2271f4a416f0ba4cf",
+      "bytes": 16563
+    },
+    {
+      "file": "figures/nccpi_association.png",
+      "sha256": "4a86d15eaad591a88336d5eaa591d0f9abe187df75478d87d90c2dd88dfe269d",
+      "bytes": 116509
+    },
+    {
+      "file": "figures/overlap_maps_2019.pdf",
+      "sha256": "951911fe08c61137eac1eec8d0d5daddc8a4991810dc40a5af17799b5f41f698",
+      "bytes": 93419
+    },
+    {
+      "file": "figures/overlap_maps_2019.png",
+      "sha256": "1265cf64277a555156d76d09aebefa09b9000a54f1d5e3d6bbded8317fdfa72e",
+      "bytes": 595293
+    },
+    {
+      "file": "figures/overlap_maps_2021.pdf",
+      "sha256": "fd63cb5de1bc9d332ef3b4f7ce827bef6b7d403f4424e1c98f719e2a11baedc6",
+      "bytes": 60373
+    },
+    {
+      "file": "figures/overlap_maps_2021.png",
+      "sha256": "c353a3b76f308c58401c789a713f2f5b2cf38908ade05f53511f44e51aae90de",
+      "bytes": 263654
+    },
+    {
+      "file": "figures/primary_quartile_maps.pdf",
+      "sha256": "279b6d3832ffa72d0aeb605803ae544c8c0995c561a30f24697e0665850ffa2f",
+      "bytes": 208290
+    },
+    {
+      "file": "figures/primary_quartile_maps.png",
+      "sha256": "125a99a493a5173126fd8eb449904cad8ec871a4579a12563b6441d6dc0201cc",
+      "bytes": 1288291
+    },
+    {
+      "file": "figures/primary_yield_distributions.pdf",
+      "sha256": "210dd5aada2a080dcded7b8e1713fb51a656587a492ad30ae8f896bf06254194",
+      "bytes": 20162
+    },
+    {
+      "file": "figures/primary_yield_distributions.png",
+      "sha256": "7ed5e9b3887a150c7433b6ec36f5b93ac634173c8e8ab58499c0ba8ef2e2657e",
+      "bytes": 135039
+    },
+    {
+      "file": "figures/sensitivity_2019.pdf",
+      "sha256": "b0e929bbf00dbd68c5dc7070f278020479911d3ab0daddb4e57af1a0024fdfe9",
+      "bytes": 14563
+    },
+    {
+      "file": "figures/sensitivity_2019.png",
+      "sha256": "5b00b31e26110ff30dfe4490b0594b71dd380a3c798913cb132a7fe5c2aa772e",
+      "bytes": 60310
+    },
+    {
+      "file": "figures/sensitivity_2021.pdf",
+      "sha256": "2ae77b322954fdc04e05ab73c4fe0ddd3f16de6dbaf1a208b96836ded152019a",
+      "bytes": 13617
+    },
+    {
+      "file": "figures/sensitivity_2021.png",
+      "sha256": "a611f7e0198a58fa9e2995c2a03a2e1c363daf23f42f953af077064972b03b8e",
+      "bytes": 56087
+    },
+    {
+      "file": "gee_app_Yield_PEM_CH4.js",
+      "sha256": "e0282164520e637533512b83890072af7aa256f275f7edd8c93eaf6687708bee",
+      "bytes": 235881
+    },
+    {
+      "file": "logs/local_rerun_stderr.log",
+      "sha256": "70f700fb9dbf20065b57b7724d06c94b9b683d6eb8705014ea050d4179cf4d4a",
+      "bytes": 118
+    },
+    {
+      "file": "logs/local_rerun_stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "file": "logs/resume_failure.log",
+      "sha256": "27e2dc0b7969834c6a91f6cbde0d0b296024c5a72f7ddbcfbf762b9be92e77f9",
+      "bytes": 2572
+    },
+    {
+      "file": "logs/run.log",
+      "sha256": "8dbfc5b842f93afa28333e3256d2aef496b2fa89703b39139d0c36d65f25f067",
+      "bytes": 1487
+    },
+    {
+      "file": "logs/task_failure.log",
+      "sha256": "30229a038762a751a5a84561b966a35bdbe246324f076f775baf00f5f8b08f8d",
+      "bytes": 2202
+    },
+    {
+      "file": "progress.json",
+      "sha256": "5f60f1238a3c330e4c92e0adeb51d96c02e1e3ca91c70bbbca36a124c2b6eadd",
+      "bytes": 77
+    },
+    {
+      "file": "rasters/aoi_center_outside.tif",
+      "sha256": "48b99deaa2907b2bcd6f81b554491bc22aa86098fdf57bb23893d1f87a002a4c",
+      "bytes": 324294
+    },
+    {
+      "file": "rasters/cash_margin_2019_M1_fixed_ERS_Heartland.tif",
+      "sha256": "11ae4cef35762ba07eba999742dd64669b3481b4011ce15777a491a11314cdd3",
+      "bytes": 233774
+    },
+    {
+      "file": "rasters/cash_margin_2019_M1_fixed_FINBIN_county.tif",
+      "sha256": "5ab1da1743f0b6195edaee3d4436ba682a71825f51c91a01d5907a62b0ab7eae",
+      "bytes": 8712022
+    },
+    {
+      "file": "rasters/cash_margin_2019_M1_fixed_FINBIN_state.tif",
+      "sha256": "201dff81930d20501bd7775a2237f8dfbf042d0ad75435b3c8627b14799e8df2",
+      "bytes": 21117283
+    },
+    {
+      "file": "rasters/cash_margin_2019_M1_fixed_UNL.tif",
+      "sha256": "4c7b3c21c49e94805342580cc09b97c9d6bf54fe6722f8db63e522319534681f",
+      "bytes": 19823507
+    },
+    {
+      "file": "rasters/cash_margin_2019_M2_HI_sensitivity_ERS_Heartland.tif",
+      "sha256": "11ae4cef35762ba07eba999742dd64669b3481b4011ce15777a491a11314cdd3",
+      "bytes": 233774
+    },
+    {
+      "file": "rasters/cash_margin_2019_M2_HI_sensitivity_FINBIN_county.tif",
+      "sha256": "0542291e7441e47a5f1f7a9af7a0cf9748ac73c70cc067981e2c2493a29c1fd4",
+      "bytes": 8821036
+    },
+    {
+      "file": "rasters/cash_margin_2019_M2_HI_sensitivity_FINBIN_state.tif",
+      "sha256": "245baf14e12beb42f5b548931bce50d8261138c19afcc66cc5b8f2c40f389e1f",
+      "bytes": 20762878
+    },
+    {
+      "file": "rasters/cash_margin_2019_M2_HI_sensitivity_UNL.tif",
+      "sha256": "d57c5b552f11b72acaf4901b331e0ce50d7f6331e16880019bdab63d758ebb8c",
+      "bytes": 19860597
+    },
+    {
+      "file": "rasters/cash_margin_2021_M1_fixed_ERS_Heartland.tif",
+      "sha256": "11ae4cef35762ba07eba999742dd64669b3481b4011ce15777a491a11314cdd3",
+      "bytes": 233774
+    },
+    {
+      "file": "rasters/cash_margin_2021_M1_fixed_FINBIN_state.tif",
+      "sha256": "5e70cfcf51f7473af1508a469b045a745e7cbad8e351ecd1c9dd101443d9fd75",
+      "bytes": 10205173
+    },
+    {
+      "file": "rasters/cash_margin_2021_M1_fixed_UNL.tif",
+      "sha256": "469fbfaf4b8933771f04f7eb491762e519edc3f60212e0f6818a9769407e5f53",
+      "bytes": 9995002
+    },
+    {
+      "file": "rasters/cash_margin_2021_M2_HI_sensitivity_ERS_Heartland.tif",
+      "sha256": "11ae4cef35762ba07eba999742dd64669b3481b4011ce15777a491a11314cdd3",
+      "bytes": 233774
+    },
+    {
+      "file": "rasters/cash_margin_2021_M2_HI_sensitivity_FINBIN_state.tif",
+      "sha256": "5e70cfcf51f7473af1508a469b045a745e7cbad8e351ecd1c9dd101443d9fd75",
+      "bytes": 10205173
+    },
+    {
+      "file": "rasters/cash_margin_2021_M2_HI_sensitivity_UNL.tif",
+      "sha256": "469fbfaf4b8933771f04f7eb491762e519edc3f60212e0f6818a9769407e5f53",
+      "bytes": 9995002
+    },
+    {
+      "file": "rasters/common_valid_M1_fixed.tif",
+      "sha256": "0c7eae981cd5a3c52ebe2d7508d9ab6a176f32870e5c1ab3269b7cee1f378f48",
+      "bytes": 2920466
+    },
+    {
+      "file": "rasters/common_valid_M2_HI_sensitivity.tif",
+      "sha256": "0c7eae981cd5a3c52ebe2d7508d9ab6a176f32870e5c1ab3269b7cee1f378f48",
+      "bytes": 2920466
+    },
+    {
+      "file": "rasters/loss_2019_M1_fixed_ERS_Heartland_p0.85_c0.85.tif",
+      "sha256": "f57eb7dc0a374a35a52a3e4209b050039a9e42ea69f0c35b5faa8ea5199181a0",
+      "bytes": 1836208
+    },
+    {
+      "file": "rasters/loss_2019_M1_fixed_ERS_Heartland_p0.85_c1.00.tif",
+      "sha256": "431862a1f0ee13964451945e245c59ec67584963354b0012ccc5701c8bdaff6d",
+      "bytes": 1803060
+    },
+    {
+      "file": "rasters/loss_2019_M1_fixed_ERS_Heartland_p0.85_c1.15.tif",
+      "sha256": "431862a1f0ee13964451945e245c59ec67584963354b0012ccc5701c8bdaff6d",
+      "bytes": 1803060
+    },
+    {
+      "file": "rasters/loss_2019_M1_fixed_ERS_Heartland_p1.00_c0.85.tif",
+      "sha256": "10fd509847987cb7a0de5582187992fc7a3e1d09f4439325c5332ff633a1964f",
+      "bytes": 2374628
+    },
+    {
+      "file": "rasters/loss_2019_M1_fixed_ERS_Heartland_p1.00_c1.00.tif",
+      "sha256": "f57eb7dc0a374a35a52a3e4209b050039a9e42ea69f0c35b5faa8ea5199181a0",
+      "bytes": 1836208
+    },
+    {
+      "file": "rasters/loss_2019_M1_fixed_ERS_Heartland_p1.00_c1.15.tif",
+      "sha256": "c54b62a571b7c471bfe79c9e7b194d83215ee6e59b69cba3d4e0579ec95448dd",
+      "bytes": 1803148
+    },
+    {
+      "file": "rasters/loss_2019_M1_fixed_ERS_Heartland_p1.15_c0.85.tif",
+      "sha256": "645d5069ae3e56d127c37c05946c2854fa13d72bb1016c2ce800fb78f57f8d29",
+      "bytes": 2335976
+    },
+    {
+      "file": "rasters/loss_2019_M1_fixed_ERS_Heartland_p1.15_c1.00.tif",
+      "sha256": "1a04cc2815b80fec0c3e6888f37d9211fed74a3ea85bb1eae2d12bc68ab431fb",
+      "bytes": 2247935
+    },
+    {
+      "file": "rasters/loss_2019_M1_fixed_ERS_Heartland_p1.15_c1.15.tif",
+      "sha256": "f57eb7dc0a374a35a52a3e4209b050039a9e42ea69f0c35b5faa8ea5199181a0",
+      "bytes": 1836208
+    },
+    {
+      "file": "rasters/loss_2019_M1_fixed_FINBIN_county_p0.85_c0.85.tif",
+      "sha256": "3dd751644c56de7d7cb35986086244d605c16ba06c8fe20612b49b44dbea77bf",
+      "bytes": 1249604
+    },
+    {
+      "file": "rasters/loss_2019_M1_fixed_FINBIN_county_p0.85_c1.00.tif",
+      "sha256": "cff888fa40acad87ea9dddd54a2a0f640ede600c340c99ef93ef60edc7210f23",
+      "bytes": 945956
+    },
+    {
+      "file": "rasters/loss_2019_M1_fixed_FINBIN_county_p0.85_c1.15.tif",
+      "sha256": "19aa0287b1d388c86e6f436bb789ceb6564777596884d970ed913f12a69148ae",
+      "bytes": 911388
+    },
+    {
+      "file": "rasters/loss_2019_M1_fixed_FINBIN_county_p1.00_c0.85.tif",
+      "sha256": "e6ca66ab07cefc49f914679b73d8e48e7f70581eda4c3891887389c6fe0d9498",
+      "bytes": 1087028
+    },
+    {
+      "file": "rasters/loss_2019_M1_fixed_FINBIN_county_p1.00_c1.00.tif",
+      "sha256": "3dd751644c56de7d7cb35986086244d605c16ba06c8fe20612b49b44dbea77bf",
+      "bytes": 1249604
+    },
+    {
+      "file": "rasters/loss_2019_M1_fixed_FINBIN_county_p1.00_c1.15.tif",
+      "sha256": "5fdb3caea4c81b08fcce325d049a62119d15984e64945f197fbcca1954d06da1",
+      "bytes": 969421
+    },
+    {
+      "file": "rasters/loss_2019_M1_fixed_FINBIN_county_p1.15_c0.85.tif",
+      "sha256": "a8f2bd902b7d6f88b5d341466387bc2b4e349e43a5a5663ad959e5cb34b1f26f",
+      "bytes": 1054738
+    },
+    {
+      "file": "rasters/loss_2019_M1_fixed_FINBIN_county_p1.15_c1.00.tif",
+      "sha256": "d120cc3f7c7577fc29b0452eec8e4fcb9c4698fe13ce15d71b30deae15dbf715",
+      "bytes": 1109112
+    },
+    {
+      "file": "rasters/loss_2019_M1_fixed_FINBIN_county_p1.15_c1.15.tif",
+      "sha256": "3dd751644c56de7d7cb35986086244d605c16ba06c8fe20612b49b44dbea77bf",
+      "bytes": 1249604
+    },
+    {
+      "file": "rasters/loss_2019_M1_fixed_FINBIN_state_p0.85_c0.85.tif",
+      "sha256": "a0d449d8b34f3722a5c93b2aedfeb82c1f69395a092d7ccba892e03def0810fa",
+      "bytes": 1849354
+    },
+    {
+      "file": "rasters/loss_2019_M1_fixed_FINBIN_state_p0.85_c1.00.tif",
+      "sha256": "d3c53a71547a5cbef2fae8b7a4bbc3db7b4371935c7fed081353023ad4fe760b",
+      "bytes": 1803120
+    },
+    {
+      "file": "rasters/loss_2019_M1_fixed_FINBIN_state_p0.85_c1.15.tif",
+      "sha256": "431862a1f0ee13964451945e245c59ec67584963354b0012ccc5701c8bdaff6d",
+      "bytes": 1803060
+    },
+    {
+      "file": "rasters/loss_2019_M1_fixed_FINBIN_state_p1.00_c0.85.tif",
+      "sha256": "e39b9d809cc3fb15eed2be61a7f2d7aae848acd5c353122c69222f2a79d06ffa",
+      "bytes": 2446899
+    },
+    {
+      "file": "rasters/loss_2019_M1_fixed_FINBIN_state_p1.00_c1.00.tif",
+      "sha256": "a0d449d8b34f3722a5c93b2aedfeb82c1f69395a092d7ccba892e03def0810fa",
+      "bytes": 1849354
+    },
+    {
+      "file": "rasters/loss_2019_M1_fixed_FINBIN_state_p1.00_c1.15.tif",
+      "sha256": "48d8cba54ea9e6ad76535c03d28206c1970c08e7326e671c2e1525d10a31617a",
+      "bytes": 1803176
+    },
+    {
+      "file": "rasters/loss_2019_M1_fixed_FINBIN_state_p1.15_c0.85.tif",
+      "sha256": "338135b761a34380b4b6ff8d5b10ed6dddd528044b733e45d8fe678420fb085d",
+      "bytes": 2276092
+    },
+    {
+      "file": "rasters/loss_2019_M1_fixed_FINBIN_state_p1.15_c1.00.tif",
+      "sha256": "ef0db1f1430c32ee0622f31d938e6e0bf9a032ebe344162ddb2c8e04c6b85d69",
+      "bytes": 2311571
+    },
+    {
+      "file": "rasters/loss_2019_M1_fixed_FINBIN_state_p1.15_c1.15.tif",
+      "sha256": "a0d449d8b34f3722a5c93b2aedfeb82c1f69395a092d7ccba892e03def0810fa",
+      "bytes": 1849354
+    },
+    {
+      "file": "rasters/loss_2019_M1_fixed_UNL_p0.85_c0.85.tif",
+      "sha256": "d1380123a96d596560891864a67096ddd8a35f1629972ec9e6b4f65e513d2ef6",
+      "bytes": 2661004
+    },
+    {
+      "file": "rasters/loss_2019_M1_fixed_UNL_p0.85_c1.00.tif",
+      "sha256": "da352fbb8de38477b0ab90eb781b9446c787c3cb43d0c2263b218eb0d8e62354",
+      "bytes": 2018908
+    },
+    {
+      "file": "rasters/loss_2019_M1_fixed_UNL_p0.85_c1.15.tif",
+      "sha256": "c37e7a43756f2a24166d49fc05e4eeab399f871dd16bd38429473c43b36ff035",
+      "bytes": 1809329
+    },
+    {
+      "file": "rasters/loss_2019_M1_fixed_UNL_p1.00_c0.85.tif",
+      "sha256": "46a8dbab66da0af3f345c3630c1f66c48bfe95fddb09cdd275f660d4cf197fbc",
+      "bytes": 2093366
+    },
+    {
+      "file": "rasters/loss_2019_M1_fixed_UNL_p1.00_c1.00.tif",
+      "sha256": "d1380123a96d596560891864a67096ddd8a35f1629972ec9e6b4f65e513d2ef6",
+      "bytes": 2661004
+    },
+    {
+      "file": "rasters/loss_2019_M1_fixed_UNL_p1.00_c1.15.tif",
+      "sha256": "f52fb6ed6c93611d07d4ab2362f2186dadc2e51d92165ff5eaa6e37fd9a0a328",
+      "bytes": 2104705
+    },
+    {
+      "file": "rasters/loss_2019_M1_fixed_UNL_p1.15_c0.85.tif",
+      "sha256": "46914b18bc1e3a26617ae180e9ea02413f38b71a27429496f35df37a743e2773",
+      "bytes": 2069694
+    },
+    {
+      "file": "rasters/loss_2019_M1_fixed_UNL_p1.15_c1.00.tif",
+      "sha256": "3c5a5781be2217b0b81a1f54846cb71070de71f7bebfdd669c7814b370c403f4",
+      "bytes": 2107854
+    },
+    {
+      "file": "rasters/loss_2019_M1_fixed_UNL_p1.15_c1.15.tif",
+      "sha256": "d1380123a96d596560891864a67096ddd8a35f1629972ec9e6b4f65e513d2ef6",
+      "bytes": 2661004
+    },
+    {
+      "file": "rasters/loss_2019_M2_HI_sensitivity_ERS_Heartland_p0.85_c0.85.tif",
+      "sha256": "0c7849eb73034cd287d4ffaa0e3ffecec9c6723ae878dc3011df94f0d8ad290d",
+      "bytes": 1814017
+    },
+    {
+      "file": "rasters/loss_2019_M2_HI_sensitivity_ERS_Heartland_p0.85_c1.00.tif",
+      "sha256": "431862a1f0ee13964451945e245c59ec67584963354b0012ccc5701c8bdaff6d",
+      "bytes": 1803060
+    },
+    {
+      "file": "rasters/loss_2019_M2_HI_sensitivity_ERS_Heartland_p0.85_c1.15.tif",
+      "sha256": "431862a1f0ee13964451945e245c59ec67584963354b0012ccc5701c8bdaff6d",
+      "bytes": 1803060
+    },
+    {
+      "file": "rasters/loss_2019_M2_HI_sensitivity_ERS_Heartland_p1.00_c0.85.tif",
+      "sha256": "7aedd76007322163b09ce734ad239b34211bf073511a66a29c9eeb43fbe720a5",
+      "bytes": 2179688
+    },
+    {
+      "file": "rasters/loss_2019_M2_HI_sensitivity_ERS_Heartland_p1.00_c1.00.tif",
+      "sha256": "0c7849eb73034cd287d4ffaa0e3ffecec9c6723ae878dc3011df94f0d8ad290d",
+      "bytes": 1814017
+    },
+    {
+      "file": "rasters/loss_2019_M2_HI_sensitivity_ERS_Heartland_p1.00_c1.15.tif",
+      "sha256": "431862a1f0ee13964451945e245c59ec67584963354b0012ccc5701c8bdaff6d",
+      "bytes": 1803060
+    },
+    {
+      "file": "rasters/loss_2019_M2_HI_sensitivity_ERS_Heartland_p1.15_c0.85.tif",
+      "sha256": "99323f5d54f9fdcd00213a4ea7f40e9388c377834f37bb039dada544344eaee9",
+      "bytes": 2573561
+    },
+    {
+      "file": "rasters/loss_2019_M2_HI_sensitivity_ERS_Heartland_p1.15_c1.00.tif",
+      "sha256": "aa4203cb02b7101fc165a2def0f70b48090d1c3a568a1690127a810db482eab5",
+      "bytes": 2081672
+    },
+    {
+      "file": "rasters/loss_2019_M2_HI_sensitivity_ERS_Heartland_p1.15_c1.15.tif",
+      "sha256": "0c7849eb73034cd287d4ffaa0e3ffecec9c6723ae878dc3011df94f0d8ad290d",
+      "bytes": 1814017
+    },
+    {
+      "file": "rasters/loss_2019_M2_HI_sensitivity_FINBIN_county_p0.85_c0.85.tif",
+      "sha256": "eb7d18a4b816920bc1bb86451388870a1f97b9e8d37240e2840706cd40007c3e",
+      "bytes": 1160113
+    },
+    {
+      "file": "rasters/loss_2019_M2_HI_sensitivity_FINBIN_county_p0.85_c1.00.tif",
+      "sha256": "0b838a04ce5983e9a37debf7ef41c17768227fe9cac64e0f9714350fee9aeded",
+      "bytes": 923302
+    },
+    {
+      "file": "rasters/loss_2019_M2_HI_sensitivity_FINBIN_county_p0.85_c1.15.tif",
+      "sha256": "e78d6a84b11534eff32d7e24c2b360c869ff506fac0f215216ff79111e1cc91c",
+      "bytes": 911124
+    },
+    {
+      "file": "rasters/loss_2019_M2_HI_sensitivity_FINBIN_county_p1.00_c0.85.tif",
+      "sha256": "a720871941e1514cb7664144119d9a497fabad70dfffd1c754321411d0c1fbe0",
+      "bytes": 1127963
+    },
+    {
+      "file": "rasters/loss_2019_M2_HI_sensitivity_FINBIN_county_p1.00_c1.00.tif",
+      "sha256": "eb7d18a4b816920bc1bb86451388870a1f97b9e8d37240e2840706cd40007c3e",
+      "bytes": 1160113
+    },
+    {
+      "file": "rasters/loss_2019_M2_HI_sensitivity_FINBIN_county_p1.00_c1.15.tif",
+      "sha256": "c0214a9df6e675fb403e2a6c5bee2b5211316516eea95ea2a4a8ed2a54a29579",
+      "bytes": 934668
+    },
+    {
+      "file": "rasters/loss_2019_M2_HI_sensitivity_FINBIN_county_p1.15_c0.85.tif",
+      "sha256": "3e0cf702d3a77bb68866f9514d2fa677714c9e9e4a43cd708553afce093d94fc",
+      "bytes": 1057291
+    },
+    {
+      "file": "rasters/loss_2019_M2_HI_sensitivity_FINBIN_county_p1.15_c1.00.tif",
+      "sha256": "271cd2770ff323ea51a906cebb9d0a05b7e135105b490da152270e56e9aaf200",
+      "bytes": 1168921
+    },
+    {
+      "file": "rasters/loss_2019_M2_HI_sensitivity_FINBIN_county_p1.15_c1.15.tif",
+      "sha256": "eb7d18a4b816920bc1bb86451388870a1f97b9e8d37240e2840706cd40007c3e",
+      "bytes": 1160113
+    },
+    {
+      "file": "rasters/loss_2019_M2_HI_sensitivity_FINBIN_state_p0.85_c0.85.tif",
+      "sha256": "0818b241f38de8c13a55416f51d066454abd22c43b0e2d1c8ccf8aee16510b69",
+      "bytes": 1818601
+    },
+    {
+      "file": "rasters/loss_2019_M2_HI_sensitivity_FINBIN_state_p0.85_c1.00.tif",
+      "sha256": "431862a1f0ee13964451945e245c59ec67584963354b0012ccc5701c8bdaff6d",
+      "bytes": 1803060
+    },
+    {
+      "file": "rasters/loss_2019_M2_HI_sensitivity_FINBIN_state_p0.85_c1.15.tif",
+      "sha256": "431862a1f0ee13964451945e245c59ec67584963354b0012ccc5701c8bdaff6d",
+      "bytes": 1803060
+    },
+    {
+      "file": "rasters/loss_2019_M2_HI_sensitivity_FINBIN_state_p1.00_c0.85.tif",
+      "sha256": "f9a7ec5d97caae20a8e960c83a65368d2e627e9a6719a73aacb1c1f14645f09a",
+      "bytes": 2236346
+    },
+    {
+      "file": "rasters/loss_2019_M2_HI_sensitivity_FINBIN_state_p1.00_c1.00.tif",
+      "sha256": "0818b241f38de8c13a55416f51d066454abd22c43b0e2d1c8ccf8aee16510b69",
+      "bytes": 1818601
+    },
+    {
+      "file": "rasters/loss_2019_M2_HI_sensitivity_FINBIN_state_p1.00_c1.15.tif",
+      "sha256": "431862a1f0ee13964451945e245c59ec67584963354b0012ccc5701c8bdaff6d",
+      "bytes": 1803060
+    },
+    {
+      "file": "rasters/loss_2019_M2_HI_sensitivity_FINBIN_state_p1.15_c0.85.tif",
+      "sha256": "6d85533f78c6a9329191057eb057a845428252e5fae2efc413019d819cf537a2",
+      "bytes": 2497080
+    },
+    {
+      "file": "rasters/loss_2019_M2_HI_sensitivity_FINBIN_state_p1.15_c1.00.tif",
+      "sha256": "18562a778ca3bb18649f23e6f1e6b4a651db9b4355b62f9bb36caf994cf2733a",
+      "bytes": 2130499
+    },
+    {
+      "file": "rasters/loss_2019_M2_HI_sensitivity_FINBIN_state_p1.15_c1.15.tif",
+      "sha256": "0818b241f38de8c13a55416f51d066454abd22c43b0e2d1c8ccf8aee16510b69",
+      "bytes": 1818601
+    },
+    {
+      "file": "rasters/loss_2019_M2_HI_sensitivity_UNL_p0.85_c0.85.tif",
+      "sha256": "9c5508cf65c5b25efe6183ae17b7b792606fe8df6d887f359e7f0fcadcfe108a",
+      "bytes": 2647447
+    },
+    {
+      "file": "rasters/loss_2019_M2_HI_sensitivity_UNL_p0.85_c1.00.tif",
+      "sha256": "2daa79db095cb3afe583a3f476c562536cbc96b2c11066c713877c1ab96a19fe",
+      "bytes": 1913318
+    },
+    {
+      "file": "rasters/loss_2019_M2_HI_sensitivity_UNL_p0.85_c1.15.tif",
+      "sha256": "3d9835d45bf97c20ff6d18637a362992a2a81bf3ee6e35b366169bff5cdf3223",
+      "bytes": 1804936
+    },
+    {
+      "file": "rasters/loss_2019_M2_HI_sensitivity_UNL_p1.00_c0.85.tif",
+      "sha256": "1995e9cd4a08f7fa7610b6c620b73d0f9545a9d104504c539e7ff35cb764fa29",
+      "bytes": 2121319
+    },
+    {
+      "file": "rasters/loss_2019_M2_HI_sensitivity_UNL_p1.00_c1.00.tif",
+      "sha256": "9c5508cf65c5b25efe6183ae17b7b792606fe8df6d887f359e7f0fcadcfe108a",
+      "bytes": 2647447
+    },
+    {
+      "file": "rasters/loss_2019_M2_HI_sensitivity_UNL_p1.00_c1.15.tif",
+      "sha256": "5a1b826d0bd9d3d45530720e9a52e2fd2b4e6f16fcc2d9bf90ced00d0ce39a26",
+      "bytes": 1973881
+    },
+    {
+      "file": "rasters/loss_2019_M2_HI_sensitivity_UNL_p1.15_c0.85.tif",
+      "sha256": "a76456d8dde25ec40c88243fd4c6bcc079310f33cdeb8b2fd311c1bbc1cfcde5",
+      "bytes": 2072558
+    },
+    {
+      "file": "rasters/loss_2019_M2_HI_sensitivity_UNL_p1.15_c1.00.tif",
+      "sha256": "796f5f8e36999a42d8d8d3b7e8d233075e9ac14f34897161b4f933671a6c88ea",
+      "bytes": 2157512
+    },
+    {
+      "file": "rasters/loss_2019_M2_HI_sensitivity_UNL_p1.15_c1.15.tif",
+      "sha256": "9c5508cf65c5b25efe6183ae17b7b792606fe8df6d887f359e7f0fcadcfe108a",
+      "bytes": 2647447
+    },
+    {
+      "file": "rasters/loss_2021_M1_fixed_ERS_Heartland_p0.85_c0.85.tif",
+      "sha256": "b595a77e5f499644cf2454b278141722bed3c5bae47db98814cbb8096cd786bf",
+      "bytes": 1251547
+    },
+    {
+      "file": "rasters/loss_2021_M1_fixed_ERS_Heartland_p0.85_c1.00.tif",
+      "sha256": "0cc28ed7d7ccfa5f2c22b8710e813b27778b85a212049d5f444b12e305a089f0",
+      "bytes": 1280315
+    },
+    {
+      "file": "rasters/loss_2021_M1_fixed_ERS_Heartland_p0.85_c1.15.tif",
+      "sha256": "0c9c492ba0a83df1fe825ea8aee31c23ed0b12a420476d6478ad8e1ae3a76457",
+      "bytes": 1589552
+    },
+    {
+      "file": "rasters/loss_2021_M1_fixed_ERS_Heartland_p1.00_c0.85.tif",
+      "sha256": "4e2bf9efc8964c76772075e610079c6d1d1ee1ca6c1ad248487a672eb7556a4f",
+      "bytes": 1250359
+    },
+    {
+      "file": "rasters/loss_2021_M1_fixed_ERS_Heartland_p1.00_c1.00.tif",
+      "sha256": "b595a77e5f499644cf2454b278141722bed3c5bae47db98814cbb8096cd786bf",
+      "bytes": 1251547
+    },
+    {
+      "file": "rasters/loss_2021_M1_fixed_ERS_Heartland_p1.00_c1.15.tif",
+      "sha256": "d945f91f2ea7e351ec4a7a3162a9842b9463d30a683cca74d0e8428cec3ceaa7",
+      "bytes": 1269660
+    },
+    {
+      "file": "rasters/loss_2021_M1_fixed_ERS_Heartland_p1.15_c0.85.tif",
+      "sha256": "c193430d9b50c10334f96b7b894a1ec25ebe112a45438a3239035e8c5643ab66",
+      "bytes": 1250154
+    },
+    {
+      "file": "rasters/loss_2021_M1_fixed_ERS_Heartland_p1.15_c1.00.tif",
+      "sha256": "713b850c73e358d15853e6afc5e6ae5acd86352c52db8b4f12d4ab4e2fd07d3e",
+      "bytes": 1250413
+    },
+    {
+      "file": "rasters/loss_2021_M1_fixed_ERS_Heartland_p1.15_c1.15.tif",
+      "sha256": "b595a77e5f499644cf2454b278141722bed3c5bae47db98814cbb8096cd786bf",
+      "bytes": 1251547
+    },
+    {
+      "file": "rasters/loss_2021_M1_fixed_FINBIN_state_p0.85_c0.85.tif",
+      "sha256": "25b5675f99f854fe49e95340806053c4f73948ca95e601aaf50ca60b621cb1f2",
+      "bytes": 1251672
+    },
+    {
+      "file": "rasters/loss_2021_M1_fixed_FINBIN_state_p0.85_c1.00.tif",
+      "sha256": "6ef65787322f6295e2c609d89408502afc23ecade5587a0383d14bf3057c5f45",
+      "bytes": 1284353
+    },
+    {
+      "file": "rasters/loss_2021_M1_fixed_FINBIN_state_p0.85_c1.15.tif",
+      "sha256": "52b37a76cd9c83642bddef6cd51343308bca01a899b5bb11121537c12be3f2d2",
+      "bytes": 1610882
+    },
+    {
+      "file": "rasters/loss_2021_M1_fixed_FINBIN_state_p1.00_c0.85.tif",
+      "sha256": "325fe3ce99213e5078f387c0d6b5dbc6dd77e0d76b06691e4f6d8254ccedde2e",
+      "bytes": 1250374
+    },
+    {
+      "file": "rasters/loss_2021_M1_fixed_FINBIN_state_p1.00_c1.00.tif",
+      "sha256": "25b5675f99f854fe49e95340806053c4f73948ca95e601aaf50ca60b621cb1f2",
+      "bytes": 1251672
+    },
+    {
+      "file": "rasters/loss_2021_M1_fixed_FINBIN_state_p1.00_c1.15.tif",
+      "sha256": "73039b75d0cbe5bc2bf4e12c13b9f7b8fa4e515b31eccd3d56199f1ca655ebc6",
+      "bytes": 1272159
+    },
+    {
+      "file": "rasters/loss_2021_M1_fixed_FINBIN_state_p1.15_c0.85.tif",
+      "sha256": "5a854ef6f6f818c63af9dd1be6af97a5712e790dda59a74cca72c6bdd5099077",
+      "bytes": 1250148
+    },
+    {
+      "file": "rasters/loss_2021_M1_fixed_FINBIN_state_p1.15_c1.00.tif",
+      "sha256": "a767f2687a7a912c7ec94a6870e5824d885e23dc3848354e5add87d31b6181fa",
+      "bytes": 1250420
+    },
+    {
+      "file": "rasters/loss_2021_M1_fixed_FINBIN_state_p1.15_c1.15.tif",
+      "sha256": "25b5675f99f854fe49e95340806053c4f73948ca95e601aaf50ca60b621cb1f2",
+      "bytes": 1251672
+    },
+    {
+      "file": "rasters/loss_2021_M1_fixed_UNL_p0.85_c0.85.tif",
+      "sha256": "21bdd4e30bba87b4795245363fd008a5f6dd8755fba668e29dd0c6d3619e2e8b",
+      "bytes": 1250149
+    },
+    {
+      "file": "rasters/loss_2021_M1_fixed_UNL_p0.85_c1.00.tif",
+      "sha256": "325fe3ce99213e5078f387c0d6b5dbc6dd77e0d76b06691e4f6d8254ccedde2e",
+      "bytes": 1250374
+    },
+    {
+      "file": "rasters/loss_2021_M1_fixed_UNL_p0.85_c1.15.tif",
+      "sha256": "6b30377ac41276de2e9cb403fd2f103f19756b12507509d5ffe4402b0caf52db",
+      "bytes": 1251329
+    },
+    {
+      "file": "rasters/loss_2021_M1_fixed_UNL_p1.00_c0.85.tif",
+      "sha256": "06c03f7492c7a13c1ea7abfab34764fcde327fc670fa652d7622c3267a214214",
+      "bytes": 1250070
+    },
+    {
+      "file": "rasters/loss_2021_M1_fixed_UNL_p1.00_c1.00.tif",
+      "sha256": "21bdd4e30bba87b4795245363fd008a5f6dd8755fba668e29dd0c6d3619e2e8b",
+      "bytes": 1250149
+    },
+    {
+      "file": "rasters/loss_2021_M1_fixed_UNL_p1.00_c1.15.tif",
+      "sha256": "e0d90cbe0928fa344247fce508c4d8f6e5cbcc48ccba232885513c2f4539f034",
+      "bytes": 1250348
+    },
+    {
+      "file": "rasters/loss_2021_M1_fixed_UNL_p1.15_c0.85.tif",
+      "sha256": "94103ba39ba0891894912bf2f6d4ec6e08c2b405cc7043cfeb2c0c2910956f3c",
+      "bytes": 1250024
+    },
+    {
+      "file": "rasters/loss_2021_M1_fixed_UNL_p1.15_c1.00.tif",
+      "sha256": "fdf021c660d1973f174e7340c25c016c5121863bf0891a04ab170e0e623d788d",
+      "bytes": 1250087
+    },
+    {
+      "file": "rasters/loss_2021_M1_fixed_UNL_p1.15_c1.15.tif",
+      "sha256": "21bdd4e30bba87b4795245363fd008a5f6dd8755fba668e29dd0c6d3619e2e8b",
+      "bytes": 1250149
+    },
+    {
+      "file": "rasters/loss_2021_M2_HI_sensitivity_ERS_Heartland_p0.85_c0.85.tif",
+      "sha256": "b595a77e5f499644cf2454b278141722bed3c5bae47db98814cbb8096cd786bf",
+      "bytes": 1251547
+    },
+    {
+      "file": "rasters/loss_2021_M2_HI_sensitivity_ERS_Heartland_p0.85_c1.00.tif",
+      "sha256": "0cc28ed7d7ccfa5f2c22b8710e813b27778b85a212049d5f444b12e305a089f0",
+      "bytes": 1280315
+    },
+    {
+      "file": "rasters/loss_2021_M2_HI_sensitivity_ERS_Heartland_p0.85_c1.15.tif",
+      "sha256": "0c9c492ba0a83df1fe825ea8aee31c23ed0b12a420476d6478ad8e1ae3a76457",
+      "bytes": 1589552
+    },
+    {
+      "file": "rasters/loss_2021_M2_HI_sensitivity_ERS_Heartland_p1.00_c0.85.tif",
+      "sha256": "4e2bf9efc8964c76772075e610079c6d1d1ee1ca6c1ad248487a672eb7556a4f",
+      "bytes": 1250359
+    },
+    {
+      "file": "rasters/loss_2021_M2_HI_sensitivity_ERS_Heartland_p1.00_c1.00.tif",
+      "sha256": "b595a77e5f499644cf2454b278141722bed3c5bae47db98814cbb8096cd786bf",
+      "bytes": 1251547
+    },
+    {
+      "file": "rasters/loss_2021_M2_HI_sensitivity_ERS_Heartland_p1.00_c1.15.tif",
+      "sha256": "d945f91f2ea7e351ec4a7a3162a9842b9463d30a683cca74d0e8428cec3ceaa7",
+      "bytes": 1269660
+    },
+    {
+      "file": "rasters/loss_2021_M2_HI_sensitivity_ERS_Heartland_p1.15_c0.85.tif",
+      "sha256": "c193430d9b50c10334f96b7b894a1ec25ebe112a45438a3239035e8c5643ab66",
+      "bytes": 1250154
+    },
+    {
+      "file": "rasters/loss_2021_M2_HI_sensitivity_ERS_Heartland_p1.15_c1.00.tif",
+      "sha256": "713b850c73e358d15853e6afc5e6ae5acd86352c52db8b4f12d4ab4e2fd07d3e",
+      "bytes": 1250413
+    },
+    {
+      "file": "rasters/loss_2021_M2_HI_sensitivity_ERS_Heartland_p1.15_c1.15.tif",
+      "sha256": "b595a77e5f499644cf2454b278141722bed3c5bae47db98814cbb8096cd786bf",
+      "bytes": 1251547
+    },
+    {
+      "file": "rasters/loss_2021_M2_HI_sensitivity_FINBIN_state_p0.85_c0.85.tif",
+      "sha256": "25b5675f99f854fe49e95340806053c4f73948ca95e601aaf50ca60b621cb1f2",
+      "bytes": 1251672
+    },
+    {
+      "file": "rasters/loss_2021_M2_HI_sensitivity_FINBIN_state_p0.85_c1.00.tif",
+      "sha256": "6ef65787322f6295e2c609d89408502afc23ecade5587a0383d14bf3057c5f45",
+      "bytes": 1284353
+    },
+    {
+      "file": "rasters/loss_2021_M2_HI_sensitivity_FINBIN_state_p0.85_c1.15.tif",
+      "sha256": "52b37a76cd9c83642bddef6cd51343308bca01a899b5bb11121537c12be3f2d2",
+      "bytes": 1610882
+    },
+    {
+      "file": "rasters/loss_2021_M2_HI_sensitivity_FINBIN_state_p1.00_c0.85.tif",
+      "sha256": "325fe3ce99213e5078f387c0d6b5dbc6dd77e0d76b06691e4f6d8254ccedde2e",
+      "bytes": 1250374
+    },
+    {
+      "file": "rasters/loss_2021_M2_HI_sensitivity_FINBIN_state_p1.00_c1.00.tif",
+      "sha256": "25b5675f99f854fe49e95340806053c4f73948ca95e601aaf50ca60b621cb1f2",
+      "bytes": 1251672
+    },
+    {
+      "file": "rasters/loss_2021_M2_HI_sensitivity_FINBIN_state_p1.00_c1.15.tif",
+      "sha256": "73039b75d0cbe5bc2bf4e12c13b9f7b8fa4e515b31eccd3d56199f1ca655ebc6",
+      "bytes": 1272159
+    },
+    {
+      "file": "rasters/loss_2021_M2_HI_sensitivity_FINBIN_state_p1.15_c0.85.tif",
+      "sha256": "5a854ef6f6f818c63af9dd1be6af97a5712e790dda59a74cca72c6bdd5099077",
+      "bytes": 1250148
+    },
+    {
+      "file": "rasters/loss_2021_M2_HI_sensitivity_FINBIN_state_p1.15_c1.00.tif",
+      "sha256": "a767f2687a7a912c7ec94a6870e5824d885e23dc3848354e5add87d31b6181fa",
+      "bytes": 1250420
+    },
+    {
+      "file": "rasters/loss_2021_M2_HI_sensitivity_FINBIN_state_p1.15_c1.15.tif",
+      "sha256": "25b5675f99f854fe49e95340806053c4f73948ca95e601aaf50ca60b621cb1f2",
+      "bytes": 1251672
+    },
+    {
+      "file": "rasters/loss_2021_M2_HI_sensitivity_UNL_p0.85_c0.85.tif",
+      "sha256": "21bdd4e30bba87b4795245363fd008a5f6dd8755fba668e29dd0c6d3619e2e8b",
+      "bytes": 1250149
+    },
+    {
+      "file": "rasters/loss_2021_M2_HI_sensitivity_UNL_p0.85_c1.00.tif",
+      "sha256": "325fe3ce99213e5078f387c0d6b5dbc6dd77e0d76b06691e4f6d8254ccedde2e",
+      "bytes": 1250374
+    },
+    {
+      "file": "rasters/loss_2021_M2_HI_sensitivity_UNL_p0.85_c1.15.tif",
+      "sha256": "6b30377ac41276de2e9cb403fd2f103f19756b12507509d5ffe4402b0caf52db",
+      "bytes": 1251329
+    },
+    {
+      "file": "rasters/loss_2021_M2_HI_sensitivity_UNL_p1.00_c0.85.tif",
+      "sha256": "06c03f7492c7a13c1ea7abfab34764fcde327fc670fa652d7622c3267a214214",
+      "bytes": 1250070
+    },
+    {
+      "file": "rasters/loss_2021_M2_HI_sensitivity_UNL_p1.00_c1.00.tif",
+      "sha256": "21bdd4e30bba87b4795245363fd008a5f6dd8755fba668e29dd0c6d3619e2e8b",
+      "bytes": 1250149
+    },
+    {
+      "file": "rasters/loss_2021_M2_HI_sensitivity_UNL_p1.00_c1.15.tif",
+      "sha256": "e0d90cbe0928fa344247fce508c4d8f6e5cbcc48ccba232885513c2f4539f034",
+      "bytes": 1250348
+    },
+    {
+      "file": "rasters/loss_2021_M2_HI_sensitivity_UNL_p1.15_c0.85.tif",
+      "sha256": "94103ba39ba0891894912bf2f6d4ec6e08c2b405cc7043cfeb2c0c2910956f3c",
+      "bytes": 1250024
+    },
+    {
+      "file": "rasters/loss_2021_M2_HI_sensitivity_UNL_p1.15_c1.00.tif",
+      "sha256": "fdf021c660d1973f174e7340c25c016c5121863bf0891a04ab170e0e623d788d",
+      "bytes": 1250087
+    },
+    {
+      "file": "rasters/loss_2021_M2_HI_sensitivity_UNL_p1.15_c1.15.tif",
+      "sha256": "21bdd4e30bba87b4795245363fd008a5f6dd8755fba668e29dd0c6d3619e2e8b",
+      "bytes": 1250149
+    },
+    {
+      "file": "rasters/observed_seasons_M1_fixed.tif",
+      "sha256": "c5adcefcd0c4f564071d6209b4ed8e1e0e1b08bf8eb3569fe598eae078274659",
+      "bytes": 6307636
+    },
+    {
+      "file": "rasters/observed_seasons_M2_HI_sensitivity.tif",
+      "sha256": "c5adcefcd0c4f564071d6209b4ed8e1e0e1b08bf8eb3569fe598eae078274659",
+      "bytes": 6307636
+    },
+    {
+      "file": "rasters/overlap_2019_M1_fixed_ERS_Heartland.tif",
+      "sha256": "15c66c0425201a8580b52cf0cea9c8708615f7973610be3f5808119fedb8fac9",
+      "bytes": 2447515
+    },
+    {
+      "file": "rasters/overlap_2019_M1_fixed_FINBIN_county.tif",
+      "sha256": "91c8ccb84aef82b9b982d235d3866ae3946e12a5398713b4312dffcc96229693",
+      "bytes": 1453648
+    },
+    {
+      "file": "rasters/overlap_2019_M1_fixed_FINBIN_state.tif",
+      "sha256": "32560b8e9f7e0334677f2f4fb5af6f1aa61e346538611c8d9c0aca7d99d8a6dc",
+      "bytes": 2457132
+    },
+    {
+      "file": "rasters/overlap_2019_M1_fixed_UNL.tif",
+      "sha256": "58172b546757139fb568afd9b351a3db80de4a8eb2657ef24bd52675df4c7007",
+      "bytes": 2975786
+    },
+    {
+      "file": "rasters/overlap_2019_M2_HI_sensitivity_ERS_Heartland.tif",
+      "sha256": "b97746dad5824f2ab1f54e9e15d2f20b41d55cbca337b875f66979920c3834e2",
+      "bytes": 2432458
+    },
+    {
+      "file": "rasters/overlap_2019_M2_HI_sensitivity_FINBIN_county.tif",
+      "sha256": "773aa56453620b215e8fe7c8aaac41bec2842f8334d7b7c15f83e1733763d08c",
+      "bytes": 1389532
+    },
+    {
+      "file": "rasters/overlap_2019_M2_HI_sensitivity_FINBIN_state.tif",
+      "sha256": "47edd4b42beb08cdc0ef463d1898f94940b3d5077fd817629036d92669d227a0",
+      "bytes": 2435668
+    },
+    {
+      "file": "rasters/overlap_2019_M2_HI_sensitivity_UNL.tif",
+      "sha256": "5b4dcccf9ff5067e9f91517cb6825f7e81595297a1798ef635cc0ced2fed41ac",
+      "bytes": 3080396
+    },
+    {
+      "file": "rasters/overlap_2021_M1_fixed_ERS_Heartland.tif",
+      "sha256": "6097068fbb2e6f6ccf7dfad9ea779ebab455c805bda768722bc730da5d5a00d4",
+      "bytes": 1567626
+    },
+    {
+      "file": "rasters/overlap_2021_M1_fixed_FINBIN_state.tif",
+      "sha256": "53786a1634c0a50975ec1c4e874b785ce020a5f598d3cd596af20f53d127e309",
+      "bytes": 1567740
+    },
+    {
+      "file": "rasters/overlap_2021_M1_fixed_UNL.tif",
+      "sha256": "7a41e5fc17a39f028bf562f44270ce80c402e1adffd5ea6f9d9eb0bbb7177e34",
+      "bytes": 1566537
+    },
+    {
+      "file": "rasters/overlap_2021_M2_HI_sensitivity_ERS_Heartland.tif",
+      "sha256": "6097068fbb2e6f6ccf7dfad9ea779ebab455c805bda768722bc730da5d5a00d4",
+      "bytes": 1567626
+    },
+    {
+      "file": "rasters/overlap_2021_M2_HI_sensitivity_FINBIN_state.tif",
+      "sha256": "53786a1634c0a50975ec1c4e874b785ce020a5f598d3cd596af20f53d127e309",
+      "bytes": 1567740
+    },
+    {
+      "file": "rasters/overlap_2021_M2_HI_sensitivity_UNL.tif",
+      "sha256": "7a41e5fc17a39f028bf562f44270ce80c402e1adffd5ea6f9d9eb0bbb7177e34",
+      "bytes": 1566537
+    },
+    {
+      "file": "rasters/quartile_2001_M1_fixed.tif",
+      "sha256": "4cbc852c8591b2bf9d02e1aa12078c3cc09a4df09d8715d1940edf006a6b2960",
+      "bytes": 2651229
+    },
+    {
+      "file": "rasters/quartile_2001_M2_HI_sensitivity.tif",
+      "sha256": "4cbc852c8591b2bf9d02e1aa12078c3cc09a4df09d8715d1940edf006a6b2960",
+      "bytes": 2651229
+    },
+    {
+      "file": "rasters/quartile_2003_M1_fixed.tif",
+      "sha256": "cef6136e4ca5446198f5ea1a6efd30c79bdb68b5c23fd53d8c6f298392bb3360",
+      "bytes": 2450295
+    },
+    {
+      "file": "rasters/quartile_2003_M2_HI_sensitivity.tif",
+      "sha256": "cef6136e4ca5446198f5ea1a6efd30c79bdb68b5c23fd53d8c6f298392bb3360",
+      "bytes": 2450295
+    },
+    {
+      "file": "rasters/quartile_2005_M1_fixed.tif",
+      "sha256": "b8a04b9a65ab8e20a151d5f6ccad6de866e7533cf71ffcb9de9a51d27deffadf",
+      "bytes": 2563348
+    },
+    {
+      "file": "rasters/quartile_2005_M2_HI_sensitivity.tif",
+      "sha256": "b8a04b9a65ab8e20a151d5f6ccad6de866e7533cf71ffcb9de9a51d27deffadf",
+      "bytes": 2563348
+    },
+    {
+      "file": "rasters/quartile_2007_M1_fixed.tif",
+      "sha256": "925ed30413f093fc93835e2ee4b8a59149311d75612caa8f4f6a5fab4cdc9062",
+      "bytes": 2565665
+    },
+    {
+      "file": "rasters/quartile_2007_M2_HI_sensitivity.tif",
+      "sha256": "925ed30413f093fc93835e2ee4b8a59149311d75612caa8f4f6a5fab4cdc9062",
+      "bytes": 2565665
+    },
+    {
+      "file": "rasters/quartile_2009_M1_fixed.tif",
+      "sha256": "aed6aef1483eecf78c709299aa3c0572ebd9a0bfebcd96049fdfeae7dcb570f9",
+      "bytes": 2300094
+    },
+    {
+      "file": "rasters/quartile_2009_M2_HI_sensitivity.tif",
+      "sha256": "aed6aef1483eecf78c709299aa3c0572ebd9a0bfebcd96049fdfeae7dcb570f9",
+      "bytes": 2300094
+    },
+    {
+      "file": "rasters/quartile_2011_M1_fixed.tif",
+      "sha256": "bab13efa2ad2fdd775c3f2999feff1b3108344600c0af6946df6beffb930ef28",
+      "bytes": 2600923
+    },
+    {
+      "file": "rasters/quartile_2011_M2_HI_sensitivity.tif",
+      "sha256": "bab13efa2ad2fdd775c3f2999feff1b3108344600c0af6946df6beffb930ef28",
+      "bytes": 2600923
+    },
+    {
+      "file": "rasters/quartile_2013_M1_fixed.tif",
+      "sha256": "9969b861549a4b4be77d9d1f9784e4e95d7c56275f73910d862a620d2202b561",
+      "bytes": 2450153
+    },
+    {
+      "file": "rasters/quartile_2013_M2_HI_sensitivity.tif",
+      "sha256": "9969b861549a4b4be77d9d1f9784e4e95d7c56275f73910d862a620d2202b561",
+      "bytes": 2450153
+    },
+    {
+      "file": "rasters/quartile_2015_M1_fixed.tif",
+      "sha256": "ac6ddfce719bc905e44c9afd9385d8c9a08ac18fd90280086f784509594a248c",
+      "bytes": 2464658
+    },
+    {
+      "file": "rasters/quartile_2015_M2_HI_sensitivity.tif",
+      "sha256": "ac6ddfce719bc905e44c9afd9385d8c9a08ac18fd90280086f784509594a248c",
+      "bytes": 2464658
+    },
+    {
+      "file": "rasters/quartile_2017_M1_fixed.tif",
+      "sha256": "b0d9e766ceac3717b08cae9012753b63c595a3c675756e839d424d59f7d78663",
+      "bytes": 2413837
+    },
+    {
+      "file": "rasters/quartile_2017_M2_HI_sensitivity.tif",
+      "sha256": "b0d9e766ceac3717b08cae9012753b63c595a3c675756e839d424d59f7d78663",
+      "bytes": 2413837
+    },
+    {
+      "file": "rasters/quartile_2019_M1_fixed.tif",
+      "sha256": "e761a5fe07600a03f49ed13222257567ef0ec4f8faf1f471a7038dad683ad86c",
+      "bytes": 2520516
+    },
+    {
+      "file": "rasters/quartile_2019_M2_HI_sensitivity.tif",
+      "sha256": "e761a5fe07600a03f49ed13222257567ef0ec4f8faf1f471a7038dad683ad86c",
+      "bytes": 2520516
+    },
+    {
+      "file": "rasters/quartile_2021_M1_fixed.tif",
+      "sha256": "1ba98b2ef4ed4f90947146e973b1fee4b835573f0ac8255907c7f6f6e4db4df4",
+      "bytes": 1566440
+    },
+    {
+      "file": "rasters/quartile_2021_M2_HI_sensitivity.tif",
+      "sha256": "1ba98b2ef4ed4f90947146e973b1fee4b835573f0ac8255907c7f6f6e4db4df4",
+      "bytes": 1566440
+    },
+    {
+      "file": "rasters/quartile_frequency_M1_fixed.tif",
+      "sha256": "7fb1d0e925e1d5738d91f6cb6cdda3a55affaee0f87d6cb2f6938918b53047d4",
+      "bytes": 7226291
+    },
+    {
+      "file": "rasters/quartile_frequency_M2_HI_sensitivity.tif",
+      "sha256": "7fb1d0e925e1d5738d91f6cb6cdda3a55affaee0f87d6cb2f6938918b53047d4",
+      "bytes": 7226291
+    },
+    {
+      "file": "rasters/revenue_2019_M1_fixed_ERS_Heartland.tif",
+      "sha256": "35d54ccc0993ac8d275a22fa9043b00dca89721be5ba926fc54fb520ce784628",
+      "bytes": 19374690
+    },
+    {
+      "file": "rasters/revenue_2019_M1_fixed_FINBIN_county.tif",
+      "sha256": "9ffd784508f9e5e0d54d977212ea1eb0f8c879ba398f541f528a7f742d90a8f4",
+      "bytes": 8337481
+    },
+    {
+      "file": "rasters/revenue_2019_M1_fixed_FINBIN_state.tif",
+      "sha256": "fc0d782837138704c3a8ce76e3aac3c83c97827454264ff432596f9f1bc753a4",
+      "bytes": 19683093
+    },
+    {
+      "file": "rasters/revenue_2019_M1_fixed_UNL.tif",
+      "sha256": "9315fb2cffbbe8e2a15a55da8fdb0926b8293f31561999f658353cbdd7a5e9c6",
+      "bytes": 19374680
+    },
+    {
+      "file": "rasters/revenue_2019_M2_HI_sensitivity_ERS_Heartland.tif",
+      "sha256": "50e6508df63ec7f5b9f239e1056ca439ddce67ccb73906b0df837c2d67bd8438",
+      "bytes": 19455750
+    },
+    {
+      "file": "rasters/revenue_2019_M2_HI_sensitivity_FINBIN_county.tif",
+      "sha256": "06240a48ad4175f5d2a70a692e6f16c2ce94d37538f062ebd38bd267f924ce02",
+      "bytes": 8386889
+    },
+    {
+      "file": "rasters/revenue_2019_M2_HI_sensitivity_FINBIN_state.tif",
+      "sha256": "445ee8d938afd8e31e3bbc9e31c8eb87369c390786a8bab2172f66bf660265d0",
+      "bytes": 19757993
+    },
+    {
+      "file": "rasters/revenue_2019_M2_HI_sensitivity_UNL.tif",
+      "sha256": "48e933a7463bf637b167ee4dc9dcaa4c80445b9925f2376b40b04d52988df9f7",
+      "bytes": 19455740
+    },
+    {
+      "file": "rasters/revenue_2021_M1_fixed_ERS_Heartland.tif",
+      "sha256": "a3ca5d0429ef194b4ce5fd8004fed274b6d514cc928d59e625863da0d7008dc4",
+      "bytes": 9882244
+    },
+    {
+      "file": "rasters/revenue_2021_M1_fixed_FINBIN_state.tif",
+      "sha256": "f02a815d64226bb76727d85f3110402e43628458cfb044704abbd04cb19d8713",
+      "bytes": 9955252
+    },
+    {
+      "file": "rasters/revenue_2021_M1_fixed_UNL.tif",
+      "sha256": "e0c8418b996583a60cb1ed9190c83b889216e78c76cc18cce76e43dbf22b5143",
+      "bytes": 9882234
+    },
+    {
+      "file": "rasters/revenue_2021_M2_HI_sensitivity_ERS_Heartland.tif",
+      "sha256": "a3ca5d0429ef194b4ce5fd8004fed274b6d514cc928d59e625863da0d7008dc4",
+      "bytes": 9882244
+    },
+    {
+      "file": "rasters/revenue_2021_M2_HI_sensitivity_FINBIN_state.tif",
+      "sha256": "f02a815d64226bb76727d85f3110402e43628458cfb044704abbd04cb19d8713",
+      "bytes": 9955252
+    },
+    {
+      "file": "rasters/revenue_2021_M2_HI_sensitivity_UNL.tif",
+      "sha256": "e0c8418b996583a60cb1ed9190c83b889216e78c76cc18cce76e43dbf22b5143",
+      "bytes": 9882234
+    },
+    {
+      "file": "rasters/total_return_2019_M1_fixed_ERS_Heartland.tif",
+      "sha256": "7a8107e29b8254448ddb2f786ec63991fb4087866aec13500cb38fcec3eee5f7",
+      "bytes": 20208182
+    },
+    {
+      "file": "rasters/total_return_2019_M1_fixed_FINBIN_county.tif",
+      "sha256": "ade84810c9b5a9f3cb6dd995fd169b11b483a5b7220ecb021b98fa80d958095b",
+      "bytes": 8996459
+    },
+    {
+      "file": "rasters/total_return_2019_M1_fixed_FINBIN_state.tif",
+      "sha256": "3c1a64b3c4a285165c11cb2c346e4801894a7d823756f93ad7ec77be77553528",
+      "bytes": 20312914
+    },
+    {
+      "file": "rasters/total_return_2019_M1_fixed_UNL.tif",
+      "sha256": "4de7bd59a2b06bebaaaf7392630d9705ecae2362f63ededd39705712cdc69be4",
+      "bytes": 21371435
+    },
+    {
+      "file": "rasters/total_return_2019_M2_HI_sensitivity_ERS_Heartland.tif",
+      "sha256": "38e913d3000a32c4951c4ce867ce31b47d038bc58a0c8d0c5cc9784bfec1536d",
+      "bytes": 20022515
+    },
+    {
+      "file": "rasters/total_return_2019_M2_HI_sensitivity_FINBIN_county.tif",
+      "sha256": "7d17213fd72f7d0e8f6be3d6b95b163f887e206910d382ba3c924e6467960529",
+      "bytes": 8874212
+    },
+    {
+      "file": "rasters/total_return_2019_M2_HI_sensitivity_FINBIN_state.tif",
+      "sha256": "841d50f1839935082ac524ccb09a2e645ab0e1069410525b5f71544d11d42647",
+      "bytes": 20147594
+    },
+    {
+      "file": "rasters/total_return_2019_M2_HI_sensitivity_UNL.tif",
+      "sha256": "0725d577f75f97f0a5f607f4f387eca9a8a5473a0577809348205678b4bbc8e0",
+      "bytes": 21320371
+    },
+    {
+      "file": "rasters/total_return_2021_M1_fixed_ERS_Heartland.tif",
+      "sha256": "5ad45fcca1c6f734a681e85f45796184408c9228f601f869cfce96470b1a7f65",
+      "bytes": 10214604
+    },
+    {
+      "file": "rasters/total_return_2021_M1_fixed_FINBIN_state.tif",
+      "sha256": "aa5c6234fe44033073aed01727ee64f7c6c3d442fe90b91a63f8082ee4a004db",
+      "bytes": 10203268
+    },
+    {
+      "file": "rasters/total_return_2021_M1_fixed_UNL.tif",
+      "sha256": "33fe0b96dc917dfc6ab7353a0eb5c209ce307eea1ae07cd32f2a3777e47d5265",
+      "bytes": 10311905
+    },
+    {
+      "file": "rasters/total_return_2021_M2_HI_sensitivity_ERS_Heartland.tif",
+      "sha256": "5ad45fcca1c6f734a681e85f45796184408c9228f601f869cfce96470b1a7f65",
+      "bytes": 10214604
+    },
+    {
+      "file": "rasters/total_return_2021_M2_HI_sensitivity_FINBIN_state.tif",
+      "sha256": "aa5c6234fe44033073aed01727ee64f7c6c3d442fe90b91a63f8082ee4a004db",
+      "bytes": 10203268
+    },
+    {
+      "file": "rasters/total_return_2021_M2_HI_sensitivity_UNL.tif",
+      "sha256": "33fe0b96dc917dfc6ab7353a0eb5c209ce307eea1ae07cd32f2a3777e47d5265",
+      "bytes": 10311905
+    },
+    {
+      "file": "sources/acquisition_manifest.json",
+      "sha256": "35434a38791d4ca3e3dbe8a53d9f62e4b8efa0c2ac380f4d80c4602312e84721",
+      "bytes": 6296
+    },
+    {
+      "file": "sources/boundaries.json",
+      "sha256": "eccb0fb0655a94101f6a2597d033c0310238f31ab1c201fb021d7bb686aa5d66",
+      "bytes": 624
+    },
+    {
+      "file": "sources/consensus_search.json",
+      "sha256": "7d4db355d8b6d342584e4f5aa5d7f8448089e18dcf0ef50749372ea5eb46a441",
+      "bytes": 34503
+    },
+    {
+      "file": "sources/csp3_raster_manifest.csv",
+      "sha256": "9ce4cf9dc9470da6448226e420044f8b7b648af89d2b22e7a5052d8a62cc85cf",
+      "bytes": 8013
+    },
+    {
+      "file": "sources/ers_corn.csv",
+      "sha256": "107a04eb8efd4d538766429c206cb1851dc9bea2d97cc090552dc5048c21aee3",
+      "bytes": 926099
+    },
+    {
+      "file": "sources/ers_corn.xlsx",
+      "sha256": "aa2da87bad77dede806fe30bfe472439fa1b4e8311237567c5458a3b1f75d991",
+      "bytes": 364326
+    },
+    {
+      "file": "sources/ers_regions.pdf",
+      "sha256": "9bc57ada57d2aa1c834095607ec9d10e3aa8e050be9f0cd1187698dd8bd8ad08",
+      "bytes": 2401562
+    },
+    {
+      "file": "sources/ers_tb1970.pdf",
+      "sha256": "7533e97f0c9825d0e1071f57d36cb0bf535fb12ed3f204f3873f319e459296d8",
+      "bytes": 5968009
+    },
+    {
+      "file": "sources/finbin_county_1008338.csv",
+      "sha256": "60c1f44e47274e041bbe19fe0af0d82477a3151e9c9902bc048f65da44b58029",
+      "bytes": 10534
+    },
+    {
+      "file": "sources/finbin_state_1008210.csv",
+      "sha256": "9c71006c8df4010b187ef6035378dc10ee591142b94ce3995afaa256119a322d",
+      "bytes": 13298
+    },
+    {
+      "file": "sources/nass_crop_values_2021.pdf",
+      "sha256": "fa662c9c9ca51ba28136bc791a5e6a8e138e1f8a14e5d78579ce9696208ad4d1",
+      "bytes": 1059102
+    },
+    {
+      "file": "sources/nass_crop_values_2022.pdf",
+      "sha256": "2b52a4c6637e96392ade137fac165cd0dd2c3c36cce1556efcdfb90e71bc8f62",
+      "bytes": 950949
+    },
+    {
+      "file": "sources/nass_price_table.txt",
+      "sha256": "bb801028c3b0303a283720850051d0c57b309f06fb37c7ca095fce18774e005f",
+      "bytes": 9417
+    },
+    {
+      "file": "sources/nccpi_source_manifest.json",
+      "sha256": "6035f64a3deb55e262e132106d749d0ae09d6272df3db58ea877c14be03f98e0",
+      "bytes": 68352
+    },
+    {
+      "file": "sources/original_draft_preservation.json",
+      "sha256": "c1933bfa9e718fa0d40cd1a0c2268d4ddf709f0ae3eb73554d6eaa3525e7af9f",
+      "bytes": 192
+    },
+    {
+      "file": "sources/scispace_search.json",
+      "sha256": "172cddf49af31e7218a5e8dd6d87d39bbae771f3f44b79b111a7ea0883524bad",
+      "bytes": 65285
+    },
+    {
+      "file": "sources/soil_output_manifest.csv",
+      "sha256": "b668c0232163e7d8f3788fc0eec0d6cde9b6e3f80c2f536b9b0eb328e8c1939c",
+      "bytes": 71539
+    },
+    {
+      "file": "sources/unl_2009.pdf",
+      "sha256": "1c8b75dbfd4a0d4279a8cc5c063c8bad553b4b0ea3753ceeebe1df76d8532e80",
+      "bytes": 1865687
+    },
+    {
+      "file": "sources/unl_2011.pdf",
+      "sha256": "b8a2152dcc047ac3b2274d4353517f6ffb1f543bc5c93068b79cb9548e255ac9",
+      "bytes": 2236859
+    },
+    {
+      "file": "sources/unl_2013.pdf",
+      "sha256": "ffed1c52df62b67f7248ac74401b9ea85fd39ad4ec2730c1277998734f856994",
+      "bytes": 6363722
+    },
+    {
+      "file": "sources/unl_2015.pdf",
+      "sha256": "f1b374b5075e3e9ed08b42576466fef8fbd5afccebf45fd4e5a0b9c4f0c67445",
+      "bytes": 1698100
+    },
+    {
+      "file": "sources/unl_2017.pdf",
+      "sha256": "8543fc37829cd7e5dd1d2f903578dad96ffc6831c17d2f61e0715e790d86d395",
+      "bytes": 1556642
+    },
+    {
+      "file": "sources/unl_2017_page_27.txt",
+      "sha256": "88e38bd7245808743239f8630d4a76c2048d91f4b2216c3d85d52369d7ca0a17",
+      "bytes": 2029
+    },
+    {
+      "file": "sources/unl_2017_page_28.txt",
+      "sha256": "df25877eb1bbf29f131f508de2152e7d4a254f8740d1cce11d36350b4dff3f55",
+      "bytes": 2307
+    },
+    {
+      "file": "sources/unl_2017_page_3.txt",
+      "sha256": "9cf99f7f09b49755ccc5f91cbf76fdf22403149c9503d71f98609bd5db2e7f91",
+      "bytes": 3217
+    },
+    {
+      "file": "sources/unl_2017_page_30.txt",
+      "sha256": "20d51de95b14e3c280139877078cfdb6f64952057333c00583050a69b952a1c4",
+      "bytes": 2247
+    },
+    {
+      "file": "sources/unl_2017_page_31.txt",
+      "sha256": "68e62c7368c8f317d3d4d379eaff269e501f04ff203d2afa04dc721a53c7a857",
+      "bytes": 2529
+    },
+    {
+      "file": "sources/unl_2017_page_32.txt",
+      "sha256": "9bebe2787f869d07f74d201028c3dcd842aba00c679873eb1b73b993ff256a89",
+      "bytes": 2344
+    },
+    {
+      "file": "sources/unl_2017_page_34.txt",
+      "sha256": "eeac31c51b23bc2daa5a48c4eaabe9abc19507db142b78df9fbdc38f6a2b3525",
+      "bytes": 2350
+    },
+    {
+      "file": "sources/unl_2017_page_68_layout.txt",
+      "sha256": "4444042deb58c3ee8016c135ec1377754cd9d8e986bcdf6e758f82313c2a72f7",
+      "bytes": 56977
+    },
+    {
+      "file": "sources/unl_2017_page_69_layout.txt",
+      "sha256": "fcfc919c187b6604b5959244b7755d271b3ee6b986907db231e8d52171fc93e1",
+      "bytes": 57354
+    },
+    {
+      "file": "sources/unl_2017_page_71_layout.txt",
+      "sha256": "8ffd3332246f98d3507c7581caf5b7a36e0a81e67a026008c7f4297afe261a93",
+      "bytes": 53124
+    },
+    {
+      "file": "sources/unl_2017_page_72_layout.txt",
+      "sha256": "74cb47ab5610328b420db0f4e80984b3b42ed6efb9335247f104b8d82ca778f8",
+      "bytes": 53053
+    },
+    {
+      "file": "sources/unl_2019.pdf",
+      "sha256": "6a0693e0c7f8c0f6bcee620595b45fa1214e342147fbd0de40df2e60eab5dd09",
+      "bytes": 2250134
+    },
+    {
+      "file": "sources/unl_2019_page_2.txt",
+      "sha256": "d56db93208cf5d023018bfa6b863d62720902092b6bb1c46a9a68d88bd1012f9",
+      "bytes": 3350
+    },
+    {
+      "file": "sources/unl_2019_page_3.txt",
+      "sha256": "cece5da05be00e8b62e177b0a6e7f3d3e59c7136172c9c6d86e599bff89d3a1f",
+      "bytes": 2827
+    },
+    {
+      "file": "sources/unl_2019_page_34.txt",
+      "sha256": "5c665cae6ac422d60032e18849fa02cee59472d630be22def8f95a8d0efe9b65",
+      "bytes": 2422
+    },
+    {
+      "file": "sources/unl_2019_page_36.txt",
+      "sha256": "cbdd30df298bb1482cca073e2b4fee2a02f5bab6a5abad0dfe9a1a98fe3eeb6d",
+      "bytes": 2242
+    },
+    {
+      "file": "sources/unl_2019_page_6.txt",
+      "sha256": "376a6a1f674b1d0a9aac6135f32b187d500ca7540596a6b698f0ce71760a7cbd",
+      "bytes": 3514
+    },
+    {
+      "file": "sources/unl_2019_page_73.txt",
+      "sha256": "d2c300ba67416025f264fe986b0f42b4f54e2585352ff3851f150e92df5c2ba0",
+      "bytes": 2069
+    },
+    {
+      "file": "sources/unl_2019_page_74.txt",
+      "sha256": "6a8f89d36a0f9de1cc3b36888b4432369458cc0b65ff1c950c85d67613896a19",
+      "bytes": 2345
+    },
+    {
+      "file": "sources/unl_2019_page_76.txt",
+      "sha256": "49610b006fd5ae8102884cc36b9ad5877a2457e22560683cb94b67a4bc26f84d",
+      "bytes": 2293
+    },
+    {
+      "file": "sources/unl_2019_page_77.txt",
+      "sha256": "bde5ca4ff0b850f987b7cf1faef97ab0057b08a26a624aeb68fd9440236f99c8",
+      "bytes": 2611
+    },
+    {
+      "file": "sources/unl_2019_page_78.txt",
+      "sha256": "cbde1c16fbca59cfe5bc23c169a26802c2706b97b979caf42b56c280f9a40c69",
+      "bytes": 2487
+    },
+    {
+      "file": "sources/unl_2019_page_80.txt",
+      "sha256": "6570585a5ef775b506072dd56da042074fa89ccbebcfd399b6cd73b58e623709",
+      "bytes": 2487
+    },
+    {
+      "file": "sources/unl_2021.pdf",
+      "sha256": "6f8182a9f7cb98b806308a3c378d4e7c9a2ed78b974aad95f93bf9ea87b0e6b4",
+      "bytes": 2998287
+    },
+    {
+      "file": "sources/unl_2021_page_2.txt",
+      "sha256": "8fe70282a38d104304ee5f63cbc14271696da90c74543a533ff60a42b8bec18b",
+      "bytes": 1827
+    },
+    {
+      "file": "sources/unl_2021_page_28.txt",
+      "sha256": "9eeb67abdd2862209fc88284f3c8e3465025b432def0961547b7eb2b597cb2db",
+      "bytes": 2368
+    },
+    {
+      "file": "sources/unl_2021_page_3.txt",
+      "sha256": "cbb8bfb011ddf5d627bfbc32850f917f7b6d8237937a5e9338742fab33e8364d",
+      "bytes": 3452
+    },
+    {
+      "file": "sources/unl_2021_page_30.txt",
+      "sha256": "007195d5a439d9ad660528b7bcdca96affc7a74b162124f7a34db7aa7572e8b9",
+      "bytes": 2228
+    },
+    {
+      "file": "sources/unl_2021_page_6.txt",
+      "sha256": "3e7f90fc5111a7ca774003aec4ba27553af6e0b1878ea93c1ab98b65a8a1eb75",
+      "bytes": 3614
+    },
+    {
+      "file": "sources/unl_2021_page_69.txt",
+      "sha256": "6c3787aad01f4ca9ce01837fb8bda4986d72e2f2b79bb4c56eac37af3e828815",
+      "bytes": 2126
+    },
+    {
+      "file": "sources/unl_2021_page_70.txt",
+      "sha256": "0caae0e7cc5e9fac27fae349e0c0cd254107d9e2e36989dd6ceb650f5b16fdff",
+      "bytes": 2417
+    },
+    {
+      "file": "sources/unl_2021_page_72.txt",
+      "sha256": "51660f25533456343a2e395fb36275733146f72249553a7b4f4393a63c6318e0",
+      "bytes": 2352
+    },
+    {
+      "file": "sources/unl_2021_page_73.txt",
+      "sha256": "7abf6fdc97bcbe4e65e011884224ab1db217dc59e92ba07526163f0dc88d46c2",
+      "bytes": 2634
+    },
+    {
+      "file": "sources/unl_2021_page_74.txt",
+      "sha256": "a841129f00e795530b7e56144ef6b26d47c8b6cd152a63d62b515582d6016f0c",
+      "bytes": 2461
+    },
+    {
+      "file": "sources/unl_2021_page_76.txt",
+      "sha256": "aa0e6bab18b60ba11ff62f515d23122d986705ff9fe7a7faaf9443f3a6a6f45f",
+      "bytes": 2439
+    },
+    {
+      "file": "sources/unl_2021_page_77.txt",
+      "sha256": "78ab9278f27e591b492b0bd31be412815a22ff9aa3105bd84991ab1bc733f561",
+      "bytes": 2464
+    },
+    {
+      "file": "sources/unl_2021_page_78.txt",
+      "sha256": "bef0771bfba5c766dd4e100b0ab1e6a7a79ffadccacb1db3af6baed67a463eaf",
+      "bytes": 2463
+    },
+    {
+      "file": "sources/verify_unl_2019.png",
+      "sha256": "d0058dfadd4c8cfa8fabb2b6a3f808602e8144287391a0868a58ce7515ffef6f",
+      "bytes": 170036
+    },
+    {
+      "file": "sources/verify_unl_2021.png",
+      "sha256": "cf8a78e2dea63cec8fbe6b1e4af5f784acd5db0a66d9521191740c327f4ef6b6",
+      "bytes": 166892
+    },
+    {
+      "file": "status.json",
+      "sha256": "c364326d657c7d4c5acf7181b28b40efd264b99ea8975cfdf14b1fe2a61837e1",
+      "bytes": 304
+    },
+    {
+      "file": "tables/annual_yield.csv",
+      "sha256": "dcff6657824f092952155fac2156d56afbdcbebacd0a2b677df71d3104b87439",
+      "bytes": 6601
+    },
+    {
+      "file": "tables/common_valid_yield.csv",
+      "sha256": "aed1e29f7e335538a25ccd4a051ce2f1040fd5ac1c32fcb61e2e28be1b2efa25",
+      "bytes": 4681
+    },
+    {
+      "file": "tables/county_statistics.csv",
+      "sha256": "d4017caa02ca30b5f8bddfbe0c84b6cc5bdbc9a05c2032eaacb0681258bf98bc",
+      "bytes": 110316
+    },
+    {
+      "file": "tables/deflator.csv",
+      "sha256": "52f17e4a2d37858f8bc056581c05edf08ae82f8965a2db5843e5c872a44d5c6a",
+      "bytes": 404
+    },
+    {
+      "file": "tables/economic_scenarios.csv",
+      "sha256": "1df1da7884a1dd283d8d52798094360336b12a6b59d4a7eea7006677b3539e53",
+      "bytes": 2534
+    },
+    {
+      "file": "tables/ers_annual_source_values.csv",
+      "sha256": "cb548e33b879547d7304f83443168d87d695818501e6b474c5d74c5161ecdf1d",
+      "bytes": 85789
+    },
+    {
+      "file": "tables/finbin_annual_source_values.csv",
+      "sha256": "e5bf07619efe0d67b74448b4f9cd59a1146dfabd792f4dc4d98e6cb46ff05a7a",
+      "bytes": 85846
+    },
+    {
+      "file": "tables/input_inventory.csv",
+      "sha256": "a83a758728e20acd95d58690c000d1f9eebd7c79581c5a644919564dd9606dc0",
+      "bytes": 10281
+    },
+    {
+      "file": "tables/nass_prices.csv",
+      "sha256": "a9fc9ec5671af833a51f6f78b2cb8904d30c4a069af352cfec85284653a9673d",
+      "bytes": 225
+    },
+    {
+      "file": "tables/nccpi_associations.csv",
+      "sha256": "f91a97051a8592c1affd62d517fe6864a078a5a389788a2d9013788a9a083fb0",
+      "bytes": 31801
+    },
+    {
+      "file": "tables/patch_statistics.csv",
+      "sha256": "2529e5b2f626fcd047ee4564b6aac87df9eecfd4474999651c99d4b0612bf9a4",
+      "bytes": 74419770
+    },
+    {
+      "file": "tables/persistence_M1_fixed.csv",
+      "sha256": "2b967a5694e44c8214e1f7b01b0db562fbf1e332e30af8efdc9bd9a23e320644",
+      "bytes": 1546
+    },
+    {
+      "file": "tables/persistence_M2_HI_sensitivity.csv",
+      "sha256": "efdd5cc5452ce7ac1761614f59b2b361618ee4923caa7b85b73cc54220cf2618",
+      "bytes": 2131
+    },
+    {
+      "file": "tables/quartile_cutoffs.json",
+      "sha256": "3b52edb72ebd27d81091534b6399364ee6f76804c4498a3bc5586241a8f25cb7",
+      "bytes": 936
+    },
+    {
+      "file": "tables/quartile_transitions.csv",
+      "sha256": "60e0d23159dbb4b186c1be8dacf873013f6a2839dbffa8f5e32a9c5480872bd3",
+      "bytes": 4053
+    },
+    {
+      "file": "tables/sensitivity.csv",
+      "sha256": "8534676542aec9cec54dae0567e4d849f83ddd5efa6d6f8ddc3b2aa8fa390f7d",
+      "bytes": 48872
+    },
+    {
+      "file": "tables/unl_line_items.csv",
+      "sha256": "8f69cf3e8938983c69d3bf5869ffaa935751721a0fe56ae2aed53faa64b58c12",
+      "bytes": 1839
+    },
+    {
+      "file": "tables/year_eligibility.csv",
+      "sha256": "ffd51f13728b5d9c82bef504550d18d052435824f5f0c7897c0d95cf57e72c5a",
+      "bytes": 2368
+    },
+    {
+      "file": "validation.json",
+      "sha256": "4c9dacd0c0e579fcece1699b55ba623d83bda0f2dc50c892a547521659903988",
+      "bytes": 2946
+    },
+    {
+      "file": "verification/Annual_yield.png",
+      "sha256": "be3f2828babbc36a44e1cafaf82735c9c2b5de8c73864a4c5eeb2eb81dc47e18",
+      "bytes": 30868
+    },
+    {
+      "file": "verification/Budget_calculator.png",
+      "sha256": "8ecbef699dedd2fb18b384989ab9dca0fe316a568a207cae490a0d3f4494d245",
+      "bytes": 58696
+    },
+    {
+      "file": "verification/Common_pixels.png",
+      "sha256": "f383d33ffebb7ae2bae3f4441d492f5300ae4a5e8c47f2d1bed1b82119ac2a12",
+      "bytes": 33789
+    },
+    {
+      "file": "verification/County_statistics.png",
+      "sha256": "ba409b3f657f97f139b7025252a2035339c286f29a1169640fdbdb053bd03334",
+      "bytes": 33711
+    },
+    {
+      "file": "verification/Deflator.png",
+      "sha256": "faf81f92f9ff25790f7b7baf842e2611eadff4916ffb5a52bf9d79cd7e4e38e8",
+      "bytes": 26807
+    },
+    {
+      "file": "verification/Economic_inputs.png",
+      "sha256": "411edce4665bdf6683e922223996e3653fed644a08661507ea28299cd5a0df0c",
+      "bytes": 48123
+    },
+    {
+      "file": "verification/NASS_prices.png",
+      "sha256": "160b8eea5fe43e187866c5e6d55f256b3ae0e67f8f26f695cd3890f748baa581",
+      "bytes": 22065
+    },
+    {
+      "file": "verification/NCCPI_uncertainty.png",
+      "sha256": "e07946f087aedc24222c7c5fb422f0f339b33a253240873b769b11b925c1529c",
+      "bytes": 36487
+    },
+    {
+      "file": "verification/Read_me.png",
+      "sha256": "7eb32a3df99561138e4941b87db5c3b8586e75b8c030ac4f2b37bcbcae5afc37",
+      "bytes": 32188
+    },
+    {
+      "file": "verification/Sensitivity.png",
+      "sha256": "d8bde590fc5b9da933daa09004e05ca9927bb6e9701d8f2651c7d447201637de",
+      "bytes": 31593
+    },
+    {
+      "file": "verification/Transitions.png",
+      "sha256": "6ba0093a25e32f16bfd2691249ae0a76d8c7a3c75795c4d1ba0acd2377f4d3df",
+      "bytes": 32742
+    },
+    {
+      "file": "verification/UNL_line_items.png",
+      "sha256": "9c2abd9e4b376bed7fece740949b859a51f20e88a45f4ea6d0cabc8a97e40b53",
+      "bytes": 26602
+    },
+    {
+      "file": "verification/workbook_formulas.json",
+      "sha256": "6936a32fed8c11ba858cd2bcc6a042e804bca1122327e1e3c0c4def8f2b5be25",
+      "bytes": 1588
+    },
+    {
+      "file": "verification/Year_eligibility.png",
+      "sha256": "0a269e063823b2a1246cf2bcc977ed80107debf120965c17b7fa60e026bf7227",
+      "bytes": 59970
+    }
+  ],
+  "year_gate": "original exact-year matching UNL only",
+  "seed": 20260928,
+  "bootstrap_replicates": 1999
+}

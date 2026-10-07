@@ -1,0 +1,1049 @@
+year,section,item,value,raw,file,scope
+2001,Summary,Number of farms,6.0,6,finbin_county_1008338.csv,county
+2005,Summary,Number of farms,6.0,6,finbin_county_1008338.csv,county
+2007,Summary,Number of farms,9.0,9,finbin_county_1008338.csv,county
+2009,Summary,Number of farms,6.0,6,finbin_county_1008338.csv,county
+2011,Summary,Number of farms,8.0,8,finbin_county_1008338.csv,county
+2013,Summary,Number of farms,5.0,5,finbin_county_1008338.csv,county
+2015,Summary,Number of farms,5.0,5,finbin_county_1008338.csv,county
+2019,Summary,Number of farms,5.0,5,finbin_county_1008338.csv,county
+2001,Summary,Acres,421.02,421.02,finbin_county_1008338.csv,county
+2005,Summary,Acres,220.4,220.40,finbin_county_1008338.csv,county
+2007,Summary,Acres,369.13,369.13,finbin_county_1008338.csv,county
+2009,Summary,Acres,443.62,443.62,finbin_county_1008338.csv,county
+2011,Summary,Acres,386.22,386.22,finbin_county_1008338.csv,county
+2013,Summary,Acres,444.23,444.23,finbin_county_1008338.csv,county
+2015,Summary,Acres,391.19,391.19,finbin_county_1008338.csv,county
+2019,Summary,Acres,555.1,555.10,finbin_county_1008338.csv,county
+2001,Summary,Yield per acre (bu.),101.44,101.44,finbin_county_1008338.csv,county
+2005,Summary,Yield per acre (bu.),109.03,109.03,finbin_county_1008338.csv,county
+2007,Summary,Yield per acre (bu.),124.57,124.57,finbin_county_1008338.csv,county
+2009,Summary,Yield per acre (bu.),163.25,163.25,finbin_county_1008338.csv,county
+2011,Summary,Yield per acre (bu.),158.09,158.09,finbin_county_1008338.csv,county
+2013,Summary,Yield per acre (bu.),156.83,156.83,finbin_county_1008338.csv,county
+2015,Summary,Yield per acre (bu.),185.43,185.43,finbin_county_1008338.csv,county
+2019,Summary,Yield per acre (bu.),174.28,174.28,finbin_county_1008338.csv,county
+2001,Summary,Operators share of yield %,81.38,81.38,finbin_county_1008338.csv,county
+2005,Summary,Operators share of yield %,80.8,80.80,finbin_county_1008338.csv,county
+2007,Summary,Operators share of yield %,78.74,78.74,finbin_county_1008338.csv,county
+2009,Summary,Operators share of yield %,80.94,80.94,finbin_county_1008338.csv,county
+2011,Summary,Operators share of yield %,83.5,83.50,finbin_county_1008338.csv,county
+2013,Summary,Operators share of yield %,87.47,87.47,finbin_county_1008338.csv,county
+2015,Summary,Operators share of yield %,90.88,90.88,finbin_county_1008338.csv,county
+2019,Summary,Operators share of yield %,93.26,93.26,finbin_county_1008338.csv,county
+2001,Summary,Value per bu.,1.89,1.89,finbin_county_1008338.csv,county
+2005,Summary,Value per bu.,1.84,1.84,finbin_county_1008338.csv,county
+2007,Summary,Value per bu.,4.21,4.21,finbin_county_1008338.csv,county
+2009,Summary,Value per bu.,3.77,3.77,finbin_county_1008338.csv,county
+2011,Summary,Value per bu.,6.19,6.19,finbin_county_1008338.csv,county
+2013,Summary,Value per bu.,4.65,4.65,finbin_county_1008338.csv,county
+2015,Summary,Value per bu.,3.24,3.24,finbin_county_1008338.csv,county
+2019,Summary,Value per bu.,3.6,3.60,finbin_county_1008338.csv,county
+2001,Summary,Total product return per acre,155.66,155.66,finbin_county_1008338.csv,county
+2005,Summary,Total product return per acre,162.25,162.25,finbin_county_1008338.csv,county
+2007,Summary,Total product return per acre,412.91,412.91,finbin_county_1008338.csv,county
+2009,Summary,Total product return per acre,497.88,497.88,finbin_county_1008338.csv,county
+2011,Summary,Total product return per acre,817.19,817.19,finbin_county_1008338.csv,county
+2013,Summary,Total product return per acre,637.75,637.75,finbin_county_1008338.csv,county
+2015,Summary,Total product return per acre,545.41,545.41,finbin_county_1008338.csv,county
+2019,Summary,Total product return per acre,585.05,585.05,finbin_county_1008338.csv,county
+2001,Summary,Hedging gains/losses per acre,,-,finbin_county_1008338.csv,county
+2005,Summary,Hedging gains/losses per acre,,-,finbin_county_1008338.csv,county
+2007,Summary,Hedging gains/losses per acre,,-,finbin_county_1008338.csv,county
+2009,Summary,Hedging gains/losses per acre,2.11,2.11,finbin_county_1008338.csv,county
+2011,Summary,Hedging gains/losses per acre,-1.78,-1.78,finbin_county_1008338.csv,county
+2013,Summary,Hedging gains/losses per acre,1.65,1.65,finbin_county_1008338.csv,county
+2015,Summary,Hedging gains/losses per acre,,-,finbin_county_1008338.csv,county
+2019,Summary,Hedging gains/losses per acre,0.12,0.12,finbin_county_1008338.csv,county
+2001,Summary,Crop insurance per acre,,-,finbin_county_1008338.csv,county
+2005,Summary,Crop insurance per acre,,-,finbin_county_1008338.csv,county
+2007,Summary,Crop insurance per acre,,-,finbin_county_1008338.csv,county
+2009,Summary,Crop insurance per acre,,-,finbin_county_1008338.csv,county
+2011,Summary,Crop insurance per acre,2.75,2.75,finbin_county_1008338.csv,county
+2013,Summary,Crop insurance per acre,1.95,1.95,finbin_county_1008338.csv,county
+2015,Summary,Crop insurance per acre,,-,finbin_county_1008338.csv,county
+2019,Summary,Crop insurance per acre,,-,finbin_county_1008338.csv,county
+2001,Summary,Other crop income per acre,0.62,0.62,finbin_county_1008338.csv,county
+2005,Summary,Other crop income per acre,11.17,11.17,finbin_county_1008338.csv,county
+2007,Summary,Other crop income per acre,,-,finbin_county_1008338.csv,county
+2009,Summary,Other crop income per acre,,-,finbin_county_1008338.csv,county
+2011,Summary,Other crop income per acre,0.94,0.94,finbin_county_1008338.csv,county
+2013,Summary,Other crop income per acre,1.63,1.63,finbin_county_1008338.csv,county
+2015,Summary,Other crop income per acre,,-,finbin_county_1008338.csv,county
+2019,Summary,Other crop income per acre,52.34,52.34,finbin_county_1008338.csv,county
+2001,Summary,Gross return per acre,156.28,156.28,finbin_county_1008338.csv,county
+2005,Summary,Gross return per acre,173.42,173.42,finbin_county_1008338.csv,county
+2007,Summary,Gross return per acre,412.91,412.91,finbin_county_1008338.csv,county
+2009,Summary,Gross return per acre,499.98,499.98,finbin_county_1008338.csv,county
+2011,Summary,Gross return per acre,819.11,819.11,finbin_county_1008338.csv,county
+2013,Summary,Gross return per acre,642.97,642.97,finbin_county_1008338.csv,county
+2015,Summary,Gross return per acre,545.41,545.41,finbin_county_1008338.csv,county
+2019,Summary,Gross return per acre,637.5,637.50,finbin_county_1008338.csv,county
+2001,Direct Expenses,Seed,27.33,27.33,finbin_county_1008338.csv,county
+2005,Direct Expenses,Seed,29.8,29.80,finbin_county_1008338.csv,county
+2007,Direct Expenses,Seed,43.41,43.41,finbin_county_1008338.csv,county
+2009,Direct Expenses,Seed,58.0,58.00,finbin_county_1008338.csv,county
+2011,Direct Expenses,Seed,68.0,68.00,finbin_county_1008338.csv,county
+2013,Direct Expenses,Seed,88.38,88.38,finbin_county_1008338.csv,county
+2015,Direct Expenses,Seed,88.72,88.72,finbin_county_1008338.csv,county
+2019,Direct Expenses,Seed,74.87,74.87,finbin_county_1008338.csv,county
+2001,Direct Expenses,Fertilizer,22.12,22.12,finbin_county_1008338.csv,county
+2005,Direct Expenses,Fertilizer,23.73,23.73,finbin_county_1008338.csv,county
+2007,Direct Expenses,Fertilizer,30.79,30.79,finbin_county_1008338.csv,county
+2009,Direct Expenses,Fertilizer,75.54,75.54,finbin_county_1008338.csv,county
+2011,Direct Expenses,Fertilizer,73.83,73.83,finbin_county_1008338.csv,county
+2013,Direct Expenses,Fertilizer,79.41,79.41,finbin_county_1008338.csv,county
+2015,Direct Expenses,Fertilizer,66.27,66.27,finbin_county_1008338.csv,county
+2019,Direct Expenses,Fertilizer,82.65,82.65,finbin_county_1008338.csv,county
+2001,Direct Expenses,Crop chemicals,18.6,18.60,finbin_county_1008338.csv,county
+2005,Direct Expenses,Crop chemicals,26.58,26.58,finbin_county_1008338.csv,county
+2007,Direct Expenses,Crop chemicals,24.66,24.66,finbin_county_1008338.csv,county
+2009,Direct Expenses,Crop chemicals,32.53,32.53,finbin_county_1008338.csv,county
+2011,Direct Expenses,Crop chemicals,23.97,23.97,finbin_county_1008338.csv,county
+2013,Direct Expenses,Crop chemicals,35.99,35.99,finbin_county_1008338.csv,county
+2015,Direct Expenses,Crop chemicals,25.83,25.83,finbin_county_1008338.csv,county
+2019,Direct Expenses,Crop chemicals,42.59,42.59,finbin_county_1008338.csv,county
+2001,Direct Expenses,Cover crop expense,,-,finbin_county_1008338.csv,county
+2005,Direct Expenses,Cover crop expense,,-,finbin_county_1008338.csv,county
+2007,Direct Expenses,Cover crop expense,,-,finbin_county_1008338.csv,county
+2009,Direct Expenses,Cover crop expense,,-,finbin_county_1008338.csv,county
+2011,Direct Expenses,Cover crop expense,,-,finbin_county_1008338.csv,county
+2013,Direct Expenses,Cover crop expense,,-,finbin_county_1008338.csv,county
+2015,Direct Expenses,Cover crop expense,,-,finbin_county_1008338.csv,county
+2019,Direct Expenses,Cover crop expense,2.86,2.86,finbin_county_1008338.csv,county
+2001,Direct Expenses,Crop insurance,5.21,5.21,finbin_county_1008338.csv,county
+2005,Direct Expenses,Crop insurance,10.37,10.37,finbin_county_1008338.csv,county
+2007,Direct Expenses,Crop insurance,10.44,10.44,finbin_county_1008338.csv,county
+2009,Direct Expenses,Crop insurance,8.7,8.70,finbin_county_1008338.csv,county
+2011,Direct Expenses,Crop insurance,8.53,8.53,finbin_county_1008338.csv,county
+2013,Direct Expenses,Crop insurance,8.09,8.09,finbin_county_1008338.csv,county
+2015,Direct Expenses,Crop insurance,8.59,8.59,finbin_county_1008338.csv,county
+2019,Direct Expenses,Crop insurance,8.88,8.88,finbin_county_1008338.csv,county
+2001,Direct Expenses,Drying expense,,-,finbin_county_1008338.csv,county
+2005,Direct Expenses,Drying expense,,-,finbin_county_1008338.csv,county
+2007,Direct Expenses,Drying expense,0.76,0.76,finbin_county_1008338.csv,county
+2009,Direct Expenses,Drying expense,5.11,5.11,finbin_county_1008338.csv,county
+2011,Direct Expenses,Drying expense,2.35,2.35,finbin_county_1008338.csv,county
+2013,Direct Expenses,Drying expense,2.17,2.17,finbin_county_1008338.csv,county
+2015,Direct Expenses,Drying expense,2.71,2.71,finbin_county_1008338.csv,county
+2019,Direct Expenses,Drying expense,1.79,1.79,finbin_county_1008338.csv,county
+2001,Direct Expenses,Storage,,-,finbin_county_1008338.csv,county
+2005,Direct Expenses,Storage,,-,finbin_county_1008338.csv,county
+2007,Direct Expenses,Storage,0.16,0.16,finbin_county_1008338.csv,county
+2009,Direct Expenses,Storage,0.3,0.30,finbin_county_1008338.csv,county
+2011,Direct Expenses,Storage,0.05,0.05,finbin_county_1008338.csv,county
+2013,Direct Expenses,Storage,0.59,0.59,finbin_county_1008338.csv,county
+2015,Direct Expenses,Storage,1.89,1.89,finbin_county_1008338.csv,county
+2019,Direct Expenses,Storage,0.19,0.19,finbin_county_1008338.csv,county
+2001,Direct Expenses,Fuel & oil,10.61,10.61,finbin_county_1008338.csv,county
+2005,Direct Expenses,Fuel & oil,14.25,14.25,finbin_county_1008338.csv,county
+2007,Direct Expenses,Fuel & oil,13.52,13.52,finbin_county_1008338.csv,county
+2009,Direct Expenses,Fuel & oil,11.17,11.17,finbin_county_1008338.csv,county
+2011,Direct Expenses,Fuel & oil,24.09,24.09,finbin_county_1008338.csv,county
+2013,Direct Expenses,Fuel & oil,19.27,19.27,finbin_county_1008338.csv,county
+2015,Direct Expenses,Fuel & oil,12.66,12.66,finbin_county_1008338.csv,county
+2019,Direct Expenses,Fuel & oil,13.16,13.16,finbin_county_1008338.csv,county
+2001,Direct Expenses,Repairs,17.4,17.40,finbin_county_1008338.csv,county
+2005,Direct Expenses,Repairs,14.12,14.12,finbin_county_1008338.csv,county
+2007,Direct Expenses,Repairs,24.18,24.18,finbin_county_1008338.csv,county
+2009,Direct Expenses,Repairs,24.05,24.05,finbin_county_1008338.csv,county
+2011,Direct Expenses,Repairs,33.33,33.33,finbin_county_1008338.csv,county
+2013,Direct Expenses,Repairs,28.81,28.81,finbin_county_1008338.csv,county
+2015,Direct Expenses,Repairs,23.48,23.48,finbin_county_1008338.csv,county
+2019,Direct Expenses,Repairs,30.75,30.75,finbin_county_1008338.csv,county
+2001,Direct Expenses,Custom hire,4.7,4.70,finbin_county_1008338.csv,county
+2005,Direct Expenses,Custom hire,7.91,7.91,finbin_county_1008338.csv,county
+2007,Direct Expenses,Custom hire,8.37,8.37,finbin_county_1008338.csv,county
+2009,Direct Expenses,Custom hire,3.88,3.88,finbin_county_1008338.csv,county
+2011,Direct Expenses,Custom hire,4.02,4.02,finbin_county_1008338.csv,county
+2013,Direct Expenses,Custom hire,6.83,6.83,finbin_county_1008338.csv,county
+2015,Direct Expenses,Custom hire,5.15,5.15,finbin_county_1008338.csv,county
+2019,Direct Expenses,Custom hire,18.06,18.06,finbin_county_1008338.csv,county
+2001,Direct Expenses,Land rent,14.44,14.44,finbin_county_1008338.csv,county
+2005,Direct Expenses,Land rent,19.58,19.58,finbin_county_1008338.csv,county
+2007,Direct Expenses,Land rent,26.82,26.82,finbin_county_1008338.csv,county
+2009,Direct Expenses,Land rent,48.68,48.68,finbin_county_1008338.csv,county
+2011,Direct Expenses,Land rent,54.92,54.92,finbin_county_1008338.csv,county
+2013,Direct Expenses,Land rent,110.49,110.49,finbin_county_1008338.csv,county
+2015,Direct Expenses,Land rent,103.25,103.25,finbin_county_1008338.csv,county
+2019,Direct Expenses,Land rent,115.21,115.21,finbin_county_1008338.csv,county
+2001,Direct Expenses,Machinery leases,,-,finbin_county_1008338.csv,county
+2005,Direct Expenses,Machinery leases,,-,finbin_county_1008338.csv,county
+2007,Direct Expenses,Machinery leases,,-,finbin_county_1008338.csv,county
+2009,Direct Expenses,Machinery leases,,-,finbin_county_1008338.csv,county
+2011,Direct Expenses,Machinery leases,,-,finbin_county_1008338.csv,county
+2013,Direct Expenses,Machinery leases,,-,finbin_county_1008338.csv,county
+2015,Direct Expenses,Machinery leases,,-,finbin_county_1008338.csv,county
+2019,Direct Expenses,Machinery leases,1.5,1.50,finbin_county_1008338.csv,county
+2001,Direct Expenses,Utilities,0.48,0.48,finbin_county_1008338.csv,county
+2005,Direct Expenses,Utilities,2.0,2.00,finbin_county_1008338.csv,county
+2007,Direct Expenses,Utilities,1.32,1.32,finbin_county_1008338.csv,county
+2009,Direct Expenses,Utilities,0.93,0.93,finbin_county_1008338.csv,county
+2011,Direct Expenses,Utilities,0.68,0.68,finbin_county_1008338.csv,county
+2013,Direct Expenses,Utilities,0.62,0.62,finbin_county_1008338.csv,county
+2015,Direct Expenses,Utilities,0.7,0.70,finbin_county_1008338.csv,county
+2019,Direct Expenses,Utilities,1.02,1.02,finbin_county_1008338.csv,county
+2001,Direct Expenses,Hauling and trucking,,-,finbin_county_1008338.csv,county
+2005,Direct Expenses,Hauling and trucking,,-,finbin_county_1008338.csv,county
+2007,Direct Expenses,Hauling and trucking,,-,finbin_county_1008338.csv,county
+2009,Direct Expenses,Hauling and trucking,,-,finbin_county_1008338.csv,county
+2011,Direct Expenses,Hauling and trucking,,-,finbin_county_1008338.csv,county
+2013,Direct Expenses,Hauling and trucking,,-,finbin_county_1008338.csv,county
+2015,Direct Expenses,Hauling and trucking,,-,finbin_county_1008338.csv,county
+2019,Direct Expenses,Hauling and trucking,5.37,5.37,finbin_county_1008338.csv,county
+2001,Direct Expenses,Marketing,,-,finbin_county_1008338.csv,county
+2005,Direct Expenses,Marketing,,-,finbin_county_1008338.csv,county
+2007,Direct Expenses,Marketing,0.35,0.35,finbin_county_1008338.csv,county
+2009,Direct Expenses,Marketing,,-,finbin_county_1008338.csv,county
+2011,Direct Expenses,Marketing,,-,finbin_county_1008338.csv,county
+2013,Direct Expenses,Marketing,0.29,0.29,finbin_county_1008338.csv,county
+2015,Direct Expenses,Marketing,,-,finbin_county_1008338.csv,county
+2019,Direct Expenses,Marketing,,-,finbin_county_1008338.csv,county
+2001,Direct Expenses,Operating interest,2.52,2.52,finbin_county_1008338.csv,county
+2005,Direct Expenses,Operating interest,3.71,3.71,finbin_county_1008338.csv,county
+2007,Direct Expenses,Operating interest,5.65,5.65,finbin_county_1008338.csv,county
+2009,Direct Expenses,Operating interest,2.07,2.07,finbin_county_1008338.csv,county
+2011,Direct Expenses,Operating interest,2.54,2.54,finbin_county_1008338.csv,county
+2013,Direct Expenses,Operating interest,1.4,1.40,finbin_county_1008338.csv,county
+2015,Direct Expenses,Operating interest,2.4,2.40,finbin_county_1008338.csv,county
+2019,Direct Expenses,Operating interest,3.96,3.96,finbin_county_1008338.csv,county
+2001,Direct Expenses,Miscellaneous,0.19,0.19,finbin_county_1008338.csv,county
+2005,Direct Expenses,Miscellaneous,0.58,0.58,finbin_county_1008338.csv,county
+2007,Direct Expenses,Miscellaneous,0.14,0.14,finbin_county_1008338.csv,county
+2009,Direct Expenses,Miscellaneous,,-,finbin_county_1008338.csv,county
+2011,Direct Expenses,Miscellaneous,2.99,2.99,finbin_county_1008338.csv,county
+2013,Direct Expenses,Miscellaneous,,-,finbin_county_1008338.csv,county
+2015,Direct Expenses,Miscellaneous,0.18,0.18,finbin_county_1008338.csv,county
+2019,Direct Expenses,Miscellaneous,0.08,0.08,finbin_county_1008338.csv,county
+2001,Direct Expenses,Total direct expenses per acre,123.59,123.59,finbin_county_1008338.csv,county
+2005,Direct Expenses,Total direct expenses per acre,152.62,152.62,finbin_county_1008338.csv,county
+2007,Direct Expenses,Total direct expenses per acre,190.57,190.57,finbin_county_1008338.csv,county
+2009,Direct Expenses,Total direct expenses per acre,270.96,270.96,finbin_county_1008338.csv,county
+2011,Direct Expenses,Total direct expenses per acre,299.29,299.29,finbin_county_1008338.csv,county
+2013,Direct Expenses,Total direct expenses per acre,382.35,382.35,finbin_county_1008338.csv,county
+2015,Direct Expenses,Total direct expenses per acre,341.84,341.84,finbin_county_1008338.csv,county
+2019,Direct Expenses,Total direct expenses per acre,402.95,402.95,finbin_county_1008338.csv,county
+2001,Direct Expenses,Return over direct exp per acre,32.69,32.69,finbin_county_1008338.csv,county
+2005,Direct Expenses,Return over direct exp per acre,20.8,20.80,finbin_county_1008338.csv,county
+2007,Direct Expenses,Return over direct exp per acre,222.34,222.34,finbin_county_1008338.csv,county
+2009,Direct Expenses,Return over direct exp per acre,229.02,229.02,finbin_county_1008338.csv,county
+2011,Direct Expenses,Return over direct exp per acre,519.81,519.81,finbin_county_1008338.csv,county
+2013,Direct Expenses,Return over direct exp per acre,260.62,260.62,finbin_county_1008338.csv,county
+2015,Direct Expenses,Return over direct exp per acre,203.57,203.57,finbin_county_1008338.csv,county
+2019,Direct Expenses,Return over direct exp per acre,234.55,234.55,finbin_county_1008338.csv,county
+2001,Overhead Expenses,Custom hire,11.18,11.18,finbin_county_1008338.csv,county
+2005,Overhead Expenses,Custom hire,3.59,3.59,finbin_county_1008338.csv,county
+2007,Overhead Expenses,Custom hire,2.84,2.84,finbin_county_1008338.csv,county
+2009,Overhead Expenses,Custom hire,2.71,2.71,finbin_county_1008338.csv,county
+2011,Overhead Expenses,Custom hire,2.8,2.80,finbin_county_1008338.csv,county
+2013,Overhead Expenses,Custom hire,5.31,5.31,finbin_county_1008338.csv,county
+2015,Overhead Expenses,Custom hire,31.3,31.30,finbin_county_1008338.csv,county
+2019,Overhead Expenses,Custom hire,8.94,8.94,finbin_county_1008338.csv,county
+2001,Overhead Expenses,Hired labor,9.88,9.88,finbin_county_1008338.csv,county
+2005,Overhead Expenses,Hired labor,18.44,18.44,finbin_county_1008338.csv,county
+2007,Overhead Expenses,Hired labor,6.12,6.12,finbin_county_1008338.csv,county
+2009,Overhead Expenses,Hired labor,5.49,5.49,finbin_county_1008338.csv,county
+2011,Overhead Expenses,Hired labor,18.7,18.70,finbin_county_1008338.csv,county
+2013,Overhead Expenses,Hired labor,15.25,15.25,finbin_county_1008338.csv,county
+2015,Overhead Expenses,Hired labor,16.86,16.86,finbin_county_1008338.csv,county
+2019,Overhead Expenses,Hired labor,13.74,13.74,finbin_county_1008338.csv,county
+2001,Overhead Expenses,Machinery leases,,-,finbin_county_1008338.csv,county
+2005,Overhead Expenses,Machinery leases,0.31,0.31,finbin_county_1008338.csv,county
+2007,Overhead Expenses,Machinery leases,3.86,3.86,finbin_county_1008338.csv,county
+2009,Overhead Expenses,Machinery leases,0.07,0.07,finbin_county_1008338.csv,county
+2011,Overhead Expenses,Machinery leases,4.03,4.03,finbin_county_1008338.csv,county
+2013,Overhead Expenses,Machinery leases,4.82,4.82,finbin_county_1008338.csv,county
+2015,Overhead Expenses,Machinery leases,0.01,0.01,finbin_county_1008338.csv,county
+2019,Overhead Expenses,Machinery leases,0.0,0.00,finbin_county_1008338.csv,county
+2001,Overhead Expenses,Building leases,,-,finbin_county_1008338.csv,county
+2005,Overhead Expenses,Building leases,,-,finbin_county_1008338.csv,county
+2007,Overhead Expenses,Building leases,0.25,0.25,finbin_county_1008338.csv,county
+2009,Overhead Expenses,Building leases,,-,finbin_county_1008338.csv,county
+2011,Overhead Expenses,Building leases,0.21,0.21,finbin_county_1008338.csv,county
+2013,Overhead Expenses,Building leases,,-,finbin_county_1008338.csv,county
+2015,Overhead Expenses,Building leases,,-,finbin_county_1008338.csv,county
+2019,Overhead Expenses,Building leases,0.75,0.75,finbin_county_1008338.csv,county
+2001,Overhead Expenses,RE & pers. property taxes,8.01,8.01,finbin_county_1008338.csv,county
+2005,Overhead Expenses,RE & pers. property taxes,9.93,9.93,finbin_county_1008338.csv,county
+2007,Overhead Expenses,RE & pers. property taxes,9.04,9.04,finbin_county_1008338.csv,county
+2009,Overhead Expenses,RE & pers. property taxes,5.08,5.08,finbin_county_1008338.csv,county
+2011,Overhead Expenses,RE & pers. property taxes,11.14,11.14,finbin_county_1008338.csv,county
+2013,Overhead Expenses,RE & pers. property taxes,10.67,10.67,finbin_county_1008338.csv,county
+2015,Overhead Expenses,RE & pers. property taxes,15.35,15.35,finbin_county_1008338.csv,county
+2019,Overhead Expenses,RE & pers. property taxes,18.37,18.37,finbin_county_1008338.csv,county
+2001,Overhead Expenses,Farm insurance,2.54,2.54,finbin_county_1008338.csv,county
+2005,Overhead Expenses,Farm insurance,6.4,6.40,finbin_county_1008338.csv,county
+2007,Overhead Expenses,Farm insurance,5.32,5.32,finbin_county_1008338.csv,county
+2009,Overhead Expenses,Farm insurance,5.78,5.78,finbin_county_1008338.csv,county
+2011,Overhead Expenses,Farm insurance,9.28,9.28,finbin_county_1008338.csv,county
+2013,Overhead Expenses,Farm insurance,8.5,8.50,finbin_county_1008338.csv,county
+2015,Overhead Expenses,Farm insurance,6.64,6.64,finbin_county_1008338.csv,county
+2019,Overhead Expenses,Farm insurance,9.37,9.37,finbin_county_1008338.csv,county
+2001,Overhead Expenses,Utilities,0.51,0.51,finbin_county_1008338.csv,county
+2005,Overhead Expenses,Utilities,1.46,1.46,finbin_county_1008338.csv,county
+2007,Overhead Expenses,Utilities,0.59,0.59,finbin_county_1008338.csv,county
+2009,Overhead Expenses,Utilities,0.93,0.93,finbin_county_1008338.csv,county
+2011,Overhead Expenses,Utilities,2.45,2.45,finbin_county_1008338.csv,county
+2013,Overhead Expenses,Utilities,1.86,1.86,finbin_county_1008338.csv,county
+2015,Overhead Expenses,Utilities,3.23,3.23,finbin_county_1008338.csv,county
+2019,Overhead Expenses,Utilities,2.33,2.33,finbin_county_1008338.csv,county
+2001,Overhead Expenses,Dues & professional fees,1.26,1.26,finbin_county_1008338.csv,county
+2005,Overhead Expenses,Dues & professional fees,0.64,0.64,finbin_county_1008338.csv,county
+2007,Overhead Expenses,Dues & professional fees,1.51,1.51,finbin_county_1008338.csv,county
+2009,Overhead Expenses,Dues & professional fees,1.16,1.16,finbin_county_1008338.csv,county
+2011,Overhead Expenses,Dues & professional fees,1.87,1.87,finbin_county_1008338.csv,county
+2013,Overhead Expenses,Dues & professional fees,0.62,0.62,finbin_county_1008338.csv,county
+2015,Overhead Expenses,Dues & professional fees,1.74,1.74,finbin_county_1008338.csv,county
+2019,Overhead Expenses,Dues & professional fees,2.09,2.09,finbin_county_1008338.csv,county
+2001,Overhead Expenses,Interest,18.97,18.97,finbin_county_1008338.csv,county
+2005,Overhead Expenses,Interest,15.45,15.45,finbin_county_1008338.csv,county
+2007,Overhead Expenses,Interest,8.86,8.86,finbin_county_1008338.csv,county
+2009,Overhead Expenses,Interest,5.2,5.20,finbin_county_1008338.csv,county
+2011,Overhead Expenses,Interest,3.66,3.66,finbin_county_1008338.csv,county
+2013,Overhead Expenses,Interest,2.79,2.79,finbin_county_1008338.csv,county
+2015,Overhead Expenses,Interest,8.5,8.50,finbin_county_1008338.csv,county
+2019,Overhead Expenses,Interest,7.71,7.71,finbin_county_1008338.csv,county
+2001,Overhead Expenses,Mach & bldg depreciation,16.65,16.65,finbin_county_1008338.csv,county
+2005,Overhead Expenses,Mach & bldg depreciation,11.18,11.18,finbin_county_1008338.csv,county
+2007,Overhead Expenses,Mach & bldg depreciation,29.31,29.31,finbin_county_1008338.csv,county
+2009,Overhead Expenses,Mach & bldg depreciation,53.24,53.24,finbin_county_1008338.csv,county
+2011,Overhead Expenses,Mach & bldg depreciation,43.63,43.63,finbin_county_1008338.csv,county
+2013,Overhead Expenses,Mach & bldg depreciation,50.55,50.55,finbin_county_1008338.csv,county
+2015,Overhead Expenses,Mach & bldg depreciation,46.66,46.66,finbin_county_1008338.csv,county
+2019,Overhead Expenses,Mach & bldg depreciation,35.5,35.50,finbin_county_1008338.csv,county
+2001,Overhead Expenses,Miscellaneous,2.17,2.17,finbin_county_1008338.csv,county
+2005,Overhead Expenses,Miscellaneous,3.59,3.59,finbin_county_1008338.csv,county
+2007,Overhead Expenses,Miscellaneous,1.84,1.84,finbin_county_1008338.csv,county
+2009,Overhead Expenses,Miscellaneous,2.59,2.59,finbin_county_1008338.csv,county
+2011,Overhead Expenses,Miscellaneous,1.69,1.69,finbin_county_1008338.csv,county
+2013,Overhead Expenses,Miscellaneous,2.09,2.09,finbin_county_1008338.csv,county
+2015,Overhead Expenses,Miscellaneous,2.67,2.67,finbin_county_1008338.csv,county
+2019,Overhead Expenses,Miscellaneous,4.38,4.38,finbin_county_1008338.csv,county
+2001,Overhead Expenses,Total overhead expenses per acre,71.17,71.17,finbin_county_1008338.csv,county
+2005,Overhead Expenses,Total overhead expenses per acre,70.97,70.97,finbin_county_1008338.csv,county
+2007,Overhead Expenses,Total overhead expenses per acre,69.52,69.52,finbin_county_1008338.csv,county
+2009,Overhead Expenses,Total overhead expenses per acre,82.24,82.24,finbin_county_1008338.csv,county
+2011,Overhead Expenses,Total overhead expenses per acre,99.46,99.46,finbin_county_1008338.csv,county
+2013,Overhead Expenses,Total overhead expenses per acre,102.46,102.46,finbin_county_1008338.csv,county
+2015,Overhead Expenses,Total overhead expenses per acre,132.97,132.97,finbin_county_1008338.csv,county
+2019,Overhead Expenses,Total overhead expenses per acre,103.18,103.18,finbin_county_1008338.csv,county
+2001,Overhead Expenses,Total dir & ovhd expenses per acre,194.76,194.76,finbin_county_1008338.csv,county
+2005,Overhead Expenses,Total dir & ovhd expenses per acre,223.59,223.59,finbin_county_1008338.csv,county
+2007,Overhead Expenses,Total dir & ovhd expenses per acre,260.09,260.09,finbin_county_1008338.csv,county
+2009,Overhead Expenses,Total dir & ovhd expenses per acre,353.2,353.20,finbin_county_1008338.csv,county
+2011,Overhead Expenses,Total dir & ovhd expenses per acre,398.76,398.76,finbin_county_1008338.csv,county
+2013,Overhead Expenses,Total dir & ovhd expenses per acre,484.81,484.81,finbin_county_1008338.csv,county
+2015,Overhead Expenses,Total dir & ovhd expenses per acre,474.81,474.81,finbin_county_1008338.csv,county
+2019,Overhead Expenses,Total dir & ovhd expenses per acre,506.14,506.14,finbin_county_1008338.csv,county
+2001,Overhead Expenses,Net return per acre,-38.47,-38.47,finbin_county_1008338.csv,county
+2005,Overhead Expenses,Net return per acre,-50.17,-50.17,finbin_county_1008338.csv,county
+2007,Overhead Expenses,Net return per acre,152.82,152.82,finbin_county_1008338.csv,county
+2009,Overhead Expenses,Net return per acre,146.78,146.78,finbin_county_1008338.csv,county
+2011,Overhead Expenses,Net return per acre,420.35,420.35,finbin_county_1008338.csv,county
+2013,Overhead Expenses,Net return per acre,158.16,158.16,finbin_county_1008338.csv,county
+2015,Overhead Expenses,Net return per acre,70.6,70.60,finbin_county_1008338.csv,county
+2019,Overhead Expenses,Net return per acre,131.37,131.37,finbin_county_1008338.csv,county
+2001,Overhead Expenses,Government payments,1.74,1.74,finbin_county_1008338.csv,county
+2005,Overhead Expenses,Government payments,,-,finbin_county_1008338.csv,county
+2007,Overhead Expenses,Government payments,9.57,9.57,finbin_county_1008338.csv,county
+2009,Overhead Expenses,Government payments,14.93,14.93,finbin_county_1008338.csv,county
+2011,Overhead Expenses,Government payments,16.51,16.51,finbin_county_1008338.csv,county
+2013,Overhead Expenses,Government payments,26.08,26.08,finbin_county_1008338.csv,county
+2015,Overhead Expenses,Government payments,19.27,19.27,finbin_county_1008338.csv,county
+2019,Overhead Expenses,Government payments,6.59,6.59,finbin_county_1008338.csv,county
+2001,Overhead Expenses,Net return with govt pmts,-36.73,-36.73,finbin_county_1008338.csv,county
+2005,Overhead Expenses,Net return with govt pmts,-50.17,-50.17,finbin_county_1008338.csv,county
+2007,Overhead Expenses,Net return with govt pmts,162.38,162.38,finbin_county_1008338.csv,county
+2009,Overhead Expenses,Net return with govt pmts,161.71,161.71,finbin_county_1008338.csv,county
+2011,Overhead Expenses,Net return with govt pmts,436.86,436.86,finbin_county_1008338.csv,county
+2013,Overhead Expenses,Net return with govt pmts,184.24,184.24,finbin_county_1008338.csv,county
+2015,Overhead Expenses,Net return with govt pmts,89.87,89.87,finbin_county_1008338.csv,county
+2019,Overhead Expenses,Net return with govt pmts,137.96,137.96,finbin_county_1008338.csv,county
+2001,Overhead Expenses,Labor & management charge,16.4,16.40,finbin_county_1008338.csv,county
+2005,Overhead Expenses,Labor & management charge,27.53,27.53,finbin_county_1008338.csv,county
+2007,Overhead Expenses,Labor & management charge,22.01,22.01,finbin_county_1008338.csv,county
+2009,Overhead Expenses,Labor & management charge,25.26,25.26,finbin_county_1008338.csv,county
+2011,Overhead Expenses,Labor & management charge,27.09,27.09,finbin_county_1008338.csv,county
+2013,Overhead Expenses,Labor & management charge,31.43,31.43,finbin_county_1008338.csv,county
+2015,Overhead Expenses,Labor & management charge,29.2,29.20,finbin_county_1008338.csv,county
+2019,Overhead Expenses,Labor & management charge,45.36,45.36,finbin_county_1008338.csv,county
+2001,Overhead Expenses,Net return over lbr & mgt,-53.13,-53.13,finbin_county_1008338.csv,county
+2005,Overhead Expenses,Net return over lbr & mgt,-77.7,-77.70,finbin_county_1008338.csv,county
+2007,Overhead Expenses,Net return over lbr & mgt,140.37,140.37,finbin_county_1008338.csv,county
+2009,Overhead Expenses,Net return over lbr & mgt,136.45,136.45,finbin_county_1008338.csv,county
+2011,Overhead Expenses,Net return over lbr & mgt,409.77,409.77,finbin_county_1008338.csv,county
+2013,Overhead Expenses,Net return over lbr & mgt,152.8,152.80,finbin_county_1008338.csv,county
+2015,Overhead Expenses,Net return over lbr & mgt,60.67,60.67,finbin_county_1008338.csv,county
+2019,Overhead Expenses,Net return over lbr & mgt,92.6,92.60,finbin_county_1008338.csv,county
+2001,Overhead Expenses,Total direct expense per bu.,1.5,1.50,finbin_county_1008338.csv,county
+2005,Overhead Expenses,Total direct expense per bu.,1.73,1.73,finbin_county_1008338.csv,county
+2007,Overhead Expenses,Total direct expense per bu.,1.94,1.94,finbin_county_1008338.csv,county
+2009,Overhead Expenses,Total direct expense per bu.,2.05,2.05,finbin_county_1008338.csv,county
+2011,Overhead Expenses,Total direct expense per bu.,2.27,2.27,finbin_county_1008338.csv,county
+2013,Overhead Expenses,Total direct expense per bu.,2.79,2.79,finbin_county_1008338.csv,county
+2015,Overhead Expenses,Total direct expense per bu.,2.03,2.03,finbin_county_1008338.csv,county
+2019,Overhead Expenses,Total direct expense per bu.,2.48,2.48,finbin_county_1008338.csv,county
+2001,Overhead Expenses,Total dir & ovhd exp per bu.,2.36,2.36,finbin_county_1008338.csv,county
+2005,Overhead Expenses,Total dir & ovhd exp per bu.,2.54,2.54,finbin_county_1008338.csv,county
+2007,Overhead Expenses,Total dir & ovhd exp per bu.,2.65,2.65,finbin_county_1008338.csv,county
+2009,Overhead Expenses,Total dir & ovhd exp per bu.,2.67,2.67,finbin_county_1008338.csv,county
+2011,Overhead Expenses,Total dir & ovhd exp per bu.,3.02,3.02,finbin_county_1008338.csv,county
+2013,Overhead Expenses,Total dir & ovhd exp per bu.,3.53,3.53,finbin_county_1008338.csv,county
+2015,Overhead Expenses,Total dir & ovhd exp per bu.,2.82,2.82,finbin_county_1008338.csv,county
+2019,Overhead Expenses,Total dir & ovhd exp per bu.,3.11,3.11,finbin_county_1008338.csv,county
+2001,Overhead Expenses,Less govt & other income,2.33,2.33,finbin_county_1008338.csv,county
+2005,Overhead Expenses,Less govt & other income,2.41,2.41,finbin_county_1008338.csv,county
+2007,Overhead Expenses,Less govt & other income,2.55,2.55,finbin_county_1008338.csv,county
+2009,Overhead Expenses,Less govt & other income,2.54,2.54,finbin_county_1008338.csv,county
+2011,Overhead Expenses,Less govt & other income,2.88,2.88,finbin_county_1008338.csv,county
+2013,Overhead Expenses,Less govt & other income,3.31,3.31,finbin_county_1008338.csv,county
+2015,Overhead Expenses,Less govt & other income,2.7,2.70,finbin_county_1008338.csv,county
+2019,Overhead Expenses,Less govt & other income,2.75,2.75,finbin_county_1008338.csv,county
+2001,Overhead Expenses,With labor & management,2.53,2.53,finbin_county_1008338.csv,county
+2005,Overhead Expenses,With labor & management,2.72,2.72,finbin_county_1008338.csv,county
+2007,Overhead Expenses,With labor & management,2.78,2.78,finbin_county_1008338.csv,county
+2009,Overhead Expenses,With labor & management,2.74,2.74,finbin_county_1008338.csv,county
+2011,Overhead Expenses,With labor & management,3.09,3.09,finbin_county_1008338.csv,county
+2013,Overhead Expenses,With labor & management,3.54,3.54,finbin_county_1008338.csv,county
+2015,Overhead Expenses,With labor & management,2.88,2.88,finbin_county_1008338.csv,county
+2019,Overhead Expenses,With labor & management,3.03,3.03,finbin_county_1008338.csv,county
+2001,Overhead Expenses,Net value per unit,1.89,1.89,finbin_county_1008338.csv,county
+2005,Overhead Expenses,Net value per unit,1.84,1.84,finbin_county_1008338.csv,county
+2007,Overhead Expenses,Net value per unit,4.21,4.21,finbin_county_1008338.csv,county
+2009,Overhead Expenses,Net value per unit,3.78,3.78,finbin_county_1008338.csv,county
+2011,Overhead Expenses,Net value per unit,6.18,6.18,finbin_county_1008338.csv,county
+2013,Overhead Expenses,Net value per unit,4.66,4.66,finbin_county_1008338.csv,county
+2015,Overhead Expenses,Net value per unit,3.24,3.24,finbin_county_1008338.csv,county
+2019,Overhead Expenses,Net value per unit,3.6,3.60,finbin_county_1008338.csv,county
+2001,Overhead Expenses,Machinery cost per acre,,-,finbin_county_1008338.csv,county
+2005,Overhead Expenses,Machinery cost per acre,51.77,51.77,finbin_county_1008338.csv,county
+2007,Overhead Expenses,Machinery cost per acre,81.54,81.54,finbin_county_1008338.csv,county
+2009,Overhead Expenses,Machinery cost per acre,95.25,95.25,finbin_county_1008338.csv,county
+2011,Overhead Expenses,Machinery cost per acre,107.49,107.49,finbin_county_1008338.csv,county
+2013,Overhead Expenses,Machinery cost per acre,111.55,111.55,finbin_county_1008338.csv,county
+2015,Overhead Expenses,Machinery cost per acre,111.46,111.46,finbin_county_1008338.csv,county
+2019,Overhead Expenses,Machinery cost per acre,103.79,103.79,finbin_county_1008338.csv,county
+2001,Overhead Expenses,Est. labor hours per acre,1.56,1.56,finbin_county_1008338.csv,county
+2005,Overhead Expenses,Est. labor hours per acre,2.61,2.61,finbin_county_1008338.csv,county
+2007,Overhead Expenses,Est. labor hours per acre,1.72,1.72,finbin_county_1008338.csv,county
+2009,Overhead Expenses,Est. labor hours per acre,2.13,2.13,finbin_county_1008338.csv,county
+2011,Overhead Expenses,Est. labor hours per acre,2.28,2.28,finbin_county_1008338.csv,county
+2013,Overhead Expenses,Est. labor hours per acre,1.9,1.90,finbin_county_1008338.csv,county
+2015,Overhead Expenses,Est. labor hours per acre,2.2,2.20,finbin_county_1008338.csv,county
+2019,Overhead Expenses,Est. labor hours per acre,1.92,1.92,finbin_county_1008338.csv,county
+2001,Summary,Number of farms,60.0,60,finbin_state_1008210.csv,state
+2003,Summary,Number of farms,49.0,49,finbin_state_1008210.csv,state
+2005,Summary,Number of farms,48.0,48,finbin_state_1008210.csv,state
+2007,Summary,Number of farms,56.0,56,finbin_state_1008210.csv,state
+2009,Summary,Number of farms,60.0,60,finbin_state_1008210.csv,state
+2011,Summary,Number of farms,64.0,64,finbin_state_1008210.csv,state
+2013,Summary,Number of farms,58.0,58,finbin_state_1008210.csv,state
+2015,Summary,Number of farms,52.0,52,finbin_state_1008210.csv,state
+2017,Summary,Number of farms,54.0,54,finbin_state_1008210.csv,state
+2019,Summary,Number of farms,63.0,63,finbin_state_1008210.csv,state
+2021,Summary,Number of farms,52.0,52,finbin_state_1008210.csv,state
+2001,Summary,Acres,253.85,253.85,finbin_state_1008210.csv,state
+2003,Summary,Acres,241.44,241.44,finbin_state_1008210.csv,state
+2005,Summary,Acres,267.89,267.89,finbin_state_1008210.csv,state
+2007,Summary,Acres,299.82,299.82,finbin_state_1008210.csv,state
+2009,Summary,Acres,234.31,234.31,finbin_state_1008210.csv,state
+2011,Summary,Acres,271.03,271.03,finbin_state_1008210.csv,state
+2013,Summary,Acres,262.24,262.24,finbin_state_1008210.csv,state
+2015,Summary,Acres,227.64,227.64,finbin_state_1008210.csv,state
+2017,Summary,Acres,251.71,251.71,finbin_state_1008210.csv,state
+2019,Summary,Acres,264.74,264.74,finbin_state_1008210.csv,state
+2021,Summary,Acres,247.95,247.95,finbin_state_1008210.csv,state
+2001,Summary,Yield per acre (bu.),105.97,105.97,finbin_state_1008210.csv,state
+2003,Summary,Yield per acre (bu.),86.23,86.23,finbin_state_1008210.csv,state
+2005,Summary,Yield per acre (bu.),114.74,114.74,finbin_state_1008210.csv,state
+2007,Summary,Yield per acre (bu.),120.0,120.00,finbin_state_1008210.csv,state
+2009,Summary,Yield per acre (bu.),152.85,152.85,finbin_state_1008210.csv,state
+2011,Summary,Yield per acre (bu.),138.95,138.95,finbin_state_1008210.csv,state
+2013,Summary,Yield per acre (bu.),136.61,136.61,finbin_state_1008210.csv,state
+2015,Summary,Yield per acre (bu.),160.08,160.08,finbin_state_1008210.csv,state
+2017,Summary,Yield per acre (bu.),165.19,165.19,finbin_state_1008210.csv,state
+2019,Summary,Yield per acre (bu.),167.15,167.15,finbin_state_1008210.csv,state
+2021,Summary,Yield per acre (bu.),184.19,184.19,finbin_state_1008210.csv,state
+2001,Summary,Operators share of yield %,78.7,78.70,finbin_state_1008210.csv,state
+2003,Summary,Operators share of yield %,77.24,77.24,finbin_state_1008210.csv,state
+2005,Summary,Operators share of yield %,78.6,78.60,finbin_state_1008210.csv,state
+2007,Summary,Operators share of yield %,80.0,80.00,finbin_state_1008210.csv,state
+2009,Summary,Operators share of yield %,83.37,83.37,finbin_state_1008210.csv,state
+2011,Summary,Operators share of yield %,81.82,81.82,finbin_state_1008210.csv,state
+2013,Summary,Operators share of yield %,84.59,84.59,finbin_state_1008210.csv,state
+2015,Summary,Operators share of yield %,86.98,86.98,finbin_state_1008210.csv,state
+2017,Summary,Operators share of yield %,88.96,88.96,finbin_state_1008210.csv,state
+2019,Summary,Operators share of yield %,91.15,91.15,finbin_state_1008210.csv,state
+2021,Summary,Operators share of yield %,90.82,90.82,finbin_state_1008210.csv,state
+2001,Summary,Value per bu.,1.9,1.90,finbin_state_1008210.csv,state
+2003,Summary,Value per bu.,2.25,2.25,finbin_state_1008210.csv,state
+2005,Summary,Value per bu.,1.85,1.85,finbin_state_1008210.csv,state
+2007,Summary,Value per bu.,4.03,4.03,finbin_state_1008210.csv,state
+2009,Summary,Value per bu.,3.7,3.70,finbin_state_1008210.csv,state
+2011,Summary,Value per bu.,6.04,6.04,finbin_state_1008210.csv,state
+2013,Summary,Value per bu.,4.34,4.34,finbin_state_1008210.csv,state
+2015,Summary,Value per bu.,3.43,3.43,finbin_state_1008210.csv,state
+2017,Summary,Value per bu.,3.24,3.24,finbin_state_1008210.csv,state
+2019,Summary,Value per bu.,3.68,3.68,finbin_state_1008210.csv,state
+2021,Summary,Value per bu.,5.43,5.43,finbin_state_1008210.csv,state
+2001,Summary,Total product return per acre,158.84,158.84,finbin_state_1008210.csv,state
+2003,Summary,Total product return per acre,149.76,149.76,finbin_state_1008210.csv,state
+2005,Summary,Total product return per acre,166.62,166.62,finbin_state_1008210.csv,state
+2007,Summary,Total product return per acre,387.12,387.12,finbin_state_1008210.csv,state
+2009,Summary,Total product return per acre,472.08,472.08,finbin_state_1008210.csv,state
+2011,Summary,Total product return per acre,687.23,687.23,finbin_state_1008210.csv,state
+2013,Summary,Total product return per acre,501.67,501.67,finbin_state_1008210.csv,state
+2015,Summary,Total product return per acre,477.44,477.44,finbin_state_1008210.csv,state
+2017,Summary,Total product return per acre,476.21,476.21,finbin_state_1008210.csv,state
+2019,Summary,Total product return per acre,559.92,559.92,finbin_state_1008210.csv,state
+2021,Summary,Total product return per acre,909.0,909.00,finbin_state_1008210.csv,state
+2001,Summary,Hedging gains/losses per acre,,-,finbin_state_1008210.csv,state
+2003,Summary,Hedging gains/losses per acre,,-,finbin_state_1008210.csv,state
+2005,Summary,Hedging gains/losses per acre,,-,finbin_state_1008210.csv,state
+2007,Summary,Hedging gains/losses per acre,,-,finbin_state_1008210.csv,state
+2009,Summary,Hedging gains/losses per acre,-0.61,-0.61,finbin_state_1008210.csv,state
+2011,Summary,Hedging gains/losses per acre,-2.99,-2.99,finbin_state_1008210.csv,state
+2013,Summary,Hedging gains/losses per acre,3.66,3.66,finbin_state_1008210.csv,state
+2015,Summary,Hedging gains/losses per acre,-0.31,-0.31,finbin_state_1008210.csv,state
+2017,Summary,Hedging gains/losses per acre,2.08,2.08,finbin_state_1008210.csv,state
+2019,Summary,Hedging gains/losses per acre,3.52,3.52,finbin_state_1008210.csv,state
+2021,Summary,Hedging gains/losses per acre,-9.88,-9.88,finbin_state_1008210.csv,state
+2001,Summary,Crop insurance per acre,,-,finbin_state_1008210.csv,state
+2003,Summary,Crop insurance per acre,,-,finbin_state_1008210.csv,state
+2005,Summary,Crop insurance per acre,,-,finbin_state_1008210.csv,state
+2007,Summary,Crop insurance per acre,,-,finbin_state_1008210.csv,state
+2009,Summary,Crop insurance per acre,5.84,5.84,finbin_state_1008210.csv,state
+2011,Summary,Crop insurance per acre,10.29,10.29,finbin_state_1008210.csv,state
+2013,Summary,Crop insurance per acre,15.39,15.39,finbin_state_1008210.csv,state
+2015,Summary,Crop insurance per acre,5.48,5.48,finbin_state_1008210.csv,state
+2017,Summary,Crop insurance per acre,21.89,21.89,finbin_state_1008210.csv,state
+2019,Summary,Crop insurance per acre,12.29,12.29,finbin_state_1008210.csv,state
+2021,Summary,Crop insurance per acre,7.98,7.98,finbin_state_1008210.csv,state
+2001,Summary,LDP income per acre,,-,finbin_state_1008210.csv,state
+2003,Summary,LDP income per acre,,-,finbin_state_1008210.csv,state
+2005,Summary,LDP income per acre,,-,finbin_state_1008210.csv,state
+2007,Summary,LDP income per acre,,-,finbin_state_1008210.csv,state
+2009,Summary,LDP income per acre,,-,finbin_state_1008210.csv,state
+2011,Summary,LDP income per acre,,-,finbin_state_1008210.csv,state
+2013,Summary,LDP income per acre,0.38,0.38,finbin_state_1008210.csv,state
+2015,Summary,LDP income per acre,,-,finbin_state_1008210.csv,state
+2017,Summary,LDP income per acre,,-,finbin_state_1008210.csv,state
+2019,Summary,LDP income per acre,,-,finbin_state_1008210.csv,state
+2021,Summary,LDP income per acre,,-,finbin_state_1008210.csv,state
+2001,Summary,Other crop income per acre,3.17,3.17,finbin_state_1008210.csv,state
+2003,Summary,Other crop income per acre,11.69,11.69,finbin_state_1008210.csv,state
+2005,Summary,Other crop income per acre,20.76,20.76,finbin_state_1008210.csv,state
+2007,Summary,Other crop income per acre,2.36,2.36,finbin_state_1008210.csv,state
+2009,Summary,Other crop income per acre,0.7,0.70,finbin_state_1008210.csv,state
+2011,Summary,Other crop income per acre,0.96,0.96,finbin_state_1008210.csv,state
+2013,Summary,Other crop income per acre,7.23,7.23,finbin_state_1008210.csv,state
+2015,Summary,Other crop income per acre,,-,finbin_state_1008210.csv,state
+2017,Summary,Other crop income per acre,4.72,4.72,finbin_state_1008210.csv,state
+2019,Summary,Other crop income per acre,58.33,58.33,finbin_state_1008210.csv,state
+2021,Summary,Other crop income per acre,10.52,10.52,finbin_state_1008210.csv,state
+2001,Summary,Gross return per acre,162.0,162.00,finbin_state_1008210.csv,state
+2003,Summary,Gross return per acre,161.45,161.45,finbin_state_1008210.csv,state
+2005,Summary,Gross return per acre,187.39,187.39,finbin_state_1008210.csv,state
+2007,Summary,Gross return per acre,389.48,389.48,finbin_state_1008210.csv,state
+2009,Summary,Gross return per acre,478.0,478.00,finbin_state_1008210.csv,state
+2011,Summary,Gross return per acre,695.48,695.48,finbin_state_1008210.csv,state
+2013,Summary,Gross return per acre,528.33,528.33,finbin_state_1008210.csv,state
+2015,Summary,Gross return per acre,482.61,482.61,finbin_state_1008210.csv,state
+2017,Summary,Gross return per acre,504.9,504.90,finbin_state_1008210.csv,state
+2019,Summary,Gross return per acre,634.06,634.06,finbin_state_1008210.csv,state
+2021,Summary,Gross return per acre,917.61,917.61,finbin_state_1008210.csv,state
+2001,Direct Expenses,Seed,26.31,26.31,finbin_state_1008210.csv,state
+2003,Direct Expenses,Seed,28.11,28.11,finbin_state_1008210.csv,state
+2005,Direct Expenses,Seed,32.31,32.31,finbin_state_1008210.csv,state
+2007,Direct Expenses,Seed,39.38,39.38,finbin_state_1008210.csv,state
+2009,Direct Expenses,Seed,55.02,55.02,finbin_state_1008210.csv,state
+2011,Direct Expenses,Seed,62.56,62.56,finbin_state_1008210.csv,state
+2013,Direct Expenses,Seed,74.73,74.73,finbin_state_1008210.csv,state
+2015,Direct Expenses,Seed,83.84,83.84,finbin_state_1008210.csv,state
+2017,Direct Expenses,Seed,85.63,85.63,finbin_state_1008210.csv,state
+2019,Direct Expenses,Seed,75.49,75.49,finbin_state_1008210.csv,state
+2021,Direct Expenses,Seed,84.66,84.66,finbin_state_1008210.csv,state
+2001,Direct Expenses,Fertilizer,28.57,28.57,finbin_state_1008210.csv,state
+2003,Direct Expenses,Fertilizer,26.27,26.27,finbin_state_1008210.csv,state
+2005,Direct Expenses,Fertilizer,31.82,31.82,finbin_state_1008210.csv,state
+2007,Direct Expenses,Fertilizer,37.93,37.93,finbin_state_1008210.csv,state
+2009,Direct Expenses,Fertilizer,86.96,86.96,finbin_state_1008210.csv,state
+2011,Direct Expenses,Fertilizer,87.57,87.57,finbin_state_1008210.csv,state
+2013,Direct Expenses,Fertilizer,114.31,114.31,finbin_state_1008210.csv,state
+2015,Direct Expenses,Fertilizer,88.1,88.10,finbin_state_1008210.csv,state
+2017,Direct Expenses,Fertilizer,77.1,77.10,finbin_state_1008210.csv,state
+2019,Direct Expenses,Fertilizer,93.39,93.39,finbin_state_1008210.csv,state
+2021,Direct Expenses,Fertilizer,102.95,102.95,finbin_state_1008210.csv,state
+2001,Direct Expenses,Crop chemicals,24.63,24.63,finbin_state_1008210.csv,state
+2003,Direct Expenses,Crop chemicals,23.68,23.68,finbin_state_1008210.csv,state
+2005,Direct Expenses,Crop chemicals,22.83,22.83,finbin_state_1008210.csv,state
+2007,Direct Expenses,Crop chemicals,22.92,22.92,finbin_state_1008210.csv,state
+2009,Direct Expenses,Crop chemicals,32.6,32.60,finbin_state_1008210.csv,state
+2011,Direct Expenses,Crop chemicals,26.7,26.70,finbin_state_1008210.csv,state
+2013,Direct Expenses,Crop chemicals,40.81,40.81,finbin_state_1008210.csv,state
+2015,Direct Expenses,Crop chemicals,46.86,46.86,finbin_state_1008210.csv,state
+2017,Direct Expenses,Crop chemicals,46.16,46.16,finbin_state_1008210.csv,state
+2019,Direct Expenses,Crop chemicals,63.22,63.22,finbin_state_1008210.csv,state
+2021,Direct Expenses,Crop chemicals,69.32,69.32,finbin_state_1008210.csv,state
+2001,Direct Expenses,Cover crop expense,,-,finbin_state_1008210.csv,state
+2003,Direct Expenses,Cover crop expense,,-,finbin_state_1008210.csv,state
+2005,Direct Expenses,Cover crop expense,,-,finbin_state_1008210.csv,state
+2007,Direct Expenses,Cover crop expense,,-,finbin_state_1008210.csv,state
+2009,Direct Expenses,Cover crop expense,,-,finbin_state_1008210.csv,state
+2011,Direct Expenses,Cover crop expense,,-,finbin_state_1008210.csv,state
+2013,Direct Expenses,Cover crop expense,,-,finbin_state_1008210.csv,state
+2015,Direct Expenses,Cover crop expense,,-,finbin_state_1008210.csv,state
+2017,Direct Expenses,Cover crop expense,0.13,0.13,finbin_state_1008210.csv,state
+2019,Direct Expenses,Cover crop expense,0.66,0.66,finbin_state_1008210.csv,state
+2021,Direct Expenses,Cover crop expense,0.2,0.20,finbin_state_1008210.csv,state
+2001,Direct Expenses,Crop insurance,5.64,5.64,finbin_state_1008210.csv,state
+2003,Direct Expenses,Crop insurance,9.09,9.09,finbin_state_1008210.csv,state
+2005,Direct Expenses,Crop insurance,7.11,7.11,finbin_state_1008210.csv,state
+2007,Direct Expenses,Crop insurance,12.42,12.42,finbin_state_1008210.csv,state
+2009,Direct Expenses,Crop insurance,14.92,14.92,finbin_state_1008210.csv,state
+2011,Direct Expenses,Crop insurance,18.61,18.61,finbin_state_1008210.csv,state
+2013,Direct Expenses,Crop insurance,23.35,23.35,finbin_state_1008210.csv,state
+2015,Direct Expenses,Crop insurance,21.36,21.36,finbin_state_1008210.csv,state
+2017,Direct Expenses,Crop insurance,20.13,20.13,finbin_state_1008210.csv,state
+2019,Direct Expenses,Crop insurance,20.41,20.41,finbin_state_1008210.csv,state
+2021,Direct Expenses,Crop insurance,26.74,26.74,finbin_state_1008210.csv,state
+2001,Direct Expenses,Drying expense,0.67,0.67,finbin_state_1008210.csv,state
+2003,Direct Expenses,Drying expense,0.52,0.52,finbin_state_1008210.csv,state
+2005,Direct Expenses,Drying expense,0.29,0.29,finbin_state_1008210.csv,state
+2007,Direct Expenses,Drying expense,0.39,0.39,finbin_state_1008210.csv,state
+2009,Direct Expenses,Drying expense,4.63,4.63,finbin_state_1008210.csv,state
+2011,Direct Expenses,Drying expense,1.16,1.16,finbin_state_1008210.csv,state
+2013,Direct Expenses,Drying expense,1.26,1.26,finbin_state_1008210.csv,state
+2015,Direct Expenses,Drying expense,1.63,1.63,finbin_state_1008210.csv,state
+2017,Direct Expenses,Drying expense,2.04,2.04,finbin_state_1008210.csv,state
+2019,Direct Expenses,Drying expense,1.47,1.47,finbin_state_1008210.csv,state
+2021,Direct Expenses,Drying expense,4.98,4.98,finbin_state_1008210.csv,state
+2001,Direct Expenses,Storage,,-,finbin_state_1008210.csv,state
+2003,Direct Expenses,Storage,,-,finbin_state_1008210.csv,state
+2005,Direct Expenses,Storage,,-,finbin_state_1008210.csv,state
+2007,Direct Expenses,Storage,0.36,0.36,finbin_state_1008210.csv,state
+2009,Direct Expenses,Storage,1.55,1.55,finbin_state_1008210.csv,state
+2011,Direct Expenses,Storage,2.35,2.35,finbin_state_1008210.csv,state
+2013,Direct Expenses,Storage,2.57,2.57,finbin_state_1008210.csv,state
+2015,Direct Expenses,Storage,2.43,2.43,finbin_state_1008210.csv,state
+2017,Direct Expenses,Storage,2.95,2.95,finbin_state_1008210.csv,state
+2019,Direct Expenses,Storage,3.23,3.23,finbin_state_1008210.csv,state
+2021,Direct Expenses,Storage,1.5,1.50,finbin_state_1008210.csv,state
+2001,Direct Expenses,Fuel & oil,9.59,9.59,finbin_state_1008210.csv,state
+2003,Direct Expenses,Fuel & oil,8.66,8.66,finbin_state_1008210.csv,state
+2005,Direct Expenses,Fuel & oil,13.33,13.33,finbin_state_1008210.csv,state
+2007,Direct Expenses,Fuel & oil,15.77,15.77,finbin_state_1008210.csv,state
+2009,Direct Expenses,Fuel & oil,14.74,14.74,finbin_state_1008210.csv,state
+2011,Direct Expenses,Fuel & oil,24.42,24.42,finbin_state_1008210.csv,state
+2013,Direct Expenses,Fuel & oil,24.22,24.22,finbin_state_1008210.csv,state
+2015,Direct Expenses,Fuel & oil,16.49,16.49,finbin_state_1008210.csv,state
+2017,Direct Expenses,Fuel & oil,16.78,16.78,finbin_state_1008210.csv,state
+2019,Direct Expenses,Fuel & oil,17.72,17.72,finbin_state_1008210.csv,state
+2021,Direct Expenses,Fuel & oil,21.45,21.45,finbin_state_1008210.csv,state
+2001,Direct Expenses,Repairs,17.36,17.36,finbin_state_1008210.csv,state
+2003,Direct Expenses,Repairs,15.91,15.91,finbin_state_1008210.csv,state
+2005,Direct Expenses,Repairs,17.11,17.11,finbin_state_1008210.csv,state
+2007,Direct Expenses,Repairs,20.17,20.17,finbin_state_1008210.csv,state
+2009,Direct Expenses,Repairs,27.93,27.93,finbin_state_1008210.csv,state
+2011,Direct Expenses,Repairs,34.15,34.15,finbin_state_1008210.csv,state
+2013,Direct Expenses,Repairs,37.22,37.22,finbin_state_1008210.csv,state
+2015,Direct Expenses,Repairs,38.35,38.35,finbin_state_1008210.csv,state
+2017,Direct Expenses,Repairs,43.28,43.28,finbin_state_1008210.csv,state
+2019,Direct Expenses,Repairs,35.83,35.83,finbin_state_1008210.csv,state
+2021,Direct Expenses,Repairs,52.72,52.72,finbin_state_1008210.csv,state
+2001,Direct Expenses,Custom hire,3.48,3.48,finbin_state_1008210.csv,state
+2003,Direct Expenses,Custom hire,2.84,2.84,finbin_state_1008210.csv,state
+2005,Direct Expenses,Custom hire,3.54,3.54,finbin_state_1008210.csv,state
+2007,Direct Expenses,Custom hire,4.76,4.76,finbin_state_1008210.csv,state
+2009,Direct Expenses,Custom hire,7.35,7.35,finbin_state_1008210.csv,state
+2011,Direct Expenses,Custom hire,6.24,6.24,finbin_state_1008210.csv,state
+2013,Direct Expenses,Custom hire,5.95,5.95,finbin_state_1008210.csv,state
+2015,Direct Expenses,Custom hire,6.12,6.12,finbin_state_1008210.csv,state
+2017,Direct Expenses,Custom hire,9.04,9.04,finbin_state_1008210.csv,state
+2019,Direct Expenses,Custom hire,10.04,10.04,finbin_state_1008210.csv,state
+2021,Direct Expenses,Custom hire,25.43,25.43,finbin_state_1008210.csv,state
+2001,Direct Expenses,Hired labor,,-,finbin_state_1008210.csv,state
+2003,Direct Expenses,Hired labor,,-,finbin_state_1008210.csv,state
+2005,Direct Expenses,Hired labor,,-,finbin_state_1008210.csv,state
+2007,Direct Expenses,Hired labor,,-,finbin_state_1008210.csv,state
+2009,Direct Expenses,Hired labor,,-,finbin_state_1008210.csv,state
+2011,Direct Expenses,Hired labor,0.07,0.07,finbin_state_1008210.csv,state
+2013,Direct Expenses,Hired labor,,-,finbin_state_1008210.csv,state
+2015,Direct Expenses,Hired labor,3.93,3.93,finbin_state_1008210.csv,state
+2017,Direct Expenses,Hired labor,0.15,0.15,finbin_state_1008210.csv,state
+2019,Direct Expenses,Hired labor,0.09,0.09,finbin_state_1008210.csv,state
+2021,Direct Expenses,Hired labor,,-,finbin_state_1008210.csv,state
+2001,Direct Expenses,Land rent,19.22,19.22,finbin_state_1008210.csv,state
+2003,Direct Expenses,Land rent,17.58,17.58,finbin_state_1008210.csv,state
+2005,Direct Expenses,Land rent,24.12,24.12,finbin_state_1008210.csv,state
+2007,Direct Expenses,Land rent,29.61,29.61,finbin_state_1008210.csv,state
+2009,Direct Expenses,Land rent,39.03,39.03,finbin_state_1008210.csv,state
+2011,Direct Expenses,Land rent,47.96,47.96,finbin_state_1008210.csv,state
+2013,Direct Expenses,Land rent,78.21,78.21,finbin_state_1008210.csv,state
+2015,Direct Expenses,Land rent,88.12,88.12,finbin_state_1008210.csv,state
+2017,Direct Expenses,Land rent,82.1,82.10,finbin_state_1008210.csv,state
+2019,Direct Expenses,Land rent,104.83,104.83,finbin_state_1008210.csv,state
+2021,Direct Expenses,Land rent,103.51,103.51,finbin_state_1008210.csv,state
+2001,Direct Expenses,Machinery leases,0.41,0.41,finbin_state_1008210.csv,state
+2003,Direct Expenses,Machinery leases,,-,finbin_state_1008210.csv,state
+2005,Direct Expenses,Machinery leases,0.0,0.00,finbin_state_1008210.csv,state
+2007,Direct Expenses,Machinery leases,1.19,1.19,finbin_state_1008210.csv,state
+2009,Direct Expenses,Machinery leases,0.02,0.02,finbin_state_1008210.csv,state
+2011,Direct Expenses,Machinery leases,0.01,0.01,finbin_state_1008210.csv,state
+2013,Direct Expenses,Machinery leases,1.34,1.34,finbin_state_1008210.csv,state
+2015,Direct Expenses,Machinery leases,4.05,4.05,finbin_state_1008210.csv,state
+2017,Direct Expenses,Machinery leases,6.96,6.96,finbin_state_1008210.csv,state
+2019,Direct Expenses,Machinery leases,2.94,2.94,finbin_state_1008210.csv,state
+2021,Direct Expenses,Machinery leases,4.8,4.80,finbin_state_1008210.csv,state
+2001,Direct Expenses,Utilities,2.04,2.04,finbin_state_1008210.csv,state
+2003,Direct Expenses,Utilities,2.13,2.13,finbin_state_1008210.csv,state
+2005,Direct Expenses,Utilities,2.43,2.43,finbin_state_1008210.csv,state
+2007,Direct Expenses,Utilities,2.28,2.28,finbin_state_1008210.csv,state
+2009,Direct Expenses,Utilities,2.66,2.66,finbin_state_1008210.csv,state
+2011,Direct Expenses,Utilities,2.83,2.83,finbin_state_1008210.csv,state
+2013,Direct Expenses,Utilities,2.77,2.77,finbin_state_1008210.csv,state
+2015,Direct Expenses,Utilities,2.8,2.80,finbin_state_1008210.csv,state
+2017,Direct Expenses,Utilities,2.3,2.30,finbin_state_1008210.csv,state
+2019,Direct Expenses,Utilities,1.59,1.59,finbin_state_1008210.csv,state
+2021,Direct Expenses,Utilities,,-,finbin_state_1008210.csv,state
+2001,Direct Expenses,Hauling and trucking,,-,finbin_state_1008210.csv,state
+2003,Direct Expenses,Hauling and trucking,,-,finbin_state_1008210.csv,state
+2005,Direct Expenses,Hauling and trucking,,-,finbin_state_1008210.csv,state
+2007,Direct Expenses,Hauling and trucking,,-,finbin_state_1008210.csv,state
+2009,Direct Expenses,Hauling and trucking,,-,finbin_state_1008210.csv,state
+2011,Direct Expenses,Hauling and trucking,,-,finbin_state_1008210.csv,state
+2013,Direct Expenses,Hauling and trucking,,-,finbin_state_1008210.csv,state
+2015,Direct Expenses,Hauling and trucking,0.99,0.99,finbin_state_1008210.csv,state
+2017,Direct Expenses,Hauling and trucking,1.71,1.71,finbin_state_1008210.csv,state
+2019,Direct Expenses,Hauling and trucking,1.84,1.84,finbin_state_1008210.csv,state
+2021,Direct Expenses,Hauling and trucking,0.65,0.65,finbin_state_1008210.csv,state
+2001,Direct Expenses,Marketing,0.69,0.69,finbin_state_1008210.csv,state
+2003,Direct Expenses,Marketing,1.29,1.29,finbin_state_1008210.csv,state
+2005,Direct Expenses,Marketing,1.63,1.63,finbin_state_1008210.csv,state
+2007,Direct Expenses,Marketing,2.49,2.49,finbin_state_1008210.csv,state
+2009,Direct Expenses,Marketing,0.92,0.92,finbin_state_1008210.csv,state
+2011,Direct Expenses,Marketing,0.89,0.89,finbin_state_1008210.csv,state
+2013,Direct Expenses,Marketing,0.84,0.84,finbin_state_1008210.csv,state
+2015,Direct Expenses,Marketing,2.4,2.40,finbin_state_1008210.csv,state
+2017,Direct Expenses,Marketing,3.24,3.24,finbin_state_1008210.csv,state
+2019,Direct Expenses,Marketing,2.53,2.53,finbin_state_1008210.csv,state
+2021,Direct Expenses,Marketing,1.59,1.59,finbin_state_1008210.csv,state
+2001,Direct Expenses,Operating interest,7.07,7.07,finbin_state_1008210.csv,state
+2003,Direct Expenses,Operating interest,5.36,5.36,finbin_state_1008210.csv,state
+2005,Direct Expenses,Operating interest,5.95,5.95,finbin_state_1008210.csv,state
+2007,Direct Expenses,Operating interest,6.37,6.37,finbin_state_1008210.csv,state
+2009,Direct Expenses,Operating interest,4.59,4.59,finbin_state_1008210.csv,state
+2011,Direct Expenses,Operating interest,4.12,4.12,finbin_state_1008210.csv,state
+2013,Direct Expenses,Operating interest,4.61,4.61,finbin_state_1008210.csv,state
+2015,Direct Expenses,Operating interest,7.33,7.33,finbin_state_1008210.csv,state
+2017,Direct Expenses,Operating interest,7.26,7.26,finbin_state_1008210.csv,state
+2019,Direct Expenses,Operating interest,12.77,12.77,finbin_state_1008210.csv,state
+2021,Direct Expenses,Operating interest,8.54,8.54,finbin_state_1008210.csv,state
+2001,Direct Expenses,Miscellaneous,0.67,0.67,finbin_state_1008210.csv,state
+2003,Direct Expenses,Miscellaneous,0.66,0.66,finbin_state_1008210.csv,state
+2005,Direct Expenses,Miscellaneous,1.05,1.05,finbin_state_1008210.csv,state
+2007,Direct Expenses,Miscellaneous,1.0,1.00,finbin_state_1008210.csv,state
+2009,Direct Expenses,Miscellaneous,1.5,1.50,finbin_state_1008210.csv,state
+2011,Direct Expenses,Miscellaneous,1.62,1.62,finbin_state_1008210.csv,state
+2013,Direct Expenses,Miscellaneous,2.13,2.13,finbin_state_1008210.csv,state
+2015,Direct Expenses,Miscellaneous,0.65,0.65,finbin_state_1008210.csv,state
+2017,Direct Expenses,Miscellaneous,1.66,1.66,finbin_state_1008210.csv,state
+2019,Direct Expenses,Miscellaneous,2.47,2.47,finbin_state_1008210.csv,state
+2021,Direct Expenses,Miscellaneous,2.28,2.28,finbin_state_1008210.csv,state
+2001,Direct Expenses,Total direct expenses per acre,146.35,146.35,finbin_state_1008210.csv,state
+2003,Direct Expenses,Total direct expenses per acre,142.1,142.10,finbin_state_1008210.csv,state
+2005,Direct Expenses,Total direct expenses per acre,163.51,163.51,finbin_state_1008210.csv,state
+2007,Direct Expenses,Total direct expenses per acre,197.04,197.04,finbin_state_1008210.csv,state
+2009,Direct Expenses,Total direct expenses per acre,294.41,294.41,finbin_state_1008210.csv,state
+2011,Direct Expenses,Total direct expenses per acre,321.25,321.25,finbin_state_1008210.csv,state
+2013,Direct Expenses,Total direct expenses per acre,414.31,414.31,finbin_state_1008210.csv,state
+2015,Direct Expenses,Total direct expenses per acre,415.47,415.47,finbin_state_1008210.csv,state
+2017,Direct Expenses,Total direct expenses per acre,408.62,408.62,finbin_state_1008210.csv,state
+2019,Direct Expenses,Total direct expenses per acre,450.5,450.50,finbin_state_1008210.csv,state
+2021,Direct Expenses,Total direct expenses per acre,511.31,511.31,finbin_state_1008210.csv,state
+2001,Direct Expenses,Return over direct exp per acre,15.66,15.66,finbin_state_1008210.csv,state
+2003,Direct Expenses,Return over direct exp per acre,19.35,19.35,finbin_state_1008210.csv,state
+2005,Direct Expenses,Return over direct exp per acre,23.88,23.88,finbin_state_1008210.csv,state
+2007,Direct Expenses,Return over direct exp per acre,192.44,192.44,finbin_state_1008210.csv,state
+2009,Direct Expenses,Return over direct exp per acre,183.59,183.59,finbin_state_1008210.csv,state
+2011,Direct Expenses,Return over direct exp per acre,374.23,374.23,finbin_state_1008210.csv,state
+2013,Direct Expenses,Return over direct exp per acre,114.02,114.02,finbin_state_1008210.csv,state
+2015,Direct Expenses,Return over direct exp per acre,67.13,67.13,finbin_state_1008210.csv,state
+2017,Direct Expenses,Return over direct exp per acre,96.27,96.27,finbin_state_1008210.csv,state
+2019,Direct Expenses,Return over direct exp per acre,183.56,183.56,finbin_state_1008210.csv,state
+2021,Direct Expenses,Return over direct exp per acre,406.3,406.30,finbin_state_1008210.csv,state
+2001,Overhead Expenses,Custom hire,3.52,3.52,finbin_state_1008210.csv,state
+2003,Overhead Expenses,Custom hire,1.18,1.18,finbin_state_1008210.csv,state
+2005,Overhead Expenses,Custom hire,1.59,1.59,finbin_state_1008210.csv,state
+2007,Overhead Expenses,Custom hire,1.33,1.33,finbin_state_1008210.csv,state
+2009,Overhead Expenses,Custom hire,4.91,4.91,finbin_state_1008210.csv,state
+2011,Overhead Expenses,Custom hire,11.45,11.45,finbin_state_1008210.csv,state
+2013,Overhead Expenses,Custom hire,11.01,11.01,finbin_state_1008210.csv,state
+2015,Overhead Expenses,Custom hire,16.01,16.01,finbin_state_1008210.csv,state
+2017,Overhead Expenses,Custom hire,8.49,8.49,finbin_state_1008210.csv,state
+2019,Overhead Expenses,Custom hire,14.9,14.90,finbin_state_1008210.csv,state
+2021,Overhead Expenses,Custom hire,9.54,9.54,finbin_state_1008210.csv,state
+2001,Overhead Expenses,Hired labor,8.58,8.58,finbin_state_1008210.csv,state
+2003,Overhead Expenses,Hired labor,7.89,7.89,finbin_state_1008210.csv,state
+2005,Overhead Expenses,Hired labor,10.35,10.35,finbin_state_1008210.csv,state
+2007,Overhead Expenses,Hired labor,10.96,10.96,finbin_state_1008210.csv,state
+2009,Overhead Expenses,Hired labor,8.33,8.33,finbin_state_1008210.csv,state
+2011,Overhead Expenses,Hired labor,14.0,14.00,finbin_state_1008210.csv,state
+2013,Overhead Expenses,Hired labor,13.2,13.20,finbin_state_1008210.csv,state
+2015,Overhead Expenses,Hired labor,10.88,10.88,finbin_state_1008210.csv,state
+2017,Overhead Expenses,Hired labor,22.52,22.52,finbin_state_1008210.csv,state
+2019,Overhead Expenses,Hired labor,15.94,15.94,finbin_state_1008210.csv,state
+2021,Overhead Expenses,Hired labor,19.4,19.40,finbin_state_1008210.csv,state
+2001,Overhead Expenses,Machinery leases,2.3,2.30,finbin_state_1008210.csv,state
+2003,Overhead Expenses,Machinery leases,3.42,3.42,finbin_state_1008210.csv,state
+2005,Overhead Expenses,Machinery leases,2.69,2.69,finbin_state_1008210.csv,state
+2007,Overhead Expenses,Machinery leases,2.55,2.55,finbin_state_1008210.csv,state
+2009,Overhead Expenses,Machinery leases,4.64,4.64,finbin_state_1008210.csv,state
+2011,Overhead Expenses,Machinery leases,7.81,7.81,finbin_state_1008210.csv,state
+2013,Overhead Expenses,Machinery leases,7.91,7.91,finbin_state_1008210.csv,state
+2015,Overhead Expenses,Machinery leases,4.39,4.39,finbin_state_1008210.csv,state
+2017,Overhead Expenses,Machinery leases,5.56,5.56,finbin_state_1008210.csv,state
+2019,Overhead Expenses,Machinery leases,6.57,6.57,finbin_state_1008210.csv,state
+2021,Overhead Expenses,Machinery leases,11.67,11.67,finbin_state_1008210.csv,state
+2001,Overhead Expenses,Building leases,,-,finbin_state_1008210.csv,state
+2003,Overhead Expenses,Building leases,,-,finbin_state_1008210.csv,state
+2005,Overhead Expenses,Building leases,,-,finbin_state_1008210.csv,state
+2007,Overhead Expenses,Building leases,0.48,0.48,finbin_state_1008210.csv,state
+2009,Overhead Expenses,Building leases,0.17,0.17,finbin_state_1008210.csv,state
+2011,Overhead Expenses,Building leases,0.55,0.55,finbin_state_1008210.csv,state
+2013,Overhead Expenses,Building leases,0.52,0.52,finbin_state_1008210.csv,state
+2015,Overhead Expenses,Building leases,0.17,0.17,finbin_state_1008210.csv,state
+2017,Overhead Expenses,Building leases,0.83,0.83,finbin_state_1008210.csv,state
+2019,Overhead Expenses,Building leases,0.84,0.84,finbin_state_1008210.csv,state
+2021,Overhead Expenses,Building leases,0.48,0.48,finbin_state_1008210.csv,state
+2001,Overhead Expenses,RE & pers. property taxes,6.66,6.66,finbin_state_1008210.csv,state
+2003,Overhead Expenses,RE & pers. property taxes,4.81,4.81,finbin_state_1008210.csv,state
+2005,Overhead Expenses,RE & pers. property taxes,5.83,5.83,finbin_state_1008210.csv,state
+2007,Overhead Expenses,RE & pers. property taxes,7.34,7.34,finbin_state_1008210.csv,state
+2009,Overhead Expenses,RE & pers. property taxes,9.6,9.60,finbin_state_1008210.csv,state
+2011,Overhead Expenses,RE & pers. property taxes,10.53,10.53,finbin_state_1008210.csv,state
+2013,Overhead Expenses,RE & pers. property taxes,13.09,13.09,finbin_state_1008210.csv,state
+2015,Overhead Expenses,RE & pers. property taxes,21.21,21.21,finbin_state_1008210.csv,state
+2017,Overhead Expenses,RE & pers. property taxes,20.09,20.09,finbin_state_1008210.csv,state
+2019,Overhead Expenses,RE & pers. property taxes,17.14,17.14,finbin_state_1008210.csv,state
+2021,Overhead Expenses,RE & pers. property taxes,21.15,21.15,finbin_state_1008210.csv,state
+2001,Overhead Expenses,Farm insurance,3.04,3.04,finbin_state_1008210.csv,state
+2003,Overhead Expenses,Farm insurance,3.25,3.25,finbin_state_1008210.csv,state
+2005,Overhead Expenses,Farm insurance,4.42,4.42,finbin_state_1008210.csv,state
+2007,Overhead Expenses,Farm insurance,6.21,6.21,finbin_state_1008210.csv,state
+2009,Overhead Expenses,Farm insurance,5.59,5.59,finbin_state_1008210.csv,state
+2011,Overhead Expenses,Farm insurance,6.67,6.67,finbin_state_1008210.csv,state
+2013,Overhead Expenses,Farm insurance,7.77,7.77,finbin_state_1008210.csv,state
+2015,Overhead Expenses,Farm insurance,8.92,8.92,finbin_state_1008210.csv,state
+2017,Overhead Expenses,Farm insurance,11.92,11.92,finbin_state_1008210.csv,state
+2019,Overhead Expenses,Farm insurance,10.67,10.67,finbin_state_1008210.csv,state
+2021,Overhead Expenses,Farm insurance,11.33,11.33,finbin_state_1008210.csv,state
+2001,Overhead Expenses,Utilities,0.52,0.52,finbin_state_1008210.csv,state
+2003,Overhead Expenses,Utilities,0.68,0.68,finbin_state_1008210.csv,state
+2005,Overhead Expenses,Utilities,0.57,0.57,finbin_state_1008210.csv,state
+2007,Overhead Expenses,Utilities,0.59,0.59,finbin_state_1008210.csv,state
+2009,Overhead Expenses,Utilities,0.94,0.94,finbin_state_1008210.csv,state
+2011,Overhead Expenses,Utilities,1.3,1.30,finbin_state_1008210.csv,state
+2013,Overhead Expenses,Utilities,1.37,1.37,finbin_state_1008210.csv,state
+2015,Overhead Expenses,Utilities,1.93,1.93,finbin_state_1008210.csv,state
+2017,Overhead Expenses,Utilities,2.92,2.92,finbin_state_1008210.csv,state
+2019,Overhead Expenses,Utilities,3.43,3.43,finbin_state_1008210.csv,state
+2021,Overhead Expenses,Utilities,4.09,4.09,finbin_state_1008210.csv,state
+2001,Overhead Expenses,Dues & professional fees,1.45,1.45,finbin_state_1008210.csv,state
+2003,Overhead Expenses,Dues & professional fees,1.55,1.55,finbin_state_1008210.csv,state
+2005,Overhead Expenses,Dues & professional fees,1.37,1.37,finbin_state_1008210.csv,state
+2007,Overhead Expenses,Dues & professional fees,1.95,1.95,finbin_state_1008210.csv,state
+2009,Overhead Expenses,Dues & professional fees,2.34,2.34,finbin_state_1008210.csv,state
+2011,Overhead Expenses,Dues & professional fees,3.01,3.01,finbin_state_1008210.csv,state
+2013,Overhead Expenses,Dues & professional fees,3.25,3.25,finbin_state_1008210.csv,state
+2015,Overhead Expenses,Dues & professional fees,3.57,3.57,finbin_state_1008210.csv,state
+2017,Overhead Expenses,Dues & professional fees,4.93,4.93,finbin_state_1008210.csv,state
+2019,Overhead Expenses,Dues & professional fees,4.25,4.25,finbin_state_1008210.csv,state
+2021,Overhead Expenses,Dues & professional fees,5.59,5.59,finbin_state_1008210.csv,state
+2001,Overhead Expenses,Interest,12.85,12.85,finbin_state_1008210.csv,state
+2003,Overhead Expenses,Interest,10.46,10.46,finbin_state_1008210.csv,state
+2005,Overhead Expenses,Interest,7.34,7.34,finbin_state_1008210.csv,state
+2007,Overhead Expenses,Interest,7.34,7.34,finbin_state_1008210.csv,state
+2009,Overhead Expenses,Interest,9.72,9.72,finbin_state_1008210.csv,state
+2011,Overhead Expenses,Interest,10.04,10.04,finbin_state_1008210.csv,state
+2013,Overhead Expenses,Interest,9.13,9.13,finbin_state_1008210.csv,state
+2015,Overhead Expenses,Interest,9.35,9.35,finbin_state_1008210.csv,state
+2017,Overhead Expenses,Interest,11.6,11.60,finbin_state_1008210.csv,state
+2019,Overhead Expenses,Interest,21.09,21.09,finbin_state_1008210.csv,state
+2021,Overhead Expenses,Interest,11.79,11.79,finbin_state_1008210.csv,state
+2001,Overhead Expenses,Mach & bldg depreciation,21.47,21.47,finbin_state_1008210.csv,state
+2003,Overhead Expenses,Mach & bldg depreciation,16.8,16.80,finbin_state_1008210.csv,state
+2005,Overhead Expenses,Mach & bldg depreciation,22.23,22.23,finbin_state_1008210.csv,state
+2007,Overhead Expenses,Mach & bldg depreciation,29.49,29.49,finbin_state_1008210.csv,state
+2009,Overhead Expenses,Mach & bldg depreciation,41.32,41.32,finbin_state_1008210.csv,state
+2011,Overhead Expenses,Mach & bldg depreciation,34.69,34.69,finbin_state_1008210.csv,state
+2013,Overhead Expenses,Mach & bldg depreciation,49.71,49.71,finbin_state_1008210.csv,state
+2015,Overhead Expenses,Mach & bldg depreciation,50.53,50.53,finbin_state_1008210.csv,state
+2017,Overhead Expenses,Mach & bldg depreciation,55.62,55.62,finbin_state_1008210.csv,state
+2019,Overhead Expenses,Mach & bldg depreciation,57.98,57.98,finbin_state_1008210.csv,state
+2021,Overhead Expenses,Mach & bldg depreciation,55.69,55.69,finbin_state_1008210.csv,state
+2001,Overhead Expenses,Miscellaneous,3.05,3.05,finbin_state_1008210.csv,state
+2003,Overhead Expenses,Miscellaneous,1.77,1.77,finbin_state_1008210.csv,state
+2005,Overhead Expenses,Miscellaneous,2.6,2.60,finbin_state_1008210.csv,state
+2007,Overhead Expenses,Miscellaneous,2.06,2.06,finbin_state_1008210.csv,state
+2009,Overhead Expenses,Miscellaneous,2.79,2.79,finbin_state_1008210.csv,state
+2011,Overhead Expenses,Miscellaneous,2.51,2.51,finbin_state_1008210.csv,state
+2013,Overhead Expenses,Miscellaneous,2.92,2.92,finbin_state_1008210.csv,state
+2015,Overhead Expenses,Miscellaneous,3.73,3.73,finbin_state_1008210.csv,state
+2017,Overhead Expenses,Miscellaneous,3.85,3.85,finbin_state_1008210.csv,state
+2019,Overhead Expenses,Miscellaneous,4.88,4.88,finbin_state_1008210.csv,state
+2021,Overhead Expenses,Miscellaneous,7.24,7.24,finbin_state_1008210.csv,state
+2001,Overhead Expenses,Total overhead expenses per acre,63.44,63.44,finbin_state_1008210.csv,state
+2003,Overhead Expenses,Total overhead expenses per acre,51.82,51.82,finbin_state_1008210.csv,state
+2005,Overhead Expenses,Total overhead expenses per acre,58.98,58.98,finbin_state_1008210.csv,state
+2007,Overhead Expenses,Total overhead expenses per acre,70.29,70.29,finbin_state_1008210.csv,state
+2009,Overhead Expenses,Total overhead expenses per acre,90.36,90.36,finbin_state_1008210.csv,state
+2011,Overhead Expenses,Total overhead expenses per acre,102.56,102.56,finbin_state_1008210.csv,state
+2013,Overhead Expenses,Total overhead expenses per acre,119.87,119.87,finbin_state_1008210.csv,state
+2015,Overhead Expenses,Total overhead expenses per acre,130.7,130.70,finbin_state_1008210.csv,state
+2017,Overhead Expenses,Total overhead expenses per acre,148.36,148.36,finbin_state_1008210.csv,state
+2019,Overhead Expenses,Total overhead expenses per acre,157.68,157.68,finbin_state_1008210.csv,state
+2021,Overhead Expenses,Total overhead expenses per acre,157.97,157.97,finbin_state_1008210.csv,state
+2001,Overhead Expenses,Total dir & ovhd expenses per acre,209.78,209.78,finbin_state_1008210.csv,state
+2003,Overhead Expenses,Total dir & ovhd expenses per acre,193.92,193.92,finbin_state_1008210.csv,state
+2005,Overhead Expenses,Total dir & ovhd expenses per acre,222.49,222.49,finbin_state_1008210.csv,state
+2007,Overhead Expenses,Total dir & ovhd expenses per acre,267.33,267.33,finbin_state_1008210.csv,state
+2009,Overhead Expenses,Total dir & ovhd expenses per acre,384.77,384.77,finbin_state_1008210.csv,state
+2011,Overhead Expenses,Total dir & ovhd expenses per acre,423.82,423.82,finbin_state_1008210.csv,state
+2013,Overhead Expenses,Total dir & ovhd expenses per acre,534.18,534.18,finbin_state_1008210.csv,state
+2015,Overhead Expenses,Total dir & ovhd expenses per acre,546.18,546.18,finbin_state_1008210.csv,state
+2017,Overhead Expenses,Total dir & ovhd expenses per acre,556.98,556.98,finbin_state_1008210.csv,state
+2019,Overhead Expenses,Total dir & ovhd expenses per acre,608.18,608.18,finbin_state_1008210.csv,state
+2021,Overhead Expenses,Total dir & ovhd expenses per acre,669.29,669.29,finbin_state_1008210.csv,state
+2001,Overhead Expenses,Net return per acre,-47.78,-47.78,finbin_state_1008210.csv,state
+2003,Overhead Expenses,Net return per acre,-32.47,-32.47,finbin_state_1008210.csv,state
+2005,Overhead Expenses,Net return per acre,-35.11,-35.11,finbin_state_1008210.csv,state
+2007,Overhead Expenses,Net return per acre,122.15,122.15,finbin_state_1008210.csv,state
+2009,Overhead Expenses,Net return per acre,93.24,93.24,finbin_state_1008210.csv,state
+2011,Overhead Expenses,Net return per acre,271.67,271.67,finbin_state_1008210.csv,state
+2013,Overhead Expenses,Net return per acre,-5.86,-5.86,finbin_state_1008210.csv,state
+2015,Overhead Expenses,Net return per acre,-63.57,-63.57,finbin_state_1008210.csv,state
+2017,Overhead Expenses,Net return per acre,-52.08,-52.08,finbin_state_1008210.csv,state
+2019,Overhead Expenses,Net return per acre,25.88,25.88,finbin_state_1008210.csv,state
+2021,Overhead Expenses,Net return per acre,248.33,248.33,finbin_state_1008210.csv,state
+2001,Overhead Expenses,Government payments,2.64,2.64,finbin_state_1008210.csv,state
+2003,Overhead Expenses,Government payments,,-,finbin_state_1008210.csv,state
+2005,Overhead Expenses,Government payments,0.27,0.27,finbin_state_1008210.csv,state
+2007,Overhead Expenses,Government payments,11.04,11.04,finbin_state_1008210.csv,state
+2009,Overhead Expenses,Government payments,15.96,15.96,finbin_state_1008210.csv,state
+2011,Overhead Expenses,Government payments,15.18,15.18,finbin_state_1008210.csv,state
+2013,Overhead Expenses,Government payments,32.77,32.77,finbin_state_1008210.csv,state
+2015,Overhead Expenses,Government payments,27.33,27.33,finbin_state_1008210.csv,state
+2017,Overhead Expenses,Government payments,30.35,30.35,finbin_state_1008210.csv,state
+2019,Overhead Expenses,Government payments,5.64,5.64,finbin_state_1008210.csv,state
+2021,Overhead Expenses,Government payments,0.37,0.37,finbin_state_1008210.csv,state
+2001,Overhead Expenses,Net return with govt pmts,-45.14,-45.14,finbin_state_1008210.csv,state
+2003,Overhead Expenses,Net return with govt pmts,-32.47,-32.47,finbin_state_1008210.csv,state
+2005,Overhead Expenses,Net return with govt pmts,-34.83,-34.83,finbin_state_1008210.csv,state
+2007,Overhead Expenses,Net return with govt pmts,133.19,133.19,finbin_state_1008210.csv,state
+2009,Overhead Expenses,Net return with govt pmts,109.2,109.20,finbin_state_1008210.csv,state
+2011,Overhead Expenses,Net return with govt pmts,286.85,286.85,finbin_state_1008210.csv,state
+2013,Overhead Expenses,Net return with govt pmts,26.92,26.92,finbin_state_1008210.csv,state
+2015,Overhead Expenses,Net return with govt pmts,-36.23,-36.23,finbin_state_1008210.csv,state
+2017,Overhead Expenses,Net return with govt pmts,-21.73,-21.73,finbin_state_1008210.csv,state
+2019,Overhead Expenses,Net return with govt pmts,31.52,31.52,finbin_state_1008210.csv,state
+2021,Overhead Expenses,Net return with govt pmts,248.69,248.69,finbin_state_1008210.csv,state
+2001,Overhead Expenses,Labor & management charge,21.35,21.35,finbin_state_1008210.csv,state
+2003,Overhead Expenses,Labor & management charge,21.12,21.12,finbin_state_1008210.csv,state
+2005,Overhead Expenses,Labor & management charge,24.74,24.74,finbin_state_1008210.csv,state
+2007,Overhead Expenses,Labor & management charge,28.33,28.33,finbin_state_1008210.csv,state
+2009,Overhead Expenses,Labor & management charge,37.43,37.43,finbin_state_1008210.csv,state
+2011,Overhead Expenses,Labor & management charge,44.23,44.23,finbin_state_1008210.csv,state
+2013,Overhead Expenses,Labor & management charge,53.4,53.40,finbin_state_1008210.csv,state
+2015,Overhead Expenses,Labor & management charge,45.51,45.51,finbin_state_1008210.csv,state
+2017,Overhead Expenses,Labor & management charge,46.91,46.91,finbin_state_1008210.csv,state
+2019,Overhead Expenses,Labor & management charge,44.68,44.68,finbin_state_1008210.csv,state
+2021,Overhead Expenses,Labor & management charge,46.77,46.77,finbin_state_1008210.csv,state
+2001,Overhead Expenses,Net return over lbr & mgt,-66.49,-66.49,finbin_state_1008210.csv,state
+2003,Overhead Expenses,Net return over lbr & mgt,-53.6,-53.60,finbin_state_1008210.csv,state
+2005,Overhead Expenses,Net return over lbr & mgt,-59.57,-59.57,finbin_state_1008210.csv,state
+2007,Overhead Expenses,Net return over lbr & mgt,104.86,104.86,finbin_state_1008210.csv,state
+2009,Overhead Expenses,Net return over lbr & mgt,71.77,71.77,finbin_state_1008210.csv,state
+2011,Overhead Expenses,Net return over lbr & mgt,242.62,242.62,finbin_state_1008210.csv,state
+2013,Overhead Expenses,Net return over lbr & mgt,-26.48,-26.48,finbin_state_1008210.csv,state
+2015,Overhead Expenses,Net return over lbr & mgt,-81.75,-81.75,finbin_state_1008210.csv,state
+2017,Overhead Expenses,Net return over lbr & mgt,-68.64,-68.64,finbin_state_1008210.csv,state
+2019,Overhead Expenses,Net return over lbr & mgt,-13.16,-13.16,finbin_state_1008210.csv,state
+2021,Overhead Expenses,Net return over lbr & mgt,201.92,201.92,finbin_state_1008210.csv,state
+2001,Overhead Expenses,Total direct expense per bu.,1.75,1.75,finbin_state_1008210.csv,state
+2003,Overhead Expenses,Total direct expense per bu.,2.13,2.13,finbin_state_1008210.csv,state
+2005,Overhead Expenses,Total direct expense per bu.,1.81,1.81,finbin_state_1008210.csv,state
+2007,Overhead Expenses,Total direct expense per bu.,2.05,2.05,finbin_state_1008210.csv,state
+2009,Overhead Expenses,Total direct expense per bu.,2.31,2.31,finbin_state_1008210.csv,state
+2011,Overhead Expenses,Total direct expense per bu.,2.83,2.83,finbin_state_1008210.csv,state
+2013,Overhead Expenses,Total direct expense per bu.,3.59,3.59,finbin_state_1008210.csv,state
+2015,Overhead Expenses,Total direct expense per bu.,2.98,2.98,finbin_state_1008210.csv,state
+2017,Overhead Expenses,Total direct expense per bu.,2.78,2.78,finbin_state_1008210.csv,state
+2019,Overhead Expenses,Total direct expense per bu.,2.96,2.96,finbin_state_1008210.csv,state
+2021,Overhead Expenses,Total direct expense per bu.,3.06,3.06,finbin_state_1008210.csv,state
+2001,Overhead Expenses,Total dir & ovhd exp per bu.,2.52,2.52,finbin_state_1008210.csv,state
+2003,Overhead Expenses,Total dir & ovhd exp per bu.,2.91,2.91,finbin_state_1008210.csv,state
+2005,Overhead Expenses,Total dir & ovhd exp per bu.,2.47,2.47,finbin_state_1008210.csv,state
+2007,Overhead Expenses,Total dir & ovhd exp per bu.,2.78,2.78,finbin_state_1008210.csv,state
+2009,Overhead Expenses,Total dir & ovhd exp per bu.,3.02,3.02,finbin_state_1008210.csv,state
+2011,Overhead Expenses,Total dir & ovhd exp per bu.,3.73,3.73,finbin_state_1008210.csv,state
+2013,Overhead Expenses,Total dir & ovhd exp per bu.,4.62,4.62,finbin_state_1008210.csv,state
+2015,Overhead Expenses,Total dir & ovhd exp per bu.,3.92,3.92,finbin_state_1008210.csv,state
+2017,Overhead Expenses,Total dir & ovhd exp per bu.,3.79,3.79,finbin_state_1008210.csv,state
+2019,Overhead Expenses,Total dir & ovhd exp per bu.,3.99,3.99,finbin_state_1008210.csv,state
+2021,Overhead Expenses,Total dir & ovhd exp per bu.,4.0,4.00,finbin_state_1008210.csv,state
+2001,Overhead Expenses,Less govt & other income,2.45,2.45,finbin_state_1008210.csv,state
+2003,Overhead Expenses,Less govt & other income,2.74,2.74,finbin_state_1008210.csv,state
+2005,Overhead Expenses,Less govt & other income,2.23,2.23,finbin_state_1008210.csv,state
+2007,Overhead Expenses,Less govt & other income,2.65,2.65,finbin_state_1008210.csv,state
+2009,Overhead Expenses,Less govt & other income,2.85,2.85,finbin_state_1008210.csv,state
+2011,Overhead Expenses,Less govt & other income,3.52,3.52,finbin_state_1008210.csv,state
+2013,Overhead Expenses,Less govt & other income,4.11,4.11,finbin_state_1008210.csv,state
+2015,Overhead Expenses,Less govt & other income,3.69,3.69,finbin_state_1008210.csv,state
+2017,Overhead Expenses,Less govt & other income,3.39,3.39,finbin_state_1008210.csv,state
+2019,Overhead Expenses,Less govt & other income,3.47,3.47,finbin_state_1008210.csv,state
+2021,Overhead Expenses,Less govt & other income,3.95,3.95,finbin_state_1008210.csv,state
+2001,Overhead Expenses,With labor & management,2.7,2.70,finbin_state_1008210.csv,state
+2003,Overhead Expenses,With labor & management,3.05,3.05,finbin_state_1008210.csv,state
+2005,Overhead Expenses,With labor & management,2.51,2.51,finbin_state_1008210.csv,state
+2007,Overhead Expenses,With labor & management,2.94,2.94,finbin_state_1008210.csv,state
+2009,Overhead Expenses,With labor & management,3.14,3.14,finbin_state_1008210.csv,state
+2011,Overhead Expenses,With labor & management,3.91,3.91,finbin_state_1008210.csv,state
+2013,Overhead Expenses,With labor & management,4.57,4.57,finbin_state_1008210.csv,state
+2015,Overhead Expenses,With labor & management,4.02,4.02,finbin_state_1008210.csv,state
+2017,Overhead Expenses,With labor & management,3.71,3.71,finbin_state_1008210.csv,state
+2019,Overhead Expenses,With labor & management,3.76,3.76,finbin_state_1008210.csv,state
+2021,Overhead Expenses,With labor & management,4.23,4.23,finbin_state_1008210.csv,state
+2001,Overhead Expenses,Net value per unit,1.9,1.90,finbin_state_1008210.csv,state
+2003,Overhead Expenses,Net value per unit,2.25,2.25,finbin_state_1008210.csv,state
+2005,Overhead Expenses,Net value per unit,1.85,1.85,finbin_state_1008210.csv,state
+2007,Overhead Expenses,Net value per unit,4.03,4.03,finbin_state_1008210.csv,state
+2009,Overhead Expenses,Net value per unit,3.7,3.70,finbin_state_1008210.csv,state
+2011,Overhead Expenses,Net value per unit,6.02,6.02,finbin_state_1008210.csv,state
+2013,Overhead Expenses,Net value per unit,4.38,4.38,finbin_state_1008210.csv,state
+2015,Overhead Expenses,Net value per unit,3.43,3.43,finbin_state_1008210.csv,state
+2017,Overhead Expenses,Net value per unit,3.25,3.25,finbin_state_1008210.csv,state
+2019,Overhead Expenses,Net value per unit,3.7,3.70,finbin_state_1008210.csv,state
+2021,Overhead Expenses,Net value per unit,5.37,5.37,finbin_state_1008210.csv,state
+2001,Overhead Expenses,Machinery cost per acre,,-,finbin_state_1008210.csv,state
+2003,Overhead Expenses,Machinery cost per acre,,-,finbin_state_1008210.csv,state
+2005,Overhead Expenses,Machinery cost per acre,59.3,59.30,finbin_state_1008210.csv,state
+2007,Overhead Expenses,Machinery cost per acre,74.5,74.50,finbin_state_1008210.csv,state
+2009,Overhead Expenses,Machinery cost per acre,98.97,98.97,finbin_state_1008210.csv,state
+2011,Overhead Expenses,Machinery cost per acre,114.6,114.60,finbin_state_1008210.csv,state
+2013,Overhead Expenses,Machinery cost per acre,133.82,133.82,finbin_state_1008210.csv,state
+2015,Overhead Expenses,Machinery cost per acre,128.18,128.18,finbin_state_1008210.csv,state
+2017,Overhead Expenses,Machinery cost per acre,142.02,142.02,finbin_state_1008210.csv,state
+2019,Overhead Expenses,Machinery cost per acre,143.32,143.32,finbin_state_1008210.csv,state
+2021,Overhead Expenses,Machinery cost per acre,175.87,175.87,finbin_state_1008210.csv,state
+2001,Overhead Expenses,Est. labor hours per acre,2.32,2.32,finbin_state_1008210.csv,state
+2003,Overhead Expenses,Est. labor hours per acre,2.18,2.18,finbin_state_1008210.csv,state
+2005,Overhead Expenses,Est. labor hours per acre,2.39,2.39,finbin_state_1008210.csv,state
+2007,Overhead Expenses,Est. labor hours per acre,2.0,2.00,finbin_state_1008210.csv,state
+2009,Overhead Expenses,Est. labor hours per acre,2.22,2.22,finbin_state_1008210.csv,state
+2011,Overhead Expenses,Est. labor hours per acre,2.24,2.24,finbin_state_1008210.csv,state
+2013,Overhead Expenses,Est. labor hours per acre,2.23,2.23,finbin_state_1008210.csv,state
+2015,Overhead Expenses,Est. labor hours per acre,2.43,2.43,finbin_state_1008210.csv,state
+2017,Overhead Expenses,Est. labor hours per acre,2.51,2.51,finbin_state_1008210.csv,state
+2019,Overhead Expenses,Est. labor hours per acre,2.14,2.14,finbin_state_1008210.csv,state
+2021,Overhead Expenses,Est. labor hours per acre,2.12,2.12,finbin_state_1008210.csv,state

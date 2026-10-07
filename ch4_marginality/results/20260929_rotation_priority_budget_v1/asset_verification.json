@@ -1,0 +1,97 @@
+{
+  "verified": true,
+  "checks": [
+    {
+      "year": 2001,
+      "features": 10894,
+      "sampled_patch_attributes": 3,
+      "native_pixel_identity_samples": 7,
+      "table_area_rounding_ha": -5.661917384713888e-05,
+      "verified": true
+    },
+    {
+      "year": 2003,
+      "features": 9526,
+      "sampled_patch_attributes": 3,
+      "native_pixel_identity_samples": 7,
+      "table_area_rounding_ha": -0.00011778861517086625,
+      "verified": true
+    },
+    {
+      "year": 2005,
+      "features": 10183,
+      "sampled_patch_attributes": 3,
+      "native_pixel_identity_samples": 7,
+      "table_area_rounding_ha": -0.0002684498322196305,
+      "verified": true
+    },
+    {
+      "year": 2007,
+      "features": 10065,
+      "sampled_patch_attributes": 3,
+      "native_pixel_identity_samples": 7,
+      "table_area_rounding_ha": -0.0002779295318759978,
+      "verified": true
+    },
+    {
+      "year": 2009,
+      "features": 10674,
+      "sampled_patch_attributes": 3,
+      "native_pixel_identity_samples": 7,
+      "table_area_rounding_ha": -0.00032157136593014,
+      "verified": true
+    },
+    {
+      "year": 2011,
+      "features": 9436,
+      "sampled_patch_attributes": 3,
+      "native_pixel_identity_samples": 7,
+      "table_area_rounding_ha": -0.00025161803932860494,
+      "verified": true
+    },
+    {
+      "year": 2013,
+      "features": 9951,
+      "sampled_patch_attributes": 3,
+      "native_pixel_identity_samples": 7,
+      "table_area_rounding_ha": -0.00021784799173474312,
+      "verified": true
+    },
+    {
+      "year": 2015,
+      "features": 9807,
+      "sampled_patch_attributes": 3,
+      "native_pixel_identity_samples": 7,
+      "table_area_rounding_ha": -0.0004215538501739502,
+      "verified": true
+    },
+    {
+      "year": 2017,
+      "features": 9629,
+      "sampled_patch_attributes": 3,
+      "native_pixel_identity_samples": 7,
+      "table_area_rounding_ha": -0.00018761638784781098,
+      "verified": true
+    },
+    {
+      "year": 2019,
+      "features": 12456,
+      "sampled_patch_attributes": 3,
+      "native_pixel_identity_samples": 7,
+      "table_area_rounding_ha": -0.00028828688664361835,
+      "verified": true
+    },
+    {
+      "year": 2021,
+      "features": 8669,
+      "sampled_patch_attributes": 3,
+      "native_pixel_identity_samples": 7,
+      "table_area_rounding_ha": -7.96889653429389e-05,
+      "verified": true
+    }
+  ],
+  "existing_app_acl_preserved": true,
+  "table_total_area_tolerance_ha": 0.001,
+  "table_property_relative_tolerance": 1e-07,
+  "full_precision_evidence": "Original patch CSVs and reconciled sensitivity tables"
+}

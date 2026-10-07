@@ -1,0 +1,189 @@
+[
+  {
+    "file": "unl_2021.pdf",
+    "url": "https://cap.unl.edu/sites/unl.edu.ianr.agecon.center-for-ag-profitability/files/media/file/2021-all-nebraska-crop-budgets-updated-021521%20%282%29.pdf",
+    "resolved_url": "https://cap.unl.edu/sites/unl.edu.ianr.agecon.center-for-ag-profitability/files/media/file/2021-all-nebraska-crop-budgets-updated-021521%20%282%29.pdf",
+    "retrieved_utc": "2026-09-28T04:56:10.859775+00:00",
+    "sha256": "6f8182a9f7cb98b806308a3c378d4e7c9a2ed78b974aad95f93bf9ea87b0e6b4",
+    "size_bytes": 2998287
+  },
+  {
+    "file": "unl_2019.pdf",
+    "url": "https://cap.unl.edu/sites/unl.edu.ianr.agecon.center-for-ag-profitability/files/media/file/2019-nebraska-crop-budgets%20%281%29.pdf",
+    "resolved_url": "https://cap.unl.edu/sites/unl.edu.ianr.agecon.center-for-ag-profitability/files/media/file/2019-nebraska-crop-budgets%20%281%29.pdf",
+    "retrieved_utc": "2026-09-28T04:56:15.068725+00:00",
+    "sha256": "6a0693e0c7f8c0f6bcee620595b45fa1214e342147fbd0de40df2e60eab5dd09",
+    "size_bytes": 2250134
+  },
+  {
+    "file": "unl_2017.pdf",
+    "url": "https://cap.unl.edu/sites/unl.edu.ianr.agecon.center-for-ag-profitability/files/media/file/2017-crop-budgets.pdf",
+    "resolved_url": "https://cap.unl.edu/sites/unl.edu.ianr.agecon.center-for-ag-profitability/files/media/file/2017-crop-budgets.pdf",
+    "retrieved_utc": "2026-09-28T04:56:18.530078+00:00",
+    "sha256": "8543fc37829cd7e5dd1d2f903578dad96ffc6831c17d2f61e0715e790d86d395",
+    "size_bytes": 1556642
+  },
+  {
+    "file": "unl_2015.pdf",
+    "url": "https://cap.unl.edu/sites/unl.edu.ianr.agecon.center-for-ag-profitability/files/media/file/2015-Crop-Budget-EC872.pdf",
+    "resolved_url": "https://cap.unl.edu/sites/unl.edu.ianr.agecon.center-for-ag-profitability/files/media/file/2015-Crop-Budget-EC872.pdf",
+    "retrieved_utc": "2026-09-28T04:56:21.067916+00:00",
+    "sha256": "f1b374b5075e3e9ed08b42576466fef8fbd5afccebf45fd4e5a0b9c4f0c67445",
+    "size_bytes": 1698100
+  },
+  {
+    "file": "unl_2011.pdf",
+    "url": "https://cap.unl.edu/sites/unl.edu.ianr.agecon.center-for-ag-profitability/files/media/file/Crop-Budgets-EC11-872.pdf",
+    "resolved_url": "https://cap.unl.edu/sites/unl.edu.ianr.agecon.center-for-ag-profitability/files/media/file/Crop-Budgets-EC11-872.pdf",
+    "retrieved_utc": "2026-09-28T04:56:25.265903+00:00",
+    "sha256": "b8a2152dcc047ac3b2274d4353517f6ffb1f543bc5c93068b79cb9548e255ac9",
+    "size_bytes": 2236859
+  },
+  {
+    "file": "unl_2009.pdf",
+    "url": "https://cap.unl.edu/sites/unl.edu.ianr.agecon.center-for-ag-profitability/files/media/file/Crop-Budgets-ec09-872.pdf",
+    "resolved_url": "https://cap.unl.edu/sites/unl.edu.ianr.agecon.center-for-ag-profitability/files/media/file/Crop-Budgets-ec09-872.pdf",
+    "retrieved_utc": "2026-09-28T04:56:26.537511+00:00",
+    "sha256": "1c8b75dbfd4a0d4279a8cc5c063c8bad553b4b0ea3753ceeebe1df76d8532e80",
+    "size_bytes": 1865687
+  },
+  {
+    "file": "ers_corn.csv",
+    "url": "https://www.ers.usda.gov/media/4962/corn.csv?v=64254",
+    "resolved_url": "https://www.ers.usda.gov/media/4962/corn.csv?v=64254",
+    "retrieved_utc": "2026-09-28T04:56:58.041937+00:00",
+    "sha256": "107a04eb8efd4d538766429c206cb1851dc9bea2d97cc090552dc5048c21aee3",
+    "size_bytes": 926099
+  },
+  {
+    "file": "ers_corn.xlsx",
+    "url": "https://www.ers.usda.gov/media/4961/corn.xlsx?v=59988",
+    "resolved_url": "https://www.ers.usda.gov/media/4961/corn.xlsx?v=59988",
+    "retrieved_utc": "2026-09-28T04:56:58.855444+00:00",
+    "sha256": "aa2da87bad77dede806fe30bfe472439fa1b4e8311237567c5458a3b1f75d991",
+    "size_bytes": 364326
+  },
+  {
+    "file": "nass_crop_values_2021.pdf",
+    "url": "https://www.nass.usda.gov/Publications/Todays_Reports/reports/cpvl0222.pdf",
+    "resolved_url": "https://www.nass.usda.gov/Publications/Todays_Reports/reports/cpvl0222.pdf",
+    "retrieved_utc": "2026-09-28T05:06:46.297598+00:00",
+    "sha256": "fa662c9c9ca51ba28136bc791a5e6a8e138e1f8a14e5d78579ce9696208ad4d1",
+    "size_bytes": 1059102
+  },
+  {
+    "file": "finbin_county_1008338.csv",
+    "url": "https://finbin.umn.edu/Output/1008338.CSV",
+    "resolved_url": "https://finbin.umn.edu/Output/1008338.CSV",
+    "retrieved_utc": "2026-09-28T05:06:47.355274+00:00",
+    "sha256": "60c1f44e47274e041bbe19fe0af0d82477a3151e9c9902bc048f65da44b58029",
+    "size_bytes": 10534
+  },
+  {
+    "file": "finbin_state_1008210.csv",
+    "url": "https://finbin.umn.edu/Output/1008210.CSV",
+    "resolved_url": "https://finbin.umn.edu/Output/1008210.CSV",
+    "retrieved_utc": "2026-09-28T05:06:47.589282+00:00",
+    "sha256": "9c71006c8df4010b187ef6035378dc10ee591142b94ce3995afaa256119a322d",
+    "size_bytes": 13298
+  },
+  {
+    "file": "nass_crop_values_2022.pdf",
+    "url": "https://downloads.usda.library.cornell.edu/usda-esmis/files/k35694332/b85171637/3r0767797/cpvl0223.pdf",
+    "resolved_url": "https://esmis.nal.usda.gov/sites/default/release-files/k35694332/b85171637/3r0767797/cpvl0223.pdf",
+    "retrieved_utc": "2026-09-28T05:08:36.478435+00:00",
+    "sha256": "2b52a4c6637e96392ade137fac165cd0dd2c3c36cce1556efcdfb90e71bc8f62",
+    "size_bytes": 950949
+  },
+  {
+    "file": "ers_tb1970.pdf",
+    "url": "https://www.ers.usda.gov/media/9134/tb-1970.pdf?v=46203",
+    "resolved_url": "https://www.ers.usda.gov/media/9134/tb-1970.pdf?v=46203",
+    "retrieved_utc": "2026-09-28T05:08:38.309293+00:00",
+    "sha256": "7533e97f0c9825d0e1071f57d36cb0bf535fb12ed3f204f3873f319e459296d8",
+    "size_bytes": 5968009
+  },
+  {
+    "file": "ers_regions.pdf",
+    "url": "https://www.ers.usda.gov/media/7930/aib-760.pdf?v=81520",
+    "resolved_url": "https://www.ers.usda.gov/media/7930/aib-760.pdf?v=81520",
+    "retrieved_utc": "2026-09-28T05:08:43.553618+00:00",
+    "sha256": "9bc57ada57d2aa1c834095607ec9d10e3aa8e050be9f0cd1187698dd8bd8ad08",
+    "size_bytes": 2401562
+  },
+  {
+    "file": "unl_2013.pdf",
+    "url": "https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=5325&context=extensionhist",
+    "sha256": "ffed1c52df62b67f7248ac74401b9ea85fd39ad4ec2730c1277998734f856994",
+    "size_bytes": 6363722,
+    "retrieved_utc": "2026-09-28",
+    "method": "Chrome normal PDF download"
+  },
+  {
+    "file": "unl_2001.pdf",
+    "url": "https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=3035&context=extensionhist",
+    "resolved_url": "https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=3035&context=extensionhist",
+    "landing_url": "https://digitalcommons.unl.edu/extensionhist/2024/",
+    "retrieved_utc": "2026-09-30T01:53:49.296694+00:00",
+    "sha256": "498daecae9221687f51958187452e1ff908f5894ec222b2b12445b5921949b4b",
+    "size_bytes": 8712717,
+    "publication_year": 2001,
+    "repository_record_id": "2024",
+    "repository_online_date": "2012-01-13",
+    "acquisition": "Chrome original PDF link; direct HTTP returned 403"
+  },
+  {
+    "file": "nass_crop_values_publication_2019.pdf",
+    "url": "https://esmis.nal.usda.gov/sites/default/release-files/k35694332/g445cn37b/8910k2787/cpvl0419.pdf",
+    "resolved_url": "https://esmis.nal.usda.gov/sites/default/release-files/k35694332/g445cn37b/8910k2787/cpvl0419.pdf",
+    "retrieved_utc": "2026-09-30T03:33:35.403358+00:00",
+    "sha256": "24e3ee3152b2a65045dff43e6eefc811cb6bcac9712fda5886e022391df043aa",
+    "size_bytes": 555059,
+    "publication_year": 2019
+  },
+  {
+    "file": "nass_crop_values_publication_2017.pdf",
+    "url": "https://esmis.nal.usda.gov/sites/default/release-files/k35694332/5425kd763/st74dn630/CropValuSu-02-24-2017.pdf",
+    "resolved_url": "https://esmis.nal.usda.gov/sites/default/release-files/k35694332/5425kd763/st74dn630/CropValuSu-02-24-2017.pdf",
+    "retrieved_utc": "2026-09-30T03:33:35.699827+00:00",
+    "sha256": "9e7dd138b1355a2e61d29a1c1bbf979cac1208fe0dabd84353e86e30bea4f7ad",
+    "size_bytes": 1083285,
+    "publication_year": 2017
+  },
+  {
+    "file": "nass_crop_values_publication_2015.pdf",
+    "url": "https://esmis.nal.usda.gov/sites/default/release-files/k35694332/9s1618689/rx913s33h/CropValuSu-02-24-2015_correction.pdf",
+    "resolved_url": "https://esmis.nal.usda.gov/sites/default/release-files/k35694332/9s1618689/rx913s33h/CropValuSu-02-24-2015_correction.pdf",
+    "retrieved_utc": "2026-09-30T03:33:35.494650+00:00",
+    "sha256": "7670edd3d7001b623002ca829b68c52d91f691b7b092e8fe229f345025a0a0bf",
+    "size_bytes": 977341,
+    "publication_year": 2015
+  },
+  {
+    "file": "nass_crop_values_publication_2013.pdf",
+    "url": "https://esmis.nal.usda.gov/sites/default/release-files/k35694332/gb19f822f/xk81jp106/CropValuSu-02-15-2013.pdf",
+    "resolved_url": "https://esmis.nal.usda.gov/sites/default/release-files/k35694332/gb19f822f/xk81jp106/CropValuSu-02-15-2013.pdf",
+    "retrieved_utc": "2026-09-30T03:33:35.624088+00:00",
+    "sha256": "83d6793ab3e3efc29193e8c9f5933900ae6968b6d43f975f97ac01b6db6d93b0",
+    "size_bytes": 1000498,
+    "publication_year": 2013
+  },
+  {
+    "file": "nass_crop_values_publication_2011.pdf",
+    "url": "https://esmis.nal.usda.gov/sites/default/release-files/k35694332/tq57nt52r/0p096925c/CropValuSu-02-16-2011.pdf",
+    "resolved_url": "https://esmis.nal.usda.gov/sites/default/release-files/k35694332/tq57nt52r/0p096925c/CropValuSu-02-16-2011.pdf",
+    "retrieved_utc": "2026-09-30T03:33:35.626086+00:00",
+    "sha256": "ef910c13b45598f74c858dd9fe941fb38ada30bb3ae488a7581d0784f0a65c6f",
+    "size_bytes": 991826,
+    "publication_year": 2011
+  },
+  {
+    "file": "nass_crop_values_publication_2003.pdf",
+    "url": "https://esmis.nal.usda.gov/sites/default/release-files/k35694332/db78tf59f/rn301404g/CropValuSu-02-13-2003.pdf",
+    "resolved_url": "https://esmis.nal.usda.gov/sites/default/release-files/k35694332/db78tf59f/rn301404g/CropValuSu-02-13-2003.pdf",
+    "retrieved_utc": "2026-09-30T03:33:35.334607+00:00",
+    "sha256": "d2bae4cd89887b78d59ff921476a54a8d39e267fc9463ae0699d547d9ec21af9",
+    "size_bytes": 238923,
+    "publication_year": 2003
+  }
+]

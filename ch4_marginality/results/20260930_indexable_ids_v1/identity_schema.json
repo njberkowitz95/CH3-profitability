@@ -1,0 +1,107 @@
+{
+  "namespace": "CH4G5070V1",
+  "crs": "EPSG:5070",
+  "shape": [
+    5343,
+    5469
+  ],
+  "transform": [
+    30.0,
+    0.0,
+    -111285.0,
+    0.0,
+    -30.0,
+    2047275.0
+  ],
+  "row_column_basis": "zero-based",
+  "pixel_id_formula": "row*5469+column+1",
+  "noncrop_nodata": 0,
+  "pixel_key": "CH4G5070V1:P{pixel_id}",
+  "pixel_year_key": "CH4G5070V1:Y{year}:P{pixel_id}",
+  "patch_key": "CH4G5070V1:Y{year}:C{patch_id}",
+  "years": [
+    2001,
+    2003,
+    2005,
+    2007,
+    2009,
+    2011,
+    2013,
+    2015,
+    2017,
+    2019,
+    2021
+  ],
+  "source_inventory": [
+    {
+      "year": 2001,
+      "mask_sha256": "55e8e3011ecaafb7f58618b7e57f9836446c6fe99c2023a19dbcce361ee27002",
+      "index_sha256": "30550e5b8e2985ed3078c9ea4d6ffa23e3dc6fb102d1fdafc84509b29c6ee680",
+      "geometry_sha256": "068d1b4639235b0ca43b34805262b5b0e2b1a1d003765d612fe8aa341c6a0c94"
+    },
+    {
+      "year": 2003,
+      "mask_sha256": "69348493c5418faaa100fbc488da239e93b0fd40377d0ff8c051ce19f4925ba9",
+      "index_sha256": "ca9d131cb72ef915098bc51b28a7f5665d5dfebeaef4bea516dfdb890c04913a",
+      "geometry_sha256": "068d1b4639235b0ca43b34805262b5b0e2b1a1d003765d612fe8aa341c6a0c94"
+    },
+    {
+      "year": 2005,
+      "mask_sha256": "096a8cbda4f8e2ce97454825ea72f8823e5044a3cdda7e3cea13950f29448a9b",
+      "index_sha256": "ee0de39ead698fb5a888cf54f8303856450352bcfd8376f4c5e8a8fca3d75396",
+      "geometry_sha256": "068d1b4639235b0ca43b34805262b5b0e2b1a1d003765d612fe8aa341c6a0c94"
+    },
+    {
+      "year": 2007,
+      "mask_sha256": "b15e497fb7a600cd044f847f32c5aa2e12afd40755ed72fe44d8f7c224c5e9c8",
+      "index_sha256": "b1bd018c35c47018b19cbc8b4cc8e6b2553bdec55080db12a15f4952584fda72",
+      "geometry_sha256": "068d1b4639235b0ca43b34805262b5b0e2b1a1d003765d612fe8aa341c6a0c94"
+    },
+    {
+      "year": 2009,
+      "mask_sha256": "ae61c6ab6540fe21fe334b5c9995247db83baca97497b4844a0db529ea7b3ecc",
+      "index_sha256": "88dcf4e1701f4a0d04184e9b02ba1a96690ec52bab171cab0d8b89fd64828fd7",
+      "geometry_sha256": "068d1b4639235b0ca43b34805262b5b0e2b1a1d003765d612fe8aa341c6a0c94"
+    },
+    {
+      "year": 2011,
+      "mask_sha256": "08b4f93ae64b02d9c1d3d0dea6c0829fb358dec3c80ecf6ba08d1c15730b9d13",
+      "index_sha256": "ff063f2f41f58b1ac587450ec85635590bb7ef98837b1da34f71adab313e46b6",
+      "geometry_sha256": "068d1b4639235b0ca43b34805262b5b0e2b1a1d003765d612fe8aa341c6a0c94"
+    },
+    {
+      "year": 2013,
+      "mask_sha256": "d001d6dbc939b36abbc5135e2bd4bb721272843fbbb0081ef5aa7d19241d6e2a",
+      "index_sha256": "3918cf2b5895a6f9e119d4ded32c8c6d2582d25bc67b863b06e755531fd86639",
+      "geometry_sha256": "068d1b4639235b0ca43b34805262b5b0e2b1a1d003765d612fe8aa341c6a0c94"
+    },
+    {
+      "year": 2015,
+      "mask_sha256": "e6fdd4ca116691823cd4d5aa54845b7185fd49b282aabaf95ca51b35056c7a0b",
+      "index_sha256": "b6579ed59744e2178bc07f76beb721d0608417e3decbedf12dc605c20ecbc8ec",
+      "geometry_sha256": "068d1b4639235b0ca43b34805262b5b0e2b1a1d003765d612fe8aa341c6a0c94"
+    },
+    {
+      "year": 2017,
+      "mask_sha256": "84a3fa1f5078b3f9a769deb1721432f0c0d16a098c119a26b3623642f8fc438f",
+      "index_sha256": "bfb63974fa3a1b48180fb6eb16089b77274fac266655482f7c8954f024d578ec",
+      "geometry_sha256": "068d1b4639235b0ca43b34805262b5b0e2b1a1d003765d612fe8aa341c6a0c94"
+    },
+    {
+      "year": 2019,
+      "mask_sha256": "90e5d1aa801ddc58851b9aa7a57a5747db19a3384795af9c7e95b5412f64a8ad",
+      "index_sha256": "4d5ba76909d552682c5624497bf21fdd9288a3eec65cd4e4d510fb6509da9432",
+      "geometry_sha256": "efc3222489cece7d42e99d9d2e08c6529020cd2ed341cf0b0e04bde854a6c9ff"
+    },
+    {
+      "year": 2021,
+      "mask_sha256": "298d4776b81e84e90df9b9753d6d155849cd4d1a328f23e94a5ccbaa8e8e445c",
+      "index_sha256": "f9fff0f2fc2f93e1051c5979d61cd524022d5883c6d2ccde2de76d2f9b554381",
+      "geometry_sha256": "3dd78de946e952e427fea151c12013507b3c183dbc5a0b1899056a4bdbfc93a3"
+    }
+  ],
+  "identity_scope": "CH4 annual mapped dryland corn in MLRA 106; not every crop type or farm ownership",
+  "parent_release": "20260929_rotation_priority_budget_v1",
+  "parent_input_manifest_sha256": "4c6aaf6e5683e69cd20c535cda20c6f3b55301340e333a99ea338aa1e59531eb",
+  "parent_output_manifest_sha256": "073d0ac6b8aafc4b6df9d92f4ad197efb249387a3dc9f9b9c032ee5936ce6347"
+}

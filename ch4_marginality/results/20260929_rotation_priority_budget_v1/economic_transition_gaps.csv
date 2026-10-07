@@ -1,0 +1,11 @@
+source,scenario,from_year,to_year,interval_years,status
+ERS_Heartland,M1_fixed,2001,2009,8,No biennial transition estimated across unavailable observations
+ERS_Heartland,M2_HI_sensitivity,2001,2009,8,No biennial transition estimated across unavailable observations
+FINBIN_county,M1_fixed,2001,2009,8,No biennial transition estimated across unavailable observations
+FINBIN_county,M1_fixed,2015,2019,4,No biennial transition estimated across unavailable observations
+FINBIN_county,M2_HI_sensitivity,2001,2009,8,No biennial transition estimated across unavailable observations
+FINBIN_county,M2_HI_sensitivity,2015,2019,4,No biennial transition estimated across unavailable observations
+FINBIN_state,M1_fixed,2001,2009,8,No biennial transition estimated across unavailable observations
+FINBIN_state,M2_HI_sensitivity,2001,2009,8,No biennial transition estimated across unavailable observations
+UNL,M1_fixed,2001,2011,10,No biennial transition estimated across unavailable observations
+UNL,M2_HI_sensitivity,2001,2011,10,No biennial transition estimated across unavailable observations
