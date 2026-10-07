@@ -1,5 +1,6 @@
 """Publication evidence charts from completed, reconciled Chapter 3 tables."""
 from pathlib import Path
+import textwrap
 import numpy as np
 import pandas as pd
 import matplotlib
@@ -16,15 +17,20 @@ def run(out: Path) -> None:
     bins=pd.read_csv(out/'tables/distribution_bins.csv')
     associations=pd.read_csv(out/'tables/nccpi_associations.csv')
     baseline=aoi[(aoi.price_factor==1)&(aoi.cost_factor==1)]
+    accounts=pd.read_csv(out/'tables/economic_scenarios.csv')
     cmap=LinearSegmentedColormap.from_list('profit',['#b35806','#f7f7f7','#2166ac'])
     plt.rcParams.update({'font.family':'DejaVu Sans','font.size':10,'axes.spines.top':False,'axes.spines.right':False})
     def save(fig,name):
+        fig.text(.02,-.15,textwrap.fill(context,140),fontsize=7,va='top')
         fig.savefig(out/'figures'/f'{name}.png',dpi=300,bbox_inches='tight')
         fig.savefig(out/'figures'/f'{name}.pdf',bbox_inches='tight');plt.close(fig)
     for r in baseline.to_dict('records'):
         year,scenario,source=r['year'],r['scenario'],r['source']
         stem=f'{year}_{scenario}_{source}'
         title=f'{year} · {scenario} · {source}'+(' · EXPERIMENTAL' if year==2021 else '')
+        if source.startswith('FINBIN'):title+=' · operator-account proxy'
+        account=accounts[(accounts.year==year)&(accounts.source==source)].iloc[0]
+        context=f"UNL #{int(account.budget_number)} anchor: {account.match_designation}; {account.selected_unl_system}. Account geography: {account.geography}. Rates: 2021 USD/acre; area shares use source-valid hectares."
         g=aoi[(aoi.year==year)&(aoi.scenario==scenario)&(aoi.source==source)]
         mat=g.pivot(index='price_factor',columns='cost_factor',values='profit_mean_usd_ac_2021dollars')
         fig,ax=plt.subplots(figsize=(6,5));im=ax.imshow(mat,cmap=cmap,norm=TwoSlopeNorm(vmin=-1000,vcenter=0,vmax=1000))

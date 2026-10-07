@@ -99,8 +99,11 @@ def verify(out: Path) -> dict:
             if df.duplicated(['year','patch_id']).any():raise ValueError('Duplicate patch-year key')
             for year,g in df.groupby('year'):
                 row=g.iloc[0];keys=[k for k in df if pd.notna(row[k])]
-                got=fc.filter(ee.Filter.eq('year',int(year))).filter(ee.Filter.eq('patch_id',int(row.patch_id))).first().toDictionary(keys).getInfo()
+                got=fc.filter(ee.Filter.eq('year',int(year))).filter(ee.Filter.eq('patch_id',int(row.patch_id))).first().toDictionary().getInfo()
                 for key in keys:np.testing.assert_allclose(got[key],row[key],rtol=1e-7,atol=1e-5)
+                for key in df.columns:
+                    if pd.isna(row[key]) and got.get(key) is not None:
+                        raise ValueError('Missing patch observation was converted to a value: '+key)
                 checks.append(dict(year=int(year),patch_id=int(row.patch_id),verified=True))
         ee.data.setAssetAcl(ASSET_PREFIX+'_'+name,json.dumps(acl))
     image=ee.Image(ASSET_PREFIX+'_temporal')
@@ -113,6 +116,6 @@ def verify(out: Path) -> dict:
                 value=image.select([band-1]).reduceRegion(ee.Reducer.first(),point,crs='EPSG:5070',crsTransform=list(TRANSFORM)[:6]).getInfo()
                 np.testing.assert_allclose(list(value.values())[0],a[r[i],c[i]],rtol=1e-6,atol=1e-7)
     ee.data.setAssetAcl(ASSET_PREFIX+'_temporal',json.dumps(acl))
-    result=dict(verified=True,patch_checks=checks,temporal_pixel_checks=20,reused_identity_and_geometry_prefix='projects/ee-njberkowitz95/assets/ch4_rotation_20260929')
+    result=dict(verified=True,patch_checks=checks,missing_patch_values_preserved=True,temporal_pixel_checks=20,reused_identity_and_geometry_prefix='projects/ee-njberkowitz95/assets/ch4_rotation_20260929')
     dump(out/'asset_verification.json',result)
     return result

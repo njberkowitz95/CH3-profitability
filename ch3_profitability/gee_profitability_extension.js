@@ -5,6 +5,7 @@ CH3_DATA.input_manifest_sha256=CH3_EXTRA.manifest_sha256;
   CH3_EXTRA[k]=CH3_EXTRA[k].map(function(r){var d={};CH3_EXTRA[k+'_columns'].forEach(function(c,i){d[c]=r[i];});return d;});
 }});
 var ch3Profits=CH3_EXTRA.rows.map(function(r){var d={};CH3_EXTRA.columns.forEach(function(k,i){d[k]=r[i];});return d;});
+function ch3PositiveShare(a){var row=ch3Profits.filter(function(x){return ch3Match(x,a);})[0];return row?ch3Num(row.profitable_percent):'Unavailable';}
 var ch3BaseRefresh=ch3Refresh;
 ch3Refresh=function(){
   ch3BaseRefresh();var a=ch3Active;if(!a)return;

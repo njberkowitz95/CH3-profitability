@@ -42,7 +42,16 @@ def write_cog(path: Path, array: np.ndarray, description: str, categorical: bool
             raise ValueError('COG contract failed')
 
 
-def checkpoint_valid(folder: Path, manifest_hash: str) -> bool:
+def method_fingerprint() -> str:
+    """Fingerprint the actual numerical implementation, independent of app/report edits."""
+    import hashlib
+    repo=Path(__file__).resolve().parents[1]
+    names=['ch3_profitability/'+n+'.py' for n in ['core','pipeline','temporal']]
+    names+=['ch4_marginality/'+n+'.py' for n in ['core','pipeline','profit_workspace']]
+    return hashlib.sha256(json.dumps([(n,sha(repo/n)) for n in names]).encode()).hexdigest()
+
+
+def checkpoint_valid(folder: Path, manifest_hash: str, method_hash: str | None = None) -> bool:
     """Reuse only complete checkpoints whose outputs and inputs still match."""
     marker = folder / 'complete.json'
     if not marker.exists():
@@ -50,6 +59,8 @@ def checkpoint_valid(folder: Path, manifest_hash: str) -> bool:
     record = json.loads(marker.read_text(encoding='utf-8'))
     if record['input_hash'] != manifest_hash:
         raise ValueError('Checkpoint inputs changed')
+    if method_hash is not None and record.get('method_hash') != method_hash:
+        return False
     for row in record['files']:
         p = (folder.parent.parent if row.get('root_relative') else folder) / row['file']
         if sha(p) != row['sha256']:
@@ -75,6 +86,7 @@ def run(root: str | Path) -> Path:
     # Timestamp is excluded from the stable numerical fingerprint.
     import hashlib
     fingerprint = hashlib.sha256(json.dumps(sorted((r['logical_path'], r['sha256']) for r in locked['files'])).encode()).hexdigest()
+    methods=method_fingerprint()
     dump(out / 'status.json', dict(status='running', input_fingerprint=fingerprint, published=False))
     shutil.copytree(base / 'sources', out / 'sources', dirs_exist_ok=True)
     for name in ['economic_scenarios.csv','year_eligibility.csv','annual_yield.csv','input_inventory.csv',
@@ -124,7 +136,7 @@ def run(root: str | Path) -> Path:
                 key = f'{year}_{scenario}_{source}'
                 cp = out / 'logs' / key
                 cp.mkdir(exist_ok=True)
-                if checkpoint_valid(cp, fingerprint):
+                if checkpoint_valid(cp, fingerprint, methods):
                     print('Verified completed checkpoint', key, flush=True)
                     continue
                 valid = good & (scope[mask] if source == 'FINBIN_county' else True)
@@ -183,7 +195,7 @@ def run(root: str | Path) -> Path:
                 files = [dict(file=p.name, sha256=sha(p)) for p in sorted(cp.iterdir()) if p.name != 'complete.json']
                 files += [dict(file=str(p.relative_to(out)),sha256=sha(p),root_relative=True)
                           for p in sorted((out/'rasters').glob(f'*{key}*.tif'))]
-                dump(cp / 'complete.json',dict(input_hash=fingerprint, files=files))
+                dump(cp / 'complete.json',dict(input_hash=fingerprint, method_hash=methods, files=files))
                 print('Completed',key,flush=True)
                 del caches; gc.collect()
         del ix, mask; gc.collect()

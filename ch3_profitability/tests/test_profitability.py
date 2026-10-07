@@ -6,6 +6,16 @@ from ch3_profitability.core import classify, calculate, summarize_groups, transi
 ACCOUNT = dict(nass_price_usd_bu=2.,cash_cost_usd_ac=100.,total_cost_usd_ac=200.,operator_share=1.,to_2021_dollars=1.5)
 
 class ProfitabilityTests(unittest.TestCase):
+    def test_checkpoint_requires_matching_method(self):
+        import json, tempfile
+        from ch3_profitability.pipeline import checkpoint_valid
+        with tempfile.TemporaryDirectory() as tmp:
+            folder=__import__('pathlib').Path(tmp)
+            (folder/'complete.json').write_text(json.dumps(dict(input_hash='input',method_hash='method',files=[])))
+            self.assertTrue(checkpoint_valid(folder,'input','method'))
+            self.assertFalse(checkpoint_valid(folder,'input','changed-method'))
+            with self.assertRaises(ValueError):checkpoint_valid(folder,'changed-input','method')
+
     def test_unrounded_sign_and_missing(self):
         np.testing.assert_array_equal(classify(np.array([-1e-15,0,1e-15,np.nan,np.inf,-np.inf])),[-1,0,1,-128,-128,-128])
 
