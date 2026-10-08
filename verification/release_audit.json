@@ -1,0 +1,18 @@
+{
+  "verified": true,
+  "economic_combinations": 522,
+  "baseline_combinations": 58,
+  "spatial_levels_reconciled": true,
+  "geopackage_table_counts": {
+    "annual_profitability": 58,
+    "county_sensitivity": 6786,
+    "patch_sensitivity": 5347656
+  },
+  "geopackage_sha256": "86ebacc101c92753330bd096e6e88979a66206900f254d6f861b935589e5c951",
+  "patch_table_sha256": "20e88a0a01892c926ee7e31a82bfe30c504dcf18da9ee480b21581ecf379b7d1",
+  "histogram_tails_reconciled": true,
+  "missing_cash_retained": true,
+  "temporal_gaps_and_experimental_exclusion_verified": true,
+  "executed_code_manifest_sha256": "d4588c5e8947ee06af3ce7d17f5090953e860a74017c423f03ff9d64f484e0be",
+  "method_provenance": "Frozen code/ package and code_manifest.json; publication helpers are separately versioned"
+}

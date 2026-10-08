@@ -2,7 +2,7 @@
 
 Modeled profitability of Nebraska MLRA 106 dryland corn for odd production years 2001–2021, using the unchanged Chapter 4 yield models, native 30 m EPSG:5070 grid, masks, accounts, prices and crop-unit identities.
 
-**The numerical Colab run finished. Independent verification recovered and reconciled all 5,347,656 patch records across 522 economic combinations. GeoPackage recovery and app publication are still in progress. No Chapter 3 live-app deployment is claimed.** Consult `delivery_status.json` for verified stages. Chapter 4 is preserved.
+**The numerical Colab run finished. Independent verification recovered and reconciled all 5,347,656 patch records across 522 economic combinations. The closed GeoPackage also passed the full area and monetary reconciliation. Earth Engine and app publication are in progress. No Chapter 3 live-app deployment is claimed.** Consult `delivery_status.json` for verified stages. Chapter 4 is preserved.
 
 Profit equals grain revenue minus published total per-acre costs. Positive, exactly zero and negative unrounded returns are classified independently; missing values remain missing. Cash margins are supplementary. FINBIN is an operator-account proxy; ERS is a separate regional scenario.
 
