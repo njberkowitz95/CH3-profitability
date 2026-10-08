@@ -56,6 +56,8 @@ def submit(out: Path, bucket_name: str = 'testernoah135') -> list[dict]:
     import ee
     from google.cloud import storage
     out=Path(out);ee.Initialize(project='ee-njberkowitz95')
+    if not json.loads((out/'verification/release_audit.json').read_text(encoding='utf-8'))['verified']:
+        raise ValueError('Independent release audit must pass before importing assets')
     bucket=storage.Client(project='ee-njberkowitz95').bucket(bucket_name)
     tasks=[]
     for name,file in [('patch_evidence','patch_evidence.csv'),('evidence','evidence.csv'),('temporal','temporal.tif')]:
