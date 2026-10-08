@@ -8,7 +8,7 @@
     "unchanged_files": 158
   },
   "local_scientific_tests": {
-    "passed": 9
+    "passed": 10
   },
   "native_2019_unl_m1_pilot": {
     "verified_equal_to_ch4": true
@@ -18,7 +18,7 @@
     "status": "numerical_execution_complete",
     "completed_source_model_batches": 58,
     "expected_batches": 58,
-    "phase": "recovering incomplete cloud exports"
+    "phase": "patch exports independently verified; spatial database recovery pending"
   },
   "complete_analysis_verified": false,
   "earth_engine_assets_verified": false,
@@ -37,9 +37,18 @@
     "verified": true,
     "2019_2021_source_model_cases": 14
   },
-  "publication_notebook_url": "https://colab.research.google.com/drive/17gjedtCbxYhPv0UC-jNnQgAjYwgtpXG9",
+  "publication_notebook_url": "https://colab.research.google.com/drive/1FHNIHyjaz5aAJACvg04Lc_SZyk6iBr8u",
   "release_audit": {
     "verified": false,
-    "finding": "Four patch CSV checkpoints failed their stored SHA256; aggregate has 506 of 522 combinations. GeoPackage result tables absent in an independent runtime. Rebuilding closed exports in Colab; publication blocked."
+    "patch_recovery_verified": true,
+    "patch_records": 5347656,
+    "economic_combinations": 522,
+    "finding": "All recovered patch combinations reconcile independently with AOI results. Closed GeoPackage verification and Earth Engine publication remain pending."
+  },
+  "prior_publication_notebook_url": "https://colab.research.google.com/drive/17gjedtCbxYhPv0UC-jNnQgAjYwgtpXG9",
+  "github_ci": {
+    "commit": "e13731ae5b9a842d2ddd490b761b24ec1780a738",
+    "conclusion": "success",
+    "url": "https://github.com/njberkowitz95/CH3-profitability/actions/runs/37712588207"
   }
 }
