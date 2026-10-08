@@ -1,7 +1,7 @@
 // Execute the actual CH4 UI controller with deterministic UI/server stand-ins.
 // This verifies request invalidation and state restoration; Chrome tests verify rendering.
 const fs=require('fs'),vm=require('vm'),assert=require('assert');
-const pending=[],evidencePending=[];
+const pending=[],evidencePending=[],chartData=[];
 function widget(opts={},layout,style){
   if(Array.isArray(opts))opts={widgets:opts,style:style||{}};
   const w={value:opts.value,label:opts.label,list:opts.widgets||[],styles:opts.style||{},changeHandler:opts.onChange};
@@ -15,7 +15,7 @@ function widget(opts={},layout,style){
   return w;
 }
 const ui={Panel:widget,Select:widget,Button:widget,Label:(v,s)=>widget(typeof v==='object'?v:{value:v,style:s}),Thumbnail:widget};
-ui.Panel.Layout={flow:()=>({})};ui.root=widget();ui.Chart=()=>({setChartType(){return this;},setOptions(){return this;}});
+ui.Panel.Layout={flow:()=>({})};ui.root=widget();ui.Chart=data=>{chartData.push(data);return {setChartType(){return this;},setOptions(){return this;}};};
 ui.Map={Layer:(o,v,n,shown)=>({object:o,shown,getShown(){return this.shown;},setShown(v){this.shown=v;},getEeObject(){return this.object;}})};
 const layerList=[];
 const map=widget();map.layers=()=>({forEach:fn=>layerList.slice().forEach(fn),add:l=>layerList.push(l),remove:l=>{const i=layerList.indexOf(l);if(i>=0)layerList.splice(i,1);}});
@@ -57,6 +57,10 @@ ctx.ch3Definition.setValue('return');ctx.ch3Policy.setValue('closest_rotation');
 ctx.ch3Year.setValue('2003');assert.equal(ctx.ch3Active.row,null);
 ctx.ch3Year.setValue('2019');ctx.ch3Source.setValue('ERS_Heartland');ctx.ch3Definition.setValue('cash');assert.equal(ctx.ch3Layer,null);
 ctx.ch3Source.setValue('UNL');ctx.ch3Definition.setValue('return');ctx.ch3Section.setValue('Charts & tables');assert.equal(map.styles.shown,false);
+const commonDisplay=chartData.find(data=>data.cols&&data.cols[0].label==='Year');
+assert.equal(commonDisplay.rows.length,10,'display must show all primary biennial years');
+assert.equal(commonDisplay.rows.find(row=>row.c[0].v==='2003').c[1].v,null,'an unavailable year must be a visible missing observation');
+assert.ok(!commonDisplay.rows.some(row=>row.c[0].v==='2021'),'experimental year stays outside primary display');
 view('ch4_view');assert.equal(ctx.appTitle.value,'Dryland corn economics');ctx.ch4Section.setValue('Charts & tables');assert.equal(map.styles.shown,false);
 view('ch3_view');assert.equal(ctx.appTitle.value,'Dryland corn profitability');assert.equal(map.styles.shown,false);
 view('ch4_view');assert.equal(map.styles.shown,false,'CH4 chart mode survives CH3 exit');assert.equal(ctx.appTitle.value,'Dryland corn economics');

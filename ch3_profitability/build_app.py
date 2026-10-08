@@ -32,6 +32,7 @@ def controller_source(repo: Path | None = None) -> str:
     source=source.replace("'Total economic return / operator proxy'","'Total economic profit / operator proxy'")
     source=source.replace("'Mean total economic return'", "'Mean total economic profit'")
     source=source.replace("ch3Num(100*r.loss_ha/r.valid_ha)+'% loss'", "ch3PositiveShare(target)+'% profitable'")
+    source=source.replace('Cells show mean return ($/acre) and loss share.', 'Cells show mean profit ($/acre) and profitable share.')
     source=source.replace("{label:'Negative total return',value:'loss'}", "{label:'Profitable / breakeven / loss',value:'profit_class'},{label:'Profitable-season frequency (baseline)',value:'frequency'},{label:'Observed eligible seasons (baseline)',value:'observations'},{label:'Negative total return',value:'loss'}")
     source=source.replace("else if(a.layer==='loss'){result=loss;", "else if(a.layer==='profit_class'){result=ret.gt(0).subtract(ret.lt(0));vis={min:-1,max:1,palette:['b35806','999999','2166ac']};}\n      else if(a.layer==='loss'){result=loss;")
     source=source.replace("var labels=a.layer==='overlap'?", "var labels=a.layer==='profit_class'?['Loss (<0)','Breakeven (=0)','Profitable (>0)']:a.layer==='overlap'?")

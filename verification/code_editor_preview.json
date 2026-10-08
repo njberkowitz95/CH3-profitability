@@ -1,0 +1,39 @@
+{
+  "verified_utc": "2026-10-08T02:48:11.113762+00:00",
+  "stage": "Code Editor preview; not published",
+  "preview_commit": "32d401a73dd7c64b2fcd5e4a100bb2f36f0f0a21",
+  "annual_controls_verified": true,
+  "currency_classification_invariance": true,
+  "strict_approximation_blocking": true,
+  "unavailable_2003_preserved": true,
+  "incomplete_2009_unl_blocking": true,
+  "ers_cash_unavailable": true,
+  "experimental_2021_label": true,
+  "sensitivity_matrix_updates_both_controls": true,
+  "patch_lookup": {
+    "year": 2019,
+    "patch_id": 1060,
+    "crop_ha": 64.08,
+    "valid_ha": 63.81,
+    "missing_ha": 0.27,
+    "price_factor": 1.15,
+    "cost_factor": 0.85,
+    "basis": "nominal",
+    "mean_profit_usd_ac": 153.7,
+    "mean_cash_usd_ac": 325.69,
+    "profitable_ha": 62.82,
+    "breakeven_ha": 0.0,
+    "loss_ha": 0.99,
+    "source_table": "logs/2019_M1_fixed_UNL/patch_sensitivity.csv.gz",
+    "rounded_ui_matches_table": true
+  },
+  "patch_selection_reset_on_year_change": true,
+  "regression_views": [
+    "CH4 Economics",
+    "CSP3 research site",
+    "Results across seasons",
+    "Yield vs soil productivity (NCCPI)"
+  ],
+  "temporal_layer_verified": false,
+  "live_app_published": false
+}
