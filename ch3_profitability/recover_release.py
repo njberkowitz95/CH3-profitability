@@ -104,7 +104,8 @@ def recover_patches(root: Path, out: Path, scratch: Path) -> list[dict]:
         # Existing intact rows must remain numerically equal, including missingness.
         old = frame.set_index(KEYS + ['patch_id']).sort_index()
         common = restored.set_index(KEYS + ['patch_id']).loc[old.index, old.columns]
-        pd.testing.assert_frame_equal(common, old, check_dtype=False, rtol=1e-12, atol=1e-8)
+        pd.testing.assert_frame_equal(common, old, check_dtype=False, check_index_type=False,
+                                      rtol=1e-12, atol=1e-8)
         local = scratch / (cp.name + '.csv.gz')
         restored.to_csv(local, index=False, compression={'method': 'gzip', 'mtime': 0})
         new_hash = publish_closed_file(local, path)
@@ -173,6 +174,10 @@ def build_spatial(root: Path, out: Path, scratch: Path, patches: Path) -> Path:
 def run(root: Path, out: Path) -> dict:
     """Repair cloud-write artifacts and preserve the executed scientific package."""
     root, out = Path(root), Path(out)
+    package = Path(__file__).resolve().parents[1]
+    for name in ['ch3_profitability/core.py', 'ch4_marginality/core.py']:
+        if sha(package / name) != sha(out / 'code' / name):
+            raise ValueError('Recovery must use the frozen scientific calculations')
     with TemporaryDirectory(prefix='ch3_closed_outputs_') as folder:
         scratch = Path(folder)
         changes = recover_patches(root, out, scratch)

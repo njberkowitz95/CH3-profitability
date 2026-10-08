@@ -58,10 +58,14 @@ def run(out: Path) -> None:
     (out/'CH3_methods_results.md').write_text('\n\n'.join(md),encoding='utf-8')
     styles=getSampleStyleSheet();styles['BodyText'].fontSize=10;styles['BodyText'].leading=14
     story=[]
+    def printable(text):
+        return str(text).replace('\u2212','-').replace('\u2013','-').replace('\u2014','-')
     def paragraph(text,style='BodyText'):
-        story.extend([Paragraph(escape(text),styles[style]),Spacer(1,8)])
+        spacer=Spacer(1,8)
+        spacer.keepWithNext=style.startswith('Heading') or style=='Title'
+        story.extend([Paragraph(escape(printable(text)),styles[style]),spacer])
     def table(rows,widths=None):
-        wrapped=[[Paragraph(escape(str(x)),styles['BodyText']) for x in row] for row in rows]
+        wrapped=[[Paragraph(escape(printable(x)),styles['BodyText']) for x in row] for row in rows]
         obj=LongTable(wrapped,colWidths=widths or [470/len(rows[0])]*len(rows[0]),repeatRows=1,hAlign='LEFT')
         obj.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),colors.HexColor('#dce8ef')),('VALIGN',(0,0),(-1,-1),'TOP'),('BOTTOMPADDING',(0,0),(-1,-1),7),('LINEBELOW',(0,0),(-1,0),.7,colors.HexColor('#173e55')),('ROWBACKGROUNDS',(0,1),(-1,-1),[colors.white,colors.HexColor('#f5f7f8')])]))
         story.extend([obj,Spacer(1,14)])
@@ -73,13 +77,24 @@ def run(out: Path) -> None:
     story.append(PageBreak());paragraph('Primary results: M1, UNL','Heading1');table(result_table(primary))
     paragraph('Mean and median rates are 2021 USD/acre. Profit and loss shares use source-valid area; exact breakeven is retained separately in the complete tables. Available years are shown without filling gaps. A negative mean can coexist with a majority of profitable area.')
     figure('primary_profitability','Figure 1. Both yield scenarios and separate source accounts. Points are shown without lines across unavailable years; experimental 2021 is excluded.')
-    paragraph('Experimental 2021','Heading1');table(result_table(experimental));figure('profit_classes_2021','Figure 2. Experimental 2021, M1, baseline source accounts. Source-specific areas and accounting definitions differ.')
+    story.append(PageBreak());paragraph('Experimental 2021','Heading1');table(result_table(experimental));figure('profit_classes_2021','Figure 2. Experimental 2021, M1, baseline source accounts. Source-specific areas and accounting definitions differ.')
     story.append(PageBreak());paragraph('Original-year budget eligibility','Heading1')
-    table([['Year','UNL sheet','Designation','Actual system / exclusion']]+[[int(r.year),str(int(r.budget_number)) if pd.notna(r.budget_number) else 'Unavailable',r.match_designation if pd.notna(r.match_designation) else 'Unavailable',str(r.actual_system) if pd.notna(r.actual_system) else str(r.status)] for r in eligibility.itertuples()],[42,54,80,294])
-    paragraph('Account scope','Heading1');table([['Source','Geography','Interpretation']]+[[s,str(g.geography.iloc[0]),str(g.account.iloc[0])] for s,g in accounts.groupby('source')],[85,155,230])
-    paragraph('Common-valid primary support: M1, UNL','Heading1');table([['Year','Common ha','Mean $/ac (2021)','Profitable ha']]+[[int(r.year),f'{r.common_ha:,.2f}',f'{r.mean_profit_2021usd_ac:,.2f}',f'{r.profitable_ha:,.2f}'] for r in common.itertuples()],[50,130,150,140])
-    paragraph('NCCPI baseline associations: M1, UNL, 10 km','Heading1');table([['Year','Metric','r','95% interval','Blocks']]+[[int(r.year),r.metric,f'{r.r:.3f}' if pd.notna(r.r) else 'Unavailable',f'{r.ci_low:.3f} to {r.ci_high:.3f}' if pd.notna(r.ci_low) and pd.notna(r.ci_high) else 'Unavailable',int(r.blocks)] for r in assoc.itertuples()],[45,95,60,190,80])
-    paragraph('Limits, literature and reproducibility','Heading1')
+    table([['Year','UNL sheet','Designation','Actual system / exclusion']]+[[int(r.year),str(int(r.budget_number)) if pd.notna(r.budget_number) else '--',r.match_designation if pd.notna(r.match_designation) else 'Unavailable',str(r.actual_system) if pd.notna(r.actual_system) else 'Original-year matching budget not recovered'] for r in eligibility.itertuples()],[42,54,80,294])
+    scope=[]
+    for source,group in accounts.groupby('source'):
+        geography='; '.join(dict.fromkeys(group.geography.dropna().astype(str)))
+        account='; '.join(dict.fromkeys(group.account.dropna().astype(str)))
+        if source=='UNL':
+            geography='Original-year budget geography varies; Eastern Nebraska is explicit in later budgets. See annual economic-input records.'
+            account='Published total economic costs; cash margins only where original-year cash/ownership definitions are established.'
+        scope.append([source,geography,account])
+    paragraph('Account scope','Heading1');table([['Source','Geography','Interpretation']]+scope,[85,155,230])
+    story.append(PageBreak());paragraph('Common-valid primary support: M1, UNL','Heading1');table([['Year','Common ha','Mean $/ac (2021)','Profitable ha']]+[[int(r.year),f'{r.common_ha:,.2f}',f'{r.mean_profit_2021usd_ac:,.2f}',f'{r.profitable_ha:,.2f}'] for r in common.itertuples()],[50,130,150,140])
+    for experimental_flag in [False,True]:
+        selected=assoc[(assoc.year==2021) if experimental_flag else (assoc.year<2021)]
+        paragraph(('Experimental 2021' if experimental_flag else 'Primary years')+': NCCPI, M1, UNL, 10 km','Heading1')
+        table([['Year','Metric','r','95% interval','Blocks']]+[[int(r.year),r.metric,f'{r.r:.3f}' if pd.notna(r.r) else 'Unavailable',f'{r.ci_low:.3f} to {r.ci_high:.3f}' if pd.notna(r.ci_low) and pd.notna(r.ci_high) else 'Unavailable',int(r.blocks)] for r in selected.itertuples()],[45,95,60,190,80])
+    story.append(PageBreak());paragraph('Limits, literature and reproducibility','Heading1')
     paragraph(md[md.index('## Limits and verification')+1])
     for citation in ['Massey et al. (2008). Profitability Maps as an Input for Site-Specific Management Decision Making. Agronomy Journal 100:52–59. DOI: 10.2134/agronj2007.0057.', 'Brandes et al. (2016). Subfield profitability analysis reveals an economic case for cropland diversification. Environmental Research Letters 11:014009. DOI: 10.1088/1748-9326/11/1/014009.', 'Original UNL production-year publications; USDA ERS Commodity Costs and Returns; FINBIN enterprise accounts; Nebraska NASS crop-year marketing prices; BLS annual CPI-U. Complete URLs, checksums and accounting definitions are preserved in the source records.']:
         paragraph(citation)
