@@ -11,7 +11,11 @@ for(const [stem,name] of specs){
   const csv=await fs.readFile(path.join(out,'tables',stem+'.csv'),'utf8');
   const imported=await Workbook.fromCSV(csv,{sheetName:name});
   let raw=imported.worksheets.getItem(name).getUsedRange().values;
-  const header=raw[0];let rows=raw.slice(1).map(r=>r.map((v,j)=>{
+  const originalHeader=raw[0];
+  const leading=['year','source','scenario','policy','from_year','to_year','NAME','GEOID','price_factor','cost_factor'];
+  const header=[...leading.filter(k=>originalHeader.includes(k)),...originalHeader.filter(k=>!leading.includes(k))];
+  const order=header.map(k=>originalHeader.indexOf(k));
+  let rows=raw.slice(1).map(r=>order.map(j=>r[j]).map((v,j)=>{
     if(v===''||v==null)return null;
     if(typeof v!=='string')return v;
     if(header[j]==='GEOID')return v;
@@ -33,7 +37,8 @@ for(let i=0;i<annual.length;i++){
   const row=i+2,r=annual[i],account=inputs.rows.find(c=>c.year===r.year&&c.source===r.source);
   if(!account)throw Error('Missing account '+r.year+' '+r.source);
   const ref=key=>`'Economic inputs'!${letters(inputs.header.indexOf(key))}${account._row}`;
-  summary.getRange(`E${row}:K${row}`).formulas=[[`=${ref('nass_price_usd_bu')}`,`=${ref('operator_share')}`,`=${ref('total_cost_usd_ac')}`,`=D${row}/${conversion}*E${row}*F${row}`,`=H${row}-G${row}`,`=${ref('to_2021_dollars')}`,`=I${row}*J${row}`]];
+  const required=key=>`=IF(ISNUMBER(${ref(key)}),${ref(key)},"n.a.")`;
+  summary.getRange(`E${row}:K${row}`).formulas=[[required('nass_price_usd_bu'),required('operator_share'),required('total_cost_usd_ac'),`=IF(AND(ISNUMBER(D${row}),ISNUMBER(E${row}),ISNUMBER(F${row})),D${row}/${conversion}*E${row}*F${row},"n.a.")`,`=IF(AND(ISNUMBER(H${row}),ISNUMBER(G${row})),H${row}-G${row},"n.a.")`,required('to_2021_dollars'),`=IF(AND(ISNUMBER(I${row}),ISNUMBER(J${row})),I${row}*J${row},"n.a.")`]];
   summary.getRange(`P${row}`).formulas=[[`=IF(O${row}>0,L${row}/O${row},"n.a.")`]];
 }
 const notes=wb.worksheets.add('Methods');
@@ -47,7 +52,17 @@ for(const name of ['Profit calculator',...specs.map(s=>s[1]),'Methods']){
   sheet.getRangeByIndexes(0,0,1,values[0].length).format.font.bold=true;
   sheet.getRangeByIndexes(0,0,1,values[0].length).format.wrapText=true;
   sheet.getRangeByIndexes(0,0,1,values[0].length).format.rowHeight=58;
-  if(values.length>1)for(let j=0;j<values[0].length;j++)if(values.slice(1).some(r=>typeof r[j]==='number'))sheet.getRangeByIndexes(1,j,values.length-1,1).setNumberFormat(/year|^Year$|^n$|_class$|block_m|replicates|^zone$/.test(values[0][j])?'0':'#,##0.00;[Red](#,##0.00);0.00');
+  if(values.length>1)for(let j=0;j<values[0].length;j++){
+    const body=sheet.getRangeByIndexes(1,j,values.length-1,1);
+    if(values.slice(1).some(r=>typeof r[j]==='number'))body.setNumberFormat(/year|^Year$/.test(values[0][j])?'0':/^n$|_class$|block_m|replicates|^zone$|_pixels|^count$|^blocks$|^sample_n$|budget_number|pdf_page|printed_page/.test(values[0][j])?'#,##0':'#,##0.00;[Red](#,##0.00);0.00');
+    const longest=Math.max(...values.slice(1).map(r=>typeof r[j]==='string'?r[j].length:0));
+    if(longest>18){
+      sheet.getRangeByIndexes(0,j,values.length,1).format.columnWidth=longest>70?55:Math.min(42,longest+2);
+      body.format.wrapText=true;
+    }
+  }
+  range.format.verticalAlignment='center';
+  if(name!=='Methods'&&values.length>1)sheet.getRangeByIndexes(1,0,values.length-1,values[0].length).format.autofitRows();
 }
 summary.getRange(`B1:B${annual.length+1}`).format.columnWidth=23;summary.getRange(`C1:C${annual.length+1}`).format.columnWidth=25;
 summary.getRange(`P2:P${annual.length+1}`).setNumberFormat('0.00%');
@@ -63,6 +78,8 @@ const originalPrice=priceCell.values[0][0];priceCell.values=[[originalPrice*1.15
 const recalculated=summary.getRange('I2').values[0][0];
 const expectedChanged=first.revenue_mean_usd_ac*1.15-account.total_cost_usd_ac;
 if(!Number.isFinite(recalculated)||Math.abs(recalculated-expectedChanged)>1e-8)throw Error('Price-input recalculation failed');
+priceCell.values=[[null]];wb.recalculate();
+if(summary.getRange('I2').values[0][0]!=='n.a.'||summary.getRange('K2').values[0][0]!=='n.a.')throw Error('Missing price became a numerical return');
 priceCell.values=[[originalPrice]];wb.recalculate();
 for(const name of ['Profit calculator',...specs.map(s=>s[1]),'Methods']){
   const values=wb.worksheets.getItem(name).getUsedRange().values;
@@ -70,10 +87,12 @@ for(const name of ['Profit calculator',...specs.map(s=>s[1]),'Methods']){
 }
 await fs.mkdir(path.join(out,'verification'),{recursive:true});
 const checks=await wb.inspect({kind:'match',searchTerm:'#REF!|#DIV/0!|#VALUE!|#NAME\\?|#NUM!',options:{useRegex:true,maxResults:10},maxChars:1200});
-await fs.writeFile(path.join(out,'verification/workbook_check.json'),JSON.stringify({verified:true,calculator_rows:annual.length,price_input_recalculation_verified:true,original_price_restored:true,error_scan:checks.ndjson},null,2));
+await fs.writeFile(path.join(out,'verification/workbook_check.json'),JSON.stringify({verified:true,calculator_rows:annual.length,price_input_recalculation_verified:true,missing_price_preserved:true,original_price_restored:true,error_scan:checks.ndjson},null,2));
 for(const name of ['Profit calculator',...specs.map(s=>s[1]),'Methods']){
   const preview=await wb.render({sheetName:name,range:name==='Methods'?'A1:A8':'A1:F7',scale:1,format:'png'});
   await fs.writeFile(path.join(out,'verification','workbook_'+name.replaceAll(' ','_')+'.png'),new Uint8Array(await preview.arrayBuffer()));
 }
+const calculationPreview=await wb.render({sheetName:'Profit calculator',range:'G1:R7',scale:1,format:'png'});
+await fs.writeFile(path.join(out,'verification/workbook_calculated_results.png'),new Uint8Array(await calculationPreview.arrayBuffer()));
 await (await SpreadsheetFile.exportXlsx(wb)).save(path.join(out,'CH3_profitability_workbook.xlsx'));
 console.log('Workbook verified and exported:',annual.length,'account/model rows');

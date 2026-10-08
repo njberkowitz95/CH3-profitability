@@ -50,6 +50,8 @@ def build(out: Path, require_assets: bool = True) -> Path:
     out=Path(out);repo=Path(__file__).resolve().parents[1]
     if not json.loads((out/'validation.json').read_text(encoding='utf-8'))['verified']:
         raise ValueError('Numerical verification required')
+    if not json.loads((out/'verification/release_audit.json').read_text(encoding='utf-8'))['verified']:
+        raise ValueError('Independent patch, county, and regional reconciliation required')
     if require_assets and not json.loads((out/'asset_verification.json').read_text(encoding='utf-8'))['verified']:
         raise ValueError('Earth Engine verification required')
     prior=out.parents[1]/'CH4_marginality'/SOURCE_RELEASE

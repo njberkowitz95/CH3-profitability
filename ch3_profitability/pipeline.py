@@ -7,6 +7,7 @@ import json
 from pathlib import Path
 import shutil
 import sqlite3
+from tempfile import TemporaryDirectory
 
 import geopandas as gpd
 import numpy as np
@@ -34,7 +35,9 @@ def write_cog(path: Path, array: np.ndarray, description: str, categorical: bool
                        tiled=True, blockxsize=512, blockysize=512, compress='deflate') as dst:
         dst.write(np.where(np.isfinite(array), array, nodata).astype(dtype), 1)
         dst.set_band_description(1, description)
-        dst.update_tags(chapter='3', run_id=RUN_ID, classification='-1 loss; 0 breakeven; 1 profitable; -128 missing')
+        dst.update_tags(chapter='3', run_id=RUN_ID, quantity_description=description)
+        if path.name.startswith('profit_class_'):
+            dst.update_tags(classification='-1 loss; 0 breakeven; 1 profitable; -128 missing')
     rio_copy(tmp, path, driver='COG', compress='DEFLATE', blocksize=512, overview_resampling='nearest')
     tmp.unlink()
     with rasterio.open(path) as check:
@@ -99,8 +102,17 @@ def run(root: str | Path) -> Path:
         raise ValueError('Blocked economic year present')
     if ((costs.year == 2009) & (costs.source == 'UNL')).any():
         raise ValueError('Incomplete 2009 UNL full account cannot produce profit')
-    county, zones = boundaries(root, out)
-    (out / 'CH4_spatial.gpkg').replace(out / 'CH3_spatial.gpkg')
+    # Drive mounts do not provide reliable append/SQLite transaction semantics.
+    # Keep mutable files local and publish only closed, checksum-verified bytes.
+    from .recover_release import publish_closed_file, validate_patch_frame, assemble_patches
+    scratch_owner = TemporaryDirectory(prefix='ch3_calculation_')
+    scratch = Path(scratch_owner.name)
+    for name in ['rasters', 'sources']:
+        (scratch / name).mkdir()
+    county, zones = boundaries(root, scratch)
+    (scratch / 'CH4_spatial.gpkg').replace(scratch / 'CH3_spatial.gpkg')
+    for name in ['rasters/aoi_center_outside.tif', 'sources/boundaries.json']:
+        publish_closed_file(scratch / name, out / name)
     soil = read(root / SOIL_RUN / 'rasters/nccpi_corn_v3.tif')
     scope = read(base / 'app_assets/ch4_finbin_county_scope_corefilter_20260928.tif') == 1
     annual_yield = pd.read_csv(base / 'tables/annual_yield.csv', float_precision='round_trip')
@@ -114,7 +126,7 @@ def run(root: str | Path) -> Path:
         if not np.array_equal(ix > 0, mask) or np.any(zones[mask] == 0):
             raise ValueError('Unindexed crop pixel or missing county assignment')
         geom = gpd.read_file(base / 'CH4_spatial.gpkg', layer=f'patches_{year}')
-        geom.to_file(out / 'CH3_spatial.gpkg', layer=f'patches_{year}', driver='GPKG')
+        geom.to_file(scratch / 'CH3_spatial.gpkg', layer=f'patches_{year}', driver='GPKG')
         del geom
         # Yield-only years retain their masks and quartile outputs.
         for scenario in SCENARIOS:
@@ -144,7 +156,7 @@ def run(root: str | Path) -> Path:
                 caches = {level: yield_groups(z, sy, valid) for level, z in
                           [('patch', pid), ('county', cz), ('aoi', np.ones(len(y), dtype='int32'))]}
                 result_rows, county_rows, bins, associations, checks = [], [], [], [], []
-                patch_dest = cp / 'patch_sensitivity.csv.gz'
+                patch_dest = scratch / 'patch_sensitivity.csv.gz'
                 for i, (pf, cf) in enumerate(SENSITIVITIES):
                     meta = dict(year=year, scenario=scenario, source=source, price_factor=pf, cost_factor=cf,
                                 experimental=year == 2021, match_designation=account['match_designation'],
@@ -188,6 +200,8 @@ def run(root: str | Path) -> Path:
                                 associations.append(dict(**meta,metric=metric,**spatial_association(nccpi[cpsoil],values[cpsoil],east[cpsoil],north[cpsoil],block)))
                     checks.append(dict(**meta, areas_reconciled=True, monetary_totals_reconciled=True, prior_economics_equal=True))
                     del frames, e, grid
+                validate_patch_frame(pd.read_csv(patch_dest, float_precision='round_trip'), pd.concat(result_rows))
+                publish_closed_file(patch_dest, cp / patch_dest.name)
                 for name, data in [('aoi_sensitivity',pd.concat(result_rows)),('county_sensitivity',pd.concat(county_rows)),
                                    ('distribution_bins',pd.DataFrame(bins)),('nccpi_associations',pd.DataFrame(associations))]:
                     data.to_csv(cp / f'{name}.csv', index=False)
@@ -202,18 +216,12 @@ def run(root: str | Path) -> Path:
     for name in ['aoi_sensitivity','county_sensitivity','distribution_bins','nccpi_associations']:
         parts = [pd.read_csv(p,float_precision='round_trip') for p in sorted((out/'logs').glob(f'*/{name}.csv'))]
         pd.concat(parts,ignore_index=True).to_csv(out/'tables'/f'{name}.csv',index=False)
-    with (out/'tables/patch_sensitivity.csv.gz').open('wb') as dst:
-        # Read each member to retain one CSV header across concatenated checkpoints.
-        import gzip
-        with gzip.GzipFile(fileobj=dst,mode='wb') as zipped:
-            for i,p in enumerate(sorted((out/'logs').glob('*/patch_sensitivity.csv.gz'))):
-                with gzip.open(p,'rb') as src:
-                    if i: src.readline()
-                    shutil.copyfileobj(src,zipped)
+    publish_closed_file(assemble_patches(out, scratch), out/'tables/patch_sensitivity.csv.gz')
     from .temporal import run as temporal
     temporal(out)
     from .exports import run as exports
-    exports(root,out,prior)
+    exports(root,out,prior,spatial_path=scratch/'CH3_spatial.gpkg')
+    scratch_owner.cleanup()
     lock_inputs(root,base,out,original)
     dump(out/'validation.json',dict(verified=True,input_fingerprint=fingerprint,
          economic_combinations=len(pd.read_csv(out/'tables/aoi_sensitivity.csv')),

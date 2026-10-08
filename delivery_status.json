@@ -8,16 +8,17 @@
     "unchanged_files": 158
   },
   "local_scientific_tests": {
-    "passed": 7
+    "passed": 9
   },
   "native_2019_unl_m1_pilot": {
     "verified_equal_to_ch4": true
   },
   "colab": {
     "url": "https://colab.research.google.com/drive/165-0mg2VLl79SK9Qjl6SXgbaGhvS28cr",
-    "status": "running",
-    "completed_source_model_batches": 53,
-    "expected_batches": 58
+    "status": "numerical_execution_complete",
+    "completed_source_model_batches": 58,
+    "expected_batches": 58,
+    "phase": "recovering incomplete cloud exports"
   },
   "complete_analysis_verified": false,
   "earth_engine_assets_verified": false,
@@ -30,5 +31,15 @@
   "identity_preservation": {
     "verified": true,
     "years": 11
+  },
+  "drive_release_url": "https://drive.google.com/drive/folders/1gGqczx1znckJ8gqt6hvukJkRBcbDgFLm",
+  "native_output_verification": {
+    "verified": true,
+    "2019_2021_source_model_cases": 14
+  },
+  "publication_notebook_url": "https://colab.research.google.com/drive/17gjedtCbxYhPv0UC-jNnQgAjYwgtpXG9",
+  "release_audit": {
+    "verified": false,
+    "finding": "Four patch CSV checkpoints failed their stored SHA256; aggregate has 506 of 522 combinations. GeoPackage result tables absent in an independent runtime. Rebuilding closed exports in Colab; publication blocked."
   }
 }

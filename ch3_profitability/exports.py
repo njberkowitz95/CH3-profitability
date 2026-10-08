@@ -14,13 +14,15 @@ from ch4_marginality.pipeline import dump, sha
 from ch4_marginality.final_checks import records
 
 
-def run(root: Path, out: Path, prior: Path) -> None:
+def run(root: Path, out: Path, prior: Path, spatial_path: Path | None = None) -> None:
     """Export precise source-linked results with fixed comparable map scales."""
     data=pd.read_csv(out/'tables/aoi_sensitivity.csv',float_precision='round_trip')
     baseline=data[(data.price_factor==1)&(data.cost_factor==1)]
     baseline.to_csv(out/'tables/annual_profitability.csv',index=False)
     county=pd.read_csv(out/'tables/county_sensitivity.csv')
-    with sqlite3.connect(out/'CH3_spatial.gpkg') as con:
+    if spatial_path is None:
+        raise ValueError('A local staged GeoPackage is required; do not transact on mounted Drive')
+    with sqlite3.connect(spatial_path) as con:
         baseline.to_sql('annual_profitability',con,index=False,if_exists='replace')
         county.to_sql('county_sensitivity',con,index=False,if_exists='replace')
         first=True
@@ -28,6 +30,11 @@ def run(root: Path, out: Path, prior: Path) -> None:
             chunk.to_sql('patch_sensitivity',con,index=False,if_exists='replace' if first else 'append')
             first=False
         con.execute('CREATE INDEX IF NOT EXISTS ch3_patch_lookup ON patch_sensitivity(year,patch_id,scenario,source,price_factor,cost_factor)')
+        con.commit()
+        if con.execute('PRAGMA integrity_check').fetchone()[0] != 'ok':
+            raise ValueError('GeoPackage integrity failed')
+    from .recover_release import publish_closed_file
+    publish_closed_file(spatial_path,out/'CH3_spatial.gpkg')
     # Preserve the populated original source workbook, with its original labels.
     shutil.copy2(prior/'CH4_budget_workbook.xlsx',out/'CH4_source_budget_workbook.xlsx')
     plt.rcParams.update({'font.family':'DejaVu Sans','font.size':10,'axes.spines.top':False,'axes.spines.right':False})

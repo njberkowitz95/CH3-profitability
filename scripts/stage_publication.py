@@ -11,7 +11,7 @@ CODE=RELEASE/'publication_code'
 CODE.mkdir(parents=True,exist_ok=True)
 for name in ['ch3_profitability','ch4_marginality','docs']:
     shutil.copytree(REPO/name,CODE/name,dirs_exist_ok=True,ignore=shutil.ignore_patterns('__pycache__','*.pyc'))
-files=[dict(file=p.relative_to(CODE).as_posix(),sha256=hashlib.sha256(p.read_bytes()).hexdigest()) for p in sorted(CODE.rglob('*')) if p.is_file()]
+files=[dict(file=p.relative_to(CODE).as_posix(),sha256=hashlib.sha256(p.read_bytes()).hexdigest()) for p in sorted(CODE.rglob('*')) if p.is_file() and '__pycache__' not in p.parts and p.suffix != '.pyc']
 (RELEASE/'publication_code_manifest.json').write_text(json.dumps(files,indent=2),encoding='utf-8')
 nb=nbformat.v4.new_notebook()
 nb.metadata.kernelspec={'display_name':'Python 3','language':'python','name':'python3'}
