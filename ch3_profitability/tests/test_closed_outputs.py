@@ -2,6 +2,7 @@
 from pathlib import Path
 from tempfile import TemporaryDirectory
 import unittest
+from unittest.mock import patch
 import sqlite3
 from contextlib import closing
 import pandas as pd
@@ -10,6 +11,14 @@ from ch3_profitability.audit_release import verify_spatial_tables
 
 
 class ClosedOutputTests(unittest.TestCase):
+    def test_spatial_audit_rejects_concurrent_replacement(self):
+        with TemporaryDirectory() as folder:
+            path=Path(folder)/'results.gpkg'
+            path.write_bytes(b'original')
+            with patch('ch3_profitability.audit_release.sha',side_effect=['snapshot','changed']):
+                with self.assertRaisesRegex(ValueError,'changed while staging'):
+                    verify_spatial_tables(path,pd.DataFrame())
+
     def test_spatial_database_requires_complete_registered_results(self):
         rows=pd.DataFrame([dict(year=2019,scenario='M1',source='UNL',price_factor=p,
             cost_factor=1.,valid_ha=.09,profitable_ha=.09,breakeven_ha=0.,loss_ha=0.,

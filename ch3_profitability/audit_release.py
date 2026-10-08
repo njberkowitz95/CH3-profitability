@@ -3,6 +3,8 @@ from pathlib import Path
 import hashlib
 import json
 import sqlite3
+import shutil
+from tempfile import TemporaryDirectory
 from contextlib import closing
 import numpy as np
 import pandas as pd
@@ -11,6 +13,24 @@ from ch4_marginality.pipeline import sha,dump
 
 def verify_spatial_tables(path: Path, expected: pd.DataFrame) -> dict:
     """Independently reconcile the closed GeoPackage, not just its CSV source."""
+    # Cloud mounts are suitable for sequential copies, but SQLite integrity and
+    # aggregate queries can issue millions of slow random reads. Audit an
+    # identical local snapshot and reject any concurrent source replacement.
+    path=Path(path)
+    with TemporaryDirectory(prefix='ch3_spatial_audit_') as folder:
+        snapshot=Path(folder)/path.name
+        shutil.copyfile(path,snapshot)
+        digest=sha(snapshot)
+        if digest!=sha(path):
+            raise ValueError('GeoPackage changed while staging its audit')
+        result=_verify_local_spatial_tables(snapshot,expected)
+        if digest!=sha(path):
+            raise ValueError('GeoPackage changed during its audit')
+        return result
+
+
+def _verify_local_spatial_tables(path: Path, expected: pd.DataFrame) -> dict:
+    """Run the full database checks on a verified, closed local snapshot."""
     keys=['year','scenario','source','price_factor','cost_factor']
     fields=['valid_ha','profitable_ha','breakeven_ha','loss_ha','profit_total_usd']
     target=expected.set_index(keys)[fields].sort_index()
