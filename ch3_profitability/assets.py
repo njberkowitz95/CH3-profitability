@@ -1,5 +1,6 @@
 """Publish compact CH3 evidence; reuse verified CH4 native IDs and geometry."""
 from pathlib import Path
+from tempfile import TemporaryDirectory
 import json
 import numpy as np
 import pandas as pd
@@ -12,7 +13,9 @@ from .pipeline import RUN_ID,SOURCE_RELEASE
 
 def prepare(out: Path) -> None:
     """Create indexed patch attributes, year-scoped evidence and temporal rasters."""
-    out=Path(out);dest=out/'app_assets'
+    out=Path(out)
+    stage=TemporaryDirectory(prefix='ch3_earth_engine_')
+    dest=Path(stage.name)
     tables=[]
     for year in range(2001,2022,2):
         rows=[]
@@ -49,6 +52,10 @@ def prepare(out: Path) -> None:
             with rasterio.open(path) as src: dst.write(src.read(1).astype('float32'),band)
             dst.set_band_description(band,name)
     dump(dest/'temporal_bands.json',[name for _,name in paths])
+    from .recover_release import publish_closed_file
+    for path in sorted(dest.iterdir()):
+        publish_closed_file(path,out/'app_assets'/path.name)
+    stage.cleanup()
 
 
 def submit(out: Path, bucket_name: str = 'testernoah135') -> list[dict]:
