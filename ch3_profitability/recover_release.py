@@ -213,6 +213,7 @@ def run(root: Path, out: Path) -> dict:
     result = dict(verified=True, recovered_utc=datetime.now(timezone.utc).isoformat(),
                   checkpoint_repairs=changes, patch_table_sha256=patch_sha,
                   geopackage_sha256=spatial_sha, local_closed_file_publication=True,
+                  closed_sqlite_connection=True,
                   yield_equations_prices_costs_and_rasters_unchanged=True)
     dump(out / 'verification/cloud_write_recovery.json', result)
     return result
