@@ -1,0 +1,95 @@
+{
+  "verified": true,
+  "verified_utc": "2026-10-08T03:26:17.036077+00:00",
+  "url": "https://ee-njberkowitz95.projects.earthengine.app/view/yieldpem",
+  "published": true,
+  "code_commit": "8ab4e7174a5180734e22682b5e1276007914cb9a",
+  "published_source_identity": {
+    "verified": true,
+    "url": "https://ee-njberkowitz95.projects.earthengine.app/view/yieldpem",
+    "module": "_:Script",
+    "published_sha256": "52783df67c7bd939160dc7af48a4d1075b47103bd067ed2459772b275fd6c8d2",
+    "candidate_sha256": "654c4444c85d4e516f5726132e4b863e435dd627f13c1e6eb220897092387c95",
+    "only_outer_newline_difference": true,
+    "verified_utc": "2026-10-08T03:15:55.403Z"
+  },
+  "surfaces": [
+    "authenticated Chrome",
+    "public in-app browser"
+  ],
+  "defaults": {
+    "year": 2019,
+    "model": "M1_fixed",
+    "source": "UNL",
+    "policy": "closest_rotation",
+    "price_factor": 1,
+    "cost_factor": 1,
+    "currency": "constant_2021"
+  },
+  "default_results": {
+    "mean_profit_usd_ac": -0.72,
+    "profitable_ha": 208078.02,
+    "loss_ha": 144884.16,
+    "breakeven_ha": 0,
+    "valid_ha": 352962.18,
+    "missing_ha": 398.16
+  },
+  "checks": {
+    "wrapped_controls_readable": true,
+    "source_and_approximation_labels": true,
+    "strict_policy_blocks_approximate_budgets": true,
+    "unrecovered_years_blocked": true,
+    "2009_unl_full_return_unavailable": true,
+    "finbin_county_suppression": true,
+    "finbin_scope_missing_not_zero": true,
+    "ers_cash_margin_unavailable": true,
+    "currency_preserves_classes": true,
+    "nine_combination_matrix_click": true,
+    "m2_scenario": true,
+    "experimental_2021_labeled_and_excluded_from_primary": true,
+    "annual_native_patch_lookup_and_polygon": true,
+    "year_change_clears_patch": true,
+    "frequency_and_observation_count_render": true,
+    "common_support_with_null_year_gaps": true,
+    "three_class_transitions_without_gap_bridging": true,
+    "baseline_nccpi_block_uncertainty": true,
+    "distributions_with_tails": true,
+    "county_and_source_comparisons": true,
+    "ch4_regression": true,
+    "yield_regression": true,
+    "csp3_regression": true,
+    "seasonal_results_regression": true,
+    "nccpi_regression": true
+  },
+  "patch_sample": {
+    "year": 2019,
+    "patch_id": 1060,
+    "crop_ha": 64.08,
+    "valid_ha": 63.81,
+    "missing_yield_ha": 0.27,
+    "mean_yield_Mg_ha": 9.837,
+    "price_factor": 1.15,
+    "cost_factor": 0.85,
+    "currency": "nominal",
+    "mean_return_usd_ac": 153.7,
+    "mean_cash_usd_ac": 325.69,
+    "profitable_ha": 62.82,
+    "loss_ha": 0.99,
+    "finbin_county_valid_ha": 0,
+    "finbin_county_means_and_economic_areas": "unavailable, not zero"
+  },
+  "experimental_sample": {
+    "year": 2021,
+    "model": "M2_HI_sensitivity",
+    "source": "UNL",
+    "baseline_constant_2021_mean_usd_ac": 523.85,
+    "profitable_ha": 175768.83,
+    "loss_ha": 2.16
+  },
+  "native_cases_verified": 58,
+  "screenshots": [
+    "verification/live_ch3_profitability.jpg",
+    "verification/live_patch_2019_1060.jpg"
+  ],
+  "rollback_sha256": "437f71dace8a2c5e61a42b00746b555071e931c824bf50c95225fd04148338f7"
+}

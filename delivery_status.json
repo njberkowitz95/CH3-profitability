@@ -18,12 +18,12 @@
     "status": "numerical_execution_complete",
     "completed_source_model_batches": 58,
     "expected_batches": 58,
-    "phase": "numerical and native Earth Engine verification complete; candidate app testing pending"
+    "phase": "analysis, native verification and publication complete"
   },
   "complete_analysis_verified": true,
   "earth_engine_assets_verified": true,
-  "live_app_published": false,
-  "complete": false,
+  "live_app_published": true,
+  "complete": true,
   "ui_contract_tests": {
     "passed": true,
     "cross_chapter_and_stale_response_checks": true
@@ -60,9 +60,9 @@
   },
   "prior_publication_notebook_url": "https://colab.research.google.com/drive/17gjedtCbxYhPv0UC-jNnQgAjYwgtpXG9",
   "github_ci": {
-    "commit": "e432d10354a1e2dfab84e4bec906d8be84f76a20",
+    "commit": "8ab4e7174a5180734e22682b5e1276007914cb9a",
     "conclusion": "success",
-    "url": "https://github.com/njberkowitz95/CH3-profitability/actions/runs/37720419313"
+    "url": "https://github.com/njberkowitz95/CH3-profitability/actions/runs/37721593727"
   },
   "scientific_output_checksums": {
     "verified": true,
@@ -73,7 +73,23 @@
     "annual_controls_verified": true,
     "patch_inspection_verified": true,
     "existing_views_verified": true,
-    "temporal_layers_verified": false,
-    "published": false
+    "temporal_layers_verified": true,
+    "published": true
+  },
+  "completed_utc": "2026-10-08T03:26:17.036077+00:00",
+  "live_app_url": "https://ee-njberkowitz95.projects.earthengine.app/view/yieldpem",
+  "live_app_verification": "verification/live_app_verification.json",
+  "publication_execution": {
+    "verified": true,
+    "verified_utc": "2026-10-08T03:12:51.775261+00:00",
+    "native_cases": 58,
+    "final_candidate_sha256": "654c4444c85d4e516f5726132e4b863e435dd627f13c1e6eb220897092387c95",
+    "executed_final_cells": [
+      7,
+      8
+    ],
+    "historical_setup_counts_reset_on_reconnection": true,
+    "notebook_sha256": "de149dae685832608ad1cedb9e5bc1709763f028291c967c1a7f3eac4f15531e",
+    "no_execution_errors": true
   }
 }

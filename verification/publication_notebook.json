@@ -1,0 +1,13 @@
+{
+  "verified": true,
+  "verified_utc": "2026-10-08T03:12:51.775261+00:00",
+  "native_cases": 58,
+  "final_candidate_sha256": "654c4444c85d4e516f5726132e4b863e435dd627f13c1e6eb220897092387c95",
+  "executed_final_cells": [
+    7,
+    8
+  ],
+  "historical_setup_counts_reset_on_reconnection": true,
+  "notebook_sha256": "de149dae685832608ad1cedb9e5bc1709763f028291c967c1a7f3eac4f15531e",
+  "no_execution_errors": true
+}

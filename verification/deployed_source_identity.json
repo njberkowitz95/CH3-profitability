@@ -1,0 +1,9 @@
+{
+  "verified": true,
+  "url": "https://ee-njberkowitz95.projects.earthengine.app/view/yieldpem",
+  "module": "_:Script",
+  "published_sha256": "52783df67c7bd939160dc7af48a4d1075b47103bd067ed2459772b275fd6c8d2",
+  "candidate_sha256": "654c4444c85d4e516f5726132e4b863e435dd627f13c1e6eb220897092387c95",
+  "only_outer_newline_difference": true,
+  "verified_utc": "2026-10-08T03:15:55.403Z"
+}

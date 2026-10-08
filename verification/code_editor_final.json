@@ -1,0 +1,16 @@
+{
+  "verified_utc": "2026-10-08T03:13:36.772690+00:00",
+  "stage": "final Code Editor candidate; awaiting live publication",
+  "script_sha256": "654c4444c85d4e516f5726132e4b863e435dd627f13c1e6eb220897092387c95",
+  "source_commit": "8ab4e7174a5180734e22682b5e1276007914cb9a",
+  "preview_annual_patch_regressions": "verification/code_editor_preview.json",
+  "temporal_frequency_map_rendered": true,
+  "observation_count_map_rendered": true,
+  "strict_temporal_policy_selects_exact_asset_bands": true,
+  "primary_chart_shows_2001_2019_and_unavailable_year_gaps": true,
+  "experimental_2021_excluded_from_primary_charts": true,
+  "three_class_transitions_displayed_without_bridging_gaps": true,
+  "sensitivity_matrix_caption_matches_profitable_shares": true,
+  "defaults_verified": true,
+  "live_published": false
+}
