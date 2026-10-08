@@ -2,9 +2,37 @@
 from pathlib import Path
 import hashlib
 import json
+import sqlite3
+from contextlib import closing
 import numpy as np
 import pandas as pd
 from ch4_marginality.pipeline import sha,dump
+
+
+def verify_spatial_tables(path: Path, expected: pd.DataFrame) -> dict:
+    """Independently reconcile the closed GeoPackage, not just its CSV source."""
+    keys=['year','scenario','source','price_factor','cost_factor']
+    fields=['valid_ha','profitable_ha','breakeven_ha','loss_ha','profit_total_usd']
+    target=expected.set_index(keys)[fields].sort_index()
+    with closing(sqlite3.connect(Path(path).resolve().as_uri()+'?mode=ro', uri=True)) as con:
+        if con.execute('PRAGMA integrity_check').fetchone()[0] != 'ok':
+            raise ValueError('GeoPackage integrity failed')
+        registered=dict(con.execute('SELECT table_name,data_type FROM gpkg_contents'))
+        counts={}
+        for table in ['annual_profitability','county_sensitivity','patch_sensitivity']:
+            comparison=target
+            if table == 'annual_profitability':
+                comparison=expected[(expected.price_factor==1)&(expected.cost_factor==1)].set_index(keys)[fields].sort_index()
+            if registered.get(table) != 'attributes':
+                raise ValueError('GeoPackage result table absent or unregistered: '+table)
+            expressions=','.join('SUM('+f+') AS '+f for f in fields)
+            got=pd.read_sql_query('SELECT '+','.join(keys)+','+expressions+' FROM '+table+
+                                  ' GROUP BY '+','.join(keys),con).set_index(keys).sort_index()
+            if not got.index.equals(comparison.index):
+                raise ValueError('GeoPackage economic combinations differ: '+table)
+            np.testing.assert_allclose(got[fields],comparison,rtol=1e-10,atol=.01)
+            counts[table]=con.execute('SELECT COUNT(*) FROM '+table).fetchone()[0]
+    return counts
 
 
 def run(out: Path) -> dict:
@@ -30,6 +58,7 @@ def run(out: Path) -> dict:
         patch_parts.append(chunk.groupby(keys)[fields].sum(min_count=1))
     p=pd.concat(patch_parts).groupby(level=list(range(len(keys))))[fields].sum(min_count=1).sort_index()
     np.testing.assert_allclose(p,expected[fields],rtol=1e-12,atol=.01)
+    spatial_counts=verify_spatial_tables(out/'CH3_spatial.gpkg',a)
     bins=pd.read_csv(out/'tables/distribution_bins.csv')
     totals=bins.groupby(keys+['metric','basis']).area_ha.sum(min_count=1)
     for index,value in totals.items():
@@ -52,7 +81,9 @@ def run(out: Path) -> dict:
         raise ValueError('Executed notebook contains an error')
     frozen_hash=hashlib.sha256(json.dumps(frozen,sort_keys=True,separators=(',',':')).encode()).hexdigest()
     result=dict(verified=True,economic_combinations=len(a),baseline_combinations=int(((a.price_factor==1)&(a.cost_factor==1)).sum()),
-                spatial_levels_reconciled=True,histogram_tails_reconciled=True,missing_cash_retained=True,
+                spatial_levels_reconciled=True,geopackage_table_counts=spatial_counts,
+                geopackage_sha256=sha(out/'CH3_spatial.gpkg'),patch_table_sha256=sha(out/'tables/patch_sensitivity.csv.gz'),
+                histogram_tails_reconciled=True,missing_cash_retained=True,
                 temporal_gaps_and_experimental_exclusion_verified=True,executed_code_manifest_sha256=frozen_hash,
                 method_provenance='Frozen code/ package and code_manifest.json; publication helpers are separately versioned')
     dump(out/'verification/release_audit.json',result)

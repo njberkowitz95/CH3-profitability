@@ -11,6 +11,7 @@ import gzip
 import json
 import shutil
 import sqlite3
+from contextlib import closing
 
 import geopandas as gpd
 import numpy as np
@@ -150,7 +151,7 @@ def build_spatial(root: Path, out: Path, scratch: Path, patches: Path) -> Path:
     target = scratch / 'CH3_spatial.gpkg'
     for name in ['county_aoi', 'aoi'] + [f'patches_{y}' for y in range(2001, 2022, 2)]:
         gpd.read_file(prior, layer=name).to_file(target, layer=name, driver='GPKG')
-    with sqlite3.connect(target) as con:
+    with closing(sqlite3.connect(target)) as con, con:
         for name in ['annual_profitability', 'county_sensitivity']:
             pd.read_csv(out / 'tables' / (name + '.csv'), float_precision='round_trip').to_sql(
                 name, con, index=False, if_exists='replace')

@@ -2,11 +2,35 @@
 from pathlib import Path
 from tempfile import TemporaryDirectory
 import unittest
+import sqlite3
+from contextlib import closing
 import pandas as pd
 from ch3_profitability.recover_release import publish_closed_file, validate_patch_frame
+from ch3_profitability.audit_release import verify_spatial_tables
 
 
 class ClosedOutputTests(unittest.TestCase):
+    def test_spatial_database_requires_complete_registered_results(self):
+        rows=pd.DataFrame([dict(year=2019,scenario='M1',source='UNL',price_factor=p,
+            cost_factor=1.,valid_ha=.09,profitable_ha=.09,breakeven_ha=0.,loss_ha=0.,
+            profit_total_usd=2.) for p in [.85,1.,1.15]])
+        with TemporaryDirectory() as folder:
+            path=Path(folder)/'results.gpkg'
+            with closing(sqlite3.connect(path)) as con, con:
+                con.execute('CREATE TABLE gpkg_contents(table_name TEXT, data_type TEXT)')
+            with self.assertRaisesRegex(ValueError,'absent'):
+                verify_spatial_tables(path,rows)
+            with closing(sqlite3.connect(path)) as con, con:
+                for table in ['annual_profitability','county_sensitivity','patch_sensitivity']:
+                    frame=rows[rows.price_factor==1] if table=='annual_profitability' else rows
+                    frame.to_sql(table,con,index=False)
+                    con.execute('INSERT INTO gpkg_contents VALUES (?,?)',(table,'attributes'))
+            self.assertEqual(verify_spatial_tables(path,rows)['patch_sensitivity'],3)
+            with closing(sqlite3.connect(path)) as con, con:
+                con.execute('DELETE FROM patch_sensitivity WHERE price_factor > 1')
+            with self.assertRaisesRegex(ValueError,'combinations differ'):
+                verify_spatial_tables(path,rows)
+
     def test_missing_sensitivity_is_rejected(self):
         rows = [dict(year=2019, scenario='M1', source='UNL', price_factor=p,
                      cost_factor=1., valid_ha=.09, profitable_ha=.09,

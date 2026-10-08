@@ -3,6 +3,7 @@ from pathlib import Path
 import json
 import shutil
 import sqlite3
+from contextlib import closing
 import numpy as np
 import pandas as pd
 import rasterio
@@ -22,7 +23,7 @@ def run(root: Path, out: Path, prior: Path, spatial_path: Path | None = None) ->
     county=pd.read_csv(out/'tables/county_sensitivity.csv')
     if spatial_path is None:
         raise ValueError('A local staged GeoPackage is required; do not transact on mounted Drive')
-    with sqlite3.connect(spatial_path) as con:
+    with closing(sqlite3.connect(spatial_path)) as con, con:
         baseline.to_sql('annual_profitability',con,index=False,if_exists='replace')
         county.to_sql('county_sensitivity',con,index=False,if_exists='replace')
         first=True
@@ -30,6 +31,9 @@ def run(root: Path, out: Path, prior: Path, spatial_path: Path | None = None) ->
             chunk.to_sql('patch_sensitivity',con,index=False,if_exists='replace' if first else 'append')
             first=False
         con.execute('CREATE INDEX IF NOT EXISTS ch3_patch_lookup ON patch_sensitivity(year,patch_id,scenario,source,price_factor,cost_factor)')
+        for table in ['annual_profitability','county_sensitivity','patch_sensitivity']:
+            con.execute("INSERT OR REPLACE INTO gpkg_contents(table_name,data_type,identifier,description) VALUES (?, 'attributes', ?, ?)",
+                        (table,table,'Chapter 3 modeled profitability; missing values retained'))
         con.commit()
         if con.execute('PRAGMA integrity_check').fetchone()[0] != 'ok':
             raise ValueError('GeoPackage integrity failed')
