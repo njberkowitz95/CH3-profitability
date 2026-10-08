@@ -61,5 +61,10 @@
     "commit": "3e045709ec20af7a2f0452c63e6d40a0bbd207f3",
     "conclusion": "success",
     "url": "https://github.com/njberkowitz95/CH3-profitability/actions/runs/37715617631"
+  },
+  "scientific_output_checksums": {
+    "verified": true,
+    "files": 2053,
+    "bytes": 16794197970
   }
 }
