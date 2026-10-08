@@ -148,9 +148,16 @@ def assemble_patches(out: Path, scratch: Path) -> Path:
 def build_spatial(root: Path, out: Path, scratch: Path, patches: Path) -> Path:
     """Build and integrity-check SQLite locally; never transact on mounted Drive."""
     prior = root / 'CH4_marginality' / SOURCE_RELEASE / 'analysis/CH4_spatial.gpkg'
+    # SQLite random reads over the mounted cloud filesystem can stall. Read a
+    # checksum-verified local snapshot; the source remains untouched.
+    local_prior = scratch / 'CH4_geometry_source.gpkg'
+    shutil.copyfile(prior, local_prior)
+    if sha(local_prior) != sha(prior):
+        raise ValueError('Source geometry copy checksum mismatch')
     target = scratch / 'CH3_spatial.gpkg'
     for name in ['county_aoi', 'aoi'] + [f'patches_{y}' for y in range(2001, 2022, 2)]:
-        gpd.read_file(prior, layer=name).to_file(target, layer=name, driver='GPKG')
+        gpd.read_file(local_prior, layer=name).to_file(target, layer=name, driver='GPKG')
+        print('Preserved geometry:', name, flush=True)
     with closing(sqlite3.connect(target)) as con, con:
         for name in ['annual_profitability', 'county_sensitivity']:
             pd.read_csv(out / 'tables' / (name + '.csv'), float_precision='round_trip').to_sql(
@@ -159,6 +166,8 @@ def build_spatial(root: Path, out: Path, scratch: Path, patches: Path) -> Path:
         for chunk in pd.read_csv(patches, chunksize=50000, float_precision='round_trip'):
             chunk.to_sql('patch_sensitivity', con, index=False, if_exists='replace' if rows == 0 else 'append')
             rows += len(chunk)
+            if rows % 500000 == 0:
+                print('Staged spatial records:', rows, flush=True)
         con.execute('CREATE INDEX ch3_patch_lookup ON patch_sensitivity(year,patch_id,scenario,source,price_factor,cost_factor)')
         for name in ['annual_profitability', 'county_sensitivity', 'patch_sensitivity']:
             con.execute("INSERT INTO gpkg_contents(table_name,data_type,identifier,description) VALUES (?, 'attributes', ?, ?)",
@@ -182,11 +191,25 @@ def run(root: Path, out: Path) -> dict:
     with TemporaryDirectory(prefix='ch3_closed_outputs_') as folder:
         scratch = Path(folder)
         changes = recover_patches(root, out, scratch)
-        print('Assembling verified patch tables', flush=True)
-        patches = assemble_patches(out, scratch)
-        patch_sha = publish_closed_file(patches, out / 'tables/patch_sensitivity.csv.gz')
+        independent = out / 'verification/independent_patch_aggregation.json'
+        aggregate = out / 'tables/patch_sensitivity.csv.gz'
+        checked = json.loads(independent.read_text()) if independent.exists() else {}
+        if checked.get('verified') and sha(aggregate) == checked.get('sha256'):
+            print('Reusing independently reconciled patch aggregate', flush=True)
+            patches = scratch / aggregate.name
+            shutil.copyfile(aggregate, patches)
+            patch_sha = sha(patches)
+            if patch_sha != checked['sha256']:
+                raise ValueError('Patch aggregate changed while copying')
+        else:
+            print('Assembling verified patch tables', flush=True)
+            patches = assemble_patches(out, scratch)
+            patch_sha = publish_closed_file(patches, aggregate)
         spatial = build_spatial(root, out, scratch, patches)
         spatial_sha = publish_closed_file(spatial, out / 'CH3_spatial.gpkg')
+    prior_repairs = out / 'verification/cloud_write_recovery/patch_recovery.json'
+    if not changes and prior_repairs.exists():
+        changes = json.loads(prior_repairs.read_text())
     result = dict(verified=True, recovered_utc=datetime.now(timezone.utc).isoformat(),
                   checkpoint_repairs=changes, patch_table_sha256=patch_sha,
                   geopackage_sha256=spatial_sha, local_closed_file_publication=True,
