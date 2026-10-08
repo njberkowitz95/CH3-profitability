@@ -8,7 +8,7 @@
     "unchanged_files": 158
   },
   "local_scientific_tests": {
-    "passed": 11
+    "passed": 13
   },
   "native_2019_unl_m1_pilot": {
     "verified_equal_to_ch4": true
@@ -18,10 +18,10 @@
     "status": "numerical_execution_complete",
     "completed_source_model_batches": 58,
     "expected_batches": 58,
-    "phase": "complete numerical and spatial audit; Earth Engine publication in progress"
+    "phase": "numerical and native Earth Engine verification complete; candidate app testing pending"
   },
   "complete_analysis_verified": true,
-  "earth_engine_assets_verified": false,
+  "earth_engine_assets_verified": true,
   "live_app_published": false,
   "complete": false,
   "ui_contract_tests": {
@@ -35,7 +35,9 @@
   "drive_release_url": "https://drive.google.com/drive/folders/1gGqczx1znckJ8gqt6hvukJkRBcbDgFLm",
   "native_output_verification": {
     "verified": true,
-    "2019_2021_source_model_cases": 14
+    "baseline_source_model_cases": 58,
+    "native_grid_preserved": true,
+    "missing_and_finbin_scope_edges_included": true
   },
   "publication_notebook_url": "https://colab.research.google.com/drive/1FHNIHyjaz5aAJACvg04Lc_SZyk6iBr8u",
   "release_audit": {
@@ -58,13 +60,20 @@
   },
   "prior_publication_notebook_url": "https://colab.research.google.com/drive/17gjedtCbxYhPv0UC-jNnQgAjYwgtpXG9",
   "github_ci": {
-    "commit": "3e045709ec20af7a2f0452c63e6d40a0bbd207f3",
+    "commit": "e432d10354a1e2dfab84e4bec906d8be84f76a20",
     "conclusion": "success",
-    "url": "https://github.com/njberkowitz95/CH3-profitability/actions/runs/37715617631"
+    "url": "https://github.com/njberkowitz95/CH3-profitability/actions/runs/37720419313"
   },
   "scientific_output_checksums": {
     "verified": true,
     "files": 2053,
     "bytes": 16794197970
+  },
+  "code_editor_preview": {
+    "annual_controls_verified": true,
+    "patch_inspection_verified": true,
+    "existing_views_verified": true,
+    "temporal_layers_verified": false,
+    "published": false
   }
 }

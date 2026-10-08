@@ -1,0 +1,48 @@
+{
+  "verified": true,
+  "patch_checks": [
+    {
+      "year": 2001,
+      "patch_id": 1,
+      "verified": true
+    },
+    {
+      "year": 2009,
+      "patch_id": 1,
+      "verified": true
+    },
+    {
+      "year": 2011,
+      "patch_id": 1,
+      "verified": true
+    },
+    {
+      "year": 2013,
+      "patch_id": 1,
+      "verified": true
+    },
+    {
+      "year": 2015,
+      "patch_id": 1,
+      "verified": true
+    },
+    {
+      "year": 2017,
+      "patch_id": 1,
+      "verified": true
+    },
+    {
+      "year": 2019,
+      "patch_id": 1,
+      "verified": true
+    },
+    {
+      "year": 2021,
+      "patch_id": 1,
+      "verified": true
+    }
+  ],
+  "missing_patch_values_preserved": true,
+  "temporal_pixel_checks": 20,
+  "reused_identity_and_geometry_prefix": "projects/ee-njberkowitz95/assets/ch4_rotation_20260929"
+}

@@ -1,0 +1,47 @@
+{
+  "verified": true,
+  "tasks": [
+    {
+      "state": "COMPLETED",
+      "description": "Ingest table: \"projects/ee-njberkowitz95/assets/ch3_profit_20261007_patch_evidence\"",
+      "creation_timestamp_ms": 1791425729140,
+      "update_timestamp_ms": 1791426095643,
+      "start_timestamp_ms": 1791425732275,
+      "task_type": "INGEST_TABLE",
+      "destination_uris": [
+        "https://code.earthengine.google.com/?asset=projects/ee-njberkowitz95/assets/ch3_profit_20261007_patch_evidence"
+      ],
+      "attempt": 1,
+      "id": "JGEVKREPU4H5S4VPPUIRCBJM",
+      "name": "projects/ee-njberkowitz95/operations/JGEVKREPU4H5S4VPPUIRCBJM"
+    },
+    {
+      "state": "COMPLETED",
+      "description": "Ingest table: \"projects/ee-njberkowitz95/assets/ch3_profit_20261007_evidence\"",
+      "creation_timestamp_ms": 1791425730386,
+      "update_timestamp_ms": 1791425847310,
+      "start_timestamp_ms": 1791425732275,
+      "task_type": "INGEST_TABLE",
+      "destination_uris": [
+        "https://code.earthengine.google.com/?asset=projects/ee-njberkowitz95/assets/ch3_profit_20261007_evidence"
+      ],
+      "attempt": 1,
+      "id": "43NQJGI2H32OLZBLKQPOPITA",
+      "name": "projects/ee-njberkowitz95/operations/43NQJGI2H32OLZBLKQPOPITA"
+    },
+    {
+      "state": "COMPLETED",
+      "description": "Ingest image: \"projects/ee-njberkowitz95/assets/ch3_profit_20261007_temporal\"",
+      "creation_timestamp_ms": 1791425734550,
+      "update_timestamp_ms": 1791428741160,
+      "start_timestamp_ms": 1791425738404,
+      "task_type": "INGEST_IMAGE",
+      "destination_uris": [
+        "https://code.earthengine.google.com/?asset=projects/ee-njberkowitz95/assets/ch3_profit_20261007_temporal"
+      ],
+      "attempt": 1,
+      "id": "KWWYS4O7RUCWBMV2F73UF2WG",
+      "name": "projects/ee-njberkowitz95/operations/KWWYS4O7RUCWBMV2F73UF2WG"
+    }
+  ]
+}
