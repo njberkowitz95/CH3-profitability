@@ -1,0 +1,11 @@
+{
+  "verified": true,
+  "live_url": "https://ee-njberkowitz95.projects.earthengine.app/view/yieldpem",
+  "public_source_record": "https://ee-njberkowitz95.projects.earthengine.app/javascript/yieldpem-modules.json",
+  "module": "users/njberkowitz95/estes:Yield_App",
+  "actual_deployed_sha256": "437f71dace8a2c5e61a42b00746b555071e931c824bf50c95225fd04148338f7",
+  "actual_deployed_bytes": 281100,
+  "source_release_sha256": "1cb018a48e5c8b8ab5fab9fb39abc58b6c33f1d805df6a57bc570d91a232ceac",
+  "equivalent_ignoring_outer_whitespace": true,
+  "rollback_file": "rollback/Yield_PEM_deployed_before_CH3.js"
+}

@@ -78,8 +78,10 @@ delete CH3_DATA.county_columns;
     text+='\n'+(Path(__file__).parent/'gee_profitability_extension.js').read_text(encoding='utf-8')
     data=text.encode('utf-8')
     if len(data)>=512*1024: raise ValueError(f'App exceeds 512 KiB: {len(data)}')
-    (out/'gee_app_Yield_PEM_CH3.js').write_bytes(data)
-    dest=repo/'gee/gee_app_Yield_PEM.js';dest.parent.mkdir(exist_ok=True);dest.write_bytes(data)
-    dump(out/'app_build_verification.json',dict(script_sha256=sha(dest),rollback_sha256=sha(rollback/'Yield_PEM_before_CH3.js'),
+    output_name='gee_app_Yield_PEM_CH3.js' if require_assets else 'gee_app_Yield_PEM_CH3_PREVIEW.js'
+    (out/output_name).write_bytes(data)
+    dest=repo/('gee/gee_app_Yield_PEM.js' if require_assets else 'gee/gee_app_Yield_PEM_PREVIEW.js');dest.parent.mkdir(exist_ok=True);dest.write_bytes(data)
+    record_name='app_build_verification.json' if require_assets else 'app_preview_verification.json'
+    dump(out/record_name,dict(script_sha256=sha(dest),rollback_sha256=sha(rollback/'Yield_PEM_before_CH3.js'),
          bytes=len(data),assets_verified=require_assets,published=False))
     return dest

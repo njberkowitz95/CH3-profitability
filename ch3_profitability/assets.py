@@ -66,9 +66,21 @@ def submit(out: Path, bucket_name: str = 'testernoah135') -> list[dict]:
     if not json.loads((out/'verification/release_audit.json').read_text(encoding='utf-8'))['verified']:
         raise ValueError('Independent release audit must pass before importing assets')
     bucket=storage.Client(project='ee-njberkowitz95').bucket(bucket_name)
+    task_record=out/'asset_tasks.json'
+    recorded=json.loads(task_record.read_text()) if task_record.exists() else []
+    by_asset={row['asset']:row for row in recorded}
     tasks=[]
     for name,file in [('patch_evidence','patch_evidence.csv'),('evidence','evidence.csv'),('temporal','temporal.tif')]:
         path=out/'app_assets'/file;asset=ASSET_PREFIX+'_'+name
+        previous=by_asset.get(asset)
+        if previous and 'response' in previous:
+            if previous.get('source_sha256')!=sha(path):
+                raise ValueError('Recorded import input differs; create a new release')
+            status=ee.data.getTaskStatus([previous['response']['id']])[0]
+            if status['state'] not in ['READY','RUNNING','COMPLETED']:
+                raise ValueError('Recorded import requires investigation: '+str(status))
+            tasks.append(previous)
+            continue
         try: existing=ee.data.getAsset(asset)
         except ee.EEException: existing=None
         if existing:
